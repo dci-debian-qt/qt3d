@@ -1,0 +1,26 @@
+qt3d-opensource-src (5.0~git20130109-0ubuntu3) saucy; urgency=low
+
+  * debian/patches/add_module_version.patch:
+    - Add a module version to fix FTBFS
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 21 Jun 2013 17:59:14 +0200
+
+qt3d-opensource-src (5.0~git20130109-0ubuntu2) raring; urgency=low
+
+  [ Timo Jyrinki ]
+  * Fix pkgconfig Libs.private path (LP: #1125156)
+  * debian/patches/workaround_zlib_linking_issue.patch:
+    - Fix FTBFS
+
+  [ Didier Roche ]
+  * Fixed some small copyright issues
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 15 Feb 2013 12:52:28 +0100
+
+qt3d-opensource-src (5.0~git20130109-0ubuntu1) raring; urgency=low
+
+  * Initial release
+  * Cherry-pick from upstream:
+    - add_license_files.patch
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 22 Jan 2013 14:32:08 +0200

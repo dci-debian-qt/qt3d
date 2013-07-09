@@ -1,0 +1,14 @@
+usr/lib/*/qt5/qml/Qt3D/plugins.qmltypes
+usr/lib/*/qt5/qml/Qt3D/qmldir
+usr/lib/*/qt5/qml/Qt3D/libqthreedqmlplugin.so
+usr/lib/*/qt5/qml/Qt3D/Shapes/Cube.qml
+usr/lib/*/qt5/qml/Qt3D/Shapes/plugins.qmltypes
+usr/lib/*/qt5/qml/Qt3D/Shapes/quad.obj
+usr/lib/*/qt5/qml/Qt3D/Shapes/Sphere.qml
+usr/lib/*/qt5/qml/Qt3D/Shapes/qmldir
+usr/lib/*/qt5/qml/Qt3D/Shapes/Cylinder.qml
+usr/lib/*/qt5/qml/Qt3D/Shapes/teapot.bez
+usr/lib/*/qt5/qml/Qt3D/Shapes/cube.obj
+usr/lib/*/qt5/qml/Qt3D/Shapes/Capsule.qml
+usr/lib/*/qt5/qml/Qt3D/Shapes/Quad.qml
+usr/lib/*/qt5/qml/Qt3D/Shapes/Teapot.qml
