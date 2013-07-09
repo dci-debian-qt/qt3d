@@ -2,13 +2,13 @@ Source: qt3d-opensource-src
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Timo Jyrinki <timo@debian.org>
+Uploaders: Timo Jyrinki <timo@debian.org>,
 Build-Depends: debhelper (>= 9.0.0),
-               qtbase5-private-dev,
-               qtdeclarative5-private-dev,
-               qt5-default,
                libqt5opengl5-dev,
                pkg-kde-tools,
+               qt5-default,
+               qtbase5-private-dev,
+               qtdeclarative5-private-dev,
                zlib1g-dev,
 Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
@@ -18,37 +18,43 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qt3d.git;a=summary
 Package: libqt53d5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt 3D module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 3D module.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qtdeclarative5-qt3d-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6~),
+             ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt 5 3D QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt 3D QML plugin.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qt3d5-dev
 Section: libdevel
 Architecture: any
-Depends: libqt53d5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}, qtbase5-dev
+Depends: libqt53d5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt 5 3d development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -56,8 +62,8 @@ Description: Qt 5 3d development files
  This package contains the header development files used for building Qt 5
  applications using Qt 3D library.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qt3d5-private-dev
@@ -65,7 +71,7 @@ Architecture: any
 Section: libdevel
 Depends: qt3d5-dev (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Qt 5 3d private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -75,24 +81,26 @@ Description: Qt 5 3d private development files
  .
  Use at your own risk.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qt3d5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6~),
+             ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt 5 3d examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 3D examples.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qt3d5-dbg
@@ -101,11 +109,10 @@ Architecture: any
 Section: debug
 Depends: libqt53d5 (= ${binary:Version}),
          qt3d5-examples (= ${binary:Version}),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: Qt 3D library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 3D
  libraries.
-
