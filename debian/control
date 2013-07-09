@@ -1,7 +1,8 @@
 Source: qt3d-opensource-src
 Section: libs
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
                qtbase5-private-dev,
                qtdeclarative5-private-dev,
@@ -11,6 +12,8 @@ Build-Depends: debhelper (>= 9.0.0),
                zlib1g-dev,
 Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt3d.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qt3d.git;a=summary
 
 Package: libqt53d5
 Architecture: any
