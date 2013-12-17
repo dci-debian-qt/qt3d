@@ -1,9 +1,0 @@
-diff --git a/examples/examples.pro b/examples/examples.pro
-index c4952cd..bede134 100644
---- a/examples/examples.pro
-+++ b/examples/examples.pro
-@@ -1,3 +1,3 @@
- TEMPLATE = subdirs
--SUBDIRS += qt3d
-+#SUBDIRS += qt3d
- qtHaveModule(qml): SUBDIRS += quick3d

@@ -1,8 +1,0 @@
-Index: qtlocation-opensource-src-5.0~git20130117/.qmake.conf
-===================================================================
---- qtlocation-opensource-src-5.0~git20130117.orig/.qmake.conf	2013-01-17 15:08:52.000000000 +0100
-+++ qtlocation-opensource-src-5.0~git20130117/.qmake.conf	2013-06-21 17:32:22.378106690 +0200
-@@ -1 +1,3 @@
- load(qt_build_config)
-+
-+MODULE_VERSION = 5.0.2

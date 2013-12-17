@@ -1,5 +1,2 @@
-disable_conflicting_examples.patch
-add_GPL_license_file.patch
 link_against_system_zlib.patch
 workaround_zlib_linking_issue.patch
-add_module_version.patch

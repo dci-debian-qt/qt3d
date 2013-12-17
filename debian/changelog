@@ -1,15 +1,9 @@
-qt3d-opensource-src (5.0~git20130109-1) UNRELEASED; urgency=low
+qt3d-opensource-src (5.0~git20130731-1) UNRELEASED; urgency=medium
 
   * Initial release
-  * debian/patches/add_GPL_license_file.patch
-    - Cherry-pick from upstream
-  * debian/patches/add_module_version.patch:
-    - Add a module version to fix FTBFS
   * debian/patches/workaround_zlib_linking_issue.patch:
     - Fix FTBFS
   * debian/patches/link_against_system_zlib.patch
     - Do not use the bundled zlib library
-  * debian/patches/disable_conflicting_examples.patch
-    - Some qml/quick examples overlap, so disable the half
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 22 Jan 2013 14:32:08 +0200
