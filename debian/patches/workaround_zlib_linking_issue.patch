@@ -1,3 +1,12 @@
+Description: Workaround build issue by using --no-as-needed
+ The patch workarounds a FTBFS described in a bug report.
+ .
+ Still needed with the latest Qt3d snapshot
+Author: Timo Jyrinki <timo.jyrinki@canonical.com>
+Bug-Ubuntu: https://bugs.launchpad.net/bugs/1207340
+Forwarded: no
+Last-Updated: 2013-08-01
+
 diff --git a/src/threed/threed.pro b/src/threed/threed.pro
 index 793c160..682db14 100644
 --- a/src/threed/threed.pro

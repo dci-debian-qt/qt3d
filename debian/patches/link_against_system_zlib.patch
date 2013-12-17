@@ -95,7 +95,7 @@ index 541d46d..d4d95c9 100644
 +
  gcov: SUBDIRS -= sub_tools
  
- # We need opengl, minimum es2 or desktop
+ # We need opengl, minimum es2
 diff --git a/src/threed/threed.pro b/src/threed/threed.pro
 index 793c160..fd992ca 100644
 --- a/src/threed/threed.pro
