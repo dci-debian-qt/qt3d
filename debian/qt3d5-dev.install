@@ -1,7 +1,3 @@
-usr/include/qt5/Qt3D/QAiLoader
-usr/include/qt5/Qt3D/QAiMesh
-usr/include/qt5/Qt3D/QAiScene
-usr/include/qt5/Qt3D/QAiSceneHandler
 usr/include/qt5/Qt3D/QAreaAllocator
 usr/include/qt5/Qt3D/QArray
 usr/include/qt5/Qt3D/QArrayAlignedChar
@@ -84,12 +80,6 @@ usr/include/qt5/Qt3D/QVector4DArray
 usr/include/qt5/Qt3D/Qt3D
 usr/include/qt5/Qt3D/Qt3DVersion
 usr/include/qt5/Qt3D/QtArrayData
-usr/include/qt5/Qt3D/ailoaderiostream.h
-usr/include/qt5/Qt3D/ailoaderiosystem.h
-usr/include/qt5/Qt3D/qailoader.h
-usr/include/qt5/Qt3D/qaimesh.h
-usr/include/qt5/Qt3D/qaiscene.h
-usr/include/qt5/Qt3D/qaiscenehandler.h
 usr/include/qt5/Qt3D/qareaallocator.h
 usr/include/qt5/Qt3D/qarray.h
 usr/include/qt5/Qt3D/qbox3d.h
@@ -169,7 +159,6 @@ usr/include/qt5/Qt3DQuick/QQuickViewport
 usr/include/qt5/Qt3DQuick/Qt3DQuick
 usr/include/qt5/Qt3DQuick/Qt3DQuickVersion
 usr/include/qt5/Qt3DQuick/capsulemesh.h
-usr/include/qt5/Qt3DQuick/cube.h
 usr/include/qt5/Qt3DQuick/cylindermesh.h
 usr/include/qt5/Qt3DQuick/line.h
 usr/include/qt5/Qt3DQuick/point.h
@@ -182,10 +171,11 @@ usr/include/qt5/Qt3DQuick/qquickviewport.h
 usr/include/qt5/Qt3DQuick/qt3dquickglobal.h
 usr/include/qt5/Qt3DQuick/qt3dquickversion.h
 usr/include/qt5/Qt3DQuick/spheremesh.h
-usr/include/qt5/Qt3DQuick/teapot.h
 usr/lib/*/*.prl
 usr/lib/*/*.so
 usr/lib/*/cmake/*
 usr/lib/*/pkgconfig/*
 usr/lib/*/qt5/bin/qglinfo
 usr/share/qt5/mkspecs/modules/*
+usr/include/qt5/Qt3D/Qt3DDepends
+usr/include/qt5/Qt3DQuick/Qt3DQuickDepends

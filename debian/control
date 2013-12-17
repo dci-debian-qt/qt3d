@@ -6,9 +6,8 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
 Build-Depends: debhelper (>= 9.0.0),
                libqt5opengl5-dev,
                pkg-kde-tools,
-               qt5-default,
-               qtbase5-private-dev,
-               qtdeclarative5-private-dev,
+               qtbase5-private-dev (>= 5.2.0+dfsg~),
+               qtdeclarative5-private-dev (>= 5.2.0~),
                zlib1g-dev,
 Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
