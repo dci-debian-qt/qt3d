@@ -5,5 +5,7 @@ qt3d-opensource-src (5.0~git20130731-1) UNRELEASED; urgency=medium
     - Fix FTBFS
   * debian/patches/link_against_system_zlib.patch
     - Do not use the bundled zlib library
+  * debian/patches/syncqt_create_headers.patch
+    - syncqt generated headers needed with Qt 5.2.0
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 22 Jan 2013 14:32:08 +0200
