@@ -1,6 +1,7 @@
 qt3d-opensource-src (5.0~git20130731-1) UNRELEASED; urgency=medium
 
-  * Initial release
+  [ Timo Jyrinki ]
+  * Initial release.
   * debian/patches/workaround_zlib_linking_issue.patch:
     - Fix FTBFS
   * debian/patches/link_against_system_zlib.patch
@@ -8,4 +9,4 @@ qt3d-opensource-src (5.0~git20130731-1) UNRELEASED; urgency=medium
   * debian/patches/syncqt_create_headers.patch
     - syncqt generated headers needed with Qt 5.2.0
 
- -- Timo Jyrinki <timo@debian.org>  Tue, 22 Jan 2013 14:32:08 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Jan 2013 14:32:08 +0200
