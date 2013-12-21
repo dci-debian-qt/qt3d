@@ -1,4 +1,4 @@
-usr/lib/x86_64-linux-gnu/libQt53D.la
+usr/lib/*/libQt53D.la
 usr/lib/*/qt5/bin/qglinfo
 usr/lib/*/qt5/qml/Qt3D/plugins.qmltypes
 usr/lib/*/qt5/qml/Qt3D/qmldir
