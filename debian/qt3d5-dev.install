@@ -78,6 +78,7 @@ usr/include/qt5/Qt3D/QVector2DArray
 usr/include/qt5/Qt3D/QVector3DArray
 usr/include/qt5/Qt3D/QVector4DArray
 usr/include/qt5/Qt3D/Qt3D
+usr/include/qt5/Qt3D/Qt3DDepends
 usr/include/qt5/Qt3D/Qt3DVersion
 usr/include/qt5/Qt3D/QtArrayData
 usr/include/qt5/Qt3D/qareaallocator.h
@@ -157,6 +158,7 @@ usr/include/qt5/Qt3DQuick/QQuickItem3D
 usr/include/qt5/Qt3DQuick/QQuickMesh
 usr/include/qt5/Qt3DQuick/QQuickViewport
 usr/include/qt5/Qt3DQuick/Qt3DQuick
+usr/include/qt5/Qt3DQuick/Qt3DQuickDepends
 usr/include/qt5/Qt3DQuick/Qt3DQuickVersion
 usr/include/qt5/Qt3DQuick/capsulemesh.h
 usr/include/qt5/Qt3DQuick/cylindermesh.h
@@ -177,5 +179,3 @@ usr/lib/*/cmake/*
 usr/lib/*/pkgconfig/*
 usr/lib/*/qt5/bin/qglinfo
 usr/share/qt5/mkspecs/modules/*
-usr/include/qt5/Qt3D/Qt3DDepends
-usr/include/qt5/Qt3DQuick/Qt3DQuickDepends
