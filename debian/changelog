@@ -1,7 +1,7 @@
 qt3d-opensource-src (5.0~git20130731-1) UNRELEASED; urgency=medium
 
   [ Timo Jyrinki ]
-  * Initial release.
+  * Initial release. (Closes: #697509)
   * debian/patches/workaround_zlib_linking_issue.patch:
     - Fix FTBFS
   * debian/patches/link_against_system_zlib.patch
