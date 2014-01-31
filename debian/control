@@ -105,8 +105,8 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt53d5 (= ${binary:Version}),
-         qt3d5-examples (= ${binary:Version}),
          ${misc:Depends},
+Suggests: qt3d5-examples (= ${binary:Version})
 Description: Qt 3D library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
