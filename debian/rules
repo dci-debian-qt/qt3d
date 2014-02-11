@@ -13,6 +13,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
 
 override_dh_auto_configure:
+	mkdir .git
 	qmake
 
 override_dh_auto_install:
