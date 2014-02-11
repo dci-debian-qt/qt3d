@@ -14,7 +14,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 override_dh_auto_configure:
 	mkdir .git
-	qmake
+	qmake QT_BUILD_PARTS+=tests
 
 override_dh_auto_install:
 	dh_auto_install
@@ -27,6 +27,9 @@ override_dh_auto_install:
 
 override_dh_install:
 	dh_install --fail-missing
+
+override_dh_auto_test:
+	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
