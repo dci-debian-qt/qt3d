@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.0~git20130731-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.0~git20150101-0r1) UNRELEASED; urgency=medium
 
   [ Timo Jyrinki ]
   * Initial release. (Closes: #697509)
