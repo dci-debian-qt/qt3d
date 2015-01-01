@@ -1,3 +1,2 @@
 link_against_system_zlib.patch
 workaround_zlib_linking_issue.patch
-skip_failing_tests.patch
