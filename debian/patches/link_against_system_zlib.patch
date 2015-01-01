@@ -1,5 +1,3 @@
-diff --git a/3rdparty/assimp/assimp.pri b/3rdparty/assimp/assimp.pri
-index a3810b3..ec8d724 100644
 --- a/3rdparty/assimp/assimp.pri
 +++ b/3rdparty/assimp/assimp.pri
 @@ -5,6 +5,8 @@
@@ -52,11 +50,9 @@ index a3810b3..ec8d724 100644
 -        contrib/zlib/trees.c \
 -        contrib/zlib/zutil.c
 +        contrib/unzip/unzip.c
-diff --git a/3rdparty/assimp/code/makefile b/3rdparty/assimp/code/makefile
-index 5710158..486300d 100644
 --- a/3rdparty/assimp/code/makefile
 +++ b/3rdparty/assimp/code/makefile
-@@ -24,7 +24,7 @@ OBJECTS   += $(patsubst %.cpp,%.o,  $(wildcard extra/*.cpp))
+@@ -24,7 +24,7 @@ OBJECTS   += $(patsubst %.cpp,%.o,  $(wi
  OBJECTS   += $(patsubst %.cpp,%.o,  $(wildcard ./../contrib/irrXML/*.cpp))
  
  # C object files
@@ -74,7 +70,7 @@ index 5710158..486300d 100644
  # Setup environment for noboost build
  ifeq ($(NOBOOST),1)
      SINGLETHREADED = 1
-@@ -85,7 +87,7 @@ STATIC = $(BINPATH)/libassimp$(NAMESUFFIX).a
+@@ -85,7 +87,7 @@ STATIC = $(BINPATH)/libassimp$(NAMESUFFI
  all: $(SHARED_TARGET)
  
  $(SHARED_TARGET):  $(OBJECTS)  $(OBJECTSC)
@@ -83,11 +79,9 @@ index 5710158..486300d 100644
  %.o:%.cpp
      $(CXX) -g -c  $(CPPFLAGS) $? -o $@ $(INCLUDEFLAGS) $(DEFINEFLAGS) -fPIC
  %.oc:%.c
-diff --git a/qt3d.pro b/qt3d.pro
-index 541d46d..d4d95c9 100644
 --- a/qt3d.pro
 +++ b/qt3d.pro
-@@ -7,6 +7,8 @@ module_qt3d_tutorials.CONFIG = no_default_target no_default_install
+@@ -9,6 +9,8 @@ module_qt3d_tutorials.CONFIG = no_defaul
  
  !package: SUBDIRS += module_qt3d_tutorials
  
@@ -96,8 +90,6 @@ index 541d46d..d4d95c9 100644
  gcov: SUBDIRS -= sub_tools
  
  # We need opengl, minimum es2
-diff --git a/src/threed/threed.pro b/src/threed/threed.pro
-index 793c160..fd992ca 100644
 --- a/src/threed/threed.pro
 +++ b/src/threed/threed.pro
 @@ -7,6 +7,8 @@ load(qt_module)

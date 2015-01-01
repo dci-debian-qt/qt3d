@@ -7,17 +7,14 @@ Bug-Ubuntu: https://bugs.launchpad.net/bugs/1207340
 Forwarded: no
 Last-Updated: 2013-08-01
 
-diff --git a/src/threed/threed.pro b/src/threed/threed.pro
-index 793c160..682db14 100644
 --- a/src/threed/threed.pro
 +++ b/src/threed/threed.pro
-@@ -23,4 +23,8 @@ include(threed.pri)
- PUBLIC_HEADERS = $$HEADERS
+@@ -26,4 +26,8 @@ PUBLIC_HEADERS = $$HEADERS
  HEADERS += $$PRIVATE_HEADERS
+ PRECOMPILED_HEADER =
  
 +# Workaround zlib issue
 +LIBS += -Wl,--no-as-needed
 +LIBS += -lz
 +
  !contains(QT_CONFIG, egl):DEFINES += QT_NO_EGL
-
