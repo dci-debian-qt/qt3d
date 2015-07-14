@@ -1,8 +1,7 @@
 Source: qt3d-opensource-src
 Section: libs
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Timo Jyrinki <timo@debian.org>,
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0),
                libqt5opengl5-dev,
                libqt5xcbqpa5,
@@ -33,12 +32,26 @@ Description: Qt 3D module
  snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
+Package: qtdeclarative5-qt3d-plugin
+Architecture: any
+Multi-Arch: same
+Section: oldlibs
+Depends: qml-module-qt3d, ${misc:Depends}
+Description: transitional dummy package for Qt 5 3D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package for qml-module-qt3d
+ which can be safely removed.
+
 Package: qml-module-qt3d
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
 Depends: ${misc:Depends},
          ${shlibs:Depends},
+Breaks: qtdeclarative5-qt3d-plugin (<< 5.5~)
+Replaces: qtdeclarative5-qt3d-plugin (<< 5.5~)
 Description: Qt 5 3D QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
