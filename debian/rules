@@ -4,17 +4,35 @@
 #export DH_VERBOSE=1
 
 export QT_SELECT=qt5
+DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
+# Run tests only on archs known to pass in the past
+testrun_architectures := amd64 arm64 armhf i386 ppc64el
+
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
+	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
 
 override_dh_auto_configure:
 	mkdir .git
 	qmake QT_BUILD_PARTS+=tests
+
+override_dh_auto_install-arch:
+	dh_auto_install
+	
+	# Remove libtool-like files
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+	
+	# Remove private stuff
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DCore/*/Qt3DCore/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DInput/*/Qt3DInput/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DQuick/*/Qt3DQuick/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DQuickRenderer/*/Qt3DQuickRenderer/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DRenderer/*/Qt3DRenderer/private
+	rm -fv $(CURDIR)/debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 
 override_dh_auto_install:
 	dh_auto_install
@@ -25,12 +43,10 @@ override_dh_auto_install:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
-override_dh_install:
-	dh_install --fail-missing
-
 override_dh_auto_test:
-	# Disable tests for now, since some require GLX, and some for other reasons
-	#xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(testrun_architectures)))
+	xvfb-run -a -s "-screen 0 640x480x24" make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib QML2_IMPORT_PATH=$(CURDIR)/qml
+endif
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
