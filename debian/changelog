@@ -1,6 +1,122 @@
-qt3d-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release of the rewritten Qt 3D 2.0.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 03 Jun 2015 14:47:26 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu11) wily; urgency=medium
+
+  * No-change rebuild against Qt 5.4.2
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 11 Jun 2015 13:54:22 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu10) vivid; urgency=medium
+
+  * Build against Qt 5.4.1
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 11 Mar 2015 06:12:57 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu9) vivid; urgency=medium
+
+  * Build against Qt 5.4.0
+  * debian/patches/noprecompile.patch (LP: #1395657)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 13 Feb 2015 06:45:53 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu8) vivid; urgency=medium
+
+  * Switch to qml-module-* naming (LP: #1342031)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 11 Dec 2014 12:37:32 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu7) vivid; urgency=medium
+
+  * Rebuild against Qt 5.3.2
+  * Update symbols
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 28 Oct 2014 07:07:38 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu6) utopic; urgency=medium
+
+  * Rebuild against 5.3
+  * Move include files
+  * Add a patch to fix compilation
+  * Disable a few qvectorarray tests for now that started failing
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 09 May 2014 08:04:40 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu5) trusty; urgency=medium
+
+  * libqt53d5.symbols: updating symbols and adding adding dep alternative
+    for the version compatible with OpenGLES (provided by another src pkg)
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 10 Apr 2014 05:06:25 -0300
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu4) trusty; urgency=medium
+
+  * Run tests only on archs known to pass in the past
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 14 Mar 2014 11:51:29 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu3) trusty; urgency=medium
+
+  * Backport upstream patch to fix build on “uncommon” architectures.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Fri, 14 Mar 2014 09:15:26 +0400
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu2) trusty; urgency=medium
 
   [ Timo Jyrinki ]
-  * Initial release. (Closes: #697509)
+  * Rebuild against Qt 5.2.1, bump dependencies
+  * Use QT_SELECT instead of depending on qt5-default
+  * Use 'mkdir .git' to trigger header build for the snapshot release
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Jan 2013 14:32:08 +0200
+  [ Allan LeSage ]
+  * Add tests to QT_BUILD_PARTS. (LP: #1193370)
+  * Depend on xvfb for existing tests requiring a display.
+  * Add dh_override_auto_test to dh_auto_test under xvfb-run.
+  * debian/patches/skip_failing_tests.patch
+    - Skip some failing tests pending investigation.
+  * Depend on xauth, needed in some configurations.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 28 Feb 2014 09:00:49 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu1) saucy; urgency=low
+
+  * New upstream snapshot release
+  * Improve override_dh_auto_install, use --fail-missing
+  * Drop patches:
+    - add_GPL_license_file.patch, merged upstream
+    - add_module_version.patch, added upstream
+    - disable_conflicting_examples.patch, not needed anymore
+  * Refresh link_against_system_zlib.patch
+  * Add bug link to workaround_zlib_linking_issue.patch
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 02 Aug 2013 11:10:16 +0300
+
+qt3d-opensource-src (5.0~git20130109-0ubuntu3) saucy; urgency=low
+
+  * debian/patches/add_module_version.patch:
+    - Add a module version to fix FTBFS
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 21 Jun 2013 17:59:14 +0200
+
+qt3d-opensource-src (5.0~git20130109-0ubuntu2) raring; urgency=low
+
+  [ Timo Jyrinki ]
+  * Fix pkgconfig Libs.private path (LP: #1125156)
+  * debian/patches/workaround_zlib_linking_issue.patch:
+    - Fix FTBFS
+
+  [ Didier Roche ]
+  * Fixed some small copyright issues
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 15 Feb 2013 12:52:28 +0100
+
+qt3d-opensource-src (5.0~git20130109-0ubuntu1) raring; urgency=low
+
+  * Initial release
+  * Cherry-pick from upstream:
+    - add_license_files.patch
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 22 Jan 2013 14:32:08 +0200
