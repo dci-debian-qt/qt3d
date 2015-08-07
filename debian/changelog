@@ -1,8 +1,16 @@
 qt3d-opensource-src (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release of the rewritten Qt 3D 2.0.
+  * Update symbols.
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 03 Jun 2015 14:47:26 +0000
+
+qt3d-opensource-src (5.0~git20130731-0ubuntu12) wily; urgency=medium
+
+  * Rebuild for GCC5 transition.
+  * Update symbols.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 14 Jul 2015 13:32:57 +0300
 
 qt3d-opensource-src (5.0~git20130731-0ubuntu11) wily; urgency=medium
 
