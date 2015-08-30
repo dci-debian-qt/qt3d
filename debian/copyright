@@ -1,10 +1,11 @@
-Format: http://dep.debian.net/deps/dep5
-Upstream-Name: qt3d
-Source: http://qt.gitorious.org/qt/qt3d
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qt3d-opensource-src
+Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+Copyright: 2014 Klaralvdalens Datakonsult AB (KDAB)
+           2015 The Qt Company Ltd.
+License: LGPL-3 or GPL-2
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -12,243 +13,123 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2008-2012 Modestas Vainius <modax@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
-           2012 Timo Jyrinki <timo.jyrinki@canonical.com>
+           2012-2015 Timo Jyrinki <timo.jyrinki@canonical.com>
+           2015 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-2.1
 
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
- GNU Lesser General Public License version 2.1:
- This file may be used under the terms of the GNU Lesser General Public
- License version 2.1 as published by the Free Software Foundation and
- appearing in the file LICENSE.LGPL included in the packaging of this
- file. Please review the following information to ensure the GNU Lesser
- General Public License version 2.1 requirements will be met:
- http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
- .
- In addition, as a special exception, Digia gives you certain additional
- rights. These rights are described in the Digia Qt LGPL Exception
- version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- can be found in `/usr/share/common-licenses/LGPL-2.1`.
- .
- Digia Qt LGPL Exception version 1.1:
- As an additional permission to the GNU Lesser General Public License version
- 2.1, the object code form of a "work that uses the Library" may incorporate
- material from a header file that is part of the Library.  You may distribute
- such object code under terms of your choice, provided that:
-     (i)   the header files of the Library have not been modified; and
-     (ii)  the incorporated material is limited to numerical parameters, data
-           structure layouts, accessors, macros, inline functions and
-           templates; and
-     (iii) you comply with the terms of Section 6 of the GNU Lesser General
-           Public License version 2.1.
- .
- Moreover, you may apply this exception to a modified version of the Library,
- provided that such modification does not involve copying material from the
- Library into the modified Library's header files unless such material is
- limited to (i) numerical parameters; (ii) data structure layouts;
- (iii) accessors; and (iv) small macros, templates and inline functions of
- five lines or less in length.
- .
- Furthermore, you are not required to apply this additional permission to a
- modified version of the Library.
+Files: src/quick3d/imports/render/defaults/qml/PerVertexColorMaterial.qml
+       src/render/defaults/qpervertexcolormaterial*
+Copyright: 2015 Lorenz Esch (TU Ilmenau)
+License: LGPL-3 or GPL-2
 
-Files: tests/auto/cmake/test_modules/main.cpp
-Copyright: 2012 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+Files: tests/auto/quick3d/quick3dnodeinstantiator/stringmodel.h
+Copyright: 2013 Dmitrii Kosarev <kakadu.hafanana@gmail.com>
+License: LGPL-3 or GPL-2
 
-License: GPL-3
- GNU General Public License Usage
+Files: src/quick3d/quick3d/items/quick3dnodeinstantiator*
+       tests/auto/quick3d/quick3dnodeinstantiator/tst_quick3dnodeinstantiator.cpp
+Copyright: 2013 Research In Motion
+License: LGPL-3 or GPL-2
+
+Files: examples/qt3d/planets-qml/images/*
+Copyright: James Hastings-Trew
+License: planets-images
+ The maps are free to download and use as source material or resource in artwork
+ or rendering (CGI or real time) in any kind of project - personal, commercial,
+ broadcast, or display. You are not free to redistribute the maps "as is" in any
+ medium - online, CD, for sale, etc. where the primary intent is to distribute
+ the maps themselves and not the result of using the maps, without my
+ permission. That is to say, the results of using the maps are free to use and
+ distribute, but the maps as direct source material for those results may not
+ be, unless you have my permission. The maps may not be included as they exist
+ on this site in any kind of commercial, shareware, or freeware product without
+ my permission. The maps may not be repackaged with 3D models and sold in any
+ form. The maps may not be given away in whole or in part on another website or
+ in a freeware or commercial product without my permission.
+Comment: used with permission
+
+Files: examples/qt3d/wave/shaders/ribbon.vert
+Copyright: 2011 Ashima Arts
+License: MIT
+
+Files: examples/qt3d/exampleresources/assets/cubemaps/*
+Copyright: 2005 Jockum Skoglund <hipshot@zfight.com>
+License: hipshot
+ Modify however you like, just cred me for my work, maybe link to my page.
+
+Files: examples/qt3d/exampleresources/assets/gltf/*
+Copyright: 2012 Motorola Mobility, Inc.
+           Fabrice Robinet
+           Analytical Graphics, Inc.
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
  .
- Alternatively, this file may be used under the terms of the GNU
- General Public License version 3.0 as published by the Free Software
- Foundation and appearing in the file LICENSE.GPL included in the
- packaging of this file.  Please review the following information to
- ensure the GNU General Public License version 3.0 requirements will be
- met: http://www.gnu.org/copyleft/gpl.html.
+  - Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+  - Neither the name of Motorola Mobility nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
  .
- On Debian systems, the complete text of the license can be found in
- `/usr/share/common-licenses/GPL-3`.
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+Files: examples/qt3d/exampleresources/assets/textures/pattern_09/*
+Copyright: Nobiax
+License: public-domain
+ See http://nobiax.deviantart.com/ for details.
+
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License, version 3
+ as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the full text of GNU Lesser General Public License,
+ version 3 can be found in /usr/share/common-licenses/LGPL-3.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the full text of GNU General Public License,
+ version 2 can be found in /usr/share/common-licenses/GPL-2.
 
 License: LGPL-2.1
- This file may be used under the terms of the GNU Lesser
- General Public License version 2.1 as published by the Free Software
- Foundation and appearing in the file LICENSE.LGPL included in the
- packaging of this file.  Please review the following information to
- ensure the GNU Lesser General Public License version 2.1 requirements
- will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License, version 2.1
+ as published by the Free Software Foundation.
  .
- On Debian systems, the complete text of the LGPL-2.1 license can be found in
- `/usr/share/common-licenses/LGPL-2.1`,
-
-Files: 3rdparty/assimp/*
-Copyright: 2006-2010, ASSIMP Development Team
-License: BSD-3-clause
-
-Files: examples/* src/quick3d/qmlres.cpp src/quick3d/qmlres.h src/imports/threed/DefaultNavigator.qml tests/manual/qrc/qml/tst_qrc.qml tests/manual/transformations/qml/desktop.qml tests/manual/shapes/qml/desktop.qml tests/manual/scaling/qml/desktop.qml tests/manual/submesh/qml/desktop.qml tests/manual/navigation1/qml/desktop.qml tests/manual/basic/qml/desktop.qml tests/manual/model3ds/qml/desktop.qml tests/manual/translation/qml/desktop.qml tests/manual/background/qml/desktop.qml tests/manual/rotation/qml/desktop.qml tests/manual/fullreferencing/qml/desktop.qml tests/manual/displaymodel/qml/desktop.qml tests/manual/animations/qml/desktop.qml tutorials/quick3d/teapot_qml/qml/desktop.qml tutorials/quick3d/teapot_qml/qml/Teapot.qml tutorials/quick3d/shadertut/main.cpp tutorials/quick3d/shadertut/qml/TutorialTeapot.qml tutorials/quick3d/shadertut/qml/shader-tutorial.qml tutorials/quick3d/shadertut/qml/desktop.qml tutorials/quick3d/teapot_bounce_qml/qml/TeapotBounce.qml tutorials/quick3d/teapot_bounce_qml/qml/desktop.qml tutorials/qt3d/penguin_advanced/modelview.h tutorials/qt3d/penguin_advanced/main.cpp tutorials/qt3d/penguin_advanced/modelview.cpp tutorials/qt3d/cube2/main.cpp tutorials/qt3d/cube2/cubeview.h tutorials/qt3d/cube2/cubeview.cpp tutorials/qt3d/cube4/main.cpp tutorials/qt3d/cube4/cube.qml tutorials/qt3d/cube4/cubeview.h tutorials/qt3d/cube4/cubeview.cpp tutorials/qt3d/penguin/modelview.h tutorials/qt3d/penguin/main.cpp tutorials/qt3d/penguin/modelview.cpp tutorials/qt3d/cube1/main.cpp tutorials/qt3d/cube1/cubeview.h tutorials/qt3d/cube1/cubeview.cpp tutorials/qt3d/cube3/main.cpp tutorials/qt3d/cube3/cubeview.h tutorials/qt3d/cube3/cubeview.cpp
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
-License: BSD-3-clause
-
-License: BSD-3-clause
- You may use this file under the terms of the BSD license as follows:
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
  .
- "Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are
- met:
-   * Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in
-     the documentation and/or other materials provided with the
-     distribution.
-   * Neither the name of Digia Plc and its Subsidiary(-ies) nor the names
-     of its contributors may be used to endorse or promote products derived
-     from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-
-Files: 3rdparty/assimp/contrib/ConvertUTF/*
-Copyright: 2001-2004 Unicode, Inc.
-License:
- Disclaimer
- .
- This source code is provided as is by Unicode, Inc. No claims are
- made as to fitness for any particular purpose. No warranties of any
- kind are expressed or implied. The recipient agrees to determine
- applicability of information provided. If this file has been
- purchased on magnetic or optical media from Unicode, Inc., the
- sole remedy for any claim will be exchange of defective media
- within 90 days of receipt.
- .
- Limitations on Rights to Redistribute This Code
- .
- Unicode, Inc. hereby grants the right to freely use the information
- supplied in this file in the creation of products supporting the
- Unicode Standard, and to make copies of this file in any form
- for internal or external distribution as long as this notice
- remains attached.
-
-Files: 3rdparty/assimp/contrib/zlib/*
-Copyright: 1995-2010 Jean-loup Gailly
-           1995-2010 Mark Adler
-License: Zlib
- This software is provided 'as-is', without any express or implied
- warranty.  In no event will the authors be held liable for any damages
- arising from the use of this software.
- .
- Permission is granted to anyone to use this software for any purpose,
- including commercial applications, and to alter it and redistribute it
- freely, subject to the following restrictions:
- .
- 1. The origin of this software must not be misrepresented; you must not
-    claim that you wrote the original software. If you use this software
-    in a product, an acknowledgment in the product documentation would be
-    appreciated but is not required.
- 2. Altered source versions must be plainly marked as such, and must not be
-    misrepresented as being the original software.
- 3. This notice may not be removed or altered from any source distribution.
-
-Files: 3rdparty/assimp/contrib/unzip/*
-Copyright: 1998-2005 Gilles Vollant
-License: Zlib
- This software is provided 'as-is', without any express or implied
- warranty.  In no event will the authors be held liable for any damages
- arising from the use of this software.
- .
- Permission is granted to anyone to use this software for any purpose,
- including commercial applications, and to alter it and redistribute it
- freely, subject to the following restrictions:
- .
- 1. The origin of this software must not be misrepresented; you must not
-    claim that you wrote the original software. If you use this software
-    in a product, an acknowledgment in the product documentation would be
-    appreciated but is not required.
- 2. Altered source versions must be plainly marked as such, and must not be
-    misrepresented as being the original software.
- 3. This notice may not be removed or altered from any source distribution.
-
-Files: 3rdparty/assimp/contrib/unzip/unzip.c
-Copyright: 1990-2000 Info-ZIP
-License: Info-ZIP license
- See the accompanying file LICENSE, version 2000-Apr-09 or later
- (the contents of which are also included in zip.h) for terms of use.
- If, for some reason, all these files are missing, the Info-ZIP license
- also may be found at:  ftp://ftp.info-zip.org/pub/infozip/license.html
-
-Files: 3rdparty/assimp/contrib/irrXML/*
-Copyright: 2002-2005 Nikolaus Gebhardt
-License: irrXML license
-
-License: irrXML license
- The irrXML license is based on the zlib license. Basicly, this means you can do with irrXML whatever you want:
- .
- This software is provided 'as-is', without any express or implied
- warranty.  In no event will the authors be held liable for any damages
- arising from the use of this software.
- .
- Permission is granted to anyone to use this software for any purpose,
- including commercial applications, and to alter it and redistribute it
- freely, subject to the following restrictions:
- .
- 1. The origin of this software must not be misrepresented; you must not
-    claim that you wrote the original software. If you use this software
-    in a product, an acknowledgment in the product documentation would be
-    appreciated but is not required.
- .
- 2. Altered source versions must be plainly marked as such, and must not be
-    misrepresented as being the original software.
- .
- 3. This notice may not be removed or altered from any source distribution.
-
-Files: 3rdparty/assimp/code/BoostWorkaround/*
-Copyright: 1994-1999 Beman Dawes
-License: Boost Software License 1.0
- Boost Software License - Version 1.0 - August 17th, 2003
- .
- Permission is hereby granted, free of charge, to any person or organization
- obtaining a copy of the software and accompanying documentation covered by
- this license (the "Software") to use, reproduce, display, distribute,
- execute, and transmit the Software, and to prepare derivative works of the
- Software, and to permit third-parties to whom the Software is furnished to
- do so, all subject to the following:
- .
- The copyright notices in the Software and this entire statement, including
- the above license grant, this restriction and the following disclaimer,
- must be included in all copies of the Software, in whole or in part, and
- all derivative works of the Software, unless such copies or derivative
- works are solely in the form of machine-executable object code generated by
- a source language processor.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
- SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
- FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
- ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- DEALINGS IN THE SOFTWARE.
-
-Files: fast_atof.h
-Copyright: 2002-2007 Nikolaus Gebhardt
-License: irrXML license
-
-Files: doc/config/scripts/superfish.js
-Copyright: 2008 Joel Birch
-License: MIT
-
-Files: doc/config/scripts/jquery.js
-Copyright: 2010 John Resig
-           2010 The Dojo Foundation
-License: MIT
+ On Debian systems, the full text of GNU Lesser General Public License,
+ version 2.1 can be found in /usr/share/common-licenses/LGPL-2.1.
 
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining
@@ -271,97 +152,15 @@ License: MIT
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
 
-Files: 3rdparty/assimp/code/MDCNormalTable.h doc/src/legal/snippets/pico-model.txt
-Copyright: 2002 Randy Reddig & seaw0lf
-License: Custom BSD like
- Redistribution and use in source and binary forms, with or without modification,
- are permitted provided that the following conditions are met:
- .
- Redistributions of source code must retain the above copyright notice, this list
- of conditions and the following disclaimer.
- .
- Redistributions in binary form must reproduce the above copyright notice, this
- list of conditions and the following disclaimer in the documentation and/or
- other materials provided with the distribution.
- .
- Neither the names of the copyright holders nor the names of its contributors may
- be used to endorse or promote products derived from this software without
- specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
- ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
- WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
- ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
- LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
- ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Files: 3rdparty/assimp/code/pstdint.h doc/src/legal/snippets/pstdint.txt
-Copyright: 2005-2007 Paul Hsieh
-License: BSD-3-clause
-
-Files: 3rdparty/assimp/code/BoostWorkaround/boost/foreach.hpp
-Copyright: 2004 Eric Niebler
-License: BSL
-
-Files: 3rdparty/assimp/code/BoostWorkaround/boost/timer.hpp
-Copyright: 1994-1999 Beman Dawes
-License: BSL
-
-Files: 3rdparty/assimp/code/BoostWorkaround/boost/tuple/tuple.hpp
-Copyright: 2008 Alexander Gessler
-License: BSL
-
-Files: 3rdparty/assimp/code/BoostWorkaround/boost/pointer_cast.hpp
-Copyright: 2005 Ion Gaztanaga
-License: BSL
-
-License: BSL
- Distributed under the Boost Software License, Version 1.0. (See
- accompanying file LICENSE_1_0.txt or copy at
- http://www.boost.org/LICENSE_1_0.txt)
- .
- Permission is hereby granted, free of charge, to any person or organization
- obtaining a copy of the software and accompanying documentation covered by
- this license (the "Software") to use, reproduce, display, distribute,
- execute, and transmit the Software, and to prepare derivative works of the
- Software, and to permit third-parties to whom the Software is furnished to
- do so, all subject to the following:
- .
- The copyright notices in the Software and this entire statement, including
- the above license grant, this restriction and the following disclaimer,
- must be included in all copies of the Software, in whole or in part, and
- all derivative works of the Software, unless such copies or derivative
- works are solely in the form of machine-executable object code generated by
- a source language processor.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
- SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
- FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
- ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- DEALINGS IN THE SOFTWARE.
-
 Files: *.qdoc
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
-License: GFDL-1.3
+Copyright: 2015 The Qt Company Ltd.
+License: GFDL-NIV-1.3
 
-License: GFDL-1.3
- GNU Free Documentation License Usage
- Alternatively, this file may be used under the terms of the GNU Free
- Documentation License version 1.3 as published by the Free Software
- Foundation and appearing in the file included in the packaging of
- this file.  Please review the following information to ensure
- the GNU Free Documentation License version 1.3 requirements
- will be met: http://www.gnu.org/copyleft/fdl.html.
+License: GFDL-NIV-1.3
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  .
- On Debian systems, the complete text of the GFDL-1.3 license can be found in
- `/usr/share/common-licenses/GFDL-1.3`,
-
-Files: src/quick3d/cube.qdoc src/quick3d/quad.qdoc src/quick3d/teapot.qdoc
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
-License:  LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+ On Debian systems, the complete text of the GNU Free Documentation License,
+ version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
