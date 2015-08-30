@@ -48,7 +48,3 @@ override_dh_auto_test:
 ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(testrun_architectures)))
 	xvfb-run -a -s "-screen 0 640x480x24" make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib QML2_IMPORT_PATH=$(CURDIR)/qml
 endif
-
-override_dh_builddeb:
-	dh_builddeb -- -Zxz
-
