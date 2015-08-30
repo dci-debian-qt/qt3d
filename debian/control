@@ -96,10 +96,6 @@ Description: Qt 5 3D QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt 3D QML module.
- .
- WARNING: This module is not an official part of Qt 5, but instead a git
- snapshot of an ongoing development. The package is very likely to
- change in a binary incompatible way, and no guarantees are given.
 
 Package: qt3d5-dev
 Section: libdevel
