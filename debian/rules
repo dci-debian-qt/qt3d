@@ -18,7 +18,6 @@ testrun_architectures := amd64 arm64 armhf i386 ppc64el
 	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
 
 override_dh_auto_configure:
-	mkdir .git
 	qmake QT_BUILD_PARTS+=tests
 
 override_dh_auto_install-arch:
