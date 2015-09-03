@@ -1,4 +1,5 @@
-libQt53DQuick.so.5 libqt53dquick5 #MINVER# | libqt53dquick5-gles #MINVER#
+# SymbolsHelper-Confirmed: 5.5.0 amd64
+libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN4Qt3D5Quick11Quick3DNode10appendDataEP16QQmlListPropertyI7QObjectEPS3_@Base 5.5.0
  _ZN4Qt3D5Quick11Quick3DNode10childCountEP16QQmlListPropertyINS_5QNodeEE@Base 5.5.0
  _ZN4Qt3D5Quick11Quick3DNode10childNodesEv@Base 5.5.0
