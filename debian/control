@@ -109,7 +109,6 @@ Description: Qt 5 Quick Scene 3D QML module
  .
  This package contains the Qt Quick Scene 3D QML module.
 
-
 Package: qt3d5-dev
 Section: libdevel
 Architecture: any
