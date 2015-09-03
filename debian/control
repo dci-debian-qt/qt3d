@@ -16,6 +16,10 @@ Build-Depends: debhelper (>= 9),
                xauth,
                xvfb,
                zlib1g-dev,
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.0+dfsg~),
+                     qtbase5-doc-html (>= 5.5.0+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.5.0~),
+                     qttools5-dev-tools (>= 5.5.0~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt3d.git
@@ -150,3 +154,23 @@ Description: Qt 3D library debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 3D
  libraries.
+
+Package: qt3d5-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 3D documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-doc-html
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 3D HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 3D libraries.

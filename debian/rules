@@ -20,6 +20,9 @@ testrun_architectures := amd64 arm64 armhf i386 ppc64el
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
+override_dh_auto_build-indep:
+	dh_auto_build -- docs
+
 override_dh_auto_install-arch:
 	dh_auto_install
 	
@@ -37,6 +40,9 @@ override_dh_auto_install-arch:
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
+
+override_dh_auto_install-indep:
+	$(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_auto_test-arch:
 ifeq ($(DEB_HOST_ARCH),$(filter $(DEB_HOST_ARCH),$(testrun_architectures)))
