@@ -34,14 +34,9 @@ override_dh_auto_install-arch:
 	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DRenderer/*/Qt3DRenderer/private
 	rm -fv $(CURDIR)/debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 
-override_dh_auto_install:
-	dh_auto_install
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
-	
-	# Remove libtool-like files
-	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 override_dh_auto_test-arch:
 ifeq ($(DEB_HOST_ARCH),$(filter $(DEB_HOST_ARCH),$(testrun_architectures)))
