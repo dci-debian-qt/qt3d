@@ -1,6 +1,6 @@
-qt3d-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.5.0-1) experimental; urgency=medium
 
   [ Timo Jyrinki ]
   * Initial release. (Closes: #697509)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Jan 2013 14:32:08 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 04 Sep 2015 13:32:31 +0300
