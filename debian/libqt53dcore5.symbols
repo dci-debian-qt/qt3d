@@ -75,9 +75,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D11QCameraLensC1ERNS_18QCameraLensPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QCameraLensC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QCameraLensC2ERNS_18QCameraLensPrivateEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D11QCameraLensD0Ev@Base 5.5.0
- _ZN4Qt3D11QCameraLensD1Ev@Base 5.5.0
- _ZN4Qt3D11QCameraLensD2Ev@Base 5.5.0
  _ZN4Qt3D12QBackendNode10setFactoryEPKNS_19QBackendNodeFactoryE@Base 5.5.0
  _ZN4Qt3D12QBackendNode15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
  _ZN4Qt3D12QBackendNode7setPeerEPNS_5QNodeE@Base 5.5.0
@@ -104,9 +101,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D12QNodePrivate8setSceneEPNS_15QSceneInterfaceE@Base 5.5.0
  _ZN4Qt3D12QNodePrivateC1Ev@Base 5.5.0
  _ZN4Qt3D12QNodePrivateC2Ev@Base 5.5.0
- _ZN4Qt3D12QNodePrivateD0Ev@Base 5.5.0
- _ZN4Qt3D12QNodePrivateD1Ev@Base 5.5.0
- _ZN4Qt3D12QNodePrivateD2Ev@Base 5.5.0
  _ZN4Qt3D12QNodeVisitor19setTraverseDisabledEb@Base 5.5.0
  _ZN4Qt3D12QNodeVisitorC1Ev@Base 5.5.0
  _ZN4Qt3D12QNodeVisitorC2Ev@Base 5.5.0
@@ -164,9 +158,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D14QAspectManagerD2Ev@Base 5.5.0
  _ZN4Qt3D14QCameraPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D14QCameraPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D14QCameraPrivateD0Ev@Base 5.5.0
- _ZN4Qt3D14QCameraPrivateD1Ev@Base 5.5.0
- _ZN4Qt3D14QCameraPrivateD2Ev@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter10initializeEPNS_25QAbstractAspectJobManagerE@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter10setPostmanEPNS_18QObserverInterfaceE@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
@@ -197,9 +188,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D14QChangeArbiterD2Ev@Base 5.5.0
  _ZN4Qt3D14QEntityPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D14QEntityPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D14QEntityPrivateD0Ev@Base 5.5.0
- _ZN4Qt3D14QEntityPrivateD1Ev@Base 5.5.0
- _ZN4Qt3D14QEntityPrivateD2Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect14registerAspectEPNS_7QEntityE@Base 5.5.0
@@ -217,8 +205,10 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D15QAbstractBufferD0Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractBufferD1Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractBufferD2Ev@Base 5.5.0
- _ZN4Qt3D15QFrameAllocator17allocateRawMemoryEm@Base 5.5.0
- _ZN4Qt3D15QFrameAllocator19deallocateRawMemoryEPvm@Base 5.5.0
+ (arch=armhf i386)_ZN4Qt3D15QFrameAllocator17allocateRawMemoryEj@Base 5.5.0
+ (arch=!armhf !i386)_ZN4Qt3D15QFrameAllocator17allocateRawMemoryEm@Base 5.5.0
+ (arch=armhf i386)_ZN4Qt3D15QFrameAllocator19deallocateRawMemoryEPvj@Base 5.5.0
+ (arch=!armhf !i386)_ZN4Qt3D15QFrameAllocator19deallocateRawMemoryEPvm@Base 5.5.0
  _ZN4Qt3D15QFrameAllocator4trimEv@Base 5.5.0
  _ZN4Qt3D15QFrameAllocator5clearEv@Base 5.5.0
  _ZN4Qt3D15QFrameAllocatorC1Ejjj@Base 5.5.0
@@ -236,9 +226,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D15QScaleTransformC1ERNS_22QScaleTransformPrivateEP7QObject@Base 5.5.0
  _ZN4Qt3D15QScaleTransformC2EP7QObject@Base 5.5.0
  _ZN4Qt3D15QScaleTransformC2ERNS_22QScaleTransformPrivateEP7QObject@Base 5.5.0
- _ZN4Qt3D15QScaleTransformD0Ev@Base 5.5.0
- _ZN4Qt3D15QScaleTransformD1Ev@Base 5.5.0
- _ZN4Qt3D15QScaleTransformD2Ev@Base 5.5.0
  _ZN4Qt3D15QServiceLocator17openGLInformationEv@Base 5.5.0
  _ZN4Qt3D15QServiceLocator17systemInformationEv@Base 5.5.0
  _ZN4Qt3D15QServiceLocator19_q_getServiceHelperEi@Base 5.5.0
@@ -263,9 +250,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D16QLookAtTransformC1ERNS_23QLookAtTransformPrivateEP7QObject@Base 5.5.0
  _ZN4Qt3D16QLookAtTransformC2EP7QObject@Base 5.5.0
  _ZN4Qt3D16QLookAtTransformC2ERNS_23QLookAtTransformPrivateEP7QObject@Base 5.5.0
- _ZN4Qt3D16QLookAtTransformD0Ev@Base 5.5.0
- _ZN4Qt3D16QLookAtTransformD1Ev@Base 5.5.0
- _ZN4Qt3D16QLookAtTransformD2Ev@Base 5.5.0
  _ZN4Qt3D16QMatrixTransform11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D16QMatrixTransform11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D16QMatrixTransform13matrixChangedEv@Base 5.5.0
@@ -277,9 +261,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D16QMatrixTransformC2EP7QObject@Base 5.5.0
  _ZN4Qt3D16QMatrixTransformC2ERK10QMatrix4x4P7QObject@Base 5.5.0
  _ZN4Qt3D16QMatrixTransformC2ERNS_23QMatrixTransformPrivateEP7QObject@Base 5.5.0
- _ZN4Qt3D16QMatrixTransformD0Ev@Base 5.5.0
- _ZN4Qt3D16QMatrixTransformD1Ev@Base 5.5.0
- _ZN4Qt3D16QMatrixTransformD2Ev@Base 5.5.0
  _ZN4Qt3D16QRotateTransform11axisChangedEv@Base 5.5.0
  _ZN4Qt3D16QRotateTransform11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D16QRotateTransform11qt_metacastEPKc@Base 5.5.0
@@ -292,9 +273,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D16QRotateTransformC1ERNS_23QRotateTransformPrivateEP7QObject@Base 5.5.0
  _ZN4Qt3D16QRotateTransformC2EP7QObject@Base 5.5.0
  _ZN4Qt3D16QRotateTransformC2ERNS_23QRotateTransformPrivateEP7QObject@Base 5.5.0
- _ZN4Qt3D16QRotateTransformD0Ev@Base 5.5.0
- _ZN4Qt3D16QRotateTransformD1Ev@Base 5.5.0
- _ZN4Qt3D16QRotateTransformD2Ev@Base 5.5.0
  _ZN4Qt3D17QAspectJobManager10initializeEv@Base 5.5.0
  _ZN4Qt3D17QAspectJobManager11enqueueJobsERK7QVectorI14QSharedPointerINS_10QAspectJobEEE@Base 5.5.0
  _ZN4Qt3D17QAspectJobManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
@@ -311,9 +289,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D17QComponentPrivate9addEntityEPNS_7QEntityE@Base 5.5.0
  _ZN4Qt3D17QComponentPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D17QComponentPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D17QComponentPrivateD0Ev@Base 5.5.0
- _ZN4Qt3D17QComponentPrivateD1Ev@Base 5.5.0
- _ZN4Qt3D17QComponentPrivateD2Ev@Base 5.5.0
  _ZN4Qt3D18QAbstractAttribute10byteOffsetEv@Base 5.5.0
  _ZN4Qt3D18QAbstractAttributeC1E14QSharedPointerINS_15QAbstractBufferEEijjj@Base 5.5.0
  _ZN4Qt3D18QAbstractAttributeC1ERNS_25QAbstractAttributePrivateE14QSharedPointerINS_15QAbstractBufferEEijjj@Base 5.5.0
@@ -332,9 +307,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D18QAbstractTransformC2ERNS_25QAbstractTransformPrivateEP7QObject@Base 5.5.0
  _ZN4Qt3D18QCameraLensPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D18QCameraLensPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D18QCameraLensPrivateD0Ev@Base 5.5.0
- _ZN4Qt3D18QCameraLensPrivateD1Ev@Base 5.5.0
- _ZN4Qt3D18QCameraLensPrivateD2Ev@Base 5.5.0
  _ZN4Qt3D18QObserverInterfaceD0Ev@Base 5.5.0
  _ZN4Qt3D18QObserverInterfaceD1Ev@Base 5.5.0
  _ZN4Qt3D18QObserverInterfaceD2Ev@Base 5.5.0
@@ -347,9 +319,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D19QBackendNodePrivate3getEPNS_12QBackendNodeE@Base 5.5.0
  _ZN4Qt3D19QBackendNodePrivateC1ENS_12QBackendNode4ModeE@Base 5.5.0
  _ZN4Qt3D19QBackendNodePrivateC2ENS_12QBackendNode4ModeE@Base 5.5.0
- _ZN4Qt3D19QBackendNodePrivateD0Ev@Base 5.5.0
- _ZN4Qt3D19QBackendNodePrivateD1Ev@Base 5.5.0
- _ZN4Qt3D19QBackendNodePrivateD2Ev@Base 5.5.0
  _ZN4Qt3D19QTranslateTransform11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D19QTranslateTransform11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D19QTranslateTransform14setTranslationERK9QVector3D@Base 5.5.0
@@ -362,9 +331,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D19QTranslateTransformC1ERNS_26QTranslateTransformPrivateEP7QObject@Base 5.5.0
  _ZN4Qt3D19QTranslateTransformC2EP7QObject@Base 5.5.0
  _ZN4Qt3D19QTranslateTransformC2ERNS_26QTranslateTransformPrivateEP7QObject@Base 5.5.0
- _ZN4Qt3D19QTranslateTransformD0Ev@Base 5.5.0
- _ZN4Qt3D19QTranslateTransformD1Ev@Base 5.5.0
- _ZN4Qt3D19QTranslateTransformD2Ev@Base 5.5.0
  _ZN4Qt3D20QObservableInterfaceD0Ev@Base 5.5.0
  _ZN4Qt3D20QObservableInterfaceD1Ev@Base 5.5.0
  _ZN4Qt3D20QObservableInterfaceD2Ev@Base 5.5.0
@@ -379,14 +345,13 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D20QScenePropertyChangeD0Ev@Base 5.5.0
  _ZN4Qt3D20QScenePropertyChangeD1Ev@Base 5.5.0
  _ZN4Qt3D20QScenePropertyChangeD2Ev@Base 5.5.0
- _ZN4Qt3D20QScenePropertyChangedlEPvm@Base 5.5.0
- _ZN4Qt3D20QScenePropertyChangenwEm@Base 5.5.0
+ (arch=armhf i386)_ZN4Qt3D20QScenePropertyChangedlEPvj@Base 5.5.0
+ (arch=!armhf !i386)_ZN4Qt3D20QScenePropertyChangedlEPvm@Base 5.5.0
+ (arch=armhf i386)_ZN4Qt3D20QScenePropertyChangenwEj@Base 5.5.0
+ (arch=!armhf !i386)_ZN4Qt3D20QScenePropertyChangenwEm@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivate3getEPNS_15QAbstractAspectE@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D22QAbstractAspectPrivateD0Ev@Base 5.5.0
- _ZN4Qt3D22QAbstractAspectPrivateD1Ev@Base 5.5.0
- _ZN4Qt3D22QAbstractAspectPrivateD2Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractBufferPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractBufferPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D23QAxisAlignedBoundingBox6updateERK7QVectorI9QVector3DE@Base 5.5.0
@@ -503,9 +468,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZN4Qt3D7QCameraC1ERNS_14QCameraPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D7QCameraC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D7QCameraC2ERNS_14QCameraPrivateEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D7QCameraD0Ev@Base 5.5.0
- _ZN4Qt3D7QCameraD1Ev@Base 5.5.0
- _ZN4Qt3D7QCameraD2Ev@Base 5.5.0
  _ZN4Qt3D7QEntity11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D7QEntity11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D7QEntity12addComponentEPNS_10QComponentE@Base 5.5.0
@@ -767,7 +729,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  _ZTVN4Qt3D15QAbstractAspectE@Base 5.5.0
  _ZTVN4Qt3D15QAbstractBufferE@Base 5.5.0
  _ZTVN4Qt3D15QScaleTransformE@Base 5.5.0
- _ZTVN4Qt3D15QSceneInterfaceE@Base 5.5.0
  _ZTVN4Qt3D16QLookAtTransformE@Base 5.5.0
  _ZTVN4Qt3D16QMatrixTransformE@Base 5.5.0
  _ZTVN4Qt3D16QRotateTransformE@Base 5.5.0
@@ -797,14 +758,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
  (c++)"non-virtual thunk to Qt3D::QAbstractAspect::createBackendNode(Qt3D::QNode*) const@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QBackendNodePrivate::notifyObservers(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QBackendNodePrivate::setArbiter(Qt3D::QLockableObserverInterface*)@Base" 5.5.0
- (c++)"non-virtual thunk to Qt3D::QBackendNodePrivate::~QBackendNodePrivate()@Base" 5.5.0
- (c++)"non-virtual thunk to Qt3D::QCameraLensPrivate::~QCameraLensPrivate()@Base" 5.5.0
- (c++)"non-virtual thunk to Qt3D::QCameraPrivate::~QCameraPrivate()@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QChangeArbiter::sceneChangeEvent(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QChangeArbiter::sceneChangeEventWithLock(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QChangeArbiter::~QChangeArbiter()@Base" 5.5.0
- (c++)"non-virtual thunk to Qt3D::QComponentPrivate::~QComponentPrivate()@Base" 5.5.0
- (c++)"non-virtual thunk to Qt3D::QEntityPrivate::~QEntityPrivate()@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QNodePrivate::notifyObservers(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QNodePrivate::setArbiter(Qt3D::QLockableObserverInterface*)@Base" 5.5.0
- (c++)"non-virtual thunk to Qt3D::QNodePrivate::~QNodePrivate()@Base" 5.5.0
