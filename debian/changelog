@@ -1,9 +1,19 @@
-qt3d-opensource-src (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.5.0-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release of the rewritten Qt 3D 2.0.
   * Update symbols.
+  * Merge with Debian's initial release, remaining changes:
+    - A transitional package for Ubuntu 14.04 LTS -> 16.04 LTS.
+    - Own symbols files.
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 03 Jun 2015 14:47:26 +0000
+
+qt3d-opensource-src (5.5.0-1) experimental; urgency=medium
+
+  [ Timo Jyrinki ]
+  * Initial release. (Closes: #697509)
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 04 Sep 2015 13:32:31 +0300
 
 qt3d-opensource-src (5.0~git20130731-0ubuntu12) wily; urgency=medium
 

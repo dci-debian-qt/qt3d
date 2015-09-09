@@ -2,26 +2,35 @@ Source: qt3d-opensource-src
 Section: libs
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9.0.0),
-               libqt5opengl5-dev,
-               libqt5xcbqpa5,
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Timo Jyrinki <timo@debian.org>,
+           Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Dmitry Shachnev <mitya57@debian.org>
+Build-Depends: debhelper (>= 9),
+               libqt5opengl5-dev (>= 5.5.0+dfsg~),
+               libqt5xcbqpa5 (>= 5.5.0+dfsg~),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.5.0~),
+               qtbase5-private-dev (>= 5.5.0+dfsg~),
                qtdeclarative5-private-dev (>= 5.5.0~),
                xauth,
                xvfb,
-               zlib1g-dev,
-Standards-Version: 3.9.5
+               zlib1g-dev
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.0+dfsg~),
+                     qtbase5-doc-html (>= 5.5.0+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.5.0~),
+                     qttools5-dev-tools (>= 5.5.0~)
+Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt3d.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qt3d.git;a=summary
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qt3d.git
 
 Package: libqt53dcore5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 3D module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -31,10 +40,10 @@ Description: Qt 3D module
 Package: libqt53dquick5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Qt 3D Quick module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -44,11 +53,11 @@ Description: Qt 3D Quick module
 Package: libqt53dquickrenderer5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
-Description: Qt 3D Quick module
+         ${shlibs:Depends}
+Description: Qt 3D Quick Renderer module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -57,10 +66,10 @@ Description: Qt 3D Quick module
 Package: libqt53dinput5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Qt 3D Input module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -70,10 +79,10 @@ Description: Qt 3D Input module
 Package: libqt53drenderer5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Qt 3D Renderer module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -95,29 +104,37 @@ Description: transitional dummy package for Qt 5 3D QML module
 Package: qml-module-qt3d
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-Breaks: qtdeclarative5-qt3d-plugin (<< 5.5~)
-Replaces: qtdeclarative5-qt3d-plugin (<< 5.5~)
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 3D QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt 3D QML module.
+
+Package: qml-module-qtquick-scene3d
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Quick Scene 3D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git
- snapshot of an ongoing development. The package is very likely to
- change in a binary incompatible way, and no guarantees are given.
+ This package contains the Qt Quick Scene 3D QML module.
 
 Package: qt3d5-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
+         libqt53dinput5 (= ${binary:Version}),
+         libqt53dquick5 (= ${binary:Version}),
+         libqt53dquickrenderer5 (= ${binary:Version}),
+         libqt53drenderer5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Qt 5 3D development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -129,8 +146,7 @@ Package: qt3d5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 3d examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -142,8 +158,7 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt53dcore5 (= ${binary:Version}),
-         ${misc:Depends},
+Depends: libqt53dcore5 (= ${binary:Version}), ${misc:Depends}
 Suggests: qt3d5-examples (= ${binary:Version})
 Description: Qt 3D library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -151,3 +166,23 @@ Description: Qt 3D library debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 3D
  libraries.
+
+Package: qt3d5-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 3D documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-doc-html
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 3D HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 3D libraries.

@@ -18,8 +18,10 @@ testrun_architectures := amd64 arm64 armhf i386 ppc64el
 	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
 
 override_dh_auto_configure:
-	mkdir .git
 	qmake QT_BUILD_PARTS+=tests
+
+override_dh_auto_build-indep:
+	dh_auto_build -- docs
 
 override_dh_auto_install-arch:
 	dh_auto_install
@@ -35,20 +37,21 @@ override_dh_auto_install-arch:
 	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DRenderer/*/Qt3DRenderer/private
 	rm -fv $(CURDIR)/debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 
-override_dh_auto_install:
-	dh_auto_install
+	# Remove empty directories
+	find $(CURDIR)/debian/tmp -type d -empty -delete
+
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
-	
-	# Remove libtool-like files
-	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
-override_dh_auto_test:
-ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(testrun_architectures)))
-	xvfb-run -a -s "-screen 0 640x480x24" make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib QML2_IMPORT_PATH=$(CURDIR)/qml
+override_dh_auto_install-indep:
+	$(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+
+override_dh_auto_test-arch:
+ifeq ($(DEB_HOST_ARCH),$(filter $(DEB_HOST_ARCH),$(testrun_architectures)))
+	xvfb-run -a -s "-screen 0 640x480x24" dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
+else
+	-xvfb-run -a -s "-screen 0 640x480x24" dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
 endif
 
-override_dh_builddeb:
-	dh_builddeb -- -Zxz
-
+override_dh_auto_test-indep:
