@@ -1,7 +1,5 @@
 # SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armhf i386 ppc64el
-libQt53DCore.so.5 libqt53dcore5 #MINVER# | libqt53dcore5-gles #MINVER#
-| libqt53d5core5 #MINVER#
-| libqt53d5core5-gles #MINVER#
+libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D10QAspectJob13addDependencyE12QWeakPointerIS0_E@Base 5.5.0
  _ZN4Qt3D10QAspectJobC1ERNS_17QAspectJobPrivateE@Base 5.5.0
  _ZN4Qt3D10QAspectJobC1Ev@Base 5.5.0
