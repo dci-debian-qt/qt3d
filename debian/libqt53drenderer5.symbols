@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf mips mipsel
 libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QAlphaTest11funcChangedEv@Base 5.5.0
  _ZN4Qt3D10QAlphaTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
@@ -287,7 +287,7 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D12QMeshPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D12QMeshPrivateC2Ev@Base 5.5.0
  (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_13QRenderAspectEPNS_5QNodeEEES6_EEvRT_RT0_@Base 5.5.0
- (optional=templinst)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_13QRenderAspectEPNS_5QNodeEEES6_EEvS5_RT_RT0_@Base 5.5.0
+ (optional=templinst|arch=amd64)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_13QRenderAspectEPNS_5QNodeEEES6_EEvS5_RT_RT0_@Base 5.5.0
  _ZN4Qt3D12QRenderState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QRenderState11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D12QRenderState16staticMetaObjectE@Base 5.5.0

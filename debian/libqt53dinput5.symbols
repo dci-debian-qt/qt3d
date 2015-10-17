@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf mips mipsel
 libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D11Q3DKeyEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11Q3DKeyEvent11qt_metacastEPKc@Base 5.5.0
@@ -21,7 +21,7 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D12QInputAspectC1EP7QObject@Base 5.5.0
  _ZN4Qt3D12QInputAspectC2EP7QObject@Base 5.5.0
  (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QInputAspectEPNS_5QNodeEEES6_EEvRT_RT0_@Base 5.5.0
- (optional=templinst)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_12QInputAspectEPNS_5QNodeEEES6_EEvS5_RT_RT0_@Base 5.5.0
+ (optional=templinst|arch=amd64)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_12QInputAspectEPNS_5QNodeEEES6_EEvS5_RT_RT0_@Base 5.5.0
  (optional=templinst)_ZN4Qt3D14QAspectFactory14functionHelperINS_12QInputAspectEEEPNS_15QAbstractAspectEP7QObject@Base 5.5.0
  _ZN4Qt3D14QKeyboardInput10tabPressedEPNS_11Q3DKeyEventE@Base 5.5.0
  _ZN4Qt3D14QKeyboardInput10yesPressedEPNS_11Q3DKeyEventE@Base 5.5.0

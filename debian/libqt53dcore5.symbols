@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D10QAspectJob13addDependencyE12QWeakPointerIS0_E@Base 5.5.0
  _ZN4Qt3D10QAspectJobC1ERNS_17QAspectJobPrivateE@Base 5.5.0
@@ -203,8 +203,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D15QAbstractBufferD0Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractBufferD1Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractBufferD2Ev@Base 5.5.0
- _ZN4Qt3D15QFrameAllocator17allocateRawMemoryEm@Base 5.5.0
- _ZN4Qt3D15QFrameAllocator19deallocateRawMemoryEPvm@Base 5.5.0
+ (subst)_ZN4Qt3D15QFrameAllocator17allocateRawMemoryE{size_t}@Base 5.5.0
+ (subst)_ZN4Qt3D15QFrameAllocator19deallocateRawMemoryEPv{size_t}@Base 5.5.0
  _ZN4Qt3D15QFrameAllocator4trimEv@Base 5.5.0
  _ZN4Qt3D15QFrameAllocator5clearEv@Base 5.5.0
  _ZN4Qt3D15QFrameAllocatorC1Ejjj@Base 5.5.0
@@ -341,8 +341,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D20QScenePropertyChangeD0Ev@Base 5.5.0
  _ZN4Qt3D20QScenePropertyChangeD1Ev@Base 5.5.0
  _ZN4Qt3D20QScenePropertyChangeD2Ev@Base 5.5.0
- _ZN4Qt3D20QScenePropertyChangedlEPvm@Base 5.5.0
- _ZN4Qt3D20QScenePropertyChangenwEm@Base 5.5.0
+ (subst)_ZN4Qt3D20QScenePropertyChangedlEPv{size_t}@Base 5.5.0
+ (subst)_ZN4Qt3D20QScenePropertyChangenwE{size_t}@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivate3getEPNS_15QAbstractAspectE@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivateC2Ev@Base 5.5.0
