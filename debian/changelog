@@ -4,6 +4,8 @@ qt3d-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt dependencies.
   * Update symbols files with buildds' logs.
+  * New components: q3dlogic and q3dcollision.
+    - Install documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Oct 2015 20:55:33 -0300
 
