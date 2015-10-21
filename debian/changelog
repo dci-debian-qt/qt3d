@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.5.1-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
@@ -13,7 +13,7 @@ qt3d-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add symbols files for the new library packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Oct 2015 20:55:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 Oct 2015 14:10:29 -0300
 
 qt3d-opensource-src (5.5.0-1) experimental; urgency=medium
 
