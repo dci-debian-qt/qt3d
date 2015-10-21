@@ -7,6 +7,8 @@ qt3d-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   * New components: q3dlogic and q3dcollision.
     - Install documentation.
     - Install libraries.
+  * Create qt3d-gltfsceneparser-plugin for the GL Transmission Format
+    scene parser plugin.
 
   [ Dmitry Shachnev ]
   * Add symbols files for the new library packages.

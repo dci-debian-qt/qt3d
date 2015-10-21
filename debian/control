@@ -114,6 +114,18 @@ Description: Qt 3D collision module
  .
  This package contains Qt 3D collision module.
 
+Package: qt3d-gltfsceneparser-plugin
+Architecture: any
+Multi-Arch: same
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D GL Transmission Format scene parser plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's GLTF scene parser plugin.
+
 Package: qml-module-qt3d
 Architecture: any
 Multi-Arch: same
