@@ -3,7 +3,7 @@ qt3d-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt dependencies.
-  * Update symbols files with buildds' logs.
+  * Update symbols files with buildds' and current logs.
   * New components: q3dlogic and q3dcollision.
     - Install documentation.
     - Install libraries.

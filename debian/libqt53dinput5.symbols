@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf mips mipsel
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D11Q3DKeyEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11Q3DKeyEvent11qt_metacastEPKc@Base 5.5.0
@@ -7,6 +7,33 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D11Q3DKeyEventC1ERK9QKeyEvent@Base 5.5.0
  _ZN4Qt3D11Q3DKeyEventC2EN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.5.0
  _ZN4Qt3D11Q3DKeyEventC2ERK9QKeyEvent@Base 5.5.0
+ _ZN4Qt3D11QMouseInput10mouseEventEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D11QMouseInput11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D11QMouseInput12pressAndHoldEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput13doubleClickedEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput13setControllerEPNS_16QMouseControllerE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput15positionChangedEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput16setContainsMouseEb@Base 5.5.1
+ _ZN4Qt3D11QMouseInput16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput17controllerChangedEv@Base 5.5.1
+ _ZN4Qt3D11QMouseInput20containsMouseChangedEv@Base 5.5.1
+ _ZN4Qt3D11QMouseInput4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput5wheelEPNS_13Q3DWheelEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput6exitedEv@Base 5.5.1
+ _ZN4Qt3D11QMouseInput7clickedEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput7enteredEv@Base 5.5.1
+ _ZN4Qt3D11QMouseInput7pressedEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInput8releasedEPNS_13Q3DMouseEventE@Base 5.5.1
+ _ZN4Qt3D11QMouseInputC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D11QMouseInputC1ERNS_18QMouseInputPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D11QMouseInputC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D11QMouseInputC2ERNS_18QMouseInputPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D11QMouseInputD0Ev@Base 5.5.1
+ _ZN4Qt3D11QMouseInputD1Ev@Base 5.5.1
+ _ZN4Qt3D11QMouseInputD2Ev@Base 5.5.1
+ _ZN4Qt3D12QInputAspect10onShutdownEv@Base 5.5.1
  _ZN4Qt3D12QInputAspect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QInputAspect11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D12QInputAspect12onInitializeERK4QMapI7QString8QVariantE@Base 5.5.0
@@ -16,12 +43,28 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D12QInputAspect16sceneNodeRemovedER14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
  _ZN4Qt3D12QInputAspect16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D12QInputAspect9onCleanupEv@Base 5.5.0
+ _ZN4Qt3D12QInputAspect9onStartupEv@Base 5.5.1
  _ZN4Qt3D12QInputAspect9setCameraEPNS_7QCameraE@Base 5.5.0
  _ZN4Qt3D12QInputAspect9visitNodeEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QInputAspectC1EP7QObject@Base 5.5.0
  _ZN4Qt3D12QInputAspectC2EP7QObject@Base 5.5.0
- (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QInputAspectEPNS_5QNodeEEES6_EEvRT_RT0_@Base 5.5.0
- (optional=templinst|arch=amd64)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_12QInputAspectEPNS_5QNodeEEES6_EEvS5_RT_RT0_@Base 5.5.0
+ (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QInputAspectEPNS_5QNodeEEEEEvRT_@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEvent11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEvent16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEventC1ERK11QMouseEvent@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEventC2ERK11QMouseEvent@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEventD0Ev@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEventD1Ev@Base 5.5.1
+ _ZN4Qt3D13Q3DMouseEventD2Ev@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEvent11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEvent16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEventC1ERK11QWheelEvent@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEventC2ERK11QWheelEvent@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEventD0Ev@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEventD1Ev@Base 5.5.1
+ _ZN4Qt3D13Q3DWheelEventD2Ev@Base 5.5.1
  (optional=templinst)_ZN4Qt3D14QAspectFactory14functionHelperINS_12QInputAspectEEEPNS_15QAbstractAspectEP7QObject@Base 5.5.0
  _ZN4Qt3D14QKeyboardInput10tabPressedEPNS_11Q3DKeyEventE@Base 5.5.0
  _ZN4Qt3D14QKeyboardInput10yesPressedEPNS_11Q3DKeyEventE@Base 5.5.0
@@ -77,6 +120,20 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D14QKeyboardInputC1ERNS_21QKeyboardInputPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QKeyboardInputC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QKeyboardInputC2ERNS_21QKeyboardInputPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D14QKeyboardInputD0Ev@Base 5.5.1
+ _ZN4Qt3D14QKeyboardInputD1Ev@Base 5.5.1
+ _ZN4Qt3D14QKeyboardInputD2Ev@Base 5.5.1
+ _ZN4Qt3D16QMouseController11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D16QMouseController11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D16QMouseController16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.1
+ _ZN4Qt3D16QMouseController16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerC1ERNS_23QMouseControllerPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerC2ERNS_23QMouseControllerPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerD0Ev@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerD1Ev@Base 5.5.1
+ _ZN4Qt3D16QMouseControllerD2Ev@Base 5.5.1
  _ZN4Qt3D19QKeyboardController11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D19QKeyboardController11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D19QKeyboardController14setActiveInputEPNS_14QKeyboardInputE@Base 5.5.0
@@ -87,34 +144,65 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D19QKeyboardControllerC1ERNS_26QKeyboardControllerPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D19QKeyboardControllerC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D19QKeyboardControllerC2ERNS_26QKeyboardControllerPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D19QKeyboardControllerD0Ev@Base 5.5.1
+ _ZN4Qt3D19QKeyboardControllerD1Ev@Base 5.5.1
+ _ZN4Qt3D19QKeyboardControllerD2Ev@Base 5.5.1
  _ZNK4Qt3D11Q3DKeyEvent10metaObjectEv@Base 5.5.0
+ _ZNK4Qt3D11QMouseInput10controllerEv@Base 5.5.1
+ _ZNK4Qt3D11QMouseInput10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D11QMouseInput13containsMouseEv@Base 5.5.1
  _ZNK4Qt3D12QInputAspect10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D12QInputAspect6cameraEv@Base 5.5.0
+ _ZNK4Qt3D13Q3DMouseEvent10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D13Q3DMouseEvent6buttonEv@Base 5.5.1
+ _ZNK4Qt3D13Q3DMouseEvent7buttonsEv@Base 5.5.1
+ _ZNK4Qt3D13Q3DMouseEvent8modifierEv@Base 5.5.1
+ _ZNK4Qt3D13Q3DWheelEvent10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D13Q3DWheelEvent7buttonsEv@Base 5.5.1
+ _ZNK4Qt3D13Q3DWheelEvent8modifierEv@Base 5.5.1
  _ZNK4Qt3D14QKeyboardInput10controllerEv@Base 5.5.0
  _ZNK4Qt3D14QKeyboardInput10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D14QKeyboardInput5focusEv@Base 5.5.0
+ _ZNK4Qt3D16QMouseController10metaObjectEv@Base 5.5.1
  _ZNK4Qt3D19QKeyboardController10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D19QKeyboardController11activeInputEv@Base 5.5.0
+ _ZNK4Qt3D6Sphere6centerEv@Base 5.5.1
+ _ZNK4Qt3D6Sphere6radiusEv@Base 5.5.1
  _ZTIN4Qt3D11Q3DKeyEventE@Base 5.5.0
+ _ZTIN4Qt3D11QMouseInputE@Base 5.5.1
  _ZTIN4Qt3D12QInputAspectE@Base 5.5.0
+ _ZTIN4Qt3D13Q3DMouseEventE@Base 5.5.1
+ _ZTIN4Qt3D13Q3DWheelEventE@Base 5.5.1
  _ZTIN4Qt3D14QKeyboardInputE@Base 5.5.0
+ _ZTIN4Qt3D16QMouseControllerE@Base 5.5.1
  _ZTIN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTIN4Qt3D19QBackendNodeFunctorE@Base 5.5.0
  _ZTIN4Qt3D19QKeyboardControllerE@Base 5.5.0
  _ZTIN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTIN4Qt3D6SphereE@Base 5.5.1
  _ZTSN4Qt3D11Q3DKeyEventE@Base 5.5.0
+ _ZTSN4Qt3D11QMouseInputE@Base 5.5.1
  _ZTSN4Qt3D12QInputAspectE@Base 5.5.0
+ _ZTSN4Qt3D13Q3DMouseEventE@Base 5.5.1
+ _ZTSN4Qt3D13Q3DWheelEventE@Base 5.5.1
  _ZTSN4Qt3D14QKeyboardInputE@Base 5.5.0
+ _ZTSN4Qt3D16QMouseControllerE@Base 5.5.1
  _ZTSN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTSN4Qt3D19QBackendNodeFunctorE@Base 5.5.0
  _ZTSN4Qt3D19QKeyboardControllerE@Base 5.5.0
  _ZTSN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTSN4Qt3D6SphereE@Base 5.5.1
  _ZTVN4Qt3D11Q3DKeyEventE@Base 5.5.0
+ _ZTVN4Qt3D11QMouseInputE@Base 5.5.1
  _ZTVN4Qt3D12QInputAspectE@Base 5.5.0
+ _ZTVN4Qt3D13Q3DMouseEventE@Base 5.5.1
+ _ZTVN4Qt3D13Q3DWheelEventE@Base 5.5.1
  _ZTVN4Qt3D14QKeyboardInputE@Base 5.5.0
+ _ZTVN4Qt3D16QMouseControllerE@Base 5.5.1
  _ZTVN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTVN4Qt3D19QKeyboardControllerE@Base 5.5.0
  _ZTVN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTVN4Qt3D6SphereE@Base 5.5.1
  (c++)"non-virtual thunk to Qt3D::QInputAspect::jobsToExecute(long long)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QInputAspect::sceneNodeAdded(QSharedPointer<Qt3D::QSceneChange>&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QInputAspect::sceneNodeRemoved(QSharedPointer<Qt3D::QSceneChange>&)@Base" 5.5.0

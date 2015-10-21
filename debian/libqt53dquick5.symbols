@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN4Qt3D5Quick11Quick3DNode10appendDataEP16QQmlListPropertyI7QObjectEPS3_@Base 5.5.0
  _ZN4Qt3D5Quick11Quick3DNode10childCountEP16QQmlListPropertyINS_5QNodeEE@Base 5.5.0
@@ -40,7 +40,6 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN4Qt3D5Quick16Quick3DTransform13transformListEv@Base 5.5.0
  _ZN4Qt3D5Quick16Quick3DTransform14transformCountEP16QQmlListPropertyINS_18QAbstractTransformEE@Base 5.5.0
  _ZN4Qt3D5Quick16Quick3DTransform16staticMetaObjectE@Base 5.5.0
- _ZN4Qt3D5Quick16Quick3DTransform17transformsChangedEv@Base 5.5.0
  _ZN4Qt3D5Quick16Quick3DTransform18qmlAppendTransformEP16QQmlListPropertyINS_18QAbstractTransformEEPS3_@Base 5.5.0
  _ZN4Qt3D5Quick16Quick3DTransform18qmlClearTransformsEP16QQmlListPropertyINS_18QAbstractTransformEE@Base 5.5.0
  _ZN4Qt3D5Quick16Quick3DTransformC1EP7QObject@Base 5.5.0
@@ -55,6 +54,9 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN4Qt3D5Quick19Quick3DEntityLoader9setSourceERK4QUrl@Base 5.5.0
  _ZN4Qt3D5Quick19Quick3DEntityLoaderC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D5Quick19Quick3DEntityLoaderC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D5Quick19Quick3DEntityLoaderD0Ev@Base 5.5.1
+ _ZN4Qt3D5Quick19Quick3DEntityLoaderD1Ev@Base 5.5.1
+ _ZN4Qt3D5Quick19Quick3DEntityLoaderD2Ev@Base 5.5.1
  _ZN4Qt3D5Quick20Quick3DConfiguration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D5Quick20Quick3DConfiguration11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D5Quick20Quick3DConfiguration16staticMetaObjectE@Base 5.5.0

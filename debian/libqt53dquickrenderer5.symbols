@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZN4Qt3D6Render5Quick12Quick3DScene11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D6Render5Quick12Quick3DScene11qt_metacastEPKc@Base 5.5.0
@@ -20,6 +20,16 @@ libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZN4Qt3D6Render5Quick13Quick3DEffect18clearTechniqueListEP16QQmlListPropertyINS_10QTechniqueEE@Base 5.5.0
  _ZN4Qt3D6Render5Quick13Quick3DEffectC1EP7QObject@Base 5.5.0
  _ZN4Qt3D6Render5Quick13Quick3DEffectC2EP7QObject@Base 5.5.0
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry11attributeAtEP16QQmlListPropertyINS_18QAbstractAttributeEEi@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry13attributeListEv@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry15appendAttributeEP16QQmlListPropertyINS_18QAbstractAttributeEEPS4_@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry15attributesCountEP16QQmlListPropertyINS_18QAbstractAttributeEE@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry15clearAttributesEP16QQmlListPropertyINS_18QAbstractAttributeEE@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometry16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometryC1EP7QObject@Base 5.5.1
+ _ZN4Qt3D6Render5Quick15Quick3DGeometryC2EP7QObject@Base 5.5.1
  _ZN4Qt3D6Render5Quick15Quick3DMaterial11parameterAtEP16QQmlListPropertyINS_10QParameterEEi@Base 5.5.0
  _ZN4Qt3D6Render5Quick15Quick3DMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D6Render5Quick15Quick3DMaterial11qt_metacastEPKc@Base 5.5.0
@@ -140,6 +150,9 @@ libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZN4Qt3D6Render5Quick22Quick3DShaderDataArray7valueAtEP16QQmlListPropertyINS_11QShaderDataEEi@Base 5.5.0
  _ZN4Qt3D6Render5Quick22Quick3DShaderDataArrayC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D6Render5Quick22Quick3DShaderDataArrayC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D6Render5Quick22Quick3DShaderDataArrayD0Ev@Base 5.5.1
+ _ZN4Qt3D6Render5Quick22Quick3DShaderDataArrayD1Ev@Base 5.5.1
+ _ZN4Qt3D6Render5Quick22Quick3DShaderDataArrayD2Ev@Base 5.5.1
  _ZN4Qt3D6Render5Quick22Quick3DTechniqueFilter11parameterAtEP16QQmlListPropertyINS_10QParameterEEi@Base 5.5.0
  _ZN4Qt3D6Render5Quick22Quick3DTechniqueFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D6Render5Quick22Quick3DTechniqueFilter11qt_metacastEPKc@Base 5.5.0
@@ -192,6 +205,7 @@ libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZN4Qt3D6Render5Quick27Quick3DRenderTargetSelectorD2Ev@Base 5.5.0
  _ZNK4Qt3D6Render5Quick12Quick3DScene10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D6Render5Quick13Quick3DEffect10metaObjectEv@Base 5.5.0
+ _ZNK4Qt3D6Render5Quick15Quick3DGeometry10metaObjectEv@Base 5.5.1
  _ZNK4Qt3D6Render5Quick15Quick3DMaterial10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D6Render5Quick15Quick3DStateSet10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D6Render5Quick15Quick3DViewport10metaObjectEv@Base 5.5.0
@@ -212,6 +226,7 @@ libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZTIN4Qt3D23PropertyReaderInterfaceE@Base 5.5.0
  _ZTIN4Qt3D6Render5Quick12Quick3DSceneE@Base 5.5.0
  _ZTIN4Qt3D6Render5Quick13Quick3DEffectE@Base 5.5.0
+ _ZTIN4Qt3D6Render5Quick15Quick3DGeometryE@Base 5.5.1
  _ZTIN4Qt3D6Render5Quick15Quick3DMaterialE@Base 5.5.0
  _ZTIN4Qt3D6Render5Quick15Quick3DStateSetE@Base 5.5.0
  _ZTIN4Qt3D6Render5Quick15Quick3DViewportE@Base 5.5.0
@@ -231,6 +246,7 @@ libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZTSN4Qt3D23PropertyReaderInterfaceE@Base 5.5.0
  _ZTSN4Qt3D6Render5Quick12Quick3DSceneE@Base 5.5.0
  _ZTSN4Qt3D6Render5Quick13Quick3DEffectE@Base 5.5.0
+ _ZTSN4Qt3D6Render5Quick15Quick3DGeometryE@Base 5.5.1
  _ZTSN4Qt3D6Render5Quick15Quick3DMaterialE@Base 5.5.0
  _ZTSN4Qt3D6Render5Quick15Quick3DStateSetE@Base 5.5.0
  _ZTSN4Qt3D6Render5Quick15Quick3DViewportE@Base 5.5.0
@@ -249,6 +265,7 @@ libQt53DQuickRenderer.so.5 libqt53dquickrenderer5 #MINVER#
  _ZTV16QQmlCustomParser@Base 5.5.0
  _ZTVN4Qt3D6Render5Quick12Quick3DSceneE@Base 5.5.0
  _ZTVN4Qt3D6Render5Quick13Quick3DEffectE@Base 5.5.0
+ _ZTVN4Qt3D6Render5Quick15Quick3DGeometryE@Base 5.5.1
  _ZTVN4Qt3D6Render5Quick15Quick3DMaterialE@Base 5.5.0
  _ZTVN4Qt3D6Render5Quick15Quick3DStateSetE@Base 5.5.0
  _ZTVN4Qt3D6Render5Quick15Quick3DViewportE@Base 5.5.0

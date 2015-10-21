@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D10QAspectJob13addDependencyE12QWeakPointerIS0_E@Base 5.5.0
  _ZN4Qt3D10QAspectJobC1ERNS_17QAspectJobPrivateE@Base 5.5.0
@@ -73,6 +73,9 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D11QCameraLensC1ERNS_18QCameraLensPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QCameraLensC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QCameraLensC2ERNS_18QCameraLensPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QCameraLensD0Ev@Base 5.5.1
+ _ZN4Qt3D11QCameraLensD1Ev@Base 5.5.1
+ _ZN4Qt3D11QCameraLensD2Ev@Base 5.5.1
  _ZN4Qt3D12QBackendNode10setFactoryEPKNS_19QBackendNodeFactoryE@Base 5.5.0
  _ZN4Qt3D12QBackendNode15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
  _ZN4Qt3D12QBackendNode7setPeerEPNS_5QNodeE@Base 5.5.0
@@ -85,21 +88,25 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D12QBackendNodeD2Ev@Base 5.5.0
  _ZN4Qt3D12QNodePrivate10insertTreeEPNS_5QNodeEi@Base 5.5.0
  _ZN4Qt3D12QNodePrivate10setArbiterEPNS_26QLockableObserverInterfaceE@Base 5.5.0
- _ZN4Qt3D12QNodePrivate11removeChildEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QNodePrivate11_q_addChildEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QNodePrivate14_q_removeChildEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D12QNodePrivate14nodePtrDeleterEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QNodePrivate14setSceneHelperEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D12QNodePrivate15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
  _ZN4Qt3D12QNodePrivate15propertyChangedEi@Base 5.5.0
- _ZN4Qt3D12QNodePrivate17removeAllChildrenEv@Base 5.5.0
+ _ZN4Qt3D12QNodePrivate16unsetSceneHelperEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D12QNodePrivate19m_clonesLookupTableE@Base 5.5.0
  _ZN4Qt3D12QNodePrivate20notifyPropertyChangeEPKcRK8QVariant@Base 5.5.0
+ _ZN4Qt3D12QNodePrivate25addEntityComponentToSceneEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D12QNodePrivate26registerNotifiedPropertiesEv@Base 5.5.0
  _ZN4Qt3D12QNodePrivate28unregisterNotifiedPropertiesEv@Base 5.5.0
  _ZN4Qt3D12QNodePrivate3getEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D12QNodePrivate8addChildEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D12QNodePrivate8setSceneEPNS_15QSceneInterfaceE@Base 5.5.0
+ _ZN4Qt3D12QNodePrivate8setSceneEPNS_6QSceneE@Base 5.5.1
  _ZN4Qt3D12QNodePrivateC1Ev@Base 5.5.0
  _ZN4Qt3D12QNodePrivateC2Ev@Base 5.5.0
- _ZN4Qt3D12QNodeVisitor19setTraverseDisabledEb@Base 5.5.0
+ (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QNodePrivateEPNS_5QNodeEEEEEvRT_@Base 5.5.1
+ (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEPNS_5QNodeEEENS2_IS3_PNS_7QEntityEEEEEvRT_RT0_@Base 5.5.1
+ (optional=templinst)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEPNS_5QNodeEEENS2_IS3_PNS_7QEntityEEEEEvS5_RT_RT0_@Base 5.5.1
  _ZN4Qt3D12QNodeVisitorC1Ev@Base 5.5.0
  _ZN4Qt3D12QNodeVisitorC2Ev@Base 5.5.0
  _ZN4Qt3D12QNodeVisitorD0Ev@Base 5.5.0
@@ -117,6 +124,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D13QAspectEngine10initializeEv@Base 5.5.0
  _ZN4Qt3D13QAspectEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D13QAspectEngine11qt_metacastEPKc@Base 5.5.0
+ _ZN4Qt3D13QAspectEngine12initNodeTreeEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D13QAspectEngine13setRootEntityEPNS_7QEntityE@Base 5.5.0
  _ZN4Qt3D13QAspectEngine14registerAspectEPNS_15QAbstractAspectE@Base 5.5.0
  _ZN4Qt3D13QAspectEngine14registerAspectERK7QString@Base 5.5.0
@@ -157,7 +165,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D14QCameraPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D14QCameraPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter10initializeEPNS_25QAbstractAspectJobManagerE@Base 5.5.0
- _ZN4Qt3D14QChangeArbiter10setPostmanEPNS_18QObserverInterfaceE@Base 5.5.0
+ _ZN4Qt3D14QChangeArbiter10setPostmanEPNS_16QAbstractPostmanE@Base 5.5.1
  _ZN4Qt3D14QChangeArbiter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter11syncChangesEv@Base 5.5.0
@@ -174,11 +182,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D14QChangeArbiter24appendLockingChangeQueueEPSt6vectorI14QSharedPointerINS_12QSceneChangeEESaIS4_EE@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter24removeLockingChangeQueueEPSt6vectorI14QSharedPointerINS_12QSceneChangeEESaIS4_EE@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter24sceneChangeEventWithLockERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
+ _ZN4Qt3D14QChangeArbiter24sceneChangeEventWithLockERKSt6vectorI14QSharedPointerINS_12QSceneChangeEESaIS4_EE@Base 5.5.1
  _ZN4Qt3D14QChangeArbiter28createThreadLocalChangeQueueEPv@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter29destroyThreadLocalChangeQueueEPv@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter37createUnmanagedThreadLocalChangeQueueEPv@Base 5.5.0
  _ZN4Qt3D14QChangeArbiter38destroyUnmanagedThreadLocalChangeQueueEPv@Base 5.5.0
- _ZN4Qt3D14QChangeArbiter8setSceneEPNS_15QSceneInterfaceE@Base 5.5.0
+ _ZN4Qt3D14QChangeArbiter8setSceneEPNS_6QSceneE@Base 5.5.1
  _ZN4Qt3D14QChangeArbiterC1EP7QObject@Base 5.5.0
  _ZN4Qt3D14QChangeArbiterC2EP7QObject@Base 5.5.0
  _ZN4Qt3D14QChangeArbiterD0Ev@Base 5.5.0
@@ -186,23 +195,40 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D14QChangeArbiterD2Ev@Base 5.5.0
  _ZN4Qt3D14QEntityPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D14QEntityPrivateC2Ev@Base 5.5.0
+ _ZN4Qt3D15QAbstractAspect10onShutdownEv@Base 5.5.1
  _ZN4Qt3D15QAbstractAspect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect14registerAspectEPNS_7QEntityE@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D15QAbstractAspect19registerBackendTypeERK11QMetaObjectRK14QSharedPointerINS_19QBackendNodeFunctorEE@Base 5.5.0
+ _ZN4Qt3D15QAbstractAspect9onStartupEv@Base 5.5.1
  _ZN4Qt3D15QAbstractAspectC1ENS0_10AspectTypeEP7QObject@Base 5.5.0
  _ZN4Qt3D15QAbstractAspectC1ERNS_22QAbstractAspectPrivateEP7QObject@Base 5.5.0
  _ZN4Qt3D15QAbstractAspectC2ENS0_10AspectTypeEP7QObject@Base 5.5.0
  _ZN4Qt3D15QAbstractAspectC2ERNS_22QAbstractAspectPrivateEP7QObject@Base 5.5.0
+ _ZN4Qt3D15QAbstractBuffer11dataChangedEv@Base 5.5.1
+ _ZN4Qt3D15QAbstractBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D15QAbstractBuffer11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D15QAbstractBuffer16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D15QAbstractBuffer4copyEPKNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D15QAbstractBuffer7setDataERK10QByteArray@Base 5.5.0
- _ZN4Qt3D15QAbstractBufferC1ERNS_22QAbstractBufferPrivateE@Base 5.5.0
- _ZN4Qt3D15QAbstractBufferC1Ev@Base 5.5.0
- _ZN4Qt3D15QAbstractBufferC2ERNS_22QAbstractBufferPrivateE@Base 5.5.0
- _ZN4Qt3D15QAbstractBufferC2Ev@Base 5.5.0
+ _ZN4Qt3D15QAbstractBufferC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D15QAbstractBufferC1ERNS_22QAbstractBufferPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D15QAbstractBufferC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D15QAbstractBufferC2ERNS_22QAbstractBufferPrivateEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D15QAbstractBufferD0Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractBufferD1Ev@Base 5.5.0
  _ZN4Qt3D15QAbstractBufferD2Ev@Base 5.5.0
+ _ZN4Qt3D15QBoundingSphereC1Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingSphereC2Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingSphereD0Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingSphereD1Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingSphereD2Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingVolumeC1Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingVolumeC2Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingVolumeD0Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingVolumeD1Ev@Base 5.5.1
+ _ZN4Qt3D15QBoundingVolumeD2Ev@Base 5.5.1
  (subst)_ZN4Qt3D15QFrameAllocator17allocateRawMemoryE{size_t}@Base 5.5.0
  (subst)_ZN4Qt3D15QFrameAllocator19deallocateRawMemoryEPv{size_t}@Base 5.5.0
  _ZN4Qt3D15QFrameAllocator4trimEv@Base 5.5.0
@@ -225,12 +251,16 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D15QServiceLocator17openGLInformationEv@Base 5.5.0
  _ZN4Qt3D15QServiceLocator17systemInformationEv@Base 5.5.0
  _ZN4Qt3D15QServiceLocator19_q_getServiceHelperEi@Base 5.5.0
+ _ZN4Qt3D15QServiceLocator19frameAdvanceServiceEv@Base 5.5.1
  _ZN4Qt3D15QServiceLocator23registerServiceProviderEiPNS_24QAbstractServiceProviderE@Base 5.5.0
  _ZN4Qt3D15QServiceLocator25unregisterServiceProviderEi@Base 5.5.0
  _ZN4Qt3D15QServiceLocatorC1Ev@Base 5.5.0
  _ZN4Qt3D15QServiceLocatorC2Ev@Base 5.5.0
  _ZN4Qt3D15QServiceLocatorD1Ev@Base 5.5.0
  _ZN4Qt3D15QServiceLocatorD2Ev@Base 5.5.0
+ _ZN4Qt3D16QAbstractFunctorD0Ev@Base 5.5.1
+ _ZN4Qt3D16QAbstractFunctorD1Ev@Base 5.5.1
+ _ZN4Qt3D16QAbstractFunctorD2Ev@Base 5.5.1
  _ZN4Qt3D16QLookAtTransform11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D16QLookAtTransform11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D16QLookAtTransform11setPositionERK9QVector3D@Base 5.5.0
@@ -285,11 +315,36 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D17QComponentPrivate9addEntityEPNS_7QEntityE@Base 5.5.0
  _ZN4Qt3D17QComponentPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D17QComponentPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D18QAbstractAttribute10byteOffsetEv@Base 5.5.0
- _ZN4Qt3D18QAbstractAttributeC1E14QSharedPointerINS_15QAbstractBufferEEijjj@Base 5.5.0
- _ZN4Qt3D18QAbstractAttributeC1ERNS_25QAbstractAttributePrivateE14QSharedPointerINS_15QAbstractBufferEEijjj@Base 5.5.0
- _ZN4Qt3D18QAbstractAttributeC2E14QSharedPointerINS_15QAbstractBufferEEijjj@Base 5.5.0
- _ZN4Qt3D18QAbstractAttributeC2ERNS_25QAbstractAttributePrivateE14QSharedPointerINS_15QAbstractBufferEEijjj@Base 5.5.0
+ _ZN4Qt3D18QAbstractAttribute10setDivisorEj@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute11nameChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute11setDataSizeEj@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute11setDataTypeENS0_8DataTypeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute12countChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute13bufferChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute13setByteOffsetEj@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute13setByteStrideEj@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute14divisorChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute15dataSizeChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute15dataTypeChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute16setAttributeTypeENS0_13AttributeTypeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute17byteOffsetChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute17byteStrideChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute20attributeTypeChangedEv@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute7setNameERK7QString@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute8setCountEj@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttribute9setBufferEPNS_15QAbstractBufferE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC1EPNS_15QAbstractBufferENS0_8DataTypeEjjjjPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC1ERNS_25QAbstractAttributePrivateEPNS_15QAbstractBufferERK7QStringNS0_8DataTypeEjjjjPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC1ERNS_25QAbstractAttributePrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC2EPNS_15QAbstractBufferENS0_8DataTypeEjjjjPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC2ERNS_25QAbstractAttributePrivateEPNS_15QAbstractBufferERK7QStringNS0_8DataTypeEjjjjPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D18QAbstractAttributeC2ERNS_25QAbstractAttributePrivateEPNS_5QNodeE@Base 5.5.1
  _ZN4Qt3D18QAbstractAttributeD0Ev@Base 5.5.0
  _ZN4Qt3D18QAbstractAttributeD1Ev@Base 5.5.0
  _ZN4Qt3D18QAbstractAttributeD2Ev@Base 5.5.0
@@ -343,12 +398,17 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D20QScenePropertyChangeD2Ev@Base 5.5.0
  (subst)_ZN4Qt3D20QScenePropertyChangedlEPv{size_t}@Base 5.5.0
  (subst)_ZN4Qt3D20QScenePropertyChangenwE{size_t}@Base 5.5.0
+ _ZN4Qt3D21QCollisionQueryResultC1Ev@Base 5.5.1
+ _ZN4Qt3D21QCollisionQueryResultC2Ev@Base 5.5.1
  _ZN4Qt3D22QAbstractAspectPrivate3getEPNS_15QAbstractAspectE@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractAspectPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractBufferPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D22QAbstractBufferPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D23QAxisAlignedBoundingBox6updateERK7QVectorI9QVector3DE@Base 5.5.0
+ _ZN4Qt3D23QBoundingVolumeProviderD0Ev@Base 5.5.1
+ _ZN4Qt3D23QBoundingVolumeProviderD1Ev@Base 5.5.1
+ _ZN4Qt3D23QBoundingVolumeProviderD2Ev@Base 5.5.1
  _ZN4Qt3D23QSceneObserverInterfaceD0Ev@Base 5.5.0
  _ZN4Qt3D23QSceneObserverInterfaceD1Ev@Base 5.5.0
  _ZN4Qt3D23QSceneObserverInterfaceD2Ev@Base 5.5.0
@@ -382,15 +442,27 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D27QBackendScenePropertyChangeD0Ev@Base 5.5.0
  _ZN4Qt3D27QBackendScenePropertyChangeD1Ev@Base 5.5.0
  _ZN4Qt3D27QBackendScenePropertyChangeD2Ev@Base 5.5.0
+ _ZN4Qt3D28QAbstractFrameAdvanceServiceC1ERK7QString@Base 5.5.1
+ _ZN4Qt3D28QAbstractFrameAdvanceServiceC1ERNS_35QAbstractFrameAdvanceServicePrivateE@Base 5.5.1
+ _ZN4Qt3D28QAbstractFrameAdvanceServiceC2ERK7QString@Base 5.5.1
+ _ZN4Qt3D28QAbstractFrameAdvanceServiceC2ERNS_35QAbstractFrameAdvanceServicePrivateE@Base 5.5.1
+ _ZN4Qt3D30QAbstractCollisionQueryService12addEntityHitERNS_21QCollisionQueryResultERKNS_7QNodeIdE@Base 5.5.1
+ _ZN4Qt3D30QAbstractCollisionQueryService15setResultHandleERNS_21QCollisionQueryResultERKi@Base 5.5.1
+ _ZN4Qt3D30QAbstractCollisionQueryServiceC1ERK7QString@Base 5.5.1
+ _ZN4Qt3D30QAbstractCollisionQueryServiceC1ERNS_37QAbstractCollisionQueryServicePrivateE@Base 5.5.1
+ _ZN4Qt3D30QAbstractCollisionQueryServiceC2ERK7QString@Base 5.5.1
+ _ZN4Qt3D30QAbstractCollisionQueryServiceC2ERNS_37QAbstractCollisionQueryServicePrivateE@Base 5.5.1
  _ZN4Qt3D44qt3d_QAspectFactoryPrivate_addDefaultFactoryERK7QStringPFPNS_15QAbstractAspectEP7QObjectE@Base 5.5.0
  _ZN4Qt3D5QNode11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D5QNode11qt_metacastEPKc@Base 5.5.0
+ _ZN4Qt3D5QNode13parentChangedEv@Base 5.5.1
  _ZN4Qt3D5QNode16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
  _ZN4Qt3D5QNode16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D5QNode18blockNotificationsEb@Base 5.5.0
  _ZN4Qt3D5QNode4copyEPKS0_@Base 5.5.0
  _ZN4Qt3D5QNode5cloneEPS0_@Base 5.5.0
- _ZN4Qt3D5QNode5eventEP6QEvent@Base 5.5.0
+ _ZN4Qt3D5QNode7cleanupEv@Base 5.5.1
+ _ZN4Qt3D5QNode9setParentEPS0_@Base 5.5.1
  _ZN4Qt3D5QNodeC1EPS0_@Base 5.5.0
  _ZN4Qt3D5QNodeC1ERNS_12QNodePrivateEPS0_@Base 5.5.0
  _ZN4Qt3D5QNodeC2EPS0_@Base 5.5.0
@@ -405,7 +477,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D6QRay3DC1Ev@Base 5.5.0
  _ZN4Qt3D6QRay3DC2ERK9QVector3DS3_@Base 5.5.0
  _ZN4Qt3D6QRay3DC2Ev@Base 5.5.0
- _ZN4Qt3D6QRay3DD0Ev@Base 5.5.0
  _ZN4Qt3D6QRay3DD1Ev@Base 5.5.0
  _ZN4Qt3D6QRay3DD2Ev@Base 5.5.0
  _ZN4Qt3D6QScene10setArbiterEPNS_26QLockableObserverInterfaceE@Base 5.5.0
@@ -414,10 +485,10 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D6QScene16removeObservableEPNS_20QObservableInterfaceERKNS_7QNodeIdE@Base 5.5.0
  _ZN4Qt3D6QScene16removeObservableEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D6QScene21addEntityForComponentERKNS_7QNodeIdES3_@Base 5.5.0
+ _ZN4Qt3D6QScene21hasEntityForComponentERKNS_7QNodeIdES3_@Base 5.5.1
  _ZN4Qt3D6QScene24removeEntityForComponentERKNS_7QNodeIdES3_@Base 5.5.0
  _ZN4Qt3D6QSceneC1EPNS_13QAspectEngineE@Base 5.5.0
  _ZN4Qt3D6QSceneC2EPNS_13QAspectEngineE@Base 5.5.0
- _ZN4Qt3D6QSceneD0Ev@Base 5.5.0
  _ZN4Qt3D6QSceneD1Ev@Base 5.5.0
  _ZN4Qt3D6QSceneD2Ev@Base 5.5.0
  _ZN4Qt3D7QCamera10topChangedEv@Base 5.5.0
@@ -430,6 +501,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D7QCamera12rightChangedEv@Base 5.5.0
  _ZN4Qt3D7QCamera12setNearPlaneEf@Base 5.5.0
  _ZN4Qt3D7QCamera13bottomChangedEv@Base 5.5.0
+ _ZN4Qt3D7QCamera13matrixChangedEv@Base 5.5.1
  _ZN4Qt3D7QCamera13setViewCenterERK9QVector3D@Base 5.5.0
  _ZN4Qt3D7QCamera14setAspectRatioEf@Base 5.5.0
  _ZN4Qt3D7QCamera14setFieldOfViewEf@Base 5.5.0
@@ -462,6 +534,9 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D7QCameraC1ERNS_14QCameraPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D7QCameraC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D7QCameraC2ERNS_14QCameraPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D7QCameraD0Ev@Base 5.5.1
+ _ZN4Qt3D7QCameraD1Ev@Base 5.5.1
+ _ZN4Qt3D7QCameraD2Ev@Base 5.5.1
  _ZN4Qt3D7QEntity11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D7QEntity11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D7QEntity12addComponentEPNS_10QComponentE@Base 5.5.0
@@ -515,7 +590,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D12QSceneChange9timestampEv@Base 5.5.0
  _ZNK4Qt3D13QAspectEngine10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D13QAspectEngine10rootEntityEv@Base 5.5.0
- _ZNK4Qt3D13QAspectEngine12initNodeTreeEPNS_5QNodeE@Base 5.5.0
  _ZNK4Qt3D13QAspectEngine13aspectFactoryEv@Base 5.5.0
  _ZNK4Qt3D13QAspectEngine7aspectsEv@Base 5.5.0
  _ZNK4Qt3D14QAspectFactory12createAspectERK7QStringP7QObject@Base 5.5.0
@@ -523,6 +597,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D14QAspectManager10jobManagerEv@Base 5.5.0
  _ZNK4Qt3D14QAspectManager10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D14QAspectManager13changeArbiterEv@Base 5.5.0
+ _ZNK4Qt3D14QAspectManager14isShuttingDownEv@Base 5.5.1
  _ZNK4Qt3D14QAspectManager14serviceLocatorEv@Base 5.5.0
  _ZNK4Qt3D14QAspectManager4dataEv@Base 5.5.0
  _ZNK4Qt3D14QAspectManager7aspectsEv@Base 5.5.0
@@ -533,13 +608,16 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D15QAbstractAspect10jobManagerEv@Base 5.5.0
  _ZNK4Qt3D15QAbstractAspect10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D15QAbstractAspect14getBackendNodeEPNS_5QNodeE@Base 5.5.0
+ _ZNK4Qt3D15QAbstractAspect14isShuttingDownEv@Base 5.5.1
  _ZNK4Qt3D15QAbstractAspect16clearBackendNodeEPNS_5QNodeE@Base 5.5.0
  _ZNK4Qt3D15QAbstractAspect17createBackendNodeEPNS_5QNodeE@Base 5.5.0
  _ZNK4Qt3D15QAbstractAspect8servicesEv@Base 5.5.0
+ _ZNK4Qt3D15QAbstractBuffer10metaObjectEv@Base 5.5.1
  _ZNK4Qt3D15QAbstractBuffer4dataEv@Base 5.5.0
  _ZNK4Qt3D15QFrameAllocator13maxObjectSizeEv@Base 5.5.0
  _ZNK4Qt3D15QFrameAllocator15totalChunkCountEv@Base 5.5.0
  _ZNK4Qt3D15QFrameAllocator17allocatorPoolSizeEv@Base 5.5.0
+ _ZNK4Qt3D15QFrameAllocator7isEmptyEv@Base 5.5.1
  _ZNK4Qt3D15QScaleTransform10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D15QScaleTransform15transformMatrixEv@Base 5.5.0
  _ZNK4Qt3D15QScaleTransform5scaleEv@Base 5.5.0
@@ -560,11 +638,16 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D16QRotateTransform8angleDegEv@Base 5.5.0
  _ZNK4Qt3D16QRotateTransform8angleRadEv@Base 5.5.0
  _ZNK4Qt3D17QAspectJobManager10metaObjectEv@Base 5.5.0
+ _ZNK4Qt3D18QAbstractAttribute10byteOffsetEv@Base 5.5.1
  _ZNK4Qt3D18QAbstractAttribute10byteStrideEv@Base 5.5.0
- _ZNK4Qt3D18QAbstractAttribute4typeEv@Base 5.5.0
+ _ZNK4Qt3D18QAbstractAttribute10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D18QAbstractAttribute13attributeTypeEv@Base 5.5.1
+ _ZNK4Qt3D18QAbstractAttribute4nameEv@Base 5.5.1
  _ZNK4Qt3D18QAbstractAttribute5countEv@Base 5.5.0
  _ZNK4Qt3D18QAbstractAttribute6bufferEv@Base 5.5.0
  _ZNK4Qt3D18QAbstractAttribute7divisorEv@Base 5.5.0
+ _ZNK4Qt3D18QAbstractAttribute8dataSizeEv@Base 5.5.1
+ _ZNK4Qt3D18QAbstractAttribute8dataTypeEv@Base 5.5.1
  _ZNK4Qt3D18QAbstractTransform10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D19QTranslateTransform10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D19QTranslateTransform11translationEv@Base 5.5.0
@@ -574,14 +657,16 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D19QTranslateTransform2dzEv@Base 5.5.0
  _ZNK4Qt3D20QScenePropertyChange12propertyNameEv@Base 5.5.0
  _ZNK4Qt3D20QScenePropertyChange5valueEv@Base 5.5.0
+ _ZNK4Qt3D21QCollisionQueryResult11entitiesHitEv@Base 5.5.1
+ _ZNK4Qt3D21QCollisionQueryResult6handleEv@Base 5.5.1
  _ZNK4Qt3D24QAbstractServiceProvider11descriptionEv@Base 5.5.0
  _ZNK4Qt3D24QAbstractServiceProvider4typeEv@Base 5.5.0
  _ZNK4Qt3D27QBackendScenePropertyChange10targetNodeEv@Base 5.5.0
  _ZNK4Qt3D5QNode10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D5QNode10parentNodeEv@Base 5.5.0
+ _ZNK4Qt3D5QNode13childrenNodesEv@Base 5.5.1
  _ZNK4Qt3D5QNode20notificationsBlockedEv@Base 5.5.0
  _ZNK4Qt3D5QNode2idEv@Base 5.5.0
- _ZNK4Qt3D5QNode5sceneEv@Base 5.5.0
  _ZNK4Qt3D6QRay3D11transformedERK10QMatrix4x4@Base 5.5.0
  _ZNK4Qt3D6QRay3D17projectedDistanceERK9QVector3D@Base 5.5.0
  _ZNK4Qt3D6QRay3D5pointEf@Base 5.5.0
@@ -594,10 +679,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D6QRay3DeqERKS0_@Base 5.5.0
  _ZNK4Qt3D6QRay3DneERKS0_@Base 5.5.0
  _ZNK4Qt3D6QScene10lookupNodeERKNS_7QNodeIdE@Base 5.5.0
+ _ZNK4Qt3D6QScene11lookupNodesERK7QVectorINS_7QNodeIdEE@Base 5.5.1
  _ZNK4Qt3D6QScene17lookupObservablesERKNS_7QNodeIdE@Base 5.5.0
  _ZNK4Qt3D6QScene20entitiesForComponentERKNS_7QNodeIdE@Base 5.5.0
  _ZNK4Qt3D6QScene20nodeIdFromObservableEPNS_20QObservableInterfaceE@Base 5.5.0
  _ZNK4Qt3D6QScene6engineEv@Base 5.5.0
+ _ZNK4Qt3D6QScene7arbiterEv@Base 5.5.1
  _ZNK4Qt3D7QCamera10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D7QCamera10viewCenterEv@Base 5.5.0
  _ZNK4Qt3D7QCamera11aspectRatioEv@Base 5.5.0
@@ -613,6 +700,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D7QCamera5rightEv@Base 5.5.0
  _ZNK4Qt3D7QCamera6bottomEv@Base 5.5.0
  _ZNK4Qt3D7QCamera6lookAtEv@Base 5.5.0
+ _ZNK4Qt3D7QCamera6matrixEv@Base 5.5.1
  _ZNK4Qt3D7QCamera8farPlaneEv@Base 5.5.0
  _ZNK4Qt3D7QCamera8positionEv@Base 5.5.0
  _ZNK4Qt3D7QCamera8upVectorEv@Base 5.5.0
@@ -621,6 +709,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK4Qt3D7QEntity10componentsEv@Base 5.5.0
  _ZNK4Qt3D7QEntity10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D7QEntity12parentEntityEv@Base 5.5.0
+ _ZNK4Qt3D7QEntity14parentEntityIdEv@Base 5.5.1
  _ZTIN4Qt3D10QAspectJobE@Base 5.5.0
  _ZTIN4Qt3D10QComponentE@Base 5.5.0
  _ZTIN4Qt3D10QTransformE@Base 5.5.0
@@ -636,8 +725,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTIN4Qt3D14QEntityPrivateE@Base 5.5.0
  _ZTIN4Qt3D15QAbstractAspectE@Base 5.5.0
  _ZTIN4Qt3D15QAbstractBufferE@Base 5.5.0
+ _ZTIN4Qt3D15QBoundingSphereE@Base 5.5.1
+ _ZTIN4Qt3D15QBoundingVolumeE@Base 5.5.1
  _ZTIN4Qt3D15QScaleTransformE@Base 5.5.0
- _ZTIN4Qt3D15QSceneInterfaceE@Base 5.5.0
+ _ZTIN4Qt3D16QAbstractArbiterE@Base 5.5.1
+ _ZTIN4Qt3D16QAbstractFunctorE@Base 5.5.1
+ _ZTIN4Qt3D16QAbstractPostmanE@Base 5.5.1
  _ZTIN4Qt3D16QLookAtTransformE@Base 5.5.0
  _ZTIN4Qt3D16QMatrixTransformE@Base 5.5.0
  _ZTIN4Qt3D16QRotateTransformE@Base 5.5.0
@@ -653,15 +746,18 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTIN4Qt3D20QObservableInterfaceE@Base 5.5.0
  _ZTIN4Qt3D20QScenePropertyChangeE@Base 5.5.0
  _ZTIN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTIN4Qt3D22QAbstractBufferPrivateE@Base 5.5.1
+ _ZTIN4Qt3D23QBoundingVolumeProviderE@Base 5.5.1
  _ZTIN4Qt3D23QSceneObserverInterfaceE@Base 5.5.0
  _ZTIN4Qt3D24QAbstractServiceProviderE@Base 5.5.0
+ _ZTIN4Qt3D25QAbstractAttributePrivateE@Base 5.5.1
  _ZTIN4Qt3D25QOpenGLInformationServiceE@Base 5.5.0
  _ZTIN4Qt3D25QSystemInformationServiceE@Base 5.5.0
  _ZTIN4Qt3D26QLockableObserverInterfaceE@Base 5.5.0
  _ZTIN4Qt3D27QBackendScenePropertyChangeE@Base 5.5.0
+ _ZTIN4Qt3D28QAbstractFrameAdvanceServiceE@Base 5.5.1
+ _ZTIN4Qt3D30QAbstractCollisionQueryServiceE@Base 5.5.1
  _ZTIN4Qt3D5QNodeE@Base 5.5.0
- _ZTIN4Qt3D6QRay3DE@Base 5.5.0
- _ZTIN4Qt3D6QSceneE@Base 5.5.0
  _ZTIN4Qt3D7QCameraE@Base 5.5.0
  _ZTIN4Qt3D7QEntityE@Base 5.5.0
  _ZTSN4Qt3D10QAspectJobE@Base 5.5.0
@@ -679,8 +775,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTSN4Qt3D14QEntityPrivateE@Base 5.5.0
  _ZTSN4Qt3D15QAbstractAspectE@Base 5.5.0
  _ZTSN4Qt3D15QAbstractBufferE@Base 5.5.0
+ _ZTSN4Qt3D15QBoundingSphereE@Base 5.5.1
+ _ZTSN4Qt3D15QBoundingVolumeE@Base 5.5.1
  _ZTSN4Qt3D15QScaleTransformE@Base 5.5.0
- _ZTSN4Qt3D15QSceneInterfaceE@Base 5.5.0
+ _ZTSN4Qt3D16QAbstractArbiterE@Base 5.5.1
+ _ZTSN4Qt3D16QAbstractFunctorE@Base 5.5.1
+ _ZTSN4Qt3D16QAbstractPostmanE@Base 5.5.1
  _ZTSN4Qt3D16QLookAtTransformE@Base 5.5.0
  _ZTSN4Qt3D16QMatrixTransformE@Base 5.5.0
  _ZTSN4Qt3D16QRotateTransformE@Base 5.5.0
@@ -696,15 +796,18 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTSN4Qt3D20QObservableInterfaceE@Base 5.5.0
  _ZTSN4Qt3D20QScenePropertyChangeE@Base 5.5.0
  _ZTSN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTSN4Qt3D22QAbstractBufferPrivateE@Base 5.5.1
+ _ZTSN4Qt3D23QBoundingVolumeProviderE@Base 5.5.1
  _ZTSN4Qt3D23QSceneObserverInterfaceE@Base 5.5.0
  _ZTSN4Qt3D24QAbstractServiceProviderE@Base 5.5.0
+ _ZTSN4Qt3D25QAbstractAttributePrivateE@Base 5.5.1
  _ZTSN4Qt3D25QOpenGLInformationServiceE@Base 5.5.0
  _ZTSN4Qt3D25QSystemInformationServiceE@Base 5.5.0
  _ZTSN4Qt3D26QLockableObserverInterfaceE@Base 5.5.0
  _ZTSN4Qt3D27QBackendScenePropertyChangeE@Base 5.5.0
+ _ZTSN4Qt3D28QAbstractFrameAdvanceServiceE@Base 5.5.1
+ _ZTSN4Qt3D30QAbstractCollisionQueryServiceE@Base 5.5.1
  _ZTSN4Qt3D5QNodeE@Base 5.5.0
- _ZTSN4Qt3D6QRay3DE@Base 5.5.0
- _ZTSN4Qt3D6QSceneE@Base 5.5.0
  _ZTSN4Qt3D7QCameraE@Base 5.5.0
  _ZTSN4Qt3D7QEntityE@Base 5.5.0
  _ZTVN4Qt3D10QAspectJobE@Base 5.5.0
@@ -722,7 +825,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTVN4Qt3D14QEntityPrivateE@Base 5.5.0
  _ZTVN4Qt3D15QAbstractAspectE@Base 5.5.0
  _ZTVN4Qt3D15QAbstractBufferE@Base 5.5.0
+ _ZTVN4Qt3D15QBoundingSphereE@Base 5.5.1
+ _ZTVN4Qt3D15QBoundingVolumeE@Base 5.5.1
  _ZTVN4Qt3D15QScaleTransformE@Base 5.5.0
+ _ZTVN4Qt3D16QAbstractArbiterE@Base 5.5.1
+ _ZTVN4Qt3D16QAbstractFunctorE@Base 5.5.1
+ _ZTVN4Qt3D16QAbstractPostmanE@Base 5.5.1
  _ZTVN4Qt3D16QLookAtTransformE@Base 5.5.0
  _ZTVN4Qt3D16QMatrixTransformE@Base 5.5.0
  _ZTVN4Qt3D16QRotateTransformE@Base 5.5.0
@@ -738,22 +846,27 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTVN4Qt3D20QObservableInterfaceE@Base 5.5.0
  _ZTVN4Qt3D20QScenePropertyChangeE@Base 5.5.0
  _ZTVN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTVN4Qt3D22QAbstractBufferPrivateE@Base 5.5.1
+ _ZTVN4Qt3D23QBoundingVolumeProviderE@Base 5.5.1
  _ZTVN4Qt3D23QSceneObserverInterfaceE@Base 5.5.0
  _ZTVN4Qt3D24QAbstractServiceProviderE@Base 5.5.0
+ _ZTVN4Qt3D25QAbstractAttributePrivateE@Base 5.5.1
  _ZTVN4Qt3D25QOpenGLInformationServiceE@Base 5.5.0
  _ZTVN4Qt3D25QSystemInformationServiceE@Base 5.5.0
  _ZTVN4Qt3D26QLockableObserverInterfaceE@Base 5.5.0
  _ZTVN4Qt3D27QBackendScenePropertyChangeE@Base 5.5.0
+ _ZTVN4Qt3D28QAbstractFrameAdvanceServiceE@Base 5.5.1
+ _ZTVN4Qt3D30QAbstractCollisionQueryServiceE@Base 5.5.1
  _ZTVN4Qt3D5QNodeE@Base 5.5.0
- _ZTVN4Qt3D6QRay3DE@Base 5.5.0
- _ZTVN4Qt3D6QSceneE@Base 5.5.0
  _ZTVN4Qt3D7QCameraE@Base 5.5.0
  _ZTVN4Qt3D7QEntityE@Base 5.5.0
  (c++)"non-virtual thunk to Qt3D::QAbstractAspect::createBackendNode(Qt3D::QNode*) const@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QBackendNodePrivate::notifyObservers(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QBackendNodePrivate::setArbiter(Qt3D::QLockableObserverInterface*)@Base" 5.5.0
+ (c++)"non-virtual thunk to Qt3D::QChangeArbiter::postman() const@Base" 5.5.1
  (c++)"non-virtual thunk to Qt3D::QChangeArbiter::sceneChangeEvent(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QChangeArbiter::sceneChangeEventWithLock(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to Qt3D::QChangeArbiter::sceneChangeEventWithLock(std::vector<QSharedPointer<Qt3D::QSceneChange>, std::allocator<QSharedPointer<Qt3D::QSceneChange> > > const&)@Base" 5.5.1
  (c++)"non-virtual thunk to Qt3D::QChangeArbiter::~QChangeArbiter()@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QNodePrivate::notifyObservers(QSharedPointer<Qt3D::QSceneChange> const&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QNodePrivate::setArbiter(Qt3D::QLockableObserverInterface*)@Base" 5.5.0
