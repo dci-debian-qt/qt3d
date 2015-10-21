@@ -426,6 +426,18 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D12QStencilTest11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D12QStencilTest16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D12QStencilTest4copyEPKNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QStencilTestC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilTestC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilTestD0Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilTestD1Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilTestD2Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageData7cleanupEv@Base 5.5.1
+ _ZN4Qt3D12TexImageData7setDataERK10QByteArrayN14QOpenGLTexture11PixelFormatENS4_9PixelTypeE@Base 5.5.1
+ _ZN4Qt3D12TexImageData8setImageERK6QImage@Base 5.5.1
+ _ZN4Qt3D12TexImageDataC1Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageDataC2Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageDataD1Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageDataD2Ev@Base 5.5.1
  _ZN4Qt3D13QCylinderMesh11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh12ringsChangedEv@Base 5.5.1
