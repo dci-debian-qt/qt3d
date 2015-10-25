@@ -30,11 +30,7 @@ override_dh_auto_install-arch:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 	
 	# Remove private stuff
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DCore/*/Qt3DCore/private
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DInput/*/Qt3DInput/private
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DQuick/*/Qt3DQuick/private
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DQuickRenderer/*/Qt3DQuickRenderer/private
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3DRenderer/*/Qt3DRenderer/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/Qt3D*/5.*/Qt3D*/private
 	rm -fv $(CURDIR)/debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 
 	# Remove empty directories

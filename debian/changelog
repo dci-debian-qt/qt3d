@@ -1,5 +1,8 @@
 qt3d-opensource-src (5.5.1-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Make sure to remove private headers from all the libraries: extend the
+    rm pattern using globs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Oct 2015 00:06:35 +0100
 
