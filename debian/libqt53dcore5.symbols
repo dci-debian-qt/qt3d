@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64 arm64 armel armhf hppa mipsel
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D10QAspectJob13addDependencyE12QWeakPointerIS0_E@Base 5.5.0
  _ZN4Qt3D10QAspectJobC1ERNS_17QAspectJobPrivateE@Base 5.5.0
@@ -104,9 +104,10 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN4Qt3D12QNodePrivate8setSceneEPNS_6QSceneE@Base 5.5.1
  _ZN4Qt3D12QNodePrivateC1Ev@Base 5.5.0
  _ZN4Qt3D12QNodePrivateC2Ev@Base 5.5.0
+ (optional=templinst|arch=hppa)_ZN4Qt3D12QNodeVisitor15startTraversingINS0_21MemberFunctionFunctorINS_12QNodePrivateEPNS_5QNodeEEEEEvS5_T_@Base 5.5.1
  (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QNodePrivateEPNS_5QNodeEEEEEvRT_@Base 5.5.1
  (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEPNS_5QNodeEEENS2_IS3_PNS_7QEntityEEEEEvRT_RT0_@Base 5.5.1
- (optional=templinst)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEPNS_5QNodeEEENS2_IS3_PNS_7QEntityEEEEEvS5_RT_RT0_@Base 5.5.1
+ (optional=templinst|arch=amd64 hppa)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEPNS_5QNodeEEENS2_IS3_PNS_7QEntityEEEEEvS5_RT_RT0_@Base 5.5.1
  _ZN4Qt3D12QNodeVisitorC1Ev@Base 5.5.0
  _ZN4Qt3D12QNodeVisitorC2Ev@Base 5.5.0
  _ZN4Qt3D12QNodeVisitorD0Ev@Base 5.5.0
