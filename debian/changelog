@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.5.1-2) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.5.1-2) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Make sure to remove private headers from all the libraries: extend the
@@ -6,9 +6,10 @@ qt3d-opensource-src (5.5.1-2) UNRELEASED; urgency=medium
   * Remove cmake config files of plugins (like done in other qt5 modules).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Oct 2015 00:06:35 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 26 Oct 2015 10:13:52 -0300
 
 qt3d-opensource-src (5.5.1-1) experimental; urgency=medium
 
