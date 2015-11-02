@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QAlphaTest11funcChangedEv@Base 5.5.0
  _ZN4Qt3D10QAlphaTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
@@ -10,6 +10,39 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QAlphaTest8setClampEf@Base 5.5.0
  _ZN4Qt3D10QAlphaTestC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QAlphaTestC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QAlphaTestD0Ev@Base 5.5.1
+ _ZN4Qt3D10QAlphaTestD1Ev@Base 5.5.1
+ _ZN4Qt3D10QAlphaTestD2Ev@Base 5.5.1
+ _ZN4Qt3D10QAttribute11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D10QAttribute11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D10QAttribute16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D10QAttribute25defaultColorAttributeNameEv@Base 5.5.1
+ _ZN4Qt3D10QAttribute26defaultNormalAttributeNameEv@Base 5.5.1
+ _ZN4Qt3D10QAttribute27defaultTangentAttributeNameEv@Base 5.5.1
+ _ZN4Qt3D10QAttribute28defaultPositionAttributeNameEv@Base 5.5.1
+ _ZN4Qt3D10QAttribute37defaultTextureCoordinateAttributeNameEv@Base 5.5.1
+ _ZN4Qt3D10QAttribute4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QAttribute4dumpEi@Base 5.5.1
+ _ZN4Qt3D10QAttributeC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QAttributeC1EPNS_7QBufferENS_18QAbstractAttribute8DataTypeEjiii@Base 5.5.1
+ _ZN4Qt3D10QAttributeC1EPNS_7QBufferERK7QStringNS_18QAbstractAttribute8DataTypeEjiii@Base 5.5.1
+ _ZN4Qt3D10QAttributeC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QAttributeC2EPNS_7QBufferENS_18QAbstractAttribute8DataTypeEjiii@Base 5.5.1
+ _ZN4Qt3D10QAttributeC2EPNS_7QBufferERK7QStringNS_18QAbstractAttribute8DataTypeEjiii@Base 5.5.1
+ _ZN4Qt3D10QAttributeD0Ev@Base 5.5.1
+ _ZN4Qt3D10QAttributeD1Ev@Base 5.5.1
+ _ZN4Qt3D10QAttributeD2Ev@Base 5.5.1
+ _ZN4Qt3D10QClipPlane11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D10QClipPlane11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D10QClipPlane12planeChangedEv@Base 5.5.1
+ _ZN4Qt3D10QClipPlane16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D10QClipPlane4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QClipPlane8setPlaneEi@Base 5.5.1
+ _ZN4Qt3D10QClipPlaneC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QClipPlaneC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QClipPlaneD0Ev@Base 5.5.1
+ _ZN4Qt3D10QClipPlaneD1Ev@Base 5.5.1
+ _ZN4Qt3D10QClipPlaneD2Ev@Base 5.5.1
  _ZN4Qt3D10QColorMask10redChangedEv@Base 5.5.0
  _ZN4Qt3D10QColorMask11blueChangedEv@Base 5.5.0
  _ZN4Qt3D10QColorMask11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
@@ -35,6 +68,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QDepthMask7setMaskEb@Base 5.5.0
  _ZN4Qt3D10QDepthMaskC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QDepthMaskC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QDepthMaskD0Ev@Base 5.5.1
+ _ZN4Qt3D10QDepthMaskD1Ev@Base 5.5.1
+ _ZN4Qt3D10QDepthMaskD2Ev@Base 5.5.1
  _ZN4Qt3D10QDepthTest11funcChangedEv@Base 5.5.0
  _ZN4Qt3D10QDepthTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QDepthTest11qt_metacastEPKc@Base 5.5.0
@@ -43,11 +79,17 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QDepthTest7setFuncENS0_9DepthFuncE@Base 5.5.0
  _ZN4Qt3D10QDepthTestC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QDepthTestC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QDepthTestD0Ev@Base 5.5.1
+ _ZN4Qt3D10QDepthTestD1Ev@Base 5.5.1
+ _ZN4Qt3D10QDepthTestD2Ev@Base 5.5.1
  _ZN4Qt3D10QDithering11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QDithering11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D10QDithering16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D10QDitheringC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QDitheringC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QDitheringD0Ev@Base 5.5.1
+ _ZN4Qt3D10QDitheringD1Ev@Base 5.5.1
+ _ZN4Qt3D10QDitheringD2Ev@Base 5.5.1
  _ZN4Qt3D10QFrontFace11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QFrontFace11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D10QFrontFace12setDirectionENS0_7FaceDirE@Base 5.5.0
@@ -56,6 +98,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QFrontFace4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QFrontFaceC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QFrontFaceC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QFrontFaceD0Ev@Base 5.5.1
+ _ZN4Qt3D10QFrontFaceD1Ev@Base 5.5.1
+ _ZN4Qt3D10QFrontFaceD2Ev@Base 5.5.1
  _ZN4Qt3D10QParameter11nameChangedEv@Base 5.5.0
  _ZN4Qt3D10QParameter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QParameter11qt_metacastEPKc@Base 5.5.0
@@ -72,6 +117,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QParameterC2ERK7QStringPNS_24QAbstractTextureProviderEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QParameterC2ERK7QStringRK8QVariantPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QParameterC2ERNS_17QParameterPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QParameterD0Ev@Base 5.5.1
+ _ZN4Qt3D10QParameterD1Ev@Base 5.5.1
+ _ZN4Qt3D10QParameterD2Ev@Base 5.5.1
  _ZN4Qt3D10QPlaneMesh11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QPlaneMesh11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D10QPlaneMesh12widthChangedEv@Base 5.5.0
@@ -79,13 +127,13 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QPlaneMesh16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D10QPlaneMesh17setMeshResolutionERK5QSize@Base 5.5.0
  _ZN4Qt3D10QPlaneMesh21meshResolutionChangedEv@Base 5.5.0
- _ZN4Qt3D10QPlaneMesh4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QPlaneMesh8setWidthEf@Base 5.5.0
  _ZN4Qt3D10QPlaneMesh9setHeightEf@Base 5.5.0
  _ZN4Qt3D10QPlaneMeshC1EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D10QPlaneMeshC1ERNS_17QPlaneMeshPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QPlaneMeshC2EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D10QPlaneMeshC2ERNS_17QPlaneMeshPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QPlaneMeshD0Ev@Base 5.5.1
+ _ZN4Qt3D10QPlaneMeshD1Ev@Base 5.5.1
+ _ZN4Qt3D10QPlaneMeshD2Ev@Base 5.5.1
  _ZN4Qt3D10QSpotLight11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QSpotLight11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D10QSpotLight12setDirectionERK9QVector3D@Base 5.5.0
@@ -98,6 +146,15 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QSpotLightC1ERNS_17QSpotLightPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QSpotLightC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QSpotLightC2ERNS_17QSpotLightPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QStencilOp11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D10QStencilOp11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D10QStencilOp16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D10QStencilOp4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QStencilOpC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QStencilOpC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D10QStencilOpD0Ev@Base 5.5.1
+ _ZN4Qt3D10QStencilOpD1Ev@Base 5.5.1
+ _ZN4Qt3D10QStencilOpD2Ev@Base 5.5.1
  _ZN4Qt3D10QTechnique10removePassEPNS_11QRenderPassE@Base 5.5.0
  _ZN4Qt3D10QTechnique11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QTechnique11qt_metacastEPKc@Base 5.5.0
@@ -113,6 +170,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QTechniqueC1ERNS_17QTechniquePrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QTechniqueC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QTechniqueC2ERNS_17QTechniquePrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QTechniqueD0Ev@Base 5.5.1
+ _ZN4Qt3D10QTechniqueD1Ev@Base 5.5.1
+ _ZN4Qt3D10QTechniqueD2Ev@Base 5.5.1
  _ZN4Qt3D10QTexture1D11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QTexture1D11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D10QTexture1D16staticMetaObjectE@Base 5.5.0
@@ -145,12 +205,14 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D10QTorusMesh14setMinorRadiusEf@Base 5.5.0
  _ZN4Qt3D10QTorusMesh16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D10QTorusMesh18minorRadiusChangedEv@Base 5.5.0
- _ZN4Qt3D10QTorusMesh4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QTorusMesh8setRingsEi@Base 5.5.0
  _ZN4Qt3D10QTorusMesh9setRadiusEf@Base 5.5.0
  _ZN4Qt3D10QTorusMesh9setSlicesEi@Base 5.5.0
  _ZN4Qt3D10QTorusMeshC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D10QTorusMeshC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D10QTorusMeshD0Ev@Base 5.5.1
+ _ZN4Qt3D10QTorusMeshD1Ev@Base 5.5.1
+ _ZN4Qt3D10QTorusMeshD2Ev@Base 5.5.1
  _ZN4Qt3D11QAnnotation11nameChangedEv@Base 5.5.0
  _ZN4Qt3D11QAnnotation11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QAnnotation11qt_metacastEPKc@Base 5.5.0
@@ -161,6 +223,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QAnnotation8setValueERK8QVariant@Base 5.5.0
  _ZN4Qt3D11QAnnotationC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QAnnotationC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QAnnotationD0Ev@Base 5.5.1
+ _ZN4Qt3D11QAnnotationD1Ev@Base 5.5.1
+ _ZN4Qt3D11QAnnotationD2Ev@Base 5.5.1
  _ZN4Qt3D11QBlendState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QBlendState11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D11QBlendState11setDstAlphaENS0_8BlendingE@Base 5.5.0
@@ -177,6 +242,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QBlendStateC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QBlendStateC2ENS_12QRenderState4TypeEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QBlendStateC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QBlendStateD0Ev@Base 5.5.1
+ _ZN4Qt3D11QBlendStateD1Ev@Base 5.5.1
+ _ZN4Qt3D11QBlendStateD2Ev@Base 5.5.1
  _ZN4Qt3D11QCuboidMesh10setXExtentEf@Base 5.5.0
  _ZN4Qt3D11QCuboidMesh10setYExtentEf@Base 5.5.0
  _ZN4Qt3D11QCuboidMesh10setZExtentEf@Base 5.5.0
@@ -192,11 +260,11 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QCuboidMesh23xyMeshResolutionChangedEv@Base 5.5.0
  _ZN4Qt3D11QCuboidMesh23xzMeshResolutionChangedEv@Base 5.5.0
  _ZN4Qt3D11QCuboidMesh23yzMeshResolutionChangedEv@Base 5.5.0
- _ZN4Qt3D11QCuboidMesh4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QCuboidMeshC1EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D11QCuboidMeshC1ERNS_18QCuboidMeshPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QCuboidMeshC2EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D11QCuboidMeshC2ERNS_18QCuboidMeshPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QCuboidMeshD0Ev@Base 5.5.1
+ _ZN4Qt3D11QCuboidMeshD1Ev@Base 5.5.1
+ _ZN4Qt3D11QCuboidMeshD2Ev@Base 5.5.1
  _ZN4Qt3D11QFrameGraph11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QFrameGraph11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D11QFrameGraph16staticMetaObjectE@Base 5.5.0
@@ -207,6 +275,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QFrameGraphC1ERNS_18QFrameGraphPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QFrameGraphC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QFrameGraphC2ERNS_18QFrameGraphPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QFrameGraphD0Ev@Base 5.5.1
+ _ZN4Qt3D11QFrameGraphD1Ev@Base 5.5.1
+ _ZN4Qt3D11QFrameGraphD2Ev@Base 5.5.1
  _ZN4Qt3D11QPointLight11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QPointLight11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D11QPointLight16staticMetaObjectE@Base 5.5.0
@@ -232,6 +303,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QRenderPassC1ERNS_18QRenderPassPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QRenderPassC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QRenderPassC2ERNS_18QRenderPassPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QRenderPassD0Ev@Base 5.5.1
+ _ZN4Qt3D11QRenderPassD1Ev@Base 5.5.1
+ _ZN4Qt3D11QRenderPassD2Ev@Base 5.5.1
  _ZN4Qt3D11QShaderData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QShaderData11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D11QShaderData16staticMetaObjectE@Base 5.5.0
@@ -240,6 +314,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QShaderDataC1ERNS_18QShaderDataPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QShaderDataC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QShaderDataC2ERNS_18QShaderDataPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QShaderDataD0Ev@Base 5.5.1
+ _ZN4Qt3D11QShaderDataD1Ev@Base 5.5.1
+ _ZN4Qt3D11QShaderDataD2Ev@Base 5.5.1
  _ZN4Qt3D11QSortMethod11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QSortMethod11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D11QSortMethod12addCriterionEPNS_14QSortCriterionE@Base 5.5.0
@@ -250,6 +327,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QSortMethodC1ERNS_18QSortMethodPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QSortMethodC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QSortMethodC2ERNS_18QSortMethodPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QSortMethodD0Ev@Base 5.5.1
+ _ZN4Qt3D11QSortMethodD1Ev@Base 5.5.1
+ _ZN4Qt3D11QSortMethodD2Ev@Base 5.5.1
  _ZN4Qt3D11QSphereMesh11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11QSphereMesh11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D11QSphereMesh12ringsChangedEv@Base 5.5.0
@@ -258,12 +338,14 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D11QSphereMesh16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D11QSphereMesh19setGenerateTangentsEb@Base 5.5.0
  _ZN4Qt3D11QSphereMesh23generateTangentsChangedEv@Base 5.5.0
- _ZN4Qt3D11QSphereMesh4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QSphereMesh8setRingsEi@Base 5.5.0
  _ZN4Qt3D11QSphereMesh9setRadiusEf@Base 5.5.0
  _ZN4Qt3D11QSphereMesh9setSlicesEi@Base 5.5.0
  _ZN4Qt3D11QSphereMeshC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D11QSphereMeshC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D11QSphereMeshD0Ev@Base 5.5.1
+ _ZN4Qt3D11QSphereMeshD1Ev@Base 5.5.1
+ _ZN4Qt3D11QSphereMeshD2Ev@Base 5.5.1
  _ZN4Qt3D12QClearBuffer10setBuffersENS0_10BufferTypeE@Base 5.5.0
  _ZN4Qt3D12QClearBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QClearBuffer11qt_metacastEPKc@Base 5.5.0
@@ -274,6 +356,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D12QClearBufferC1ERNS_19QClearBufferPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QClearBufferC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QClearBufferC2ERNS_19QClearBufferPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QClearBufferD0Ev@Base 5.5.1
+ _ZN4Qt3D12QClearBufferD1Ev@Base 5.5.1
+ _ZN4Qt3D12QClearBufferD2Ev@Base 5.5.1
  _ZN4Qt3D12QLayerFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QLayerFilter11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D12QLayerFilter13layersChangedEv@Base 5.5.0
@@ -284,21 +369,29 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D12QLayerFilterC1ERNS_19QLayerFilterPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QLayerFilterC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QLayerFilterC2ERNS_19QLayerFilterPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QLayerFilterD0Ev@Base 5.5.1
+ _ZN4Qt3D12QLayerFilterD1Ev@Base 5.5.1
+ _ZN4Qt3D12QLayerFilterD2Ev@Base 5.5.1
  _ZN4Qt3D12QMeshPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D12QMeshPrivateC2Ev@Base 5.5.0
- (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_13QRenderAspectEPNS_5QNodeEEES6_EEvRT_RT0_@Base 5.5.0
- (optional=templinst)_ZN4Qt3D12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_13QRenderAspectEPNS_5QNodeEEES6_EEvS5_RT_RT0_@Base 5.5.0
+ (optional=templinst)_ZN4Qt3D12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_13QRenderAspectEPNS_5QNodeEEEEEvRT_@Base 5.5.1
  _ZN4Qt3D12QRenderState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QRenderState11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D12QRenderState16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D12QRenderStateC1ERNS_19QRenderStatePrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QRenderStateC2ERNS_19QRenderStatePrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QRenderStateD0Ev@Base 5.5.1
+ _ZN4Qt3D12QRenderStateD1Ev@Base 5.5.1
+ _ZN4Qt3D12QRenderStateD2Ev@Base 5.5.1
  _ZN4Qt3D12QSceneLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QSceneLoader11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D12QSceneLoader16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.0
  _ZN4Qt3D12QSceneLoader16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D12QSceneLoaderC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QSceneLoaderC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QSceneLoaderD0Ev@Base 5.5.1
+ _ZN4Qt3D12QSceneLoaderD1Ev@Base 5.5.1
+ _ZN4Qt3D12QSceneLoaderD2Ev@Base 5.5.1
  _ZN4Qt3D12QScissorTest11leftChangedEv@Base 5.5.0
  _ZN4Qt3D12QScissorTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QScissorTest11qt_metacastEPKc@Base 5.5.0
@@ -313,47 +406,54 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D12QScissorTest9setHeightEi@Base 5.5.0
  _ZN4Qt3D12QScissorTestC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D12QScissorTestC2EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D12QStencilTest11funcChangedEv@Base 5.5.0
- _ZN4Qt3D12QStencilTest11maskChangedEv@Base 5.5.0
+ _ZN4Qt3D12QScissorTestD0Ev@Base 5.5.1
+ _ZN4Qt3D12QScissorTestD1Ev@Base 5.5.1
+ _ZN4Qt3D12QScissorTestD2Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilMask11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D12QStencilMask11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D12QStencilMask11setBackMaskEj@Base 5.5.1
+ _ZN4Qt3D12QStencilMask12setFrontMaskEj@Base 5.5.1
+ _ZN4Qt3D12QStencilMask15backMaskChangedEv@Base 5.5.1
+ _ZN4Qt3D12QStencilMask16frontMaskChangedEv@Base 5.5.1
+ _ZN4Qt3D12QStencilMask16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D12QStencilMask4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilMaskC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilMaskC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilMaskD0Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilMaskD1Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilMaskD2Ev@Base 5.5.1
  _ZN4Qt3D12QStencilTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D12QStencilTest11qt_metacastEPKc@Base 5.5.0
- _ZN4Qt3D12QStencilTest11setFaceModeENS0_15StencilFaceModeE@Base 5.5.0
- _ZN4Qt3D12QStencilTest15faceModeChangedEv@Base 5.5.0
  _ZN4Qt3D12QStencilTest16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D12QStencilTest4copyEPKNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D12QStencilTest7setFuncENS0_11StencilFuncE@Base 5.5.0
- _ZN4Qt3D12QStencilTest7setMaskEj@Base 5.5.0
- _ZN4Qt3D12QStencilTestC1EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D12QStencilTestC2EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D12TexImageData7setDataERK10QByteArrayN14QOpenGLTexture11PixelFormatENS4_9PixelTypeE@Base 5.5.0
- _ZN4Qt3D12TexImageData8setImageERK6QImage@Base 5.5.0
- _ZN4Qt3D12TexImageDataC1Ev@Base 5.5.0
- _ZN4Qt3D12TexImageDataC2Ev@Base 5.5.0
- _ZN4Qt3D13BufferPrivateC1Ev@Base 5.5.0
- _ZN4Qt3D13BufferPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D13QAbstractMesh11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
- _ZN4Qt3D13QAbstractMesh11qt_metacastEPKc@Base 5.5.0
- _ZN4Qt3D13QAbstractMesh16staticMetaObjectE@Base 5.5.0
- _ZN4Qt3D13QAbstractMesh4copyEPKNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D13QAbstractMesh6updateEv@Base 5.5.0
- _ZN4Qt3D13QAbstractMeshC1EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D13QAbstractMeshC1ERNS_20QAbstractMeshPrivateEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D13QAbstractMeshC2EPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D13QAbstractMeshC2ERNS_20QAbstractMeshPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D12QStencilTestC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilTestC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D12QStencilTestD0Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilTestD1Ev@Base 5.5.1
+ _ZN4Qt3D12QStencilTestD2Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageData7cleanupEv@Base 5.5.1
+ _ZN4Qt3D12TexImageData7setDataERK10QByteArrayN14QOpenGLTexture11PixelFormatENS4_9PixelTypeE@Base 5.5.1
+ _ZN4Qt3D12TexImageData8setImageERK6QImage@Base 5.5.1
+ _ZN4Qt3D12TexImageDataC1Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageDataC2Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageDataD1Ev@Base 5.5.1
+ _ZN4Qt3D12TexImageDataD2Ev@Base 5.5.1
  _ZN4Qt3D13QCylinderMesh11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh11qt_metacastEPKc@Base 5.5.0
- _ZN4Qt3D13QCylinderMesh12ringsChangedEi@Base 5.5.0
- _ZN4Qt3D13QCylinderMesh13lengthChangedEf@Base 5.5.0
- _ZN4Qt3D13QCylinderMesh13radiusChangedEf@Base 5.5.0
- _ZN4Qt3D13QCylinderMesh13slicesChangedEi@Base 5.5.0
+ _ZN4Qt3D13QCylinderMesh12ringsChangedEv@Base 5.5.1
+ _ZN4Qt3D13QCylinderMesh13lengthChangedEv@Base 5.5.1
+ _ZN4Qt3D13QCylinderMesh13radiusChangedEv@Base 5.5.1
+ _ZN4Qt3D13QCylinderMesh13slicesChangedEv@Base 5.5.1
  _ZN4Qt3D13QCylinderMesh16staticMetaObjectE@Base 5.5.0
- _ZN4Qt3D13QCylinderMesh4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh8setRingsEi@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh9setLengthEf@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh9setRadiusEf@Base 5.5.0
  _ZN4Qt3D13QCylinderMesh9setSlicesEi@Base 5.5.0
  _ZN4Qt3D13QCylinderMeshC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D13QCylinderMeshC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D13QCylinderMeshD0Ev@Base 5.5.1
+ _ZN4Qt3D13QCylinderMeshD1Ev@Base 5.5.1
+ _ZN4Qt3D13QCylinderMeshD2Ev@Base 5.5.1
  _ZN4Qt3D13QLayerPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D13QLayerPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D13QOpenGLFilter10apiChangedEv@Base 5.5.0
@@ -375,6 +475,7 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D13QOpenGLFilter9setVendorERK7QString@Base 5.5.0
  _ZN4Qt3D13QOpenGLFilterC1EP7QObject@Base 5.5.0
  _ZN4Qt3D13QOpenGLFilterC2EP7QObject@Base 5.5.0
+ _ZN4Qt3D13QRenderAspect10onShutdownEv@Base 5.5.1
  _ZN4Qt3D13QRenderAspect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D13QRenderAspect11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D13QRenderAspect12onInitializeERK4QMapI7QString8QVariantE@Base 5.5.0
@@ -388,6 +489,7 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D13QRenderAspect17renderSynchronousEv@Base 5.5.0
  _ZN4Qt3D13QRenderAspect20registerBackendTypesEv@Base 5.5.0
  _ZN4Qt3D13QRenderAspect9onCleanupEv@Base 5.5.0
+ _ZN4Qt3D13QRenderAspect9onStartupEv@Base 5.5.1
  _ZN4Qt3D13QRenderAspect9visitNodeEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D13QRenderAspectC1ENS0_10RenderTypeEP7QObject@Base 5.5.0
  _ZN4Qt3D13QRenderAspectC1EP7QObject@Base 5.5.0
@@ -405,6 +507,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D13QRenderTargetC1ERNS_20QRenderTargetPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D13QRenderTargetC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D13QRenderTargetC2ERNS_20QRenderTargetPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D13QRenderTargetD0Ev@Base 5.5.1
+ _ZN4Qt3D13QRenderTargetD1Ev@Base 5.5.1
+ _ZN4Qt3D13QRenderTargetD2Ev@Base 5.5.1
  _ZN4Qt3D13QSkyboxEntity11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D13QSkyboxEntity11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D13QSkyboxEntity11setBaseNameERK7QString@Base 5.5.0
@@ -449,6 +554,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D14QAlphaCoverage16staticMetaObjectE@Base 5.5.0
  _ZN4Qt3D14QAlphaCoverageC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QAlphaCoverageC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D14QAlphaCoverageD0Ev@Base 5.5.1
+ _ZN4Qt3D14QAlphaCoverageD1Ev@Base 5.5.1
+ _ZN4Qt3D14QAlphaCoverageD2Ev@Base 5.5.1
  (optional=templinst)_ZN4Qt3D14QAspectFactory14functionHelperINS_13QRenderAspectEEEPNS_15QAbstractAspectEP7QObject@Base 5.5.0
  _ZN4Qt3D14QBlendEquation11modeChangedEv@Base 5.5.0
  _ZN4Qt3D14QBlendEquation11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
@@ -458,6 +566,11 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D14QBlendEquation7setModeENS0_9BlendModeE@Base 5.5.0
  _ZN4Qt3D14QBlendEquationC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QBlendEquationC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D14QBlendEquationD0Ev@Base 5.5.1
+ _ZN4Qt3D14QBlendEquationD1Ev@Base 5.5.1
+ _ZN4Qt3D14QBlendEquationD2Ev@Base 5.5.1
+ _ZN4Qt3D14QBufferPrivateC1Ev@Base 5.5.1
+ _ZN4Qt3D14QBufferPrivateC2Ev@Base 5.5.1
  _ZN4Qt3D14QEffectPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D14QEffectPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D14QPhongMaterial10setAmbientERK6QColor@Base 5.5.0
@@ -486,6 +599,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D14QPolygonOffset9setFactorEf@Base 5.5.0
  _ZN4Qt3D14QPolygonOffsetC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QPolygonOffsetC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D14QPolygonOffsetD0Ev@Base 5.5.1
+ _ZN4Qt3D14QPolygonOffsetD1Ev@Base 5.5.1
+ _ZN4Qt3D14QPolygonOffsetD2Ev@Base 5.5.1
  _ZN4Qt3D14QShaderProgram10loadSourceERK4QUrl@Base 5.5.0
  _ZN4Qt3D14QShaderProgram11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D14QShaderProgram11qt_metacastEPKc@Base 5.5.0
@@ -508,6 +624,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D14QShaderProgramC1ERNS_21QShaderProgramPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QShaderProgramC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QShaderProgramC2ERNS_21QShaderProgramPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D14QShaderProgramD0Ev@Base 5.5.1
+ _ZN4Qt3D14QShaderProgramD1Ev@Base 5.5.1
+ _ZN4Qt3D14QShaderProgramD2Ev@Base 5.5.1
  _ZN4Qt3D14QSortCriterion11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D14QSortCriterion11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D14QSortCriterion11sortChangedEv@Base 5.5.0
@@ -518,6 +637,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D14QSortCriterionC1ERNS_21QSortCriterionPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QSortCriterionC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D14QSortCriterionC2ERNS_21QSortCriterionPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D14QSortCriterionD0Ev@Base 5.5.1
+ _ZN4Qt3D14QSortCriterionD1Ev@Base 5.5.1
+ _ZN4Qt3D14QSortCriterionD2Ev@Base 5.5.1
  _ZN4Qt3D14QTextureBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D14QTextureBuffer11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D14QTextureBuffer16staticMetaObjectE@Base 5.5.0
@@ -536,6 +658,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D15QCameraSelectorC1ERNS_22QCameraSelectorPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D15QCameraSelectorC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D15QCameraSelectorC2ERNS_22QCameraSelectorPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D15QCameraSelectorD0Ev@Base 5.5.1
+ _ZN4Qt3D15QCameraSelectorD1Ev@Base 5.5.1
+ _ZN4Qt3D15QCameraSelectorD2Ev@Base 5.5.1
  _ZN4Qt3D15QFrameGraphNode10setEnabledEb@Base 5.5.0
  _ZN4Qt3D15QFrameGraphNode11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D15QFrameGraphNode11qt_metacastEPKc@Base 5.5.0
@@ -545,6 +670,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D15QFrameGraphNodeC1ERNS_22QFrameGraphNodePrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D15QFrameGraphNodeC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D15QFrameGraphNodeC2ERNS_22QFrameGraphNodePrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D15QFrameGraphNodeD0Ev@Base 5.5.1
+ _ZN4Qt3D15QFrameGraphNodeD1Ev@Base 5.5.1
+ _ZN4Qt3D15QFrameGraphNodeD2Ev@Base 5.5.1
  _ZN4Qt3D15QTexture1DArray11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D15QTexture1DArray11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D15QTexture1DArray16staticMetaObjectE@Base 5.5.0
@@ -569,8 +697,6 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D15QTextureCubeMapD0Ev@Base 5.5.0
  _ZN4Qt3D15QTextureCubeMapD1Ev@Base 5.5.0
  _ZN4Qt3D15QTextureCubeMapD2Ev@Base 5.5.0
- _ZN4Qt3D16AttributePrivateC1Ev@Base 5.5.0
- _ZN4Qt3D16AttributePrivateC2Ev@Base 5.5.0
  _ZN4Qt3D16QForwardRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D16QForwardRenderer11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D16QForwardRenderer13cameraChangedEv@Base 5.5.0
@@ -616,6 +742,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D16QTechniqueFilterC1ERNS_23QTechniqueFilterPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D16QTechniqueFilterC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D16QTechniqueFilterC2ERNS_23QTechniqueFilterPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D16QTechniqueFilterD0Ev@Base 5.5.1
+ _ZN4Qt3D16QTechniqueFilterD1Ev@Base 5.5.1
+ _ZN4Qt3D16QTechniqueFilterD2Ev@Base 5.5.1
  _ZN4Qt3D16QTextureWrapMode11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D16QTextureWrapMode11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D16QTextureWrapMode16staticMetaObjectE@Base 5.5.0
@@ -629,6 +758,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D16QTextureWrapModeC1ENS0_8WrapModeES1_S1_P7QObject@Base 5.5.0
  _ZN4Qt3D16QTextureWrapModeC2ENS0_8WrapModeEP7QObject@Base 5.5.0
  _ZN4Qt3D16QTextureWrapModeC2ENS0_8WrapModeES1_S1_P7QObject@Base 5.5.0
+ _ZN4Qt3D17QAttributePrivateC1Ev@Base 5.5.1
+ _ZN4Qt3D17QAttributePrivateC2Ev@Base 5.5.1
  _ZN4Qt3D17QDirectionalLight11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D17QDirectionalLight11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D17QDirectionalLight12setDirectionERK9QVector3D@Base 5.5.0
@@ -639,6 +770,35 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D17QDirectionalLightC1ERNS_24QDirectionalLightPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QDirectionalLightC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QDirectionalLightC2ERNS_24QDirectionalLightPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D17QGeometryRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer11setGeometryEPNS_9QGeometryE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer13setBaseVertexEi@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer15geometryChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer15setBaseInstanceEi@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer15setRestartIndexEi@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer16setInstanceCountEi@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer16setPrimitiveTypeENS0_13PrimitiveTypeE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer17baseVertexChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer17setPrimitiveCountEi@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer18setGeometryFunctorERK14QSharedPointerINS_16QGeometryFunctorEE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer19baseInstanceChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer19restartIndexChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer19setPrimitiveRestartEb@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer20instanceCountChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer20primitiveTypeChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer21primitiveCountChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer23primitiveRestartChangedEv@Base 5.5.1
+ _ZN4Qt3D17QGeometryRenderer4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererC1ERNS_24QGeometryRendererPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererC2ERNS_24QGeometryRendererPrivateEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererD0Ev@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererD1Ev@Base 5.5.1
+ _ZN4Qt3D17QGeometryRendererD2Ev@Base 5.5.1
  _ZN4Qt3D17QParameterMapping11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D17QParameterMapping11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D17QParameterMapping14setBindingTypeENS0_7BindingE@Base 5.5.0
@@ -655,6 +815,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D17QParameterMappingC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QParameterMappingC2ERK7QStringS3_NS0_7BindingEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QParameterMappingC2ERNS_24QParameterMappingPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D17QParameterMappingD0Ev@Base 5.5.1
+ _ZN4Qt3D17QParameterMappingD1Ev@Base 5.5.1
+ _ZN4Qt3D17QParameterMappingD2Ev@Base 5.5.1
  _ZN4Qt3D17QParameterPrivate8setValueERK8QVariant@Base 5.5.0
  _ZN4Qt3D17QParameterPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D17QParameterPrivateC2Ev@Base 5.5.0
@@ -678,6 +841,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D17QRenderAttachmentC1ERNS_24QRenderAttachmentPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QRenderAttachmentC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QRenderAttachmentC2ERNS_24QRenderAttachmentPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D17QRenderAttachmentD0Ev@Base 5.5.1
+ _ZN4Qt3D17QRenderAttachmentD1Ev@Base 5.5.1
+ _ZN4Qt3D17QRenderAttachmentD2Ev@Base 5.5.1
  _ZN4Qt3D17QRenderPassFilter10addIncludeEPNS_11QAnnotationE@Base 5.5.0
  _ZN4Qt3D17QRenderPassFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D17QRenderPassFilter11qt_metacastEPKc@Base 5.5.0
@@ -690,6 +856,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D17QRenderPassFilterC1ERNS_24QRenderPassFilterPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QRenderPassFilterC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D17QRenderPassFilterC2ERNS_24QRenderPassFilterPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D17QRenderPassFilterD0Ev@Base 5.5.1
+ _ZN4Qt3D17QRenderPassFilterD1Ev@Base 5.5.1
+ _ZN4Qt3D17QRenderPassFilterD2Ev@Base 5.5.1
  _ZN4Qt3D17QSpotLightPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D17QSpotLightPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D17QTechniquePrivate22_q_openGLFilterChangedEv@Base 5.5.0
@@ -708,12 +877,31 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D17QTextureRectangleD2Ev@Base 5.5.0
  _ZN4Qt3D18QPointLightPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D18QPointLightPrivateC2Ev@Base 5.5.0
+ _ZN4Qt3D18QRayCastingService11fetchResultERKi@Base 5.5.1
+ _ZN4Qt3D18QRayCastingService5queryERKNS_6QRay3DENS_30QAbstractCollisionQueryService9QueryModeE@Base 5.5.1
+ _ZN4Qt3D18QRayCastingServiceC1EPNS_23QBoundingVolumeProviderE@Base 5.5.1
+ _ZN4Qt3D18QRayCastingServiceC2EPNS_23QBoundingVolumeProviderE@Base 5.5.1
  _ZN4Qt3D18QRenderPassPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D18QRenderPassPrivateC2Ev@Base 5.5.0
  _ZN4Qt3D18QShaderDataPrivateC1E14QSharedPointerINS_23PropertyReaderInterfaceEE@Base 5.5.0
  _ZN4Qt3D18QShaderDataPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D18QShaderDataPrivateC2E14QSharedPointerINS_23PropertyReaderInterfaceEE@Base 5.5.0
  _ZN4Qt3D18QShaderDataPrivateC2Ev@Base 5.5.0
+ _ZN4Qt3D18QStencilOpSeparate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate12setDepthFailENS0_9StencilOpE@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate14setStencilFailENS0_9StencilOpE@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate15faceModeChangedEv@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate16depthFailChangedEv@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate18stencilFailChangedEv@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate19setStencilDepthPassENS0_9StencilOpE@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparate23stencilDepthPassChangedEv@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparateC1ENS0_15StencilFaceModeEP7QObject@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparateC2ENS0_15StencilFaceModeEP7QObject@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparateD0Ev@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparateD1Ev@Base 5.5.1
+ _ZN4Qt3D18QStencilOpSeparateD2Ev@Base 5.5.1
  _ZN4Qt3D19AbstractSceneParser11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D19AbstractSceneParser11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D19AbstractSceneParser13errorsChangedEv@Base 5.5.0
@@ -762,8 +950,21 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D19QFrameGraphSelectorD2Ev@Base 5.5.0
  _ZN4Qt3D19QLayerFilterPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D19QLayerFilterPrivateC2Ev@Base 5.5.0
- _ZN4Qt3D20QAbstractMeshPrivateC1Ev@Base 5.5.0
- _ZN4Qt3D20QAbstractMeshPrivateC2Ev@Base 5.5.0
+ _ZN4Qt3D20QStencilTestSeparate10refChangedEv@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate11funcChangedEv@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate11maskChangedEv@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate15faceModeChangedEv@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate6setRefEi@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate7setFuncENS0_11StencilFuncE@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparate7setMaskEj@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparateC1ENS0_15StencilFaceModeEP7QObject@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparateC2ENS0_15StencilFaceModeEP7QObject@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparateD0Ev@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparateD1Ev@Base 5.5.1
+ _ZN4Qt3D20QStencilTestSeparateD2Ev@Base 5.5.1
  _ZN4Qt3D20QTextureCubeMapArray11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D20QTextureCubeMapArray11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D20QTextureCubeMapArray16staticMetaObjectE@Base 5.5.0
@@ -803,6 +1004,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D21QRenderTargetSelectorC1ERNS_28QRenderTargetSelectorPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D21QRenderTargetSelectorC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D21QRenderTargetSelectorC2ERNS_28QRenderTargetSelectorPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D21QRenderTargetSelectorD0Ev@Base 5.5.1
+ _ZN4Qt3D21QRenderTargetSelectorD1Ev@Base 5.5.1
+ _ZN4Qt3D21QRenderTargetSelectorD2Ev@Base 5.5.1
  _ZN4Qt3D21QTexture2DMultisample11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D21QTexture2DMultisample11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D21QTexture2DMultisample16staticMetaObjectE@Base 5.5.0
@@ -947,20 +1151,14 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D5QMesh11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D5QMesh13sourceChangedEv@Base 5.5.0
  _ZN4Qt3D5QMesh16staticMetaObjectE@Base 5.5.0
- _ZN4Qt3D5QMesh4copyEPKNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D5QMesh9setSourceERK4QUrl@Base 5.5.0
  _ZN4Qt3D5QMeshC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D5QMeshC1ERNS_12QMeshPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D5QMeshC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D5QMeshC2ERNS_12QMeshPrivateEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D6Buffer4bindEv@Base 5.5.0
- _ZN4Qt3D6Buffer6createEv@Base 5.5.0
- _ZN4Qt3D6Buffer6uploadE13QOpenGLBuffer@Base 5.5.0
- _ZN4Qt3D6Buffer8setUsageEN13QOpenGLBuffer12UsagePatternE@Base 5.5.0
- _ZN4Qt3D6BufferC1EN13QOpenGLBuffer4TypeE@Base 5.5.0
- _ZN4Qt3D6BufferC1ERNS_13BufferPrivateEN13QOpenGLBuffer4TypeE@Base 5.5.0
- _ZN4Qt3D6BufferC2EN13QOpenGLBuffer4TypeE@Base 5.5.0
- _ZN4Qt3D6BufferC2ERNS_13BufferPrivateEN13QOpenGLBuffer4TypeE@Base 5.5.0
+ _ZN4Qt3D5QMeshD0Ev@Base 5.5.1
+ _ZN4Qt3D5QMeshD1Ev@Base 5.5.1
+ _ZN4Qt3D5QMeshD2Ev@Base 5.5.1
  _ZN4Qt3D6QLayer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D6QLayer11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D6QLayer12namesChangedEv@Base 5.5.0
@@ -971,6 +1169,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D6QLayerC1ERNS_13QLayerPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D6QLayerC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D6QLayerC2ERNS_13QLayerPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D6QLayerD0Ev@Base 5.5.1
+ _ZN4Qt3D6QLayerD1Ev@Base 5.5.1
+ _ZN4Qt3D6QLayerD2Ev@Base 5.5.1
  _ZN4Qt3D6Render20QAbstractSceneLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D6Render20QAbstractSceneLoader11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D6Render20QAbstractSceneLoader13sourceChangedEv@Base 5.5.0
@@ -983,8 +1184,33 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D6Render20QAbstractSceneLoaderC1ERNS0_27QAbstractSceneLoaderPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D6Render20QAbstractSceneLoaderC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D6Render20QAbstractSceneLoaderC2ERNS0_27QAbstractSceneLoaderPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D6Render20QAbstractSceneLoaderD0Ev@Base 5.5.1
+ _ZN4Qt3D6Render20QAbstractSceneLoaderD1Ev@Base 5.5.1
+ _ZN4Qt3D6Render20QAbstractSceneLoaderD2Ev@Base 5.5.1
  _ZN4Qt3D6Render27QAbstractSceneLoaderPrivateC1Ev@Base 5.5.0
  _ZN4Qt3D6Render27QAbstractSceneLoaderPrivateC2Ev@Base 5.5.0
+ _ZN4Qt3D6Sphere10fromPointsERK7QVectorI9QVector3DE@Base 5.5.1
+ _ZN4Qt3D6Sphere10ms_epsilonE@Base 5.5.1
+ _ZN4Qt3D6Sphere11transformedERK10QMatrix4x4@Base 5.5.1
+ _ZN4Qt3D6Sphere15expandToContainERK9QVector3D@Base 5.5.1
+ _ZN4Qt3D6Sphere15expandToContainERKS0_@Base 5.5.1
+ _ZN4Qt3D6Sphere20initializeFromPointsERK7QVectorI9QVector3DE@Base 5.5.1
+ _ZN4Qt3D7QBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D7QBuffer11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D7QBuffer11typeChangedEv@Base 5.5.1
+ _ZN4Qt3D7QBuffer12usageChangedEv@Base 5.5.1
+ _ZN4Qt3D7QBuffer16setBufferFunctorERK14QSharedPointerINS_14QBufferFunctorEE@Base 5.5.1
+ _ZN4Qt3D7QBuffer16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D7QBuffer4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D7QBuffer7setTypeENS0_10BufferTypeE@Base 5.5.1
+ _ZN4Qt3D7QBuffer8setUsageENS0_9UsageTypeE@Base 5.5.1
+ _ZN4Qt3D7QBufferC1ENS0_10BufferTypeEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D7QBufferC1ERNS_14QBufferPrivateENS0_10BufferTypeEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D7QBufferC2ENS0_10BufferTypeEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D7QBufferC2ERNS_14QBufferPrivateENS0_10BufferTypeEPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D7QBufferD0Ev@Base 5.5.1
+ _ZN4Qt3D7QBufferD1Ev@Base 5.5.1
+ _ZN4Qt3D7QBufferD2Ev@Base 5.5.1
  _ZN4Qt3D7QEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D7QEffect11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D7QEffect12addParameterEPNS_10QParameterE@Base 5.5.0
@@ -997,6 +1223,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D7QEffectC1ERNS_14QEffectPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D7QEffectC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D7QEffectC2ERNS_14QEffectPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D7QEffectD0Ev@Base 5.5.1
+ _ZN4Qt3D7QEffectD1Ev@Base 5.5.1
+ _ZN4Qt3D7QEffectD2Ev@Base 5.5.1
  _ZN4Qt3D7QNoDraw11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D7QNoDraw11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D7QNoDraw16staticMetaObjectE@Base 5.5.0
@@ -1005,11 +1234,20 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D7QNoDrawD0Ev@Base 5.5.0
  _ZN4Qt3D7QNoDrawD1Ev@Base 5.5.0
  _ZN4Qt3D7QNoDrawD2Ev@Base 5.5.0
- _ZN4Qt3D9Attribute4dumpEi@Base 5.5.0
- _ZN4Qt3D9AttributeC1E14QSharedPointerINS_15QAbstractBufferEEiiii@Base 5.5.0
- _ZN4Qt3D9AttributeC1ERNS_16AttributePrivateE14QSharedPointerINS_15QAbstractBufferEEiiii@Base 5.5.0
- _ZN4Qt3D9AttributeC2E14QSharedPointerINS_15QAbstractBufferEEiiii@Base 5.5.0
- _ZN4Qt3D9AttributeC2ERNS_16AttributePrivateE14QSharedPointerINS_15QAbstractBufferEEiiii@Base 5.5.0
+ _ZN4Qt3D7QWindow11resizeEventEP12QResizeEvent@Base 5.5.1
+ _ZN4Qt3D7QWindow13defaultCameraEv@Base 5.5.1
+ _ZN4Qt3D7QWindow13setFrameGraphEPNS_11QFrameGraphE@Base 5.5.1
+ _ZN4Qt3D7QWindow13setRootEntityEPNS_7QEntityE@Base 5.5.1
+ _ZN4Qt3D7QWindow14registerAspectEPNS_15QAbstractAspectE@Base 5.5.1
+ _ZN4Qt3D7QWindow14registerAspectERK7QString@Base 5.5.1
+ _ZN4Qt3D7QWindow4showEv@Base 5.5.1
+ _ZN4Qt3D7QWindowC1EP7QWindow@Base 5.5.1
+ _ZN4Qt3D7QWindowC1ERNS_14QWindowPrivateEP7QWindow@Base 5.5.1
+ _ZN4Qt3D7QWindowC2EP7QWindow@Base 5.5.1
+ _ZN4Qt3D7QWindowC2ERNS_14QWindowPrivateEP7QWindow@Base 5.5.1
+ _ZN4Qt3D7QWindowD0Ev@Base 5.5.1
+ _ZN4Qt3D7QWindowD1Ev@Base 5.5.1
+ _ZN4Qt3D7QWindowD2Ev@Base 5.5.1
  _ZN4Qt3D9QCullFace11modeChangedEv@Base 5.5.0
  _ZN4Qt3D9QCullFace11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D9QCullFace11qt_metacastEPKc@Base 5.5.0
@@ -1018,6 +1256,22 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D9QCullFace7setModeENS0_11CullingModeE@Base 5.5.0
  _ZN4Qt3D9QCullFaceC1EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D9QCullFaceC2EPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D9QCullFaceD0Ev@Base 5.5.1
+ _ZN4Qt3D9QCullFaceD1Ev@Base 5.5.1
+ _ZN4Qt3D9QCullFaceD2Ev@Base 5.5.1
+ _ZN4Qt3D9QGeometry11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.1
+ _ZN4Qt3D9QGeometry11qt_metacastEPKc@Base 5.5.1
+ _ZN4Qt3D9QGeometry12addAttributeEPNS_18QAbstractAttributeE@Base 5.5.1
+ _ZN4Qt3D9QGeometry15removeAttributeEPNS_18QAbstractAttributeE@Base 5.5.1
+ _ZN4Qt3D9QGeometry16staticMetaObjectE@Base 5.5.1
+ _ZN4Qt3D9QGeometry19setVerticesPerPatchEi@Base 5.5.1
+ _ZN4Qt3D9QGeometry23verticesPerPatchChangedEv@Base 5.5.1
+ _ZN4Qt3D9QGeometry4copyEPKNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D9QGeometryC1EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D9QGeometryC2EPNS_5QNodeE@Base 5.5.1
+ _ZN4Qt3D9QGeometryD0Ev@Base 5.5.1
+ _ZN4Qt3D9QGeometryD1Ev@Base 5.5.1
+ _ZN4Qt3D9QGeometryD2Ev@Base 5.5.1
  _ZN4Qt3D9QMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D9QMaterial11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D9QMaterial12addParameterEPNS_10QParameterE@Base 5.5.0
@@ -1031,24 +1285,9 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D9QMaterialC1ERNS_16QMaterialPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D9QMaterialC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D9QMaterialC2ERNS_16QMaterialPrivateEPNS_5QNodeE@Base 5.5.0
- _ZN4Qt3D9QMeshData12addAttributeERK7QStringRK14QSharedPointerINS_18QAbstractAttributeEE@Base 5.5.0
- _ZN4Qt3D9QMeshData14setBoundingBoxERKNS_23QAxisAlignedBoundingBoxE@Base 5.5.0
- _ZN4Qt3D9QMeshData16setPrimitiveTypeENS0_13PrimitiveTypeE@Base 5.5.0
- _ZN4Qt3D9QMeshData17setIndexAttributeERK14QSharedPointerINS_18QAbstractAttributeEE@Base 5.5.0
- _ZN4Qt3D9QMeshData19setVerticesPerPatchEi@Base 5.5.0
- _ZN4Qt3D9QMeshData25defaultColorAttributeNameEv@Base 5.5.0
- _ZN4Qt3D9QMeshData26computeBoundsFromAttributeERK7QString@Base 5.5.0
- _ZN4Qt3D9QMeshData26defaultNormalAttributeNameEv@Base 5.5.0
- _ZN4Qt3D9QMeshData27defaultTangentAttributeNameEv@Base 5.5.0
- _ZN4Qt3D9QMeshData28defaultPositionAttributeNameEv@Base 5.5.0
- _ZN4Qt3D9QMeshData37defaultTextureCoordinateAttributeNameEv@Base 5.5.0
- _ZN4Qt3D9QMeshDataC1ENS0_13PrimitiveTypeE@Base 5.5.0
- _ZN4Qt3D9QMeshDataC1ERNS_16QMeshDataPrivateE@Base 5.5.0
- _ZN4Qt3D9QMeshDataC2ENS0_13PrimitiveTypeE@Base 5.5.0
- _ZN4Qt3D9QMeshDataC2ERNS_16QMeshDataPrivateE@Base 5.5.0
- _ZN4Qt3D9QMeshDataD0Ev@Base 5.5.0
- _ZN4Qt3D9QMeshDataD1Ev@Base 5.5.0
- _ZN4Qt3D9QMeshDataD2Ev@Base 5.5.0
+ _ZN4Qt3D9QMaterialD0Ev@Base 5.5.1
+ _ZN4Qt3D9QMaterialD1Ev@Base 5.5.1
+ _ZN4Qt3D9QMaterialD2Ev@Base 5.5.1
  _ZN4Qt3D9QStateSet11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D9QStateSet11qt_metacastEPKc@Base 5.5.0
  _ZN4Qt3D9QStateSet14addRenderStateEPNS_12QRenderStateE@Base 5.5.0
@@ -1074,9 +1313,19 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZN4Qt3D9QViewportC1ERNS_16QViewportPrivateEPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D9QViewportC2EPNS_5QNodeE@Base 5.5.0
  _ZN4Qt3D9QViewportC2ERNS_16QViewportPrivateEPNS_5QNodeE@Base 5.5.0
+ _ZN4Qt3D9QViewportD0Ev@Base 5.5.1
+ _ZN4Qt3D9QViewportD1Ev@Base 5.5.1
+ _ZN4Qt3D9QViewportD2Ev@Base 5.5.1
  _ZNK4Qt3D10QAlphaTest10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D10QAlphaTest4funcEv@Base 5.5.0
  _ZNK4Qt3D10QAlphaTest5clampEv@Base 5.5.0
+ _ZNK4Qt3D10QAttribute10asVector2DEv@Base 5.5.1
+ _ZNK4Qt3D10QAttribute10asVector3DEv@Base 5.5.1
+ _ZNK4Qt3D10QAttribute10asVector4DEv@Base 5.5.1
+ _ZNK4Qt3D10QAttribute10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D10QAttribute6bufferEv@Base 5.5.1
+ _ZNK4Qt3D10QClipPlane10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D10QClipPlane5planeEv@Base 5.5.1
  _ZNK4Qt3D10QColorMask10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D10QColorMask5isRedEv@Base 5.5.0
  _ZNK4Qt3D10QColorMask6isBlueEv@Base 5.5.0
@@ -1093,13 +1342,15 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D10QParameter4nameEv@Base 5.5.0
  _ZNK4Qt3D10QParameter5valueEv@Base 5.5.0
  _ZNK4Qt3D10QPlaneMesh10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D10QPlaneMesh11meshFunctorEv@Base 5.5.0
  _ZNK4Qt3D10QPlaneMesh14meshResolutionEv@Base 5.5.0
  _ZNK4Qt3D10QPlaneMesh5widthEv@Base 5.5.0
  _ZNK4Qt3D10QPlaneMesh6heightEv@Base 5.5.0
  _ZNK4Qt3D10QSpotLight10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D10QSpotLight11cutOffAngleEv@Base 5.5.0
  _ZNK4Qt3D10QSpotLight9directionEv@Base 5.5.0
+ _ZNK4Qt3D10QStencilOp10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D10QStencilOp4backEv@Base 5.5.1
+ _ZNK4Qt3D10QStencilOp5frontEv@Base 5.5.1
  _ZNK4Qt3D10QTechnique10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D10QTechnique10parametersEv@Base 5.5.0
  _ZNK4Qt3D10QTechnique11annotationsEv@Base 5.5.0
@@ -1108,7 +1359,6 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D10QTexture2D10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D10QTexture3D10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D10QTorusMesh10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D10QTorusMesh11meshFunctorEv@Base 5.5.0
  _ZNK4Qt3D10QTorusMesh11minorRadiusEv@Base 5.5.0
  _ZNK4Qt3D10QTorusMesh5ringsEv@Base 5.5.0
  _ZNK4Qt3D10QTorusMesh6radiusEv@Base 5.5.0
@@ -1122,7 +1372,6 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D11QBlendState8dstAlphaEv@Base 5.5.0
  _ZNK4Qt3D11QBlendState8srcAlphaEv@Base 5.5.0
  _ZNK4Qt3D11QCuboidMesh10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D11QCuboidMesh11meshFunctorEv@Base 5.5.0
  _ZNK4Qt3D11QCuboidMesh16xyMeshResolutionEv@Base 5.5.0
  _ZNK4Qt3D11QCuboidMesh16xzMeshResolutionEv@Base 5.5.0
  _ZNK4Qt3D11QCuboidMesh16yzMeshResolutionEv@Base 5.5.0
@@ -1145,7 +1394,6 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D11QSortMethod10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D11QSortMethod8criteriaEv@Base 5.5.0
  _ZNK4Qt3D11QSphereMesh10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D11QSphereMesh11meshFunctorEv@Base 5.5.0
  _ZNK4Qt3D11QSphereMesh16generateTangentsEv@Base 5.5.0
  _ZNK4Qt3D11QSphereMesh5ringsEv@Base 5.5.0
  _ZNK4Qt3D11QSphereMesh6radiusEv@Base 5.5.0
@@ -1162,13 +1410,13 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D12QScissorTest5widthEv@Base 5.5.0
  _ZNK4Qt3D12QScissorTest6bottomEv@Base 5.5.0
  _ZNK4Qt3D12QScissorTest6heightEv@Base 5.5.0
+ _ZNK4Qt3D12QStencilMask10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D12QStencilMask8backMaskEv@Base 5.5.1
+ _ZNK4Qt3D12QStencilMask9frontMaskEv@Base 5.5.1
  _ZNK4Qt3D12QStencilTest10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D12QStencilTest4funcEv@Base 5.5.0
- _ZNK4Qt3D12QStencilTest4maskEv@Base 5.5.0
- _ZNK4Qt3D12QStencilTest8faceModeEv@Base 5.5.0
- _ZNK4Qt3D13QAbstractMesh10metaObjectEv@Base 5.5.0
+ _ZNK4Qt3D12QStencilTest4backEv@Base 5.5.1
+ _ZNK4Qt3D12QStencilTest5frontEv@Base 5.5.1
  _ZNK4Qt3D13QCylinderMesh10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D13QCylinderMesh11meshFunctorEv@Base 5.5.0
  _ZNK4Qt3D13QCylinderMesh5ringsEv@Base 5.5.0
  _ZNK4Qt3D13QCylinderMesh6lengthEv@Base 5.5.0
  _ZNK4Qt3D13QCylinderMesh6radiusEv@Base 5.5.0
@@ -1242,6 +1490,16 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D16QTextureWrapMode1zEv@Base 5.5.0
  _ZNK4Qt3D17QDirectionalLight10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D17QDirectionalLight9directionEv@Base 5.5.0
+ _ZNK4Qt3D17QGeometryRenderer10baseVertexEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer12baseInstanceEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer12restartIndexEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer13instanceCountEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer13primitiveTypeEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer14primitiveCountEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer15geometryFunctorEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer16primitiveRestartEv@Base 5.5.1
+ _ZNK4Qt3D17QGeometryRenderer8geometryEv@Base 5.5.1
  _ZNK4Qt3D17QParameterMapping10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D17QParameterMapping11bindingTypeEv@Base 5.5.0
  _ZNK4Qt3D17QParameterMapping13parameterNameEv@Base 5.5.0
@@ -1257,6 +1515,12 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D17QRenderPassFilter10parametersEv@Base 5.5.0
  _ZNK4Qt3D17QRenderPassFilter8includesEv@Base 5.5.0
  _ZNK4Qt3D17QTextureRectangle10metaObjectEv@Base 5.5.0
+ _ZNK4Qt3D18QRayCastingService15fetchAllResultsEv@Base 5.5.1
+ _ZNK4Qt3D18QStencilOpSeparate10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D18QStencilOpSeparate11stencilFailEv@Base 5.5.1
+ _ZNK4Qt3D18QStencilOpSeparate16stencilDepthPassEv@Base 5.5.1
+ _ZNK4Qt3D18QStencilOpSeparate8faceModeEv@Base 5.5.1
+ _ZNK4Qt3D18QStencilOpSeparate9depthFailEv@Base 5.5.1
  _ZNK4Qt3D19AbstractSceneParser10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D19AbstractSceneParser12parserStatusEv@Base 5.5.0
  _ZNK4Qt3D19AbstractSceneParser6errorsEv@Base 5.5.0
@@ -1269,6 +1533,11 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D19QDiffuseMapMaterial9shininessEv@Base 5.5.0
  _ZNK4Qt3D19QFrameGraphSelector10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D19QFrameGraphSelector16selectionFunctorEv@Base 5.5.0
+ _ZNK4Qt3D20QStencilTestSeparate10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D20QStencilTestSeparate3refEv@Base 5.5.1
+ _ZNK4Qt3D20QStencilTestSeparate4funcEv@Base 5.5.1
+ _ZNK4Qt3D20QStencilTestSeparate4maskEv@Base 5.5.1
+ _ZNK4Qt3D20QStencilTestSeparate8faceModeEv@Base 5.5.1
  _ZNK4Qt3D20QTextureCubeMapArray10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D21QAbstractTextureImage10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D21QAbstractTextureImage11cubeMapFaceEv@Base 5.5.0
@@ -1318,41 +1587,43 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZNK4Qt3D33QNormalDiffuseSpecularMapMaterial8specularEv@Base 5.5.0
  _ZNK4Qt3D33QNormalDiffuseSpecularMapMaterial9shininessEv@Base 5.5.0
  _ZNK4Qt3D5QMesh10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D5QMesh11meshFunctorEv@Base 5.5.0
  _ZNK4Qt3D5QMesh6sourceEv@Base 5.5.0
- _ZNK4Qt3D6Buffer4typeEv@Base 5.5.0
- _ZNK4Qt3D6Buffer8createGLEv@Base 5.5.0
  _ZNK4Qt3D6QLayer10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D6QLayer5namesEv@Base 5.5.0
  _ZNK4Qt3D6Render20QAbstractSceneLoader10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D6Render20QAbstractSceneLoader6sourceEv@Base 5.5.0
  _ZNK4Qt3D6Render20QAbstractSceneLoader6statusEv@Base 5.5.0
+ _ZNK4Qt3D6Sphere10intersectsERKNS_6QRay3DEP9QVector3D@Base 5.5.1
+ _ZNK4Qt3D6Sphere2idEv@Base 5.5.1
+ _ZNK4Qt3D6Sphere4typeEv@Base 5.5.1
+ _ZNK4Qt3D6Sphere6centerEv@Base 5.5.1
+ _ZNK4Qt3D6Sphere6radiusEv@Base 5.5.1
+ _ZNK4Qt3D7QBuffer10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D7QBuffer13bufferFunctorEv@Base 5.5.1
+ _ZNK4Qt3D7QBuffer4typeEv@Base 5.5.1
+ _ZNK4Qt3D7QBuffer5usageEv@Base 5.5.1
  _ZNK4Qt3D7QEffect10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D7QEffect10parametersEv@Base 5.5.0
  _ZNK4Qt3D7QEffect10techniquesEv@Base 5.5.0
  _ZNK4Qt3D7QNoDraw10metaObjectEv@Base 5.5.0
- _ZNK4Qt3D9Attribute10asVector2DEv@Base 5.5.0
- _ZNK4Qt3D9Attribute10asVector3DEv@Base 5.5.0
+ _ZNK4Qt3D7QWindow10frameGraphEv@Base 5.5.1
  _ZNK4Qt3D9QCullFace10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D9QCullFace4modeEv@Base 5.5.0
+ _ZNK4Qt3D9QGeometry10attributesEv@Base 5.5.1
+ _ZNK4Qt3D9QGeometry10metaObjectEv@Base 5.5.1
+ _ZNK4Qt3D9QGeometry16verticesPerPatchEv@Base 5.5.1
  _ZNK4Qt3D9QMaterial10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D9QMaterial10parametersEv@Base 5.5.0
  _ZNK4Qt3D9QMaterial13textureValuesEv@Base 5.5.0
  _ZNK4Qt3D9QMaterial6effectEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData11boundingBoxEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData13primitiveTypeEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData14attributeNamesEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData14indexAttributeEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData14primitiveCountEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData15attributeByNameERK7QString@Base 5.5.0
- _ZNK4Qt3D9QMeshData16verticesPerPatchEv@Base 5.5.0
- _ZNK4Qt3D9QMeshData7buffersEv@Base 5.5.0
  _ZNK4Qt3D9QStateSet10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D9QStateSet12renderStatesEv@Base 5.5.0
  _ZNK4Qt3D9QViewport10clearColorEv@Base 5.5.0
  _ZNK4Qt3D9QViewport10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D9QViewport4rectEv@Base 5.5.0
  _ZTIN4Qt3D10QAlphaTestE@Base 5.5.0
+ _ZTIN4Qt3D10QAttributeE@Base 5.5.1
+ _ZTIN4Qt3D10QClipPlaneE@Base 5.5.1
  _ZTIN4Qt3D10QColorMaskE@Base 5.5.0
  _ZTIN4Qt3D10QDepthMaskE@Base 5.5.0
  _ZTIN4Qt3D10QDepthTestE@Base 5.5.0
@@ -1361,6 +1632,7 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTIN4Qt3D10QParameterE@Base 5.5.0
  _ZTIN4Qt3D10QPlaneMeshE@Base 5.5.0
  _ZTIN4Qt3D10QSpotLightE@Base 5.5.0
+ _ZTIN4Qt3D10QStencilOpE@Base 5.5.1
  _ZTIN4Qt3D10QTechniqueE@Base 5.5.0
  _ZTIN4Qt3D10QTexture1DE@Base 5.5.0
  _ZTIN4Qt3D10QTexture2DE@Base 5.5.0
@@ -1381,8 +1653,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTIN4Qt3D12QRenderStateE@Base 5.5.0
  _ZTIN4Qt3D12QSceneLoaderE@Base 5.5.0
  _ZTIN4Qt3D12QScissorTestE@Base 5.5.0
+ _ZTIN4Qt3D12QStencilMaskE@Base 5.5.1
  _ZTIN4Qt3D12QStencilTestE@Base 5.5.0
- _ZTIN4Qt3D13QAbstractMeshE@Base 5.5.0
  _ZTIN4Qt3D13QCylinderMeshE@Base 5.5.0
  _ZTIN4Qt3D13QLayerPrivateE@Base 5.5.0
  _ZTIN4Qt3D13QOpenGLFilterE@Base 5.5.0
@@ -1393,6 +1665,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTIN4Qt3D14QAbstractLightE@Base 5.5.0
  _ZTIN4Qt3D14QAlphaCoverageE@Base 5.5.0
  _ZTIN4Qt3D14QBlendEquationE@Base 5.5.0
+ _ZTIN4Qt3D14QBufferFunctorE@Base 5.5.1
+ _ZTIN4Qt3D14QBufferPrivateE@Base 5.5.1
  _ZTIN4Qt3D14QEffectPrivateE@Base 5.5.0
  _ZTIN4Qt3D14QEntityPrivateE@Base 5.5.0
  _ZTIN4Qt3D14QPhongMaterialE@Base 5.5.0
@@ -1406,12 +1680,15 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTIN4Qt3D15QTexture2DArrayE@Base 5.5.0
  _ZTIN4Qt3D15QTextureCubeMapE@Base 5.5.0
  _ZTIN4Qt3D16QForwardRendererE@Base 5.5.0
+ _ZTIN4Qt3D16QGeometryFunctorE@Base 5.5.1
  _ZTIN4Qt3D16QItemModelBufferE@Base 5.5.0
  _ZTIN4Qt3D16QMaterialPrivateE@Base 5.5.0
  _ZTIN4Qt3D16QTechniqueFilterE@Base 5.5.0
  _ZTIN4Qt3D16QTextureWrapModeE@Base 5.5.0
+ _ZTIN4Qt3D17QAttributePrivateE@Base 5.5.1
  _ZTIN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTIN4Qt3D17QDirectionalLightE@Base 5.5.0
+ _ZTIN4Qt3D17QGeometryRendererE@Base 5.5.1
  _ZTIN4Qt3D17QParameterMappingE@Base 5.5.0
  _ZTIN4Qt3D17QParameterPrivateE@Base 5.5.0
  _ZTIN4Qt3D17QRenderAttachmentE@Base 5.5.0
@@ -1420,8 +1697,10 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTIN4Qt3D17QTechniquePrivateE@Base 5.5.0
  _ZTIN4Qt3D17QTextureRectangleE@Base 5.5.0
  _ZTIN4Qt3D18QPointLightPrivateE@Base 5.5.0
+ _ZTIN4Qt3D18QRayCastingServiceE@Base 5.5.1
  _ZTIN4Qt3D18QRenderPassPrivateE@Base 5.5.0
  _ZTIN4Qt3D18QShaderDataPrivateE@Base 5.5.0
+ _ZTIN4Qt3D18QStencilOpSeparateE@Base 5.5.1
  _ZTIN4Qt3D19AbstractSceneParserE@Base 5.5.0
  _ZTIN4Qt3D19QBackendNodeFunctorE@Base 5.5.0
  _ZTIN4Qt3D19QBlendStateSeparateE@Base 5.5.0
@@ -1429,38 +1708,44 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTIN4Qt3D19QFrameGraphSelectorE@Base 5.5.0
  _ZTIN4Qt3D19QLayerFilterPrivateE@Base 5.5.0
  _ZTIN4Qt3D19QTextureDataFunctorE@Base 5.5.0
- _ZTIN4Qt3D20QAbstractMeshFunctorE@Base 5.5.0
- _ZTIN4Qt3D20QAbstractMeshPrivateE@Base 5.5.0
+ _ZTIN4Qt3D20QStencilTestSeparateE@Base 5.5.1
  _ZTIN4Qt3D20QTextureCubeMapArrayE@Base 5.5.0
  _ZTIN4Qt3D21QAbstractLightPrivateE@Base 5.5.0
  _ZTIN4Qt3D21QAbstractTextureImageE@Base 5.5.0
  _ZTIN4Qt3D21QRenderTargetSelectorE@Base 5.5.0
  _ZTIN4Qt3D21QTexture2DMultisampleE@Base 5.5.0
  _ZTIN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTIN4Qt3D22QAbstractBufferPrivateE@Base 5.5.1
  _ZTIN4Qt3D23PropertyReaderInterfaceE@Base 5.5.0
  _ZTIN4Qt3D23QPerVertexColorMaterialE@Base 5.5.0
  _ZTIN4Qt3D24QAbstractTextureProviderE@Base 5.5.0
  _ZTIN4Qt3D24QDirectionalLightPrivateE@Base 5.5.0
+ _ZTIN4Qt3D25QAbstractAttributePrivateE@Base 5.5.1
  _ZTIN4Qt3D25QNormalDiffuseMapMaterialE@Base 5.5.0
  _ZTIN4Qt3D26QTexture2DMultisampleArrayE@Base 5.5.0
  _ZTIN4Qt3D27QDiffuseSpecularMapMaterialE@Base 5.5.0
+ _ZTIN4Qt3D28QAbstractFrameAdvanceServiceE@Base 5.5.1
  _ZTIN4Qt3D28QAbstractTextureImagePrivateE@Base 5.5.0
+ _ZTIN4Qt3D30QAbstractCollisionQueryServiceE@Base 5.5.1
  _ZTIN4Qt3D30QNormalDiffuseMapAlphaMaterialE@Base 5.5.0
  _ZTIN4Qt3D33QNormalDiffuseSpecularMapMaterialE@Base 5.5.0
  _ZTIN4Qt3D5QMeshE@Base 5.5.0
- _ZTIN4Qt3D6BufferE@Base 5.5.0
  _ZTIN4Qt3D6QLayerE@Base 5.5.0
  _ZTIN4Qt3D6Render20QAbstractSceneLoaderE@Base 5.5.0
  _ZTIN4Qt3D6Render27QAbstractSceneLoaderPrivateE@Base 5.5.0
+ _ZTIN4Qt3D6SphereE@Base 5.5.1
+ _ZTIN4Qt3D7QBufferE@Base 5.5.1
  _ZTIN4Qt3D7QEffectE@Base 5.5.0
  _ZTIN4Qt3D7QNoDrawE@Base 5.5.0
- _ZTIN4Qt3D9AttributeE@Base 5.5.0
+ _ZTIN4Qt3D7QWindowE@Base 5.5.1
  _ZTIN4Qt3D9QCullFaceE@Base 5.5.0
+ _ZTIN4Qt3D9QGeometryE@Base 5.5.1
  _ZTIN4Qt3D9QMaterialE@Base 5.5.0
- _ZTIN4Qt3D9QMeshDataE@Base 5.5.0
  _ZTIN4Qt3D9QStateSetE@Base 5.5.0
  _ZTIN4Qt3D9QViewportE@Base 5.5.0
  _ZTSN4Qt3D10QAlphaTestE@Base 5.5.0
+ _ZTSN4Qt3D10QAttributeE@Base 5.5.1
+ _ZTSN4Qt3D10QClipPlaneE@Base 5.5.1
  _ZTSN4Qt3D10QColorMaskE@Base 5.5.0
  _ZTSN4Qt3D10QDepthMaskE@Base 5.5.0
  _ZTSN4Qt3D10QDepthTestE@Base 5.5.0
@@ -1469,6 +1754,7 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTSN4Qt3D10QParameterE@Base 5.5.0
  _ZTSN4Qt3D10QPlaneMeshE@Base 5.5.0
  _ZTSN4Qt3D10QSpotLightE@Base 5.5.0
+ _ZTSN4Qt3D10QStencilOpE@Base 5.5.1
  _ZTSN4Qt3D10QTechniqueE@Base 5.5.0
  _ZTSN4Qt3D10QTexture1DE@Base 5.5.0
  _ZTSN4Qt3D10QTexture2DE@Base 5.5.0
@@ -1489,8 +1775,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTSN4Qt3D12QRenderStateE@Base 5.5.0
  _ZTSN4Qt3D12QSceneLoaderE@Base 5.5.0
  _ZTSN4Qt3D12QScissorTestE@Base 5.5.0
+ _ZTSN4Qt3D12QStencilMaskE@Base 5.5.1
  _ZTSN4Qt3D12QStencilTestE@Base 5.5.0
- _ZTSN4Qt3D13QAbstractMeshE@Base 5.5.0
  _ZTSN4Qt3D13QCylinderMeshE@Base 5.5.0
  _ZTSN4Qt3D13QLayerPrivateE@Base 5.5.0
  _ZTSN4Qt3D13QOpenGLFilterE@Base 5.5.0
@@ -1501,6 +1787,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTSN4Qt3D14QAbstractLightE@Base 5.5.0
  _ZTSN4Qt3D14QAlphaCoverageE@Base 5.5.0
  _ZTSN4Qt3D14QBlendEquationE@Base 5.5.0
+ _ZTSN4Qt3D14QBufferFunctorE@Base 5.5.1
+ _ZTSN4Qt3D14QBufferPrivateE@Base 5.5.1
  _ZTSN4Qt3D14QEffectPrivateE@Base 5.5.0
  _ZTSN4Qt3D14QEntityPrivateE@Base 5.5.0
  _ZTSN4Qt3D14QPhongMaterialE@Base 5.5.0
@@ -1514,12 +1802,15 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTSN4Qt3D15QTexture2DArrayE@Base 5.5.0
  _ZTSN4Qt3D15QTextureCubeMapE@Base 5.5.0
  _ZTSN4Qt3D16QForwardRendererE@Base 5.5.0
+ _ZTSN4Qt3D16QGeometryFunctorE@Base 5.5.1
  _ZTSN4Qt3D16QItemModelBufferE@Base 5.5.0
  _ZTSN4Qt3D16QMaterialPrivateE@Base 5.5.0
  _ZTSN4Qt3D16QTechniqueFilterE@Base 5.5.0
  _ZTSN4Qt3D16QTextureWrapModeE@Base 5.5.0
+ _ZTSN4Qt3D17QAttributePrivateE@Base 5.5.1
  _ZTSN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTSN4Qt3D17QDirectionalLightE@Base 5.5.0
+ _ZTSN4Qt3D17QGeometryRendererE@Base 5.5.1
  _ZTSN4Qt3D17QParameterMappingE@Base 5.5.0
  _ZTSN4Qt3D17QParameterPrivateE@Base 5.5.0
  _ZTSN4Qt3D17QRenderAttachmentE@Base 5.5.0
@@ -1528,8 +1819,10 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTSN4Qt3D17QTechniquePrivateE@Base 5.5.0
  _ZTSN4Qt3D17QTextureRectangleE@Base 5.5.0
  _ZTSN4Qt3D18QPointLightPrivateE@Base 5.5.0
+ _ZTSN4Qt3D18QRayCastingServiceE@Base 5.5.1
  _ZTSN4Qt3D18QRenderPassPrivateE@Base 5.5.0
  _ZTSN4Qt3D18QShaderDataPrivateE@Base 5.5.0
+ _ZTSN4Qt3D18QStencilOpSeparateE@Base 5.5.1
  _ZTSN4Qt3D19AbstractSceneParserE@Base 5.5.0
  _ZTSN4Qt3D19QBackendNodeFunctorE@Base 5.5.0
  _ZTSN4Qt3D19QBlendStateSeparateE@Base 5.5.0
@@ -1537,38 +1830,44 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTSN4Qt3D19QFrameGraphSelectorE@Base 5.5.0
  _ZTSN4Qt3D19QLayerFilterPrivateE@Base 5.5.0
  _ZTSN4Qt3D19QTextureDataFunctorE@Base 5.5.0
- _ZTSN4Qt3D20QAbstractMeshFunctorE@Base 5.5.0
- _ZTSN4Qt3D20QAbstractMeshPrivateE@Base 5.5.0
+ _ZTSN4Qt3D20QStencilTestSeparateE@Base 5.5.1
  _ZTSN4Qt3D20QTextureCubeMapArrayE@Base 5.5.0
  _ZTSN4Qt3D21QAbstractLightPrivateE@Base 5.5.0
  _ZTSN4Qt3D21QAbstractTextureImageE@Base 5.5.0
  _ZTSN4Qt3D21QRenderTargetSelectorE@Base 5.5.0
  _ZTSN4Qt3D21QTexture2DMultisampleE@Base 5.5.0
  _ZTSN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTSN4Qt3D22QAbstractBufferPrivateE@Base 5.5.1
  _ZTSN4Qt3D23PropertyReaderInterfaceE@Base 5.5.0
  _ZTSN4Qt3D23QPerVertexColorMaterialE@Base 5.5.0
  _ZTSN4Qt3D24QAbstractTextureProviderE@Base 5.5.0
  _ZTSN4Qt3D24QDirectionalLightPrivateE@Base 5.5.0
+ _ZTSN4Qt3D25QAbstractAttributePrivateE@Base 5.5.1
  _ZTSN4Qt3D25QNormalDiffuseMapMaterialE@Base 5.5.0
  _ZTSN4Qt3D26QTexture2DMultisampleArrayE@Base 5.5.0
  _ZTSN4Qt3D27QDiffuseSpecularMapMaterialE@Base 5.5.0
+ _ZTSN4Qt3D28QAbstractFrameAdvanceServiceE@Base 5.5.1
  _ZTSN4Qt3D28QAbstractTextureImagePrivateE@Base 5.5.0
+ _ZTSN4Qt3D30QAbstractCollisionQueryServiceE@Base 5.5.1
  _ZTSN4Qt3D30QNormalDiffuseMapAlphaMaterialE@Base 5.5.0
  _ZTSN4Qt3D33QNormalDiffuseSpecularMapMaterialE@Base 5.5.0
  _ZTSN4Qt3D5QMeshE@Base 5.5.0
- _ZTSN4Qt3D6BufferE@Base 5.5.0
  _ZTSN4Qt3D6QLayerE@Base 5.5.0
  _ZTSN4Qt3D6Render20QAbstractSceneLoaderE@Base 5.5.0
  _ZTSN4Qt3D6Render27QAbstractSceneLoaderPrivateE@Base 5.5.0
+ _ZTSN4Qt3D6SphereE@Base 5.5.1
+ _ZTSN4Qt3D7QBufferE@Base 5.5.1
  _ZTSN4Qt3D7QEffectE@Base 5.5.0
  _ZTSN4Qt3D7QNoDrawE@Base 5.5.0
- _ZTSN4Qt3D9AttributeE@Base 5.5.0
+ _ZTSN4Qt3D7QWindowE@Base 5.5.1
  _ZTSN4Qt3D9QCullFaceE@Base 5.5.0
+ _ZTSN4Qt3D9QGeometryE@Base 5.5.1
  _ZTSN4Qt3D9QMaterialE@Base 5.5.0
- _ZTSN4Qt3D9QMeshDataE@Base 5.5.0
  _ZTSN4Qt3D9QStateSetE@Base 5.5.0
  _ZTSN4Qt3D9QViewportE@Base 5.5.0
  _ZTVN4Qt3D10QAlphaTestE@Base 5.5.0
+ _ZTVN4Qt3D10QAttributeE@Base 5.5.1
+ _ZTVN4Qt3D10QClipPlaneE@Base 5.5.1
  _ZTVN4Qt3D10QColorMaskE@Base 5.5.0
  _ZTVN4Qt3D10QDepthMaskE@Base 5.5.0
  _ZTVN4Qt3D10QDepthTestE@Base 5.5.0
@@ -1577,6 +1876,7 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTVN4Qt3D10QParameterE@Base 5.5.0
  _ZTVN4Qt3D10QPlaneMeshE@Base 5.5.0
  _ZTVN4Qt3D10QSpotLightE@Base 5.5.0
+ _ZTVN4Qt3D10QStencilOpE@Base 5.5.1
  _ZTVN4Qt3D10QTechniqueE@Base 5.5.0
  _ZTVN4Qt3D10QTexture1DE@Base 5.5.0
  _ZTVN4Qt3D10QTexture2DE@Base 5.5.0
@@ -1597,8 +1897,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTVN4Qt3D12QRenderStateE@Base 5.5.0
  _ZTVN4Qt3D12QSceneLoaderE@Base 5.5.0
  _ZTVN4Qt3D12QScissorTestE@Base 5.5.0
+ _ZTVN4Qt3D12QStencilMaskE@Base 5.5.1
  _ZTVN4Qt3D12QStencilTestE@Base 5.5.0
- _ZTVN4Qt3D13QAbstractMeshE@Base 5.5.0
  _ZTVN4Qt3D13QCylinderMeshE@Base 5.5.0
  _ZTVN4Qt3D13QLayerPrivateE@Base 5.5.0
  _ZTVN4Qt3D13QOpenGLFilterE@Base 5.5.0
@@ -1609,6 +1909,8 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTVN4Qt3D14QAbstractLightE@Base 5.5.0
  _ZTVN4Qt3D14QAlphaCoverageE@Base 5.5.0
  _ZTVN4Qt3D14QBlendEquationE@Base 5.5.0
+ _ZTVN4Qt3D14QBufferFunctorE@Base 5.5.1
+ _ZTVN4Qt3D14QBufferPrivateE@Base 5.5.1
  _ZTVN4Qt3D14QEffectPrivateE@Base 5.5.0
  _ZTVN4Qt3D14QEntityPrivateE@Base 5.5.0
  _ZTVN4Qt3D14QPhongMaterialE@Base 5.5.0
@@ -1622,12 +1924,15 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTVN4Qt3D15QTexture2DArrayE@Base 5.5.0
  _ZTVN4Qt3D15QTextureCubeMapE@Base 5.5.0
  _ZTVN4Qt3D16QForwardRendererE@Base 5.5.0
+ _ZTVN4Qt3D16QGeometryFunctorE@Base 5.5.1
  _ZTVN4Qt3D16QItemModelBufferE@Base 5.5.0
  _ZTVN4Qt3D16QMaterialPrivateE@Base 5.5.0
  _ZTVN4Qt3D16QTechniqueFilterE@Base 5.5.0
  _ZTVN4Qt3D16QTextureWrapModeE@Base 5.5.0
+ _ZTVN4Qt3D17QAttributePrivateE@Base 5.5.1
  _ZTVN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTVN4Qt3D17QDirectionalLightE@Base 5.5.0
+ _ZTVN4Qt3D17QGeometryRendererE@Base 5.5.1
  _ZTVN4Qt3D17QParameterMappingE@Base 5.5.0
  _ZTVN4Qt3D17QParameterPrivateE@Base 5.5.0
  _ZTVN4Qt3D17QRenderAttachmentE@Base 5.5.0
@@ -1636,43 +1941,52 @@ libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
  _ZTVN4Qt3D17QTechniquePrivateE@Base 5.5.0
  _ZTVN4Qt3D17QTextureRectangleE@Base 5.5.0
  _ZTVN4Qt3D18QPointLightPrivateE@Base 5.5.0
+ _ZTVN4Qt3D18QRayCastingServiceE@Base 5.5.1
  _ZTVN4Qt3D18QRenderPassPrivateE@Base 5.5.0
  _ZTVN4Qt3D18QShaderDataPrivateE@Base 5.5.0
+ _ZTVN4Qt3D18QStencilOpSeparateE@Base 5.5.1
  _ZTVN4Qt3D19AbstractSceneParserE@Base 5.5.0
  _ZTVN4Qt3D19QBlendStateSeparateE@Base 5.5.0
  _ZTVN4Qt3D19QDiffuseMapMaterialE@Base 5.5.0
  _ZTVN4Qt3D19QFrameGraphSelectorE@Base 5.5.0
  _ZTVN4Qt3D19QLayerFilterPrivateE@Base 5.5.0
- _ZTVN4Qt3D20QAbstractMeshPrivateE@Base 5.5.0
+ _ZTVN4Qt3D19QTextureDataFunctorE@Base 5.5.1
+ _ZTVN4Qt3D20QStencilTestSeparateE@Base 5.5.1
  _ZTVN4Qt3D20QTextureCubeMapArrayE@Base 5.5.0
  _ZTVN4Qt3D21QAbstractLightPrivateE@Base 5.5.0
  _ZTVN4Qt3D21QAbstractTextureImageE@Base 5.5.0
  _ZTVN4Qt3D21QRenderTargetSelectorE@Base 5.5.0
  _ZTVN4Qt3D21QTexture2DMultisampleE@Base 5.5.0
  _ZTVN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
+ _ZTVN4Qt3D22QAbstractBufferPrivateE@Base 5.5.1
  _ZTVN4Qt3D23QPerVertexColorMaterialE@Base 5.5.0
  _ZTVN4Qt3D24QAbstractTextureProviderE@Base 5.5.0
  _ZTVN4Qt3D24QDirectionalLightPrivateE@Base 5.5.0
+ _ZTVN4Qt3D25QAbstractAttributePrivateE@Base 5.5.1
  _ZTVN4Qt3D25QNormalDiffuseMapMaterialE@Base 5.5.0
  _ZTVN4Qt3D26QTexture2DMultisampleArrayE@Base 5.5.0
  _ZTVN4Qt3D27QDiffuseSpecularMapMaterialE@Base 5.5.0
+ _ZTVN4Qt3D28QAbstractFrameAdvanceServiceE@Base 5.5.1
  _ZTVN4Qt3D28QAbstractTextureImagePrivateE@Base 5.5.0
+ _ZTVN4Qt3D30QAbstractCollisionQueryServiceE@Base 5.5.1
  _ZTVN4Qt3D30QNormalDiffuseMapAlphaMaterialE@Base 5.5.0
  _ZTVN4Qt3D33QNormalDiffuseSpecularMapMaterialE@Base 5.5.0
  _ZTVN4Qt3D5QMeshE@Base 5.5.0
- _ZTVN4Qt3D6BufferE@Base 5.5.0
  _ZTVN4Qt3D6QLayerE@Base 5.5.0
  _ZTVN4Qt3D6Render20QAbstractSceneLoaderE@Base 5.5.0
  _ZTVN4Qt3D6Render27QAbstractSceneLoaderPrivateE@Base 5.5.0
+ _ZTVN4Qt3D6SphereE@Base 5.5.1
+ _ZTVN4Qt3D7QBufferE@Base 5.5.1
  _ZTVN4Qt3D7QEffectE@Base 5.5.0
  _ZTVN4Qt3D7QNoDrawE@Base 5.5.0
- _ZTVN4Qt3D9AttributeE@Base 5.5.0
+ _ZTVN4Qt3D7QWindowE@Base 5.5.1
  _ZTVN4Qt3D9QCullFaceE@Base 5.5.0
+ _ZTVN4Qt3D9QGeometryE@Base 5.5.1
  _ZTVN4Qt3D9QMaterialE@Base 5.5.0
- _ZTVN4Qt3D9QMeshDataE@Base 5.5.0
  _ZTVN4Qt3D9QStateSetE@Base 5.5.0
  _ZTVN4Qt3D9QViewportE@Base 5.5.0
  (c++)"non-virtual thunk to Qt3D::QRenderAspect::jobsToExecute(long long)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QRenderAspect::sceneNodeAdded(QSharedPointer<Qt3D::QSceneChange>&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QRenderAspect::sceneNodeRemoved(QSharedPointer<Qt3D::QSceneChange>&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QTechniquePrivate::~QTechniquePrivate()@Base" 5.5.0
+ (c++)"non-virtual thunk to Qt3D::QWindow::~QWindow()@Base" 5.5.1
