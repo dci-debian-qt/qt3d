@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64 arm64 armel armhf i386 kfreebsd-i386
+# SymbolsHelper-Confirmed: 5.5.1 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZN4Qt3D11Q3DKeyEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D11Q3DKeyEvent11qt_metacastEPKc@Base 5.5.0
@@ -166,8 +166,8 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZNK4Qt3D16QMouseController10metaObjectEv@Base 5.5.1
  _ZNK4Qt3D19QKeyboardController10metaObjectEv@Base 5.5.0
  _ZNK4Qt3D19QKeyboardController11activeInputEv@Base 5.5.0
- (optional=gccinternal|arch=amd64)_ZNK4Qt3D6Sphere6centerEv@Base 5.5.1
- (optional=gccinternal|arch=amd64)_ZNK4Qt3D6Sphere6radiusEv@Base 5.5.1
+ (optional=gccinternal|arch=alpha amd64 hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32)_ZNK4Qt3D6Sphere6centerEv@Base 5.5.1
+ (optional=gccinternal|arch=alpha amd64 hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32)_ZNK4Qt3D6Sphere6radiusEv@Base 5.5.1
  _ZTIN4Qt3D11Q3DKeyEventE@Base 5.5.0
  _ZTIN4Qt3D11QMouseInputE@Base 5.5.1
  _ZTIN4Qt3D12QInputAspectE@Base 5.5.0
@@ -179,7 +179,7 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZTIN4Qt3D19QBackendNodeFunctorE@Base 5.5.0
  _ZTIN4Qt3D19QKeyboardControllerE@Base 5.5.0
  _ZTIN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
- (optional=gccinternal|arch=amd64)_ZTIN4Qt3D6SphereE@Base 5.5.1
+ (optional=gccinternal|arch=alpha amd64 hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32)_ZTIN4Qt3D6SphereE@Base 5.5.1
  _ZTSN4Qt3D11Q3DKeyEventE@Base 5.5.0
  _ZTSN4Qt3D11QMouseInputE@Base 5.5.1
  _ZTSN4Qt3D12QInputAspectE@Base 5.5.0
@@ -191,7 +191,7 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZTSN4Qt3D19QBackendNodeFunctorE@Base 5.5.0
  _ZTSN4Qt3D19QKeyboardControllerE@Base 5.5.0
  _ZTSN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
- (optional=gccinternal|arch=amd64)_ZTSN4Qt3D6SphereE@Base 5.5.1
+ (optional=gccinternal|arch=alpha amd64 hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32)_ZTSN4Qt3D6SphereE@Base 5.5.1
  _ZTVN4Qt3D11Q3DKeyEventE@Base 5.5.0
  _ZTVN4Qt3D11QMouseInputE@Base 5.5.1
  _ZTVN4Qt3D12QInputAspectE@Base 5.5.0
@@ -202,7 +202,7 @@ libQt53DInput.so.5 libqt53dinput5 #MINVER#
  _ZTVN4Qt3D17QComponentPrivateE@Base 5.5.0
  _ZTVN4Qt3D19QKeyboardControllerE@Base 5.5.0
  _ZTVN4Qt3D22QAbstractAspectPrivateE@Base 5.5.0
- (optional=gccinternal|arch=amd64)_ZTVN4Qt3D6SphereE@Base 5.5.1
+ (optional=gccinternal|arch=alpha amd64 hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32)_ZTVN4Qt3D6SphereE@Base 5.5.1
  (c++)"non-virtual thunk to Qt3D::QInputAspect::jobsToExecute(long long)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QInputAspect::sceneNodeAdded(QSharedPointer<Qt3D::QSceneChange>&)@Base" 5.5.0
  (c++)"non-virtual thunk to Qt3D::QInputAspect::sceneNodeRemoved(QSharedPointer<Qt3D::QSceneChange>&)@Base" 5.5.0
