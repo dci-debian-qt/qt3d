@@ -4,7 +4,6 @@ qt3d-opensource-src (5.5.1-4ubuntu1) UNRELEASED; urgency=medium
   * Update symbols.
   * Merge with Debian's initial release, remaining changes:
     - A transitional package for Ubuntu 14.04 LTS -> 16.04 LTS.
-    - Own symbols files.
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 03 Jun 2015 14:47:26 +0000
 
