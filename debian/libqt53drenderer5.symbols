@@ -1,5 +1,7 @@
 # SymbolsHelper-Confirmed: 5.5.1 amd64
-libQt53DRenderer.so.5 libqt53drenderer5 #MINVER#
+libQt53DRenderer.so.5 libqt53drenderer5 #MINVER# | libqt53drenderer5-gles #MINVER# 
+| libqt53drenderer5 #MINVER#
+| libqt53drenderer5-gles #MINVER#
  _ZN4Qt3D10QAlphaTest11funcChangedEv@Base 5.5.0
  _ZN4Qt3D10QAlphaTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN4Qt3D10QAlphaTest11qt_metacastEPKc@Base 5.5.0
