@@ -1,11 +1,12 @@
-qt3d-opensource-src (5.5.1-4ubuntu1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.5.1-4ubuntu1) xenial; urgency=medium
 
   * New upstream release of the rewritten Qt 3D 2.0.
   * Update symbols.
   * Merge with Debian's initial release, remaining changes:
     - A transitional package for Ubuntu 14.04 LTS -> 16.04 LTS.
+    - Allow building the optional gles variant.
 
- -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 03 Jun 2015 14:47:26 +0000
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 30 Nov 2015 12:39:55 +0000
 
 qt3d-opensource-src (5.5.1-4) unstable; urgency=medium
 
