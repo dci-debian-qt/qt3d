@@ -1,3 +1,10 @@
+qt3d-opensource-src (5.5.1-4ubuntu2) xenial; urgency=medium
+
+  * libqt53dquick5: conflict+replace libqt53d5 which provided identically 
+    named library.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 07 Dec 2015 16:52:54 +0000
+
 qt3d-opensource-src (5.5.1-4ubuntu1) xenial; urgency=medium
 
   * New upstream release of the rewritten Qt 3D 2.0.
