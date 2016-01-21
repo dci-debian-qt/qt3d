@@ -1,5 +1,9 @@
 qt3d-opensource-src (5.5.1-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove libqt5xcb5 from build dependencies. It is now part of libqt5gui5
+    which is dragged in by qtbase5-dev.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Jan 2016 16:44:26 -0300
 
 qt3d-opensource-src (5.5.1-4) unstable; urgency=medium
