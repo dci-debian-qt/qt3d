@@ -1,3 +1,7 @@
+qt3d-opensource-src (5.5.1-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Jan 2016 16:44:26 -0300
+
 qt3d-opensource-src (5.5.1-4) unstable; urgency=medium
 
   * Add pkgconf as a build dependency. It is required to detect assimp files.
