@@ -2,7 +2,7 @@ qt3d-opensource-src (5.5.1-5) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove libqt5xcb5 from build dependencies. It is now part of libqt5gui5
-    which is dragged in by qtbase5-dev.
+    which is dragged in by qtbase5-dev (Closes: #817793).
   * Add qml-module-qtquick-scene3d as a qt3d5-examples' dependency, needed
     by qt3d's controls.
 
