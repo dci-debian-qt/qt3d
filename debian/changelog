@@ -1,3 +1,9 @@
+qt3d-opensource-src (5.5.1-4ubuntu3) xenial; urgency=medium
+
+  * Remove libqt5xcbqpa5 dependency, it was merged back to libqt5gui5.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 14 Mar 2016 13:15:13 +0000
+
 qt3d-opensource-src (5.5.1-4ubuntu2) xenial; urgency=medium
 
   * libqt53dquick5: conflict+replace libqt53d5 which provided identically 
