@@ -102,18 +102,18 @@ Description: Qt 3D logic module
  .
  This package contains Qt 3D Logic module.
 
-Package: libqt53dcollision5
+Package: libqt53dquickinput5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D collision module
+Description: Qt 3D Quick input
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D collision module.
+ This package contains Qt 3D Quick input module.
 
 Package: qt3d-gltfsceneparser-plugin
 Architecture: any

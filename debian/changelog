@@ -9,6 +9,8 @@ qt3d-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
     - Libs with "Renderer" changed it's name to to "Render". This changes
       SONAME but there are still no rdeps in the archive.
     - Documentation is now shipped under qt3d/.
+    - libqt3d5collision5 is not shipped anymore.
+    - Ship libqt3dquickinput5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Mar 2016 20:06:22 -0300
 
