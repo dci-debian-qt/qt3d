@@ -1,6 +1,5 @@
-qt3d-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.6.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Bump Standards-Version, no changes required.
@@ -19,7 +18,7 @@ qt3d-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Fix duplicated short description.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Mar 2016 20:06:22 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 01 Apr 2016 00:21:40 -0300
 
 qt3d-opensource-src (5.5.1-5) unstable; urgency=medium
 
