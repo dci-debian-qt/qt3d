@@ -1,3 +1,34 @@
+qt3d-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Bump Standards-Version, no changes required.
+  * Update symbols files with buildds' logs.
+  * Update packaging:
+    - Libs with "Renderer" changed it's name to to "Render". This changes
+      SONAME but there are still no rdeps in the archive.
+    - Documentation is now shipped under qt3d/.
+    - libqt3d5collision5 is not shipped anymore.
+    - Ship libqt3dquickinput5.
+    - gltfsceneparser now has an auxiliary binary.
+    - Regenerate symbols files for all libs. This makes handling both the
+      SONAME change and the symbols's nodes changes easier. We still have no
+      reverse dependencies to care for.
+  * Use secure URLs for the repos.
+  * Fix duplicated short description.
+  * Update debian/copyright.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 01 Apr 2016 00:21:40 -0300
+
+qt3d-opensource-src (5.5.1-5) unstable; urgency=medium
+
+  * Remove libqt5xcb5 from build dependencies. It is now part of libqt5gui5
+    which is dragged in by qtbase5-dev (Closes: #817793).
+  * Add qml-module-qtquick-scene3d as a qt3d5-examples' dependency, needed
+    by qt3d's controls.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 10 Mar 2016 16:03:18 -0300
+
 qt3d-opensource-src (5.5.1-4ubuntu3) xenial; urgency=medium
 
   * Remove libqt5xcbqpa5 dependency, it was merged back to libqt5gui5.

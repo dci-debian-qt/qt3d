@@ -10,22 +10,22 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
                libassimp-dev,
-               libqt5opengl5-dev (>= 5.5.1+dfsg~),
+               libqt5opengl5-dev (>= 5.6.0+dfsg~),
                pkg-kde-tools,
                pkgconf,
-               qtbase5-private-dev (>= 5.5.1+dfsg~),
-               qtdeclarative5-private-dev (>= 5.5.1~),
+               qtbase5-private-dev (>= 5.6.0+dfsg~),
+               qtdeclarative5-private-dev (>= 5.6.0~),
                xauth,
                xvfb,
                zlib1g-dev
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.1+dfsg~),
-                     qtbase5-doc-html (>= 5.5.1+dfsg~),
-                     qtdeclarative5-doc-html (>= 5.5.1~),
-                     qttools5-dev-tools (>= 5.5.1~)
-Standards-Version: 3.9.6
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0+dfsg~),
+                     qtbase5-doc-html (>= 5.6.0+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.6.0~),
+                     qttools5-dev-tools (>= 5.6.0~)
+Standards-Version: 3.9.7
 Homepage: http://qt-project.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt3d.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qt3d.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qt3d.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qt3d.git
 
 Package: libqt53dcore5
 Architecture: any
@@ -53,7 +53,7 @@ Description: Qt 3D Quick module
  .
  This package contains Qt 3D Quick module.
 
-Package: libqt53dquickrenderer5
+Package: libqt53dquickrender5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -79,7 +79,7 @@ Description: Qt 3D Input module
  .
  This package contains Qt 3D Input module.
 
-Package: libqt53drenderer5
+Package: libqt53drender5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -105,18 +105,18 @@ Description: Qt 3D logic module
  .
  This package contains Qt 3D Logic module.
 
-Package: libqt53dcollision5
+Package: libqt53dquickinput5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D collision module
+Description: Qt 3D Quick input
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D collision module.
+ This package contains Qt 3D Quick input module.
 
 Package: qt3d-gltfsceneparser-plugin
 Architecture: any
@@ -136,7 +136,7 @@ Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D GL Transmission Format scene parser plugin
+Description: Qt 3D GL Assimp scene parser plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -183,8 +183,9 @@ Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          libqt53dinput5 (= ${binary:Version}),
          libqt53dquick5 (= ${binary:Version}),
-         libqt53dquickrenderer5 (= ${binary:Version}),
-         libqt53drenderer5 (= ${binary:Version}),
+         libqt53dquickinput5 (= ${binary:Version}),
+         libqt53dquickrender5 (= ${binary:Version}),
+         libqt53drender5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -199,7 +200,7 @@ Package: qt3d5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qtquick-scene3d, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 3d examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
