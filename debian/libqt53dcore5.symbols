@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0 amd64 arm64 armhf i386 powerpc
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -133,7 +133,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore12QNodeVisitor6appendEPNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitor7setPathE5QListIPNS_5QNodeEE@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitor8pop_backEv@Qt_5 5.6.0
- (optional=templinst)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvS5_RT_RT0_@Qt_5 5.6.0
+ (optional=templinst|arch=!arm64 !armhf)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvS5_RT_RT0_@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorC2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorD0Ev@Qt_5 5.6.0
@@ -226,8 +226,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore15QAbstractAspectC1ERNS_22QAbstractAspectPrivateEP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore15QAbstractAspectC2EP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore15QAbstractAspectC2ERNS_22QAbstractAspectPrivateEP7QObject@Qt_5 5.6.0
- _ZN8Qt3DCore15QFrameAllocator17allocateRawMemoryEm@Qt_5 5.6.0
- _ZN8Qt3DCore15QFrameAllocator19deallocateRawMemoryEPvm@Qt_5 5.6.0
+ (subst)_ZN8Qt3DCore15QFrameAllocator17allocateRawMemoryE{size_t}@Qt_5 5.6.0
+ (subst)_ZN8Qt3DCore15QFrameAllocator19deallocateRawMemoryEPv{size_t}@Qt_5 5.6.0
  _ZN8Qt3DCore15QFrameAllocator4trimEv@Qt_5 5.6.0
  _ZN8Qt3DCore15QFrameAllocator5clearEv@Qt_5 5.6.0
  _ZN8Qt3DCore15QFrameAllocatorC1Ejjj@Qt_5 5.6.0
@@ -300,8 +300,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore20QScenePropertyChangeD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QScenePropertyChangeD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QScenePropertyChangeD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangedlEPvm@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangenwEm@Qt_5 5.6.0
+ (subst)_ZN8Qt3DCore20QScenePropertyChangedlEPv{size_t}@Qt_5 5.6.0
+ (subst)_ZN8Qt3DCore20QScenePropertyChangenwE{size_t}@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate13jobsToExecuteEx@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate14registerAspectEPNS_7QEntityE@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate14sceneNodeAddedER14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
