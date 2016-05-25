@@ -36,6 +36,12 @@ qt3d-opensource-src (5.5.1-5) unstable; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 10 Mar 2016 16:03:18 -0300
 
+qt3d-opensource-src (5.5.1-4ubuntu4) yakkety; urgency=medium
+
+  * Rebuild for arm64 gles switch.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 23 May 2016 06:41:32 +0000
+
 qt3d-opensource-src (5.5.1-4ubuntu3) xenial; urgency=medium
 
   * Remove libqt5xcbqpa5 dependency, it was merged back to libqt5gui5.
