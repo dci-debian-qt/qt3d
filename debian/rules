@@ -11,9 +11,6 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
-# Run tests only on archs known to pass in the past
-testrun_architectures := amd64 arm64 armhf i386 ppc64el
-
 %:
 	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
 
@@ -47,10 +44,6 @@ override_dh_auto_install-indep:
 	$(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_auto_test-arch:
-ifeq ($(DEB_HOST_ARCH),$(filter $(DEB_HOST_ARCH),$(testrun_architectures)))
 	xvfb-run -a -s "-screen 0 640x480x24" dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
-else
-	-xvfb-run -a -s "-screen 0 640x480x24" dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
-endif
 
 override_dh_auto_test-indep:
