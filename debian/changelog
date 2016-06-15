@@ -26,6 +26,7 @@ qt3d-opensource-src (5.6.1+dfsg-1) UNRELEASED; urgency=medium
     a non-free MP3 file (CC BY-ND 2.0).
     - Add qtmultimedia5-dev to Build-Conflicts to make sure that example is
       not built.
+    - Tell uscan to repack the tarball.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Mar 2016 20:06:22 -0300
 
