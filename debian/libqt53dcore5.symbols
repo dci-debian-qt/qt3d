@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0 amd64 arm64 armhf i386 powerpc
+# SymbolsHelper-Confirmed: 5.6.1 amd64
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -319,6 +319,11 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore24QAbstractServiceProviderD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore24QAbstractServiceProviderD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore24QAbstractServiceProviderD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore25QAbstractAspectJobManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.1
+ _ZN8Qt3DCore25QAbstractAspectJobManager11qt_metacastEPKc@Qt_5 5.6.1
+ _ZN8Qt3DCore25QAbstractAspectJobManager16staticMetaObjectE@Qt_5 5.6.1
+ _ZN8Qt3DCore25QAbstractAspectJobManagerC1EP7QObject@Qt_5 5.6.1
+ _ZN8Qt3DCore25QAbstractAspectJobManagerC2EP7QObject@Qt_5 5.6.1
  _ZN8Qt3DCore25QOpenGLInformationServiceC1ERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore25QOpenGLInformationServiceC1ERNS_32QOpenGLInformationServicePrivateE@Qt_5 5.6.0
  _ZN8Qt3DCore25QOpenGLInformationServiceC2ERK7QString@Qt_5 5.6.0
@@ -522,6 +527,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK8Qt3DCore22QAbstractAspectPrivate8servicesEv@Qt_5 5.6.0
  _ZNK8Qt3DCore24QAbstractServiceProvider11descriptionEv@Qt_5 5.6.0
  _ZNK8Qt3DCore24QAbstractServiceProvider4typeEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore25QAbstractAspectJobManager10metaObjectEv@Qt_5 5.6.1
  _ZNK8Qt3DCore27QBackendScenePropertyChange10targetNodeEv@Qt_5 5.6.0
  _ZNK8Qt3DCore5QNode10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore5QNode10parentNodeEv@Qt_5 5.6.0
@@ -600,6 +606,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTIN8Qt3DCore22QAbstractAspectPrivateE@Qt_5 5.6.0
  _ZTIN8Qt3DCore23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZTIN8Qt3DCore24QAbstractServiceProviderE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore25QAbstractAspectJobManagerE@Qt_5 5.6.1
  _ZTIN8Qt3DCore25QOpenGLInformationServiceE@Qt_5 5.6.0
  _ZTIN8Qt3DCore25QSystemInformationServiceE@Qt_5 5.6.0
  _ZTIN8Qt3DCore26QLockableObserverInterfaceE@Qt_5 5.6.0
@@ -635,6 +642,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTSN8Qt3DCore22QAbstractAspectPrivateE@Qt_5 5.6.0
  _ZTSN8Qt3DCore23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZTSN8Qt3DCore24QAbstractServiceProviderE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore25QAbstractAspectJobManagerE@Qt_5 5.6.1
  _ZTSN8Qt3DCore25QOpenGLInformationServiceE@Qt_5 5.6.0
  _ZTSN8Qt3DCore25QSystemInformationServiceE@Qt_5 5.6.0
  _ZTSN8Qt3DCore26QLockableObserverInterfaceE@Qt_5 5.6.0
@@ -670,6 +678,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTVN8Qt3DCore22QAbstractAspectPrivateE@Qt_5 5.6.0
  _ZTVN8Qt3DCore23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZTVN8Qt3DCore24QAbstractServiceProviderE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore25QAbstractAspectJobManagerE@Qt_5 5.6.1
  _ZTVN8Qt3DCore25QOpenGLInformationServiceE@Qt_5 5.6.0
  _ZTVN8Qt3DCore25QSystemInformationServiceE@Qt_5 5.6.0
  _ZTVN8Qt3DCore26QLockableObserverInterfaceE@Qt_5 5.6.0
