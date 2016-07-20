@@ -1,12 +1,13 @@
-qt3d-opensource-src (5.6.0-1ubuntu1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.6.1+dfsg-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update symbols.
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 06 Apr 2016 11:52:01 +0000
 
-qt3d-opensource-src (5.6.0-1) experimental; urgency=medium
+qt3d-opensource-src (5.6.1+dfsg-1) experimental; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Bump Standards-Version, no changes required.
@@ -25,7 +26,18 @@ qt3d-opensource-src (5.6.0-1) experimental; urgency=medium
   * Fix duplicated short description.
   * Update debian/copyright.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 01 Apr 2016 00:21:40 -0300
+  [ Dmitry Shachnev ]
+  * Add a patch to make the tests pass on big endian systems too.
+    - Check the tests exit status on all architectures.
+  * Exclude audio-visualizer-qml example from the tarball because it contains
+    a non-free MP3 file (CC BY-ND 2.0).
+    - Add qtmultimedia5-dev to Build-Conflicts to make sure that example is
+      not built.
+    - Tell uscan to repack the tarball.
+  * Add some new symbols that appeared in 5.6.1.
+  * Bump Standards-Version to 3.9.8, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 15 Jun 2016 19:13:49 +0300
 
 qt3d-opensource-src (5.5.1-5) unstable; urgency=medium
 
