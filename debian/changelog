@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.6.1+dfsg-1ubuntu1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.6.1+dfsg-1ubuntu1~1) yakkety; urgency=medium
 
   * New upstream release.
   * Update symbols.
