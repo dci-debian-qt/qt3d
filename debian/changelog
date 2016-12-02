@@ -20,8 +20,6 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Update debian/copyright.
 
   [ Dmitry Shachnev ]
-  * Add a patch to make the tests pass on big endian systems too.
-    - Check the tests exit status on all architectures.
   * Exclude audio-visualizer-qml example from the tarball because it contains
     a non-free MP3 file (CC BY-ND 2.0).
     - Add qtmultimedia5-dev to Build-Conflicts to make sure that example is
