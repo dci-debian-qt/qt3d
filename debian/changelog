@@ -21,6 +21,8 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Add extensions to xvfb-run needed by tests.
   * Run only one test at a time, this seems to make qaspectengine's
     setRootEntity work.
+  * Rename qt3d-gltfsceneparser-plugin to qt3d-gltfsceneio-plugin following
+    upstream's changes.
 
   [ Dmitry Shachnev ]
   * Exclude audio-visualizer-qml example from the tarball because it contains

@@ -116,17 +116,17 @@ Description: Qt 3D Quick input
  .
  This package contains Qt 3D Quick input module.
 
-Package: qt3d-gltfsceneparser-plugin
+Package: qt3d-gltfsceneio-plugin
 Architecture: any
 Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D GL Transmission Format scene parser plugin
+Description: Qt 3D GL Transmission Format scene IO plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's GLTF scene parser plugin.
+ This package contains Qt 3D's GLTF scene IO plugin.
 
 Package: qt3d-assimpsceneparser-plugin
 Architecture: any
