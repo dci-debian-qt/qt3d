@@ -19,6 +19,8 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Fix duplicated short description.
   * Update debian/copyright.
   * Add extensions to xvfb-run needed by tests.
+  * Run only one test at a time, this seems to make qaspectengine's
+    setRootEntity work.
 
   [ Dmitry Shachnev ]
   * Exclude audio-visualizer-qml example from the tarball because it contains

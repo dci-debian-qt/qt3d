@@ -45,6 +45,6 @@ override_dh_auto_install-indep:
 
 override_dh_auto_test-arch:
 	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
-	dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
+	dh_auto_test --max-parallel=1 -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
 
 override_dh_auto_test-indep:
