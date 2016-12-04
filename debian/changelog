@@ -4,7 +4,6 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * New upstream snapshot.
     - Bump Qt build dependencies.
   * Bump Standards-Version, no changes required.
-  * Update symbols files with buildds' logs.
   * Update packaging:
     - Libs with "Renderer" changed it's name to to "Render". This changes
       SONAME but there are still no rdeps in the archive.
