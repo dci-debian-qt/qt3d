@@ -23,6 +23,8 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Rename qt3d-gltfsceneparser-plugin to qt3d-gltfsceneio-plugin and
     qt3d-assimpsceneparser-plugin to qt3d-assimpsceneio-plugin following
     upstream's changes.
+  * Re do symbols files, this is the first API/ABI stable version that gets
+    into Debian.
 
   [ Dmitry Shachnev ]
   * Exclude audio-visualizer-qml example from the tarball because it contains

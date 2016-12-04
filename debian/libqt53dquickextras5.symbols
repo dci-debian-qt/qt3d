@@ -1,0 +1,37 @@
+# SymbolsHelper-Confirmed: 5.7.1~20161122 amd64
+libQt53DQuickExtras.so.5 libqt53dquickextras5 #MINVER#
+ Qt_5.0@Qt_5.0 5.7.1~20161122
+ Qt_5.1@Qt_5.1 5.7.1~20161122
+ Qt_5.2@Qt_5.2 5.7.1~20161122
+ Qt_5.3@Qt_5.3 5.7.1~20161122
+ Qt_5.4@Qt_5.4 5.7.1~20161122
+ Qt_5.5@Qt_5.5 5.7.1~20161122
+ Qt_5.6@Qt_5.6 5.7.1~20161122
+ Qt_5.7@Qt_5.7 5.7.1~20161122
+ Qt_5@Qt_5 5.7.1~20161122
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow11qt_metacastEPKc@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow14onSceneCreatedEP7QObject@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow14registerAspectEPN8Qt3DCore15QAbstractAspectE@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow14registerAspectERK7QString@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow16setWindowSurfaceEP7QObject@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow16staticMetaObjectE@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow23updateCameraAspectRatioEv@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow24setCameraAspectRatioModeENS1_21CameraAspectRatioModeE@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow25setCameraAspectModeHelperEv@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow28cameraAspectRatioModeChangedENS1_21CameraAspectRatioModeE@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow9setSourceERK4QUrl@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindow9showEventEP10QShowEvent@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindowC1EP7QWindow@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindowC2EP7QWindow@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindowD0Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindowD1Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras5Quick15Qt3DQuickWindowD2Ev@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras5Quick15Qt3DQuickWindow10metaObjectEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras5Quick15Qt3DQuickWindow21cameraAspectRatioModeEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras5Quick15Qt3DQuickWindow6engineEv@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras5Quick15Qt3DQuickWindowE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras5Quick15Qt3DQuickWindowE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras5Quick15Qt3DQuickWindowE@Qt_5 5.7.1~20161122
+ (c++)"non-virtual thunk to Qt3DExtras::Quick::Qt3DQuickWindow::~Qt3DQuickWindow()@Qt_5" 5.7.1~20161122
