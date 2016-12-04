@@ -18,6 +18,7 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Use secure URLs for the repos.
   * Fix duplicated short description.
   * Update debian/copyright.
+  * Add extensions to xvfb-run needed by tests.
 
   [ Dmitry Shachnev ]
   * Exclude audio-visualizer-qml example from the tarball because it contains
