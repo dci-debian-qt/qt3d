@@ -39,8 +39,6 @@ Copyright: 2006-2012 assimp team / ASSIMP Development Team
            2010-2012 Angus Johnson
 License: BSD-3-clause
 
-Copyright: License: BSD-3-Clause
-
 Files:
   examples/*
   src/extras/defaults/qfirstpersoncameracontroller.cpp
