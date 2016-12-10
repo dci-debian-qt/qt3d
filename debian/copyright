@@ -2,11 +2,17 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qt3d-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 Files-Excluded: examples/qt3d/audio-visualizer-qml
+  examples/qt3d/planets-qml/images/
 
 Files: *
 Copyright: 2014 Klaralvdalens Datakonsult AB (KDAB)
            2015 The Qt Company Ltd.
-License: LGPL-3 or GPL-2
+           2012 Digia Plc and/or its subsidiary(-ies)
+           2016 Svenn-Arne Dragly
+           2013 Research In Motion
+           2015 Lorenz Esch (TU Ilmenau)
+           2013 Dmitrii Kosarev aka Kakadu <kakadu.hafanana@gmail.com>
+License: GPL3-EXCEPT
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -19,59 +25,8 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2015-2016 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 License: LGPL-2.1
 
-Files: src/quick3d/imports/render/defaults/qml/PerVertexColorMaterial.qml
-       src/render/defaults/qpervertexcolormaterial*
-Copyright: 2015 Lorenz Esch (TU Ilmenau)
-License: LGPL-3 or GPL-2
-
-Files: tests/auto/quick3d/quick3dnodeinstantiator/stringmodel.h
-Copyright: 2013 Dmitrii Kosarev <kakadu.hafanana@gmail.com>
-License: LGPL-3 or GPL-2
-
-Files: src/quick3d/quick3d/items/quick3dnodeinstantiator*
-       tests/auto/quick3d/quick3dnodeinstantiator/tst_quick3dnodeinstantiator.cpp
-Copyright: 2013 Research In Motion
-License: LGPL-3 or GPL-2
-
-Files: examples/qt3d/planets-qml/images/*
-Copyright: James Hastings-Trew
-License: planets-images
- The maps are free to download and use as source material or resource in artwork
- or rendering (CGI or real time) in any kind of project - personal, commercial,
- broadcast, or display. You are not free to redistribute the maps "as is" in any
- medium - online, CD, for sale, etc. where the primary intent is to distribute
- the maps themselves and not the result of using the maps, without my
- permission. That is to say, the results of using the maps are free to use and
- distribute, but the maps as direct source material for those results may not
- be, unless you have my permission. The maps may not be included as they exist
- on this site in any kind of commercial, shareware, or freeware product without
- my permission. The maps may not be repackaged with 3D models and sold in any
- form. The maps may not be given away in whole or in part on another website or
- in a freeware or commercial product without my permission.
-Comment: used with permission
-
-Files: examples/qt3d/wave/shaders/ribbon.vert
-Copyright: 2011 Ashima Arts
-License: MIT
-
-Files: examples/qt3d/exampleresources/assets/cubemaps/*
-Copyright: 2005 Jockum Skoglund <hipshot@zfight.com>
-License: hipshot
- Modify however you like, just cred me for my work, maybe link to my page.
-
-Files: examples/qt3d/exampleresources/assets/gltf/*
-Copyright: 2012 Motorola Mobility, Inc.
-           Fabrice Robinet
-           Analytical Graphics, Inc.
-License: BSD-3-clause
-
-Files: examples/qt3d/exampleresources/assets/textures/pattern_09/*
-Copyright: Nobiax
-License: public-domain
- See http://nobiax.deviantart.com/ for details.
-
 Files: src/3rdparty/assimp/*
-Copyright: 2006-2012 assimp team
+Copyright: 2006-2012 assimp team / ASSIMP Development Team
            2002-2007 Nikolaus Gebhardt
            1998-2005 Gilles Vollant
            2001-2004 Unicode, Inc.
@@ -84,101 +39,48 @@ Copyright: 2006-2012 assimp team
            2010-2012 Angus Johnson
 License: BSD-3-clause
 
-License: LGPL-3
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License, version 3
- as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- On Debian systems, the full text of GNU Lesser General Public License,
- version 3 can be found in /usr/share/common-licenses/LGPL-3.
+Copyright: License: BSD-3-Clause
 
-License: GPL-2
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- On Debian systems, the full text of GNU General Public License,
- version 2 can be found in /usr/share/common-licenses/GPL-2.
-
-License: LGPL-2.1
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License, version 2.1
- as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- On Debian systems, the full text of GNU Lesser General Public License,
- version 2.1 can be found in /usr/share/common-licenses/LGPL-2.1.
-
-License: MIT
- Permission is hereby granted, free of charge, to any person obtaining
- a copy of this software and associated documentation files (the
- "Software"), to deal in the Software without restriction, including
- without limitation the rights to use, copy, modify, merge, publish,
- distribute, sublicense, and/or sell copies of the Software, and to
- permit persons to whom the Software is furnished to do so, subject
- to the following conditions:
- .
- The above copyright notice and this permission notice shall be
- included in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.
-
-Files: *.qdoc
-Copyright: 2015 The Qt Company Ltd.
-License: GFDL-NIV-1.3
-
-License: GFDL-NIV-1.3
- Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.3
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
- .
- On Debian systems, the complete text of the GNU Free Documentation License,
- version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
-
-License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are met:
- .
-  - Redistributions of source code must retain the above copyright notice,
-    this list of conditions and the following disclaimer.
-  - Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
-  - Neither the name of Motorola Mobility nor the names of its contributors
-    may be used to endorse or promote products derived from this software
-    without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
+Files:
+  examples/*
+  src/extras/defaults/qfirstpersoncameracontroller.cpp
+  src/extras/defaults/qfirstpersoncameracontroller.h
+  src/extras/defaults/qfirstpersoncameracontroller_p.h
+  src/extras/defaults/qt3dwindow.cpp
+  src/extras/defaults/qt3dwindow.h
+  src/quick3d/quick3dextras/qt3dquickwindow.cpp
+  src/quick3d/quick3dextras/qt3dquickwindow.h
+  tests/manual/assimp*
+  tests/manual/bigmodel/*
+  tests/manual/bigscene*
+  tests/manual/clip-planes-qml/*
+  tests/manual/component-changes/*
+  tests/manual/custom-mesh-cpp/*
+  tests/manual/custom-mesh-qml/*
+  tests/manual/cylinder-cpp/*
+  tests/manual/cylinder-qml/*
+  tests/manual/deferred-renderer*
+  tests/manual/dynamicscene-cpp/*
+  tests/manual/enabled-qml/*
+  tests/manual/gltf/*
+  tests/manual/gooch-qml/*
+  tests/manual/keyboardinput-qml/*
+  tests/manual/loader-qml/*
+  tests/manual/mouseinput-qml/*
+  tests/manual/multiplewindows-qml/*
+  tests/manual/picking-qml/*
+  tests/manual/plasma/*
+  tests/manual/scene3d-loader/*
+  tests/manual/simple-shaders-qml/*
+  tests/manual/skybox/*
+  tests/manual/tessellation-modes/*
+  tests/manual/transforms-qml/*
+  tests/manual/transparency-qml/*
+Copyright:
+  2015 2016 Klaralvdalens Datakonsult AB (KDAB)
+  2015 2016 The Qt Company Ltd.
+  2012, Motorola Mobility, Inc.
+  James Hastings-Trew
+  2015 Paul Lemire <paul.lemire350@gmail.com>
+  2011 Ashima Arts.
+License: BSD-3-Clause

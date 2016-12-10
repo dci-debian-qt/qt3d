@@ -17,6 +17,8 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Use secure URLs for the repos.
   * Fix duplicated short description.
   * Update debian/copyright.
+    - Do not ship examples/qt3d/planets-qml/images/*, they are clearly
+      non-free.
   * Add extensions to xvfb-run needed by tests.
   * Run only one test at a time, this seems to make qaspectengine's
     setRootEntity work.
