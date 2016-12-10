@@ -5,7 +5,7 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
     - Bump Qt build dependencies.
   * Bump Standards-Version, no changes required.
   * Update packaging:
-    - Libs with "Renderer" changed it's name to to "Render". This changes
+    - Libs with "Renderer" changed it's name to "Render". This changes
       SONAME but there are still no rdeps in the archive.
     - Documentation is now shipped under qt3d/.
     - libqt3d5collision5 is not shipped anymore.
