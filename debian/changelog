@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
+qt3d-opensource-src (5.7.1~20161122+dfsg-1) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
@@ -39,7 +39,7 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
   * Add some new symbols that appeared in 5.6.1.
   * Bump Standards-Version to 3.9.8, no changes needed.
 
- -- Dmitry Shachnev <mitya57@debian.org>  Wed, 15 Jun 2016 19:13:49 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Dec 2016 23:40:38 -0300
 
 qt3d-opensource-src (5.5.1-5) unstable; urgency=medium
 
