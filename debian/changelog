@@ -27,6 +27,8 @@ qt3d-opensource-src (5.7.1~20161122+dfsg-1) experimental; urgency=medium
     upstream's changes.
   * Re do symbols files, this is the first API/ABI stable version that gets
     into Debian.
+  * Do not build planets-qml example due to the lack of the required images,
+    as we need to remove them from the tarball for being undistributable.
 
   [ Dmitry Shachnev ]
   * Exclude audio-visualizer-qml example from the tarball because it contains

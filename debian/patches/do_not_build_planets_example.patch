@@ -1,0 +1,18 @@
+Description: do not build planets-qml example.
+ This examples uses non-free images which we can't distribute.
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Forwarded: not-needed
+---
+ examples/qt3d/qt3d.pro |    1 -
+ 1 file changed, 1 deletion(-)
+
+--- a/examples/qt3d/qt3d.pro
++++ b/examples/qt3d/qt3d.pro
+@@ -12,7 +12,6 @@ SUBDIRS += \
+     scene3d \
+     controls \
+     anaglyph-rendering \
+-    planets-qml \
+     instanced-arrays-qml \
+     lights \
+     compute-particles
