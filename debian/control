@@ -116,7 +116,7 @@ Description: Qt 3D Quick input
  .
  This package contains Qt 3D Quick input module.
 
-Package: libqt53dquickextras
+Package: libqt53dquickextras5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
