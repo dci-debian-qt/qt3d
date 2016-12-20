@@ -1,6 +1,7 @@
-qt3d-opensource-src (5.7.1~20161122+dfsg-3) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upstream final release.
   * Add libgl1-mesa-dri as a test build dependency to avoid the message
     "libEGL warning: DRI2: failed to open swrast".
   * Add <!nocheck> to build dependencies used at test time.
