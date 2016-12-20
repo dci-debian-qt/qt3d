@@ -1,6 +1,5 @@
-qt3d-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Upstream final release.
     - Bump Qt build dependencies.
   * Add libgl1-mesa-dri as a test build dependency to avoid the message
@@ -11,7 +10,7 @@ qt3d-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
   * Make tests non-fatal. We currently only have one failing on some archs,
     but it's a test issue as it doesn't fails if run alone (Closes: #847821).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Dec 2016 16:44:26 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 20 Dec 2016 16:05:01 -0300
 
 qt3d-opensource-src (5.7.1~20161122+dfsg-2) unstable; urgency=medium
 
