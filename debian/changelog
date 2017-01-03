@@ -1,3 +1,10 @@
+qt3d-opensource-src (5.6.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream LTS release.
+  * Drop big endian tests support patch.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 03 Jan 2017 11:49:22 +0000
+
 qt3d-opensource-src (5.6.1+dfsg-1ubuntu1~1) yakkety; urgency=medium
 
   * New upstream release.
