@@ -8,20 +8,21 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20141010~),
                libassimp-dev,
-               libqt5opengl5-dev (>= 5.6.1+dfsg~),
+               libgl1-mesa-dri <!nocheck>,
+               libqt5opengl5-dev (>= 5.7.1+dfsg~),
                pkg-kde-tools,
                pkgconf,
-               qtbase5-private-dev (>= 5.6.1+dfsg~),
-               qtdeclarative5-private-dev (>= 5.6.1~),
-               xauth,
-               xvfb,
+               qtbase5-private-dev (>= 5.7.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.7.1~),
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
                zlib1g-dev
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.1+dfsg~),
-                     qtbase5-doc-html (>= 5.6.1+dfsg~),
-                     qtdeclarative5-doc-html (>= 5.6.1~),
-                     qttools5-dev-tools (>= 5.6.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.1+dfsg~),
+                     qtbase5-doc-html (>= 5.7.1+dfsg~),
+                     qtdeclarative5-doc-html (>= 5.7.1~),
+                     qttools5-dev-tools (>= 5.7.1~)
 Build-Conflicts: qtmultimedia5-dev
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
@@ -119,29 +120,55 @@ Description: Qt 3D Quick input
  .
  This package contains Qt 3D Quick input module.
 
-Package: qt3d-gltfsceneparser-plugin
+Package: libqt53dquickextras5
 Architecture: any
 Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D GL Transmission Format scene parser plugin
+Description: Qt 3D Quick extras
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's GLTF scene parser plugin.
+ This package contains Qt 3D Quick extras module.
 
-Package: qt3d-assimpsceneparser-plugin
+Package: libqt53dextras5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D extras
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D extras module.
+
+Package: qt3d-gltfsceneio-plugin
 Architecture: any
 Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D GL Assimp scene parser plugin
+Description: Qt 3D GL Transmission Format scene IO plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's Assimp scene parser plugin.
+ This package contains Qt 3D's GLTF scene IO plugin.
+
+Package: qt3d-assimpsceneio-plugin
+Architecture: any
+Multi-Arch: same
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D GL Assimp scene IO plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's Assimp scene IO plugin.
 
 Package: qtdeclarative5-qt3d-plugin
 Architecture: any

@@ -1,19 +1,35 @@
-qt3d-opensource-src (5.6.1+dfsg-1ubuntu1~1) yakkety; urgency=medium
+qt3d-opensource-src (5.7.1+dfsg-2) UNRELEASED; urgency=medium
 
-  * New upstream release.
-  * Update symbols.
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jan 2017 18:02:39 -0300
 
- -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 06 Apr 2016 11:52:01 +0000
+qt3d-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
-qt3d-opensource-src (5.6.1+dfsg-1) experimental; urgency=medium
+  * Upstream final release.
+    - Bump Qt build dependencies.
+  * Add libgl1-mesa-dri as a test build dependency to avoid the message
+    "libEGL warning: DRI2: failed to open swrast".
+  * Add <!nocheck> to build dependencies used at test time.
+    - Bump debhelper dependency to >= 9.20141010~ to allow build profiles to
+      work.
+  * Make tests non-fatal. We currently only have one failing on some archs,
+    but it's a test issue as it doesn't fails if run alone (Closes: #847821).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 20 Dec 2016 16:05:01 -0300
+
+qt3d-opensource-src (5.7.1~20161122+dfsg-2) unstable; urgency=medium
+
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 11 Dec 2016 17:23:00 -0300
+
+qt3d-opensource-src (5.7.1~20161122+dfsg-1) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * New upstream release.
+  * New upstream snapshot.
     - Bump Qt build dependencies.
   * Bump Standards-Version, no changes required.
-  * Update symbols files with buildds' logs.
   * Update packaging:
-    - Libs with "Renderer" changed it's name to to "Render". This changes
+    - Libs with "Renderer" changed it's name to "Render". This changes
       SONAME but there are still no rdeps in the archive.
     - Documentation is now shipped under qt3d/.
     - libqt3d5collision5 is not shipped anymore.
@@ -25,10 +41,20 @@ qt3d-opensource-src (5.6.1+dfsg-1) experimental; urgency=medium
   * Use secure URLs for the repos.
   * Fix duplicated short description.
   * Update debian/copyright.
+    - Do not ship examples/qt3d/planets-qml/images/*, they are clearly
+      non-free.
+  * Add extensions to xvfb-run needed by tests.
+  * Run only one test at a time, this seems to make qaspectengine's
+    setRootEntity work.
+  * Rename qt3d-gltfsceneparser-plugin to qt3d-gltfsceneio-plugin and
+    qt3d-assimpsceneparser-plugin to qt3d-assimpsceneio-plugin following
+    upstream's changes.
+  * Re do symbols files, this is the first API/ABI stable version that gets
+    into Debian.
+  * Do not build planets-qml example due to the lack of the required images,
+    as we need to remove them from the tarball for being undistributable.
 
   [ Dmitry Shachnev ]
-  * Add a patch to make the tests pass on big endian systems too.
-    - Check the tests exit status on all architectures.
   * Exclude audio-visualizer-qml example from the tarball because it contains
     a non-free MP3 file (CC BY-ND 2.0).
     - Add qtmultimedia5-dev to Build-Conflicts to make sure that example is
@@ -37,7 +63,14 @@ qt3d-opensource-src (5.6.1+dfsg-1) experimental; urgency=medium
   * Add some new symbols that appeared in 5.6.1.
   * Bump Standards-Version to 3.9.8, no changes needed.
 
- -- Dmitry Shachnev <mitya57@debian.org>  Wed, 15 Jun 2016 19:13:49 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Dec 2016 23:40:38 -0300
+
+qt3d-opensource-src (5.6.1+dfsg-1ubuntu1~1) yakkety; urgency=medium
+
+  * New upstream release.
+  * Update symbols.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 06 Apr 2016 11:52:01 +0000
 
 qt3d-opensource-src (5.5.1-5) unstable; urgency=medium
 
