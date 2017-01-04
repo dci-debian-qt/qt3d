@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.1 amd64
+# SymbolsHelper-Confirmed: 5.6.2 amd64 arm64 armhf powerpc ppc64el s390x
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -300,8 +300,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore20QScenePropertyChangeD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QScenePropertyChangeD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QScenePropertyChangeD2Ev@Qt_5 5.6.0
- (subst)_ZN8Qt3DCore20QScenePropertyChangedlEPv{size_t}@Qt_5 5.6.0
- (subst)_ZN8Qt3DCore20QScenePropertyChangenwE{size_t}@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate13jobsToExecuteEx@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate14registerAspectEPNS_7QEntityE@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate14sceneNodeAddedER14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
