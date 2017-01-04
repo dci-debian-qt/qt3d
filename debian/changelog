@@ -3,6 +3,7 @@ qt3d-opensource-src (5.7.1+dfsg-1ubuntu1) UNRELEASED; urgency=medium
   * Merge with Debian, remaining changes:
     - Own symbol files
     - Transitional package until Ubuntu 18.04 LTS
+  * Update symbols.
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 03 Jan 2017 11:53:29 +0000
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.1 amd64
+# SymbolsHelper-Confirmed: 5.7.1 amd64 arm64 armhf i386 powerpc ppc64el s390x
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -7,6 +7,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
+ Qt_5.7@Qt_5.7 5.7.1
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
  _ZN8Qt3DCore10QAspectJob13addDependencyE12QWeakPointerIS0_E@Qt_5 5.6.0
@@ -21,10 +22,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore10QComponent11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponent11qt_metacastEPKc@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponent12setShareableEb@Qt_5 5.6.0
- _ZN8Qt3DCore10QComponent14enabledChangedEb@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponent16shareableChangedEb@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponent16staticMetaObjectE@Qt_5 5.6.0
- _ZN8Qt3DCore10QComponent4copyEPKNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponentC1EPNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponentC1ERNS_17QComponentPrivateEPNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore10QComponentC2EPNS_5QNodeE@Qt_5 5.6.0
@@ -41,7 +40,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore10QTransform12setRotationXEf@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform12setRotationYEf@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform12setRotationZEf@Qt_5 5.6.0
- _ZN8Qt3DCore10QTransform13matrixChangedERK10QMatrix4x4@Qt_5 5.6.0
+ _ZN8Qt3DCore10QTransform13matrixChangedEv@Qt_5 5.7.1
  _ZN8Qt3DCore10QTransform14scale3DChangedERK9QVector3D@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform14setTranslationERK9QVector3D@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform15fromEulerAnglesERK9QVector3D@Qt_5 5.6.0
@@ -56,7 +55,6 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore10QTransform17fromAxesAndAnglesERK9QVector3DfS3_f@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform17fromAxesAndAnglesERK9QVector3DfS3_fS3_f@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform18translationChangedERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore10QTransform4copyEPKNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform8setScaleEf@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransform9setMatrixERK10QMatrix4x4@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransformC1EPNS_5QNodeE@Qt_5 5.6.0
@@ -66,42 +64,11 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore10QTransformD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransformD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore10QTransformD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens10topChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens11leftChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens11qt_metacastEPKc@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens11setFarPlaneEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens12rightChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens12setNearPlaneEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens13bottomChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens14setAspectRatioEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens14setFieldOfViewEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens15farPlaneChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens16nearPlaneChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens16staticMetaObjectE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens17setProjectionTypeENS0_14ProjectionTypeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens18aspectRatioChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens18fieldOfViewChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens20setFrustumProjectionEffffff@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens21projectionTypeChangedENS0_14ProjectionTypeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens23projectionMatrixChangedERK10QMatrix4x4@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens24setPerspectiveProjectionEffff@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens25setOrthographicProjectionEffffff@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens4copyEPKNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens6setTopEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens7setLeftEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens8setRightEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLens9setBottomEf@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensC1EPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensC1ERNS_18QCameraLensPrivateEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensC2EPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensC2ERNS_18QCameraLensPrivateEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensD0Ev@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensD1Ev@Qt_5 5.6.0
- _ZN8Qt3DCore11QCameraLensD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore12QBackendNode10setFactoryEPKNS_19QBackendNodeFactoryE@Qt_5 5.6.0
+ _ZN8Qt3DCore12QBackendNode10setEnabledEb@Qt_5 5.7.1
  _ZN8Qt3DCore12QBackendNode15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
- _ZN8Qt3DCore12QBackendNode7setPeerEPNS_5QNodeE@Qt_5 5.6.0
+ _ZN8Qt3DCore12QBackendNode16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QBackendNode18initializeFromPeerERK14QSharedPointerINS_22QNodeCreatedChangeBaseEE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QBackendNode9setPeerIdENS_7QNodeIdE@Qt_5 5.7.1
  _ZN8Qt3DCore12QBackendNodeC1ENS0_4ModeE@Qt_5 5.6.0
  _ZN8Qt3DCore12QBackendNodeC1ERNS_19QBackendNodePrivateE@Qt_5 5.6.0
  _ZN8Qt3DCore12QBackendNodeC2ENS0_4ModeE@Qt_5 5.6.0
@@ -118,49 +85,77 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore12QNodePrivate15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodePrivate15propertyChangedEi@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodePrivate16unsetSceneHelperEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore12QNodePrivate19m_clonesLookupTableE@Qt_5 5.6.0
+ _ZN8Qt3DCore12QNodePrivate18_q_setParentHelperEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QNodePrivate20findStaticMetaObjectEPK11QMetaObject@Qt_5 5.7.1
+ _ZN8Qt3DCore12QNodePrivate20notifyCreationChangeEv@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodePrivate20notifyPropertyChangeEPKcRK8QVariant@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodePrivate25addEntityComponentToSceneEPNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodePrivate26registerNotifiedPropertiesEv@Qt_5 5.6.0
+ _ZN8Qt3DCore12QNodePrivate27notifyDynamicPropertyChangeERK10QByteArrayRK8QVariant@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodePrivate28unregisterNotifiedPropertiesEv@Qt_5 5.6.0
+ _ZN8Qt3DCore12QNodePrivate32_q_notifyCreationAndChildChangesEv@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodePrivate3getEPNS_5QNodeE@Qt_5 5.6.0
+ _ZN8Qt3DCore12QNodePrivate42notifyDestructionChangesAndRemoveFromSceneEv@Qt_5 5.7.1
+ _ZN8Qt3DCore12QNodePrivate4initEPNS_5QNodeE@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodePrivate8setSceneEPNS_6QSceneE@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodePrivateC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodePrivateC2Ev@Qt_5 5.6.0
- (optional=templinst)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvRT_@Qt_5 5.6.0
- (optional=templinst)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvRT_RT0_@Qt_5 5.6.0
- (optional=templinst)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_26ConstMemberFunctionFunctorINS_22QAbstractAspectPrivateEPNS_12QBackendNodeEPNS_5QNodeEEEEEvRT_@Qt_5 5.6.0
+ _ZN8Qt3DCore12QNodePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore12QNodePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore12QNodePrivateD2Ev@Qt_5 5.7.1
+ (optional=templinst|arch=arm64 armhf)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvRT_@Qt_5 5.6.0
+ (optional=templinst|arch=arm64 armhf)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvRT_RT0_@Qt_5 5.6.0
+ (optional=templinst|arch=arm64 armhf)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_27QNodeCreatedChangeGeneratorEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1
+ (optional=templinst|arch=arm64 armhf)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_30QDestructionIdAndTypeCollectorEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodeVisitor6appendEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore12QNodeVisitor7setPathE5QListIPNS_5QNodeEE@Qt_5 5.6.0
+ _ZN8Qt3DCore12QNodeVisitor7setPathE7QVectorIPNS_5QNodeEE@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodeVisitor8pop_backEv@Qt_5 5.6.0
+ (optional=templinst|arch=!arm64 !armhf)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1
  (optional=templinst|arch=!arm64 !armhf)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvS5_RT_RT0_@Qt_5 5.6.0
+ (optional=templinst|arch=!arm64 !armhf)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_27QNodeCreatedChangeGeneratorEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1
+ (optional=templinst|arch=!arm64 !armhf)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_30QDestructionIdAndTypeCollectorEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1
  _ZN8Qt3DCore12QNodeVisitorC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorC2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QNodeVisitorD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore12QSceneChangeC1ENS_10ChangeFlagENS0_14ObservableTypeERKNS_7QNodeIdENS0_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore12QSceneChangeC1ERNS_19QSceneChangePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore12QSceneChangeC1ERNS_19QSceneChangePrivateENS_10ChangeFlagENS0_14ObservableTypeERKNS_7QNodeIdENS0_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore12QSceneChangeC2ENS_10ChangeFlagENS0_14ObservableTypeERKNS_7QNodeIdENS0_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore12QSceneChangeC2ERNS_19QSceneChangePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore12QSceneChangeC2ERNS_19QSceneChangePrivateENS_10ChangeFlagENS0_14ObservableTypeERKNS_7QNodeIdENS0_8PriorityE@Qt_5 5.6.0
+ _ZN8Qt3DCore12QSceneChange16setDeliveryFlagsE6QFlagsINS0_12DeliveryFlagEE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QSceneChangeC1ENS_10ChangeFlagENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QSceneChangeC1ERNS_19QSceneChangePrivateENS_10ChangeFlagENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QSceneChangeC2ENS_10ChangeFlagENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore12QSceneChangeC2ERNS_19QSceneChangePrivateENS_10ChangeFlagENS_7QNodeIdE@Qt_5 5.7.1
  _ZN8Qt3DCore12QSceneChangeD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QSceneChangeD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore12QSceneChangeD2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngine11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngine11qt_metacastEPKc@Qt_5 5.6.0
- _ZN8Qt3DCore13QAspectEngine13setRootEntityEPNS_7QEntityE@Qt_5 5.6.0
+ _ZN8Qt3DCore13QAspectEngine13setRootEntityE14QSharedPointerINS_7QEntityEE@Qt_5 5.7.1
  _ZN8Qt3DCore13QAspectEngine14executeCommandERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngine14registerAspectEPNS_15QAbstractAspectE@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngine14registerAspectERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngine16staticMetaObjectE@Qt_5 5.6.0
- _ZN8Qt3DCore13QAspectEngine7setDataERK4QMapI7QString8QVariantE@Qt_5 5.6.0
+ _ZN8Qt3DCore13QAspectEngine16unregisterAspectEPNS_15QAbstractAspectE@Qt_5 5.7.1
+ _ZN8Qt3DCore13QAspectEngine16unregisterAspectERK7QString@Qt_5 5.7.1
  _ZN8Qt3DCore13QAspectEngineC1EP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngineC2EP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngineD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngineD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore13QAspectEngineD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore13QThreadPooler11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler11qt_metacastEPKc@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler12enqueueTasksERK7QVectorIPNS_17RunnableInterfaceEE@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler12taskFinishedEPNS_17RunnableInterfaceE@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler14mapDependablesER7QVectorIPNS_17RunnableInterfaceEE@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler16staticMetaObjectE@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler20setDependencyHandlerEPNS_17DependencyHandlerE@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler6futureEv@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler7acquireEi@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPooler7releaseEv@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPoolerC1EP7QObject@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPoolerC2EP7QObject@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPoolerD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPoolerD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore13QThreadPoolerD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore14QAspectFactoryC1ERKS0_@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectFactoryC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectFactoryC2ERKS0_@Qt_5 5.6.0
@@ -171,12 +166,14 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore14QAspectManager10initializeEv@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManager11qt_metacastEPKc@Qt_5 5.6.0
- _ZN8Qt3DCore14QAspectManager13setRootEntityEPNS_7QEntityE@Qt_5 5.6.0
+ _ZN8Qt3DCore14QAspectManager13setRootEntityEPNS_7QEntityERK7QVectorI14QSharedPointerINS_22QNodeCreatedChangeBaseEEE@Qt_5 5.7.1
  _ZN8Qt3DCore14QAspectManager14registerAspectEPNS_15QAbstractAspectE@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManager16staticMetaObjectE@Qt_5 5.6.0
+ _ZN8Qt3DCore14QAspectManager16unregisterAspectEPNS_15QAbstractAspectE@Qt_5 5.7.1
+ _ZN8Qt3DCore14QAspectManager18exitSimulationLoopEv@Qt_5 5.7.1
+ _ZN8Qt3DCore14QAspectManager19enterSimulationLoopEv@Qt_5 5.7.1
  _ZN8Qt3DCore14QAspectManager4execEv@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManager4quitEv@Qt_5 5.6.0
- _ZN8Qt3DCore14QAspectManager7setDataERK4QMapI7QString8QVariantE@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManager8shutdownEv@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManagerC1EP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore14QAspectManagerC2EP7QObject@Qt_5 5.6.0
@@ -189,12 +186,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore14QChangeArbiter11qt_metacastEPKc@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter11syncChangesEv@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter14tlsChangeQueueEv@Qt_5 5.6.0
- _ZN8Qt3DCore14QChangeArbiter16registerObserverEPNS_18QObserverInterfaceERKNS_7QNodeIdE6QFlagsINS_10ChangeFlagEE@Qt_5 5.6.0
+ _ZN8Qt3DCore14QChangeArbiter16registerObserverEPNS_18QObserverInterfaceENS_7QNodeIdE6QFlagsINS_10ChangeFlagEE@Qt_5 5.7.1
  _ZN8Qt3DCore14QChangeArbiter16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter16staticMetaObjectE@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter17appendChangeQueueEPSt6vectorI14QSharedPointerINS_12QSceneChangeEESaIS4_EE@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter17removeChangeQueueEPSt6vectorI14QSharedPointerINS_12QSceneChangeEESaIS4_EE@Qt_5 5.6.0
- _ZN8Qt3DCore14QChangeArbiter18unregisterObserverEPNS_18QObserverInterfaceERKNS_7QNodeIdE@Qt_5 5.6.0
+ _ZN8Qt3DCore14QChangeArbiter18unregisterObserverEPNS_18QObserverInterfaceENS_7QNodeIdE@Qt_5 5.7.1
  _ZN8Qt3DCore14QChangeArbiter21registerSceneObserverEPNS_23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter22distributeQueueChangesEPSt6vectorI14QSharedPointerINS_12QSceneChangeEESaIS4_EE@Qt_5 5.6.0
  _ZN8Qt3DCore14QChangeArbiter23unregisterSceneObserverEPNS_23QSceneObserverInterfaceE@Qt_5 5.6.0
@@ -214,18 +211,26 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore14QChangeArbiterD2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore14QEntityPrivateC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore14QEntityPrivateC2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore15QAbstractAspect10onShutdownEv@Qt_5 5.6.0
+ _ZN8Qt3DCore14QEntityPrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore14QEntityPrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore14QEntityPrivateD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore15QAbstractAspect11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN8Qt3DCore15QAbstractAspect11qt_metacastEPKc@Qt_5 5.6.0
+ _ZN8Qt3DCore15QAbstractAspect12onRegisteredEv@Qt_5 5.7.1
+ _ZN8Qt3DCore15QAbstractAspect13jobsToExecuteEx@Qt_5 5.7.1
  _ZN8Qt3DCore15QAbstractAspect14executeCommandERK11QStringList@Qt_5 5.6.0
+ _ZN8Qt3DCore15QAbstractAspect14onUnregisteredEv@Qt_5 5.7.1
+ _ZN8Qt3DCore15QAbstractAspect15onEngineStartupEv@Qt_5 5.7.1
+ _ZN8Qt3DCore15QAbstractAspect16onEngineShutdownEv@Qt_5 5.7.1
  _ZN8Qt3DCore15QAbstractAspect16staticMetaObjectE@Qt_5 5.6.0
- _ZN8Qt3DCore15QAbstractAspect19onRootEntityChangedEPNS_7QEntityE@Qt_5 5.6.0
- _ZN8Qt3DCore15QAbstractAspect19registerBackendTypeERK11QMetaObjectRK14QSharedPointerINS_19QBackendNodeFunctorEE@Qt_5 5.6.0
- _ZN8Qt3DCore15QAbstractAspect9onStartupEv@Qt_5 5.6.0
+ _ZN8Qt3DCore15QAbstractAspect19registerBackendTypeERK11QMetaObjectRK14QSharedPointerINS_18QBackendNodeMapperEE@Qt_5 5.7.1
  _ZN8Qt3DCore15QAbstractAspectC1EP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore15QAbstractAspectC1ERNS_22QAbstractAspectPrivateEP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore15QAbstractAspectC2EP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore15QAbstractAspectC2ERNS_22QAbstractAspectPrivateEP7QObject@Qt_5 5.6.0
+ _ZN8Qt3DCore15QAbstractAspectD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore15QAbstractAspectD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore15QAbstractAspectD2Ev@Qt_5 5.7.1
  (subst)_ZN8Qt3DCore15QFrameAllocator17allocateRawMemoryE{size_t}@Qt_5 5.6.0
  (subst)_ZN8Qt3DCore15QFrameAllocator19deallocateRawMemoryEPv{size_t}@Qt_5 5.6.0
  _ZN8Qt3DCore15QFrameAllocator4trimEv@Qt_5 5.6.0
@@ -257,10 +262,19 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore17QAspectJobManagerD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore17QAspectJobManagerD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore17QAspectJobManagerD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore17QAspectJobPrivate3getEPNS_10QAspectJobE@Qt_5 5.7.1
+ _ZN8Qt3DCore17QAspectJobPrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore17QAspectJobPrivateC2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore17QComponentPrivate12removeEntityEPNS_7QEntityE@Qt_5 5.6.0
  _ZN8Qt3DCore17QComponentPrivate9addEntityEPNS_7QEntityE@Qt_5 5.6.0
  _ZN8Qt3DCore17QComponentPrivateC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore17QComponentPrivateC2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore17QComponentPrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore17QComponentPrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore17QComponentPrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore18QBackendNodeMapperD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore18QBackendNodeMapperD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore18QBackendNodeMapperD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore18QObserverInterfaceD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore18QObserverInterfaceD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore18QObserverInterfaceD2Ev@Qt_5 5.6.0
@@ -268,6 +282,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore19QBackendNodeFactoryD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore19QBackendNodeFactoryD2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore19QBackendNodePrivate10setArbiterEPNS_26QLockableObserverInterfaceE@Qt_5 5.6.0
+ _ZN8Qt3DCore19QBackendNodePrivate10setEnabledEb@Qt_5 5.7.1
  _ZN8Qt3DCore19QBackendNodePrivate15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
  _ZN8Qt3DCore19QBackendNodePrivate16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
  _ZN8Qt3DCore19QBackendNodePrivate3getEPNS_12QBackendNodeE@Qt_5 5.6.0
@@ -276,39 +291,80 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore19QEventFilterService10initializeEP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore19QEventFilterService19registerEventFilterEP7QObjecti@Qt_5 5.6.0
  _ZN8Qt3DCore19QEventFilterService21unregisterEventFilterEP7QObject@Qt_5 5.6.0
+ _ZN8Qt3DCore19QEventFilterService8shutdownEP7QObject@Qt_5 5.7.1
  _ZN8Qt3DCore19QEventFilterServiceC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore19QEventFilterServiceC2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore19QEventFilterServiceD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore19QEventFilterServiceD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore19QEventFilterServiceD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore19QSceneChangePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore19QSceneChangePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore19QSceneChangePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore19QSceneChangePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore19QSceneChangePrivateD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore20QAbstractNodeFactory13nodeFactoriesEv@Qt_5 5.6.0
  _ZN8Qt3DCore20QAbstractNodeFactory19registerNodeFactoryEPS0_@Qt_5 5.6.0
  _ZN8Qt3DCore20QAbstractNodeFactoryD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QAbstractNodeFactoryD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QAbstractNodeFactoryD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore20QAspectEnginePrivate10initEntityEPNS_7QEntityE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate10initializeEv@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate12initNodeTreeEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate18exitSimulationLoopEv@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate23generateCreationChangesEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate3getEPNS_13QAspectEngineE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate8initNodeEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivate8shutdownEv@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QAspectEnginePrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QNodeDestroyedChangeC1EPKNS_5QNodeERK7QVectorINS_15QNodeIdTypePairEE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QNodeDestroyedChangeC2EPKNS_5QNodeERK7QVectorINS_15QNodeIdTypePairEE@Qt_5 5.7.1
+ _ZN8Qt3DCore20QNodeDestroyedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QNodeDestroyedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore20QNodeDestroyedChangeD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore20QObservableInterfaceD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QObservableInterfaceD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore20QObservableInterfaceD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChange15setPropertyNameEPKc@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChange8setValueERK8QVariant@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeC1ENS_10ChangeFlagENS_12QSceneChange14ObservableTypeERKNS_7QNodeIdENS2_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeC1ERNS_27QScenePropertyChangePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeC1ERNS_27QScenePropertyChangePrivateENS_10ChangeFlagENS_12QSceneChange14ObservableTypeERKNS_7QNodeIdENS4_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeC2ENS_10ChangeFlagENS_12QSceneChange14ObservableTypeERKNS_7QNodeIdENS2_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeC2ERNS_27QScenePropertyChangePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeC2ERNS_27QScenePropertyChangePrivateENS_10ChangeFlagENS_12QSceneChange14ObservableTypeERKNS_7QNodeIdENS4_8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeD0Ev@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeD1Ev@Qt_5 5.6.0
- _ZN8Qt3DCore20QScenePropertyChangeD2Ev@Qt_5 5.6.0
- (subst)_ZN8Qt3DCore20QScenePropertyChangedlEPv{size_t}@Qt_5 5.6.0
- (subst)_ZN8Qt3DCore20QScenePropertyChangenwE{size_t}@Qt_5 5.6.0
+ _ZN8Qt3DCore21QComponentAddedChangeC1EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore21QComponentAddedChangeC2EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore21QComponentAddedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore21QComponentAddedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore21QComponentAddedChangeD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore22QAbstractAspectPrivate13jobsToExecuteEx@Qt_5 5.6.0
- _ZN8Qt3DCore22QAbstractAspectPrivate14registerAspectEPNS_7QEntityE@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate14sceneNodeAddedER14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivate16sceneNodeRemovedER14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
+ _ZN8Qt3DCore22QAbstractAspectPrivate21setRootAndCreateNodesEPNS_7QEntityERK7QVectorI14QSharedPointerINS_22QNodeCreatedChangeBaseEEE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QAbstractAspectPrivate21unregisterBackendTypeERK11QMetaObject@Qt_5 5.7.1
+ _ZN8Qt3DCore22QAbstractAspectPrivate23onEngineAboutToShutdownEv@Qt_5 5.7.1
  _ZN8Qt3DCore22QAbstractAspectPrivate3getEPNS_15QAbstractAspectE@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivateC1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore22QAbstractAspectPrivateC2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore22QAbstractAspectPrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QAbstractAspectPrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QAbstractAspectPrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseC1EPKNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseC1ERNS_29QNodeCreatedChangeBasePrivateEPKNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseC2EPKNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseC2ERNS_29QNodeCreatedChangeBasePrivateEPKNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QNodeCreatedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChange8setValueERK8QVariant@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeC1ERNS_29QPropertyUpdatedChangePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeC2ERNS_29QPropertyUpdatedChangePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore22QPropertyUpdatedChangeD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore23QComponentRemovedChangeC1EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore23QComponentRemovedChangeC2EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore23QComponentRemovedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore23QComponentRemovedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore23QComponentRemovedChangeD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore23QSceneObserverInterfaceD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore23QSceneObserverInterfaceD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore23QSceneObserverInterfaceD2Ev@Qt_5 5.6.0
@@ -319,6 +375,18 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore24QAbstractServiceProviderD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore24QAbstractServiceProviderD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore24QAbstractServiceProviderD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore24QPropertyNodeAddedChangeC1ENS_7QNodeIdEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore24QPropertyNodeAddedChangeC2ENS_7QNodeIdEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore24QPropertyNodeAddedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore24QPropertyNodeAddedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore24QPropertyNodeAddedChangeD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBase11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBase11qt_metacastEPKc@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBase16staticMetaObjectE@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBase23connectToPropertyChangeEPK7QObjecti@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBase28disconnectFromPropertyChangeEPK7QObjecti@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBaseC1EP7QObject@Qt_5 5.7.1
+ _ZN8Qt3DCore25PropertyChangeHandlerBaseC2EP7QObject@Qt_5 5.7.1
  _ZN8Qt3DCore25QAbstractAspectJobManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.1
  _ZN8Qt3DCore25QAbstractAspectJobManager11qt_metacastEPKc@Qt_5 5.6.1
  _ZN8Qt3DCore25QAbstractAspectJobManager16staticMetaObjectE@Qt_5 5.6.1
@@ -328,6 +396,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore25QOpenGLInformationServiceC1ERNS_32QOpenGLInformationServicePrivateE@Qt_5 5.6.0
  _ZN8Qt3DCore25QOpenGLInformationServiceC2ERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore25QOpenGLInformationServiceC2ERNS_32QOpenGLInformationServicePrivateE@Qt_5 5.6.0
+ _ZN8Qt3DCore25QPropertyValueAddedChange13setAddedValueERK8QVariant@Qt_5 5.7.1
+ _ZN8Qt3DCore25QPropertyValueAddedChangeC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore25QPropertyValueAddedChangeC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore25QPropertyValueAddedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore25QPropertyValueAddedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore25QPropertyValueAddedChangeD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore25QSystemInformationServiceC1ERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore25QSystemInformationServiceC1ERNS_32QSystemInformationServicePrivateE@Qt_5 5.6.0
  _ZN8Qt3DCore25QSystemInformationServiceC2ERK7QString@Qt_5 5.6.0
@@ -335,32 +409,130 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore26QLockableObserverInterfaceD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore26QLockableObserverInterfaceD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore26QLockableObserverInterfaceD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChange13setTargetNodeERKNS_7QNodeIdE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeC1ENS_10ChangeFlagERKNS_7QNodeIdENS_12QSceneChange8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeC1ERNS_34QBackendScenePropertyChangePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeC1ERNS_34QBackendScenePropertyChangePrivateENS_10ChangeFlagERKNS_7QNodeIdENS_12QSceneChange8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeC2ENS_10ChangeFlagERKNS_7QNodeIdENS_12QSceneChange8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeC2ERNS_34QBackendScenePropertyChangePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeC2ERNS_34QBackendScenePropertyChangePrivateENS_10ChangeFlagERKNS_7QNodeIdENS_12QSceneChange8PriorityE@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeD0Ev@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeD1Ev@Qt_5 5.6.0
- _ZN8Qt3DCore27QBackendScenePropertyChangeD2Ev@Qt_5 5.6.0
+ _ZN8Qt3DCore26QPropertyNodeRemovedChangeC1ENS_7QNodeIdEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyNodeRemovedChangeC2ENS_7QNodeIdEPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyNodeRemovedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyNodeRemovedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyNodeRemovedChangeD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseC1ERNS_33QPropertyUpdatedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseC2ERNS_33QPropertyUpdatedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore26QPropertyUpdatedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore27QNodeCreatedChangeGeneratorC1EPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore27QNodeCreatedChangeGeneratorC2EPNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore27QPropertyValueRemovedChange15setRemovedValueERK8QVariant@Qt_5 5.7.1
+ _ZN8Qt3DCore27QPropertyValueRemovedChangeC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore27QPropertyValueRemovedChangeC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore27QPropertyValueRemovedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore27QPropertyValueRemovedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore27QPropertyValueRemovedChangeD2Ev@Qt_5 5.7.1
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC1ERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC1ERNS_35QAbstractFrameAdvanceServicePrivateE@Qt_5 5.6.0
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC2ERK7QString@Qt_5 5.6.0
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC2ERNS_35QAbstractFrameAdvanceServicePrivateE@Qt_5 5.6.0
- _ZN8Qt3DCore37qt3d_QAspectFactory_addDefaultFactoryERK7QStringPK11QMetaObjectPFPNS_15QAbstractAspectEP7QObjectE@Qt_5 5.6.0
+ _ZN8Qt3DCore28QComponentAddedChangePrivateC1EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore28QComponentAddedChangePrivateC2EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChange15setPropertyNameERK10QByteArray@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChange8setValueERK8QVariant@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeC1ERNS_36QDynamicPropertyUpdatedChangePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeC2ERNS_36QDynamicPropertyUpdatedChangePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore29QDynamicPropertyUpdatedChangeD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore29QNodeCreatedChangeBasePrivateC1EPKNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QNodeCreatedChangeBasePrivateC2EPKNS_5QNodeE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseC1ERNS_36QPropertyValueAddedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseC2ERNS_36QPropertyValueAddedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore29QPropertyValueAddedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore30QComponentRemovedChangePrivateC1EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore30QComponentRemovedChangePrivateC2EPKNS_7QEntityEPKNS_10QComponentE@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseC1ERNS_38QPropertyValueRemovedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseC2ERNS_38QPropertyValueRemovedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore31QPropertyValueRemovedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore32QPropertyValueAddedChangePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore32QPropertyValueAddedChangePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBase15setPropertyNameEPKc@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseC1ERNS_39QStaticPropertyUpdatedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseC2ERNS_39QStaticPropertyUpdatedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore34QPropertyValueRemovedChangePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore34QPropertyValueRemovedChangePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBase15setPropertyNameEPKc@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseC1ERNS_42QStaticPropertyValueAddedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseC2ERNS_42QStaticPropertyValueAddedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore35QStaticPropertyValueAddedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QPropertyValueAddedChangeBasePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QPropertyValueAddedChangeBasePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QPropertyValueAddedChangeBasePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QPropertyValueAddedChangeBasePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore36QPropertyValueAddedChangeBasePrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBase15setPropertyNameEPKc@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseC1ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseC1ERNS_44QStaticPropertyValueRemovedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseC2ENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseC2ERNS_44QStaticPropertyValueRemovedChangeBasePrivateENS_7QNodeIdE@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore37qt3d_QAspectFactory_addDefaultFactoryERK13QLatin1StringPK11QMetaObjectPFPNS_15QAbstractAspectEP7QObjectE@Qt_5 5.7.1
+ _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateD0Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateD1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateD2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore42QStaticPropertyValueAddedChangeBasePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore42QStaticPropertyValueAddedChangeBasePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore44QStaticPropertyValueRemovedChangeBasePrivateC1Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore44QStaticPropertyValueRemovedChangeBasePrivateC2Ev@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReply11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReply11qt_metacastEPKc@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReply11setFinishedEb@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReply16staticMetaObjectE@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReply7setDataERK10QByteArray@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReply8finishedEPS1_@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReplyC1ERK7QStringP7QObject@Qt_5 5.7.1
+ _ZN8Qt3DCore5Debug24AsynchronousCommandReplyC2ERK7QStringP7QObject@Qt_5 5.7.1
  _ZN8Qt3DCore5QNode10setEnabledEb@Qt_5 5.6.0
  _ZN8Qt3DCore5QNode11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN8Qt3DCore5QNode11qt_metacastEPKc@Qt_5 5.6.0
+ _ZN8Qt3DCore5QNode13nodeDestroyedEv@Qt_5 5.7.1
  _ZN8Qt3DCore5QNode13parentChangedEP7QObject@Qt_5 5.6.0
  _ZN8Qt3DCore5QNode14enabledChangedEb@Qt_5 5.6.0
+ _ZN8Qt3DCore5QNode15notifyObserversERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.7.1
  _ZN8Qt3DCore5QNode16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.6.0
  _ZN8Qt3DCore5QNode16staticMetaObjectE@Qt_5 5.6.0
  _ZN8Qt3DCore5QNode18blockNotificationsEb@Qt_5 5.6.0
- _ZN8Qt3DCore5QNode4copyEPKS0_@Qt_5 5.6.0
- _ZN8Qt3DCore5QNode5cloneEPS0_@Qt_5 5.6.0
- _ZN8Qt3DCore5QNode7cleanupEv@Qt_5 5.6.0
  _ZN8Qt3DCore5QNode9setParentEPS0_@Qt_5 5.6.0
  _ZN8Qt3DCore5QNodeC1EPS0_@Qt_5 5.6.0
  _ZN8Qt3DCore5QNodeC1ERNS_12QNodePrivateEPS0_@Qt_5 5.6.0
@@ -369,84 +541,23 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore5QNodeD0Ev@Qt_5 5.6.0
  _ZN8Qt3DCore5QNodeD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore5QNodeD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3D11setDistanceEf@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3D12setDirectionERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3D9setOriginERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3D9transformERK10QMatrix4x4@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3DC1ERK9QVector3DS3_f@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3DC1Ev@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3DC2ERK9QVector3DS3_f@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3DC2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3DD1Ev@Qt_5 5.6.0
- _ZN8Qt3DCore6QRay3DD2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore6QScene10setArbiterEPNS_26QLockableObserverInterfaceE@Qt_5 5.6.0
- _ZN8Qt3DCore6QScene13addObservableEPNS_20QObservableInterfaceERKNS_7QNodeIdE@Qt_5 5.6.0
+ _ZN8Qt3DCore6QScene13addObservableEPNS_20QObservableInterfaceENS_7QNodeIdE@Qt_5 5.7.1
  _ZN8Qt3DCore6QScene13addObservableEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore6QScene16removeObservableEPNS_20QObservableInterfaceERKNS_7QNodeIdE@Qt_5 5.6.0
+ _ZN8Qt3DCore6QScene16removeObservableEPNS_20QObservableInterfaceENS_7QNodeIdE@Qt_5 5.7.1
  _ZN8Qt3DCore6QScene16removeObservableEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore6QScene21addEntityForComponentERKNS_7QNodeIdES3_@Qt_5 5.6.0
- _ZN8Qt3DCore6QScene21hasEntityForComponentERKNS_7QNodeIdES3_@Qt_5 5.6.0
- _ZN8Qt3DCore6QScene24removeEntityForComponentERKNS_7QNodeIdES3_@Qt_5 5.6.0
+ _ZN8Qt3DCore6QScene21addEntityForComponentENS_7QNodeIdES1_@Qt_5 5.7.1
+ _ZN8Qt3DCore6QScene21hasEntityForComponentENS_7QNodeIdES1_@Qt_5 5.7.1
+ _ZN8Qt3DCore6QScene24removeEntityForComponentENS_7QNodeIdES1_@Qt_5 5.7.1
  _ZN8Qt3DCore6QSceneC1EPNS_13QAspectEngineE@Qt_5 5.6.0
  _ZN8Qt3DCore6QSceneC2EPNS_13QAspectEngineE@Qt_5 5.6.0
  _ZN8Qt3DCore6QSceneD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore6QSceneD2Ev@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera10topChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera11leftChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera11qt_metacastEPKc@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera11setFarPlaneEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera11setPositionERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera11setUpVectorERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera12rightChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera12setNearPlaneEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera13bottomChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera13setViewCenterERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera14setAspectRatioEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera14setFieldOfViewEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera14translateWorldERK9QVector3DNS0_23CameraTranslationOptionE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera15farPlaneChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera15positionChangedERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera15upVectorChangedERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera16nearPlaneChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera16staticMetaObjectE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera17setProjectionTypeENS_11QCameraLens14ProjectionTypeE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera17viewCenterChangedERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera17viewMatrixChangedERK10QMatrix4x4@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera17viewVectorChangedERK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera18aspectRatioChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera18fieldOfViewChangedEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera18panAboutViewCenterEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera18panAboutViewCenterEfRK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera19rollAboutViewCenterEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera19tiltAboutViewCenterEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera21projectionTypeChangedENS_11QCameraLens14ProjectionTypeE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera21rotateAboutViewCenterERK11QQuaternion@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera23projectionMatrixChangedERK10QMatrix4x4@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera3panEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera3panEfRK9QVector3D@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera4rollEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera4tiltEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera6rotateERK11QQuaternion@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera6setTopEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera7setLeftEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera8setRightEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera9setBottomEf@Qt_5 5.6.0
- _ZN8Qt3DCore7QCamera9translateERK9QVector3DNS0_23CameraTranslationOptionE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraC1EPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraC1ERNS_14QCameraPrivateEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraC2EPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraC2ERNS_14QCameraPrivateEPNS_5QNodeE@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraD0Ev@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraD1Ev@Qt_5 5.6.0
- _ZN8Qt3DCore7QCameraD2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntity11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntity11qt_metacastEPKc@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntity12addComponentEPNS_10QComponentE@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntity15removeComponentEPNS_10QComponentE@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntity16staticMetaObjectE@Qt_5 5.6.0
- _ZN8Qt3DCore7QEntity19removeAllComponentsEv@Qt_5 5.6.0
- _ZN8Qt3DCore7QEntity4copyEPKNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntityC1EPNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntityC1ERNS_14QEntityPrivateEPNS_5QNodeE@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntityC2EPNS_5QNodeE@Qt_5 5.6.0
@@ -455,16 +566,14 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore7QEntityD1Ev@Qt_5 5.6.0
  _ZN8Qt3DCore7QEntityD2Ev@Qt_5 5.6.0
  _ZN8Qt3DCore7QNodeId8createIdEv@Qt_5 5.6.0
- _ZN8Qt3DCorelsE6QDebugRKNS_6QRay3DE@Qt_5 5.6.0
- _ZN8Qt3DCorelsE6QDebugRKNS_7QNodeIdE@Qt_5 5.6.0
- _ZN8Qt3DCorelsER11QDataStreamRKNS_6QRay3DE@Qt_5 5.6.0
- _ZN8Qt3DCorersER11QDataStreamRNS_6QRay3DE@Qt_5 5.6.0
+ _ZN8Qt3DCorelsE6QDebugNS_7QNodeIdE@Qt_5 5.7.1
  _ZNK8Qt3DCore10QAspectJob12dependenciesEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QComponent10metaObjectEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore10QComponent11isShareableEv@Qt_5 5.7.1
  _ZNK8Qt3DCore10QComponent8entitiesEv@Qt_5 5.6.0
- _ZNK8Qt3DCore10QComponent9shareableEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QTransform10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QTransform11translationEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore10QTransform24createNodeCreationChangeEv@Qt_5 5.7.1
  _ZNK8Qt3DCore10QTransform5scaleEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QTransform6matrixEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QTransform7scale3DEv@Qt_5 5.6.0
@@ -472,122 +581,101 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK8Qt3DCore10QTransform9rotationXEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QTransform9rotationYEv@Qt_5 5.6.0
  _ZNK8Qt3DCore10QTransform9rotationZEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens10metaObjectEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens11aspectRatioEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens11fieldOfViewEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens14projectionTypeEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens16projectionMatrixEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens3topEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens4leftEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens5rightEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens6bottomEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens8farPlaneEv@Qt_5 5.6.0
- _ZNK8Qt3DCore11QCameraLens9nearPlaneEv@Qt_5 5.6.0
- _ZNK8Qt3DCore12QBackendNode17createBackendNodeEPNS_5QNodeE@Qt_5 5.6.0
  _ZNK8Qt3DCore12QBackendNode4modeEv@Qt_5 5.6.0
- _ZNK8Qt3DCore12QBackendNode8peerUuidEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore12QBackendNode6peerIdEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore12QBackendNode9isEnabledEv@Qt_5 5.7.1
  _ZNK8Qt3DCore12QNodePrivate5sceneEv@Qt_5 5.6.0
  _ZNK8Qt3DCore12QNodeVisitor11currentNodeEv@Qt_5 5.6.0
  _ZNK8Qt3DCore12QNodeVisitor4pathEv@Qt_5 5.6.0
  _ZNK8Qt3DCore12QNodeVisitor8rootNodeEv@Qt_5 5.6.0
- _ZNK8Qt3DCore12QSceneChange14observableTypeEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore12QSceneChange13deliveryFlagsEv@Qt_5 5.7.1
  _ZNK8Qt3DCore12QSceneChange4typeEv@Qt_5 5.6.0
- _ZNK8Qt3DCore12QSceneChange8priorityEv@Qt_5 5.6.0
  _ZNK8Qt3DCore12QSceneChange9subjectIdEv@Qt_5 5.6.0
- _ZNK8Qt3DCore12QSceneChange9timestampEv@Qt_5 5.6.0
  _ZNK8Qt3DCore13QAspectEngine10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore13QAspectEngine10rootEntityEv@Qt_5 5.6.0
  _ZNK8Qt3DCore13QAspectEngine7aspectsEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore13QThreadPooler10metaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore13QThreadPooler12currentCountEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore13QThreadPooler14maxThreadCountEv@Qt_5 5.7.1
  _ZNK8Qt3DCore14QAspectFactory10aspectNameEPNS_15QAbstractAspectE@Qt_5 5.6.0
- _ZNK8Qt3DCore14QAspectFactory12createAspectERK7QStringP7QObject@Qt_5 5.6.0
+ _ZNK8Qt3DCore14QAspectFactory12createAspectERK13QLatin1StringP7QObject@Qt_5 5.7.1
  _ZNK8Qt3DCore14QAspectFactory18availableFactoriesEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QAspectManager10jobManagerEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QAspectManager10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QAspectManager13changeArbiterEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QAspectManager14isShuttingDownEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QAspectManager14serviceLocatorEv@Qt_5 5.6.0
- _ZNK8Qt3DCore14QAspectManager4dataEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QAspectManager7aspectsEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QChangeArbiter10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QChangeArbiter5sceneEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QChangeArbiter7postmanEv@Qt_5 5.6.0
  _ZNK8Qt3DCore14QEntityPrivate14parentEntityIdEv@Qt_5 5.6.0
  _ZNK8Qt3DCore15QAbstractAspect10metaObjectEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore15QAbstractAspect12rootEntityIdEv@Qt_5 5.7.1
  _ZNK8Qt3DCore15QFrameAllocator13maxObjectSizeEv@Qt_5 5.6.0
  _ZNK8Qt3DCore15QFrameAllocator15totalChunkCountEv@Qt_5 5.6.0
  _ZNK8Qt3DCore15QFrameAllocator17allocatorPoolSizeEv@Qt_5 5.6.0
  _ZNK8Qt3DCore15QFrameAllocator7isEmptyEv@Qt_5 5.6.0
  _ZNK8Qt3DCore15QServiceLocator12serviceCountEv@Qt_5 5.6.0
  _ZNK8Qt3DCore17QAspectJobManager10metaObjectEv@Qt_5 5.6.0
- _ZNK8Qt3DCore20QScenePropertyChange12propertyNameEv@Qt_5 5.6.0
- _ZNK8Qt3DCore20QScenePropertyChange5valueEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore20QNodeDestroyedChange18subtreeIdsAndTypesEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore21QComponentAddedChange11componentIdEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore21QComponentAddedChange19componentMetaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore21QComponentAddedChange8entityIdEv@Qt_5 5.7.1
  _ZNK8Qt3DCore22QAbstractAspectPrivate10jobManagerEv@Qt_5 5.6.0
- _ZNK8Qt3DCore22QAbstractAspectPrivate16clearBackendNodeEPNS_5QNodeE@Qt_5 5.6.0
- _ZNK8Qt3DCore22QAbstractAspectPrivate17createBackendNodeEPNS_5QNodeE@Qt_5 5.6.0
+ _ZNK8Qt3DCore22QAbstractAspectPrivate16clearBackendNodeERK14QSharedPointerINS_20QNodeDestroyedChangeEE@Qt_5 5.7.1
+ _ZNK8Qt3DCore22QAbstractAspectPrivate17createBackendNodeERK14QSharedPointerINS_22QNodeCreatedChangeBaseEE@Qt_5 5.7.1
  _ZNK8Qt3DCore22QAbstractAspectPrivate8servicesEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore22QNodeCreatedChangeBase10metaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore22QNodeCreatedChangeBase13isNodeEnabledEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore22QNodeCreatedChangeBase8parentIdEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore22QPropertyUpdatedChange5valueEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore23QComponentRemovedChange11componentIdEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore23QComponentRemovedChange19componentMetaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore23QComponentRemovedChange8entityIdEv@Qt_5 5.7.1
  _ZNK8Qt3DCore24QAbstractServiceProvider11descriptionEv@Qt_5 5.6.0
  _ZNK8Qt3DCore24QAbstractServiceProvider4typeEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore24QPropertyNodeAddedChange10metaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore24QPropertyNodeAddedChange11addedNodeIdEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore25PropertyChangeHandlerBase10metaObjectEv@Qt_5 5.7.1
  _ZNK8Qt3DCore25QAbstractAspectJobManager10metaObjectEv@Qt_5 5.6.1
- _ZNK8Qt3DCore27QBackendScenePropertyChange10targetNodeEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore25QPropertyValueAddedChange10addedValueEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore26QPropertyNodeRemovedChange10metaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore26QPropertyNodeRemovedChange13removedNodeIdEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore27QPropertyValueRemovedChange12removedValueEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore29QDynamicPropertyUpdatedChange12propertyNameEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore29QDynamicPropertyUpdatedChange5valueEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore32QStaticPropertyUpdatedChangeBase12propertyNameEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore35QStaticPropertyValueAddedChangeBase12propertyNameEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore37QStaticPropertyValueRemovedChangeBase12propertyNameEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore5Debug24AsynchronousCommandReply10metaObjectEv@Qt_5 5.7.1
+ _ZNK8Qt3DCore5QNode10childNodesEv@Qt_5 5.7.1
  _ZNK8Qt3DCore5QNode10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore5QNode10parentNodeEv@Qt_5 5.6.0
- _ZNK8Qt3DCore5QNode13childrenNodesEv@Qt_5 5.6.0
  _ZNK8Qt3DCore5QNode20notificationsBlockedEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore5QNode24createNodeCreationChangeEv@Qt_5 5.7.1
  _ZNK8Qt3DCore5QNode2idEv@Qt_5 5.6.0
  _ZNK8Qt3DCore5QNode9isEnabledEv@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D11transformedERK10QMatrix4x4@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D17projectedDistanceERK9QVector3D@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D5pointEf@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D6originEv@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D7projectERK9QVector3D@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D8containsERK9QVector3D@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D8containsERKS0_@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D8distanceERK9QVector3D@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D8distanceEv@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3D9directionEv@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3DeqERKS0_@Qt_5 5.6.0
- _ZNK8Qt3DCore6QRay3DneERKS0_@Qt_5 5.6.0
- _ZNK8Qt3DCore6QScene10lookupNodeERKNS_7QNodeIdE@Qt_5 5.6.0
+ _ZNK8Qt3DCore6QScene10lookupNodeENS_7QNodeIdE@Qt_5 5.7.1
  _ZNK8Qt3DCore6QScene11lookupNodesERK7QVectorINS_7QNodeIdEE@Qt_5 5.6.0
- _ZNK8Qt3DCore6QScene17lookupObservablesERKNS_7QNodeIdE@Qt_5 5.6.0
- _ZNK8Qt3DCore6QScene20entitiesForComponentERKNS_7QNodeIdE@Qt_5 5.6.0
+ _ZNK8Qt3DCore6QScene17lookupObservablesENS_7QNodeIdE@Qt_5 5.7.1
+ _ZNK8Qt3DCore6QScene20entitiesForComponentENS_7QNodeIdE@Qt_5 5.7.1
  _ZNK8Qt3DCore6QScene20nodeIdFromObservableEPNS_20QObservableInterfaceE@Qt_5 5.6.0
  _ZNK8Qt3DCore6QScene6engineEv@Qt_5 5.6.0
  _ZNK8Qt3DCore6QScene7arbiterEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera10metaObjectEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera10viewCenterEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera10viewMatrixEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera10viewVectorEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera11aspectRatioEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera11fieldOfViewEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera11panRotationEf@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera12rollRotationEf@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera12tiltRotationEf@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera14projectionTypeEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera16projectionMatrixEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera3topEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera4leftEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera4lensEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera5rightEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera6bottomEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera8farPlaneEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera8positionEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera8rotationEfRK9QVector3D@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera8upVectorEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera9nearPlaneEv@Qt_5 5.6.0
- _ZNK8Qt3DCore7QCamera9transformEv@Qt_5 5.6.0
  _ZNK8Qt3DCore7QEntity10componentsEv@Qt_5 5.6.0
  _ZNK8Qt3DCore7QEntity10metaObjectEv@Qt_5 5.6.0
  _ZNK8Qt3DCore7QEntity12parentEntityEv@Qt_5 5.6.0
+ _ZNK8Qt3DCore7QEntity24createNodeCreationChangeEv@Qt_5 5.7.1
  _ZTIN8Qt3DCore10QAspectJobE@Qt_5 5.6.0
  _ZTIN8Qt3DCore10QComponentE@Qt_5 5.6.0
  _ZTIN8Qt3DCore10QTransformE@Qt_5 5.6.0
- _ZTIN8Qt3DCore11QCameraLensE@Qt_5 5.6.0
  _ZTIN8Qt3DCore12QBackendNodeE@Qt_5 5.6.0
  _ZTIN8Qt3DCore12QNodePrivateE@Qt_5 5.6.0
  _ZTIN8Qt3DCore12QNodeVisitorE@Qt_5 5.6.0
  _ZTIN8Qt3DCore12QSceneChangeE@Qt_5 5.6.0
  _ZTIN8Qt3DCore13QAspectEngineE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore13QThreadPoolerE@Qt_5 5.7.1
  _ZTIN8Qt3DCore14QAspectManagerE@Qt_5 5.6.0
  _ZTIN8Qt3DCore14QChangeArbiterE@Qt_5 5.6.0
  _ZTIN8Qt3DCore14QEntityPrivateE@Qt_5 5.6.0
@@ -596,34 +684,63 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTIN8Qt3DCore16QAbstractPostmanE@Qt_5 5.6.0
  _ZTIN8Qt3DCore17QAspectJobManagerE@Qt_5 5.6.0
  _ZTIN8Qt3DCore17QComponentPrivateE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore18QBackendNodeMapperE@Qt_5 5.7.1
  _ZTIN8Qt3DCore18QObserverInterfaceE@Qt_5 5.6.0
  _ZTIN8Qt3DCore19QBackendNodeFactoryE@Qt_5 5.6.0
  _ZTIN8Qt3DCore19QBackendNodePrivateE@Qt_5 5.6.0
  _ZTIN8Qt3DCore19QEventFilterServiceE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore19QSceneChangePrivateE@Qt_5 5.7.1
  _ZTIN8Qt3DCore20QAbstractNodeFactoryE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore20QAspectEnginePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore20QNodeDestroyedChangeE@Qt_5 5.7.1
  _ZTIN8Qt3DCore20QObservableInterfaceE@Qt_5 5.6.0
- _ZTIN8Qt3DCore20QScenePropertyChangeE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore21QComponentAddedChangeE@Qt_5 5.7.1
  _ZTIN8Qt3DCore22QAbstractAspectPrivateE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore22QNodeCreatedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore22QPropertyUpdatedChangeE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore23QComponentRemovedChangeE@Qt_5 5.7.1
  _ZTIN8Qt3DCore23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZTIN8Qt3DCore24QAbstractServiceProviderE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore24QPropertyNodeAddedChangeE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore25PropertyChangeHandlerBaseE@Qt_5 5.7.1
  _ZTIN8Qt3DCore25QAbstractAspectJobManagerE@Qt_5 5.6.1
  _ZTIN8Qt3DCore25QOpenGLInformationServiceE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore25QPropertyValueAddedChangeE@Qt_5 5.7.1
  _ZTIN8Qt3DCore25QSystemInformationServiceE@Qt_5 5.6.0
  _ZTIN8Qt3DCore26QLockableObserverInterfaceE@Qt_5 5.6.0
- _ZTIN8Qt3DCore27QBackendScenePropertyChangeE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore26QPropertyNodeRemovedChangeE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore26QPropertyUpdatedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore27QPropertyValueRemovedChangeE@Qt_5 5.7.1
  _ZTIN8Qt3DCore28QAbstractFrameAdvanceServiceE@Qt_5 5.6.0
+ _ZTIN8Qt3DCore28QComponentAddedChangePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore29QDynamicPropertyUpdatedChangeE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore29QPropertyValueAddedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore30QComponentRemovedChangePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore31QPropertyValueRemovedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore32QPropertyValueAddedChangePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore32QStaticPropertyUpdatedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore33QPropertyUpdatedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore34QPropertyValueRemovedChangePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore35QStaticPropertyValueAddedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore36QPropertyValueAddedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore42QStaticPropertyValueAddedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore44QStaticPropertyValueRemovedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTIN8Qt3DCore5Debug24AsynchronousCommandReplyE@Qt_5 5.7.1
  _ZTIN8Qt3DCore5QNodeE@Qt_5 5.6.0
- _ZTIN8Qt3DCore7QCameraE@Qt_5 5.6.0
  _ZTIN8Qt3DCore7QEntityE@Qt_5 5.6.0
  _ZTSN8Qt3DCore10QAspectJobE@Qt_5 5.6.0
  _ZTSN8Qt3DCore10QComponentE@Qt_5 5.6.0
  _ZTSN8Qt3DCore10QTransformE@Qt_5 5.6.0
- _ZTSN8Qt3DCore11QCameraLensE@Qt_5 5.6.0
  _ZTSN8Qt3DCore12QBackendNodeE@Qt_5 5.6.0
  _ZTSN8Qt3DCore12QNodePrivateE@Qt_5 5.6.0
  _ZTSN8Qt3DCore12QNodeVisitorE@Qt_5 5.6.0
  _ZTSN8Qt3DCore12QSceneChangeE@Qt_5 5.6.0
  _ZTSN8Qt3DCore13QAspectEngineE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore13QThreadPoolerE@Qt_5 5.7.1
  _ZTSN8Qt3DCore14QAspectManagerE@Qt_5 5.6.0
  _ZTSN8Qt3DCore14QChangeArbiterE@Qt_5 5.6.0
  _ZTSN8Qt3DCore14QEntityPrivateE@Qt_5 5.6.0
@@ -632,34 +749,63 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTSN8Qt3DCore16QAbstractPostmanE@Qt_5 5.6.0
  _ZTSN8Qt3DCore17QAspectJobManagerE@Qt_5 5.6.0
  _ZTSN8Qt3DCore17QComponentPrivateE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore18QBackendNodeMapperE@Qt_5 5.7.1
  _ZTSN8Qt3DCore18QObserverInterfaceE@Qt_5 5.6.0
  _ZTSN8Qt3DCore19QBackendNodeFactoryE@Qt_5 5.6.0
  _ZTSN8Qt3DCore19QBackendNodePrivateE@Qt_5 5.6.0
  _ZTSN8Qt3DCore19QEventFilterServiceE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore19QSceneChangePrivateE@Qt_5 5.7.1
  _ZTSN8Qt3DCore20QAbstractNodeFactoryE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore20QAspectEnginePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore20QNodeDestroyedChangeE@Qt_5 5.7.1
  _ZTSN8Qt3DCore20QObservableInterfaceE@Qt_5 5.6.0
- _ZTSN8Qt3DCore20QScenePropertyChangeE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore21QComponentAddedChangeE@Qt_5 5.7.1
  _ZTSN8Qt3DCore22QAbstractAspectPrivateE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore22QNodeCreatedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore22QPropertyUpdatedChangeE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore23QComponentRemovedChangeE@Qt_5 5.7.1
  _ZTSN8Qt3DCore23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZTSN8Qt3DCore24QAbstractServiceProviderE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore24QPropertyNodeAddedChangeE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore25PropertyChangeHandlerBaseE@Qt_5 5.7.1
  _ZTSN8Qt3DCore25QAbstractAspectJobManagerE@Qt_5 5.6.1
  _ZTSN8Qt3DCore25QOpenGLInformationServiceE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore25QPropertyValueAddedChangeE@Qt_5 5.7.1
  _ZTSN8Qt3DCore25QSystemInformationServiceE@Qt_5 5.6.0
  _ZTSN8Qt3DCore26QLockableObserverInterfaceE@Qt_5 5.6.0
- _ZTSN8Qt3DCore27QBackendScenePropertyChangeE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore26QPropertyNodeRemovedChangeE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore26QPropertyUpdatedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore27QPropertyValueRemovedChangeE@Qt_5 5.7.1
  _ZTSN8Qt3DCore28QAbstractFrameAdvanceServiceE@Qt_5 5.6.0
+ _ZTSN8Qt3DCore28QComponentAddedChangePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore29QDynamicPropertyUpdatedChangeE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore29QPropertyValueAddedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore30QComponentRemovedChangePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore31QPropertyValueRemovedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore32QPropertyValueAddedChangePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore32QStaticPropertyUpdatedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore33QPropertyUpdatedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore34QPropertyValueRemovedChangePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore35QStaticPropertyValueAddedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore36QPropertyValueAddedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore42QStaticPropertyValueAddedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore44QStaticPropertyValueRemovedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTSN8Qt3DCore5Debug24AsynchronousCommandReplyE@Qt_5 5.7.1
  _ZTSN8Qt3DCore5QNodeE@Qt_5 5.6.0
- _ZTSN8Qt3DCore7QCameraE@Qt_5 5.6.0
  _ZTSN8Qt3DCore7QEntityE@Qt_5 5.6.0
  _ZTVN8Qt3DCore10QAspectJobE@Qt_5 5.6.0
  _ZTVN8Qt3DCore10QComponentE@Qt_5 5.6.0
  _ZTVN8Qt3DCore10QTransformE@Qt_5 5.6.0
- _ZTVN8Qt3DCore11QCameraLensE@Qt_5 5.6.0
  _ZTVN8Qt3DCore12QBackendNodeE@Qt_5 5.6.0
  _ZTVN8Qt3DCore12QNodePrivateE@Qt_5 5.6.0
  _ZTVN8Qt3DCore12QNodeVisitorE@Qt_5 5.6.0
  _ZTVN8Qt3DCore12QSceneChangeE@Qt_5 5.6.0
  _ZTVN8Qt3DCore13QAspectEngineE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore13QThreadPoolerE@Qt_5 5.7.1
  _ZTVN8Qt3DCore14QAspectManagerE@Qt_5 5.6.0
  _ZTVN8Qt3DCore14QChangeArbiterE@Qt_5 5.6.0
  _ZTVN8Qt3DCore14QEntityPrivateE@Qt_5 5.6.0
@@ -668,29 +814,59 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTVN8Qt3DCore16QAbstractPostmanE@Qt_5 5.6.0
  _ZTVN8Qt3DCore17QAspectJobManagerE@Qt_5 5.6.0
  _ZTVN8Qt3DCore17QComponentPrivateE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore18QBackendNodeMapperE@Qt_5 5.7.1
  _ZTVN8Qt3DCore18QObserverInterfaceE@Qt_5 5.6.0
  _ZTVN8Qt3DCore19QBackendNodeFactoryE@Qt_5 5.6.0
  _ZTVN8Qt3DCore19QBackendNodePrivateE@Qt_5 5.6.0
  _ZTVN8Qt3DCore19QEventFilterServiceE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore19QSceneChangePrivateE@Qt_5 5.7.1
  _ZTVN8Qt3DCore20QAbstractNodeFactoryE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore20QAspectEnginePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore20QNodeDestroyedChangeE@Qt_5 5.7.1
  _ZTVN8Qt3DCore20QObservableInterfaceE@Qt_5 5.6.0
- _ZTVN8Qt3DCore20QScenePropertyChangeE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore21QComponentAddedChangeE@Qt_5 5.7.1
  _ZTVN8Qt3DCore22QAbstractAspectPrivateE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore22QNodeCreatedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore22QPropertyUpdatedChangeE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore23QComponentRemovedChangeE@Qt_5 5.7.1
  _ZTVN8Qt3DCore23QSceneObserverInterfaceE@Qt_5 5.6.0
  _ZTVN8Qt3DCore24QAbstractServiceProviderE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore24QPropertyNodeAddedChangeE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore25PropertyChangeHandlerBaseE@Qt_5 5.7.1
  _ZTVN8Qt3DCore25QAbstractAspectJobManagerE@Qt_5 5.6.1
  _ZTVN8Qt3DCore25QOpenGLInformationServiceE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore25QPropertyValueAddedChangeE@Qt_5 5.7.1
  _ZTVN8Qt3DCore25QSystemInformationServiceE@Qt_5 5.6.0
  _ZTVN8Qt3DCore26QLockableObserverInterfaceE@Qt_5 5.6.0
- _ZTVN8Qt3DCore27QBackendScenePropertyChangeE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore26QPropertyNodeRemovedChangeE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore26QPropertyUpdatedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore27QPropertyValueRemovedChangeE@Qt_5 5.7.1
  _ZTVN8Qt3DCore28QAbstractFrameAdvanceServiceE@Qt_5 5.6.0
+ _ZTVN8Qt3DCore28QComponentAddedChangePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore29QDynamicPropertyUpdatedChangeE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore29QPropertyValueAddedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore30QComponentRemovedChangePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore31QPropertyValueRemovedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore32QPropertyValueAddedChangePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore32QStaticPropertyUpdatedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore33QPropertyUpdatedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore34QPropertyValueRemovedChangePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore35QStaticPropertyValueAddedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore36QDynamicPropertyUpdatedChangePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore36QPropertyValueAddedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore42QStaticPropertyValueAddedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore44QStaticPropertyValueRemovedChangeBasePrivateE@Qt_5 5.7.1
+ _ZTVN8Qt3DCore5Debug24AsynchronousCommandReplyE@Qt_5 5.7.1
  _ZTVN8Qt3DCore5QNodeE@Qt_5 5.6.0
- _ZTVN8Qt3DCore7QCameraE@Qt_5 5.6.0
  _ZTVN8Qt3DCore7QEntityE@Qt_5 5.6.0
- (c++)"non-virtual thunk to Qt3DCore::QAbstractAspectPrivate::createBackendNode(Qt3DCore::QNode*) const@Qt_5" 5.6.0
+ (c++)"non-virtual thunk to Qt3DCore::QAbstractAspectPrivate::createBackendNode(QSharedPointer<Qt3DCore::QNodeCreatedChangeBase> const&) const@Qt_5" 5.7.1
  (c++)"non-virtual thunk to Qt3DCore::QAbstractAspectPrivate::jobsToExecute(long long)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QAbstractAspectPrivate::sceneNodeAdded(QSharedPointer<Qt3DCore::QSceneChange>&)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QAbstractAspectPrivate::sceneNodeRemoved(QSharedPointer<Qt3DCore::QSceneChange>&)@Qt_5" 5.6.0
+ (c++)"non-virtual thunk to Qt3DCore::QAbstractAspectPrivate::~QAbstractAspectPrivate()@Qt_5" 5.7.1
  (c++)"non-virtual thunk to Qt3DCore::QBackendNodePrivate::notifyObservers(QSharedPointer<Qt3DCore::QSceneChange> const&)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QBackendNodePrivate::setArbiter(Qt3DCore::QLockableObserverInterface*)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QChangeArbiter::postman() const@Qt_5" 5.6.0
@@ -698,5 +874,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  (c++)"non-virtual thunk to Qt3DCore::QChangeArbiter::sceneChangeEventWithLock(QSharedPointer<Qt3DCore::QSceneChange> const&)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QChangeArbiter::sceneChangeEventWithLock(std::vector<QSharedPointer<Qt3DCore::QSceneChange>, std::allocator<QSharedPointer<Qt3DCore::QSceneChange> > > const&)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QChangeArbiter::~QChangeArbiter()@Qt_5" 5.6.0
+ (c++)"non-virtual thunk to Qt3DCore::QComponentPrivate::~QComponentPrivate()@Qt_5" 5.7.1
+ (c++)"non-virtual thunk to Qt3DCore::QEntityPrivate::~QEntityPrivate()@Qt_5" 5.7.1
  (c++)"non-virtual thunk to Qt3DCore::QNodePrivate::notifyObservers(QSharedPointer<Qt3DCore::QSceneChange> const&)@Qt_5" 5.6.0
  (c++)"non-virtual thunk to Qt3DCore::QNodePrivate::setArbiter(Qt3DCore::QLockableObserverInterface*)@Qt_5" 5.6.0
+ (c++)"non-virtual thunk to Qt3DCore::QNodePrivate::~QNodePrivate()@Qt_5" 5.7.1
