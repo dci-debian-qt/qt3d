@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.7.1+dfsg-1ubuntu1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.7.1+dfsg-1ubuntu1~2) zesty; urgency=medium
 
   * Merge with Debian, remaining changes:
     - Own symbol files
