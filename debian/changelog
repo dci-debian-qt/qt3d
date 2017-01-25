@@ -1,13 +1,12 @@
-qt3d-opensource-src (5.7.1+dfsg-2) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make qt3d5-dev Recommend qt3d5-doc[-html] (Closes: #849980).
     Thanks Ben Finney for the bug report.
   * Make libqt3d5-dev depend upon all the libraries shipped by the source
     package (Closes: #852524). Thanks Johannes Schauer for the bug report.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jan 2017 18:02:39 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 25 Jan 2017 11:26:31 -0300
 
 qt3d-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
