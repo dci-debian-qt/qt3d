@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161122 amd64 arm64 armel armhf hppa i386 kfreebsd-i386 m68k mips mips64el
+# SymbolsHelper-Confirmed: 5.7.1 hurd-i386 kfreebsd-amd64 mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -103,17 +103,17 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore12QNodePrivateD0Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivateD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivateD2Ev@Qt_5 5.7.1~20161122
- (optional=templinst|arch=arm64 armel armhf mips mips64el)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1~20161122
- (optional=templinst|arch=arm64 armel armhf mips mips64el)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvRT_RT0_@Qt_5 5.7.1~20161122
- (optional=templinst|arch=arm64 armel armhf mips mips64el)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_27QNodeCreatedChangeGeneratorEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1~20161122
- (optional=templinst|arch=arm64 armel armhf mips mips64el)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_30QDestructionIdAndTypeCollectorEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=arm64 armel armhf mips mips64el mipsel)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=arm64 armel armhf mips mips64el mipsel)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvRT_RT0_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=arm64 armel armhf mips mips64el mipsel)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_27QNodeCreatedChangeGeneratorEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=arm64 armel armhf mips mips64el mipsel)_ZN8Qt3DCore12QNodeVisitor16traverseChildrenINS0_21MemberFunctionFunctorINS_30QDestructionIdAndTypeCollectorEvPNS_5QNodeEEEEEvRT_@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodeVisitor6appendEPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodeVisitor7setPathE7QVectorIPNS_5QNodeEE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodeVisitor8pop_backEv@Qt_5 5.7.1~20161122
- (optional=templinst|arch=amd64 hppa i386 kfreebsd-i386 m68k)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1~20161122
- (optional=templinst|arch=amd64 hppa i386 kfreebsd-i386 m68k)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvS5_RT_RT0_@Qt_5 5.7.1~20161122
- (optional=templinst|arch=amd64 hppa i386 kfreebsd-i386 m68k)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_27QNodeCreatedChangeGeneratorEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1~20161122
- (optional=templinst|arch=amd64 hppa i386 kfreebsd-i386 m68k)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_30QDestructionIdAndTypeCollectorEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=amd64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k powerpc ppc64 ppc64el s390x sparc64 x32)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_12QNodePrivateEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=amd64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k powerpc ppc64 ppc64el s390x sparc64 x32)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_20QAspectEnginePrivateEvPNS_5QNodeEEENS2_IS3_vPNS_7QEntityEEEEEvS5_RT_RT0_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=amd64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k powerpc ppc64 ppc64el s390x sparc64 x32)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_27QNodeCreatedChangeGeneratorEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1~20161122
+ (optional=templinst|arch=amd64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k powerpc ppc64 ppc64el s390x sparc64 x32)_ZN8Qt3DCore12QNodeVisitor9visitNodeINS0_21MemberFunctionFunctorINS_30QDestructionIdAndTypeCollectorEvPNS_5QNodeEEEEEvS5_RT_@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodeVisitorC1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodeVisitorC2Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodeVisitorD0Ev@Qt_5 5.7.1~20161122
