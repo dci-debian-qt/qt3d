@@ -1,3 +1,9 @@
+qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
+
 qt3d-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 
   * Make qt3d5-dev Recommend qt3d5-doc[-html] (Closes: #849980).
