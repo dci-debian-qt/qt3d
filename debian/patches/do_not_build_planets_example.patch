@@ -15,4 +15,4 @@ Forwarded: not-needed
 -    planets-qml \
      instanced-arrays-qml \
      lights \
-     compute-particles
+     compute-particles \

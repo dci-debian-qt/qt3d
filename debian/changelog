@@ -2,6 +2,7 @@ qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Add myself to Uploaders.
+  * Refresh do_not_build_planets_example.patch.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
