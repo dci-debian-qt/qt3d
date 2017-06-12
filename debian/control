@@ -156,17 +156,17 @@ Description: Qt 3D GL Transmission Format scene IO plugin
  .
  This package contains Qt 3D's GLTF scene IO plugin.
 
-Package: qt3d-assimpsceneio-plugin
+Package: qt3d-assimpsceneimport-plugin
 Architecture: any
 Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D GL Assimp scene IO plugin
+Description: Qt 3D GL Assimp scene import plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's Assimp scene IO plugin.
+ This package contains Qt 3D's Assimp scene import plugin.
 
 Package: qml-module-qt3d
 Architecture: any
