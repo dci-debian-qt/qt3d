@@ -2,7 +2,6 @@ qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Add myself to Uploaders.
-  * Refresh do_not_build_planets_example.patch.
   * Add new upstream files to qt3d-gltfsceneio-plugin, making it contain
     all gltf-related files.
   * Qt 3D GL Assimp scene IO plugin was renamed upstream, adjust
