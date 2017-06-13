@@ -8,7 +8,7 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 9.20141010~),
+Build-Depends: debhelper (>= 9.20160114~),
                libassimp-dev,
                libgl1-mesa-dri <!nocheck>,
                libqt5opengl5-dev (>= 5.9.0),
@@ -144,29 +144,95 @@ Description: Qt 3D extras
  .
  This package contains Qt 3D extras module.
 
+Package: libqt53dquickscene2d5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D Quick scene module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 2D module.
+
+Package: libqt53danimation5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D animation module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Animation module.
+
+Package: libqt53dquickanimation5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D Quick animation module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Animation module.
+
 Package: qt3d-gltfsceneio-plugin
 Architecture: any
 Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qt3d-assimpsceneio-plugin (<< 5.9.0+dfsg-1~)
+Replaces: qt3d-assimpsceneio-plugin (<< 5.9.0+dfsg-1~)
 Description: Qt 3D GL Transmission Format scene IO plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's GLTF scene IO plugin.
+ This package contains Qt 3D's GLTF geometry loader, scene import and
+ export plugins, and a helper qgltf executable.
 
-Package: qt3d-assimpsceneio-plugin
+Package: qt3d-assimpsceneimport-plugin
 Architecture: any
 Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 3D GL Assimp scene IO plugin
+Description: Qt 3D GL Assimp scene import plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's Assimp scene IO plugin.
+ This package contains Qt 3D's Assimp scene import plugin.
+
+Package: qt3d-defaultgeometryloader-plugin
+Architecture: any
+Multi-Arch: same
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D default geometry loader plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's default geometry loader plugin.
+
+Package: qt3d-scene2d-plugin
+Architecture: any
+Multi-Arch: same
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D Scene 2D plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's Scene 2D plugin.
 
 Package: qml-module-qt3d
 Architecture: any
@@ -189,6 +255,17 @@ Description: Qt 5 Quick Scene 3D QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt Quick Scene 3D QML module.
+
+Package: qml-module-qtquick-scene2d
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Quick Scene 2D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 2D QML module.
 
 Package: qt3d5-dev
 Section: libdevel
@@ -224,20 +301,6 @@ Description: Qt 5 3d examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 3D examples.
-
-Package: qt3d5-dbg
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Section: debug
-Depends: libqt53dcore5 (= ${binary:Version}), ${misc:Depends}
-Suggests: qt3d5-examples (= ${binary:Version})
-Description: Qt 3D library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 3D
- libraries.
 
 Package: qt3d5-doc
 Architecture: all

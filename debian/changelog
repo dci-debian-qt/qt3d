@@ -1,8 +1,25 @@
 qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
   * Add myself to Uploaders.
-  * Refresh do_not_build_planets_example.patch.
+  * Add new upstream files to qt3d-gltfsceneio-plugin, making it contain
+    all gltf-related files.
+  * Qt 3D GL Assimp scene IO plugin was renamed upstream, adjust
+    accordingly.
+  * QTBUG-57543 was fixed, and we can ship the planets example now. Drop
+    do_not_build_planets_example.patch.
+  * Add the following packages from new upstream files:
+    - qml-module-qtquick-scene2d
+    - libqt53dquickscene2d5
+    - libqt53danimation5
+    - libqt53dquickanimation5
+    - qt3d-defaultgeometryloader-plugin
+    - qt3d-scene2d-plugin
+
+  [ Dmitry Shachnev ]
+  * Move qgltf executable to qt3d-gltfsceneio-plugin package.
+  * Migrate to automatic dbgsym packages.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
