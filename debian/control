@@ -144,6 +144,45 @@ Description: Qt 3D extras
  .
  This package contains Qt 3D extras module.
 
+Package: libqt53dquickscene2d5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D Quick scene module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 2D module.
+
+Package: libqt53danimation5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D animation module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Animation module.
+
+Package: libqt53dquickanimation5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D Quick animation module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Animation module.
+
 Package: qt3d-gltfsceneio-plugin
 Architecture: any
 Multi-Arch: same
@@ -168,6 +207,30 @@ Description: Qt 3D GL Assimp scene import plugin
  .
  This package contains Qt 3D's Assimp scene import plugin.
 
+Package: qt3d-defaultgeometryloader-plugin
+Architecture: any
+Multi-Arch: same
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D default geometry loader plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's default geometry loader plugin.
+
+Package: qt3d-scene2d-plugin
+Architecture: any
+Multi-Arch: same
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D Scene 2D plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's Scene 2D plugin.
+
 Package: qml-module-qt3d
 Architecture: any
 Multi-Arch: same
@@ -189,6 +252,17 @@ Description: Qt 5 Quick Scene 3D QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt Quick Scene 3D QML module.
+
+Package: qml-module-qtquick-scene2d
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Quick Scene 2D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 2D QML module.
 
 Package: qt3d5-dev
 Section: libdevel

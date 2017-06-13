@@ -9,6 +9,13 @@ qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
     accordingly.
   * QTBUG-57543 was fixed, and we can ship the planets example now. Drop
     the exclusions in the packaging.
+  * Add the following packages from new upstream files:
+    - qml-module-qtquick-scene2d
+    - libqt53dquickscene2d5
+    - libqt53danimation5
+    - libqt53dquickanimation5
+    - qt3d-defaultgeometryloader-plugin
+    - qt3d-scene2d-plugin
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
