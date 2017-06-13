@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -8,7 +8,7 @@ qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   * Qt 3D GL Assimp scene IO plugin was renamed upstream, adjust
     accordingly.
   * QTBUG-57543 was fixed, and we can ship the planets example now. Drop
-    the exclusions in the packaging.
+    do_not_build_planets_example.patch.
   * Add the following packages from new upstream files:
     - qml-module-qtquick-scene2d
     - libqt53dquickscene2d5
