@@ -189,6 +189,8 @@ Multi-Arch: same
 Depends: libqt53dcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qt3d-assimpsceneio-plugin (<< 5.9.0-1~)
+Replaces: qt3d-assimpsceneio-plugin (<< 5.9.0-1~)
 Description: Qt 3D GL Transmission Format scene IO plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

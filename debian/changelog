@@ -1,5 +1,6 @@
 qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
   * Add myself to Uploaders.
   * Add new upstream files to qt3d-gltfsceneio-plugin, making it contain
@@ -15,6 +16,9 @@ qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
     - libqt53dquickanimation5
     - qt3d-defaultgeometryloader-plugin
     - qt3d-scene2d-plugin
+
+  [ Dmitry Shachnev ]
+  * Move qgltf executable to qt3d-gltfsceneio-plugin package.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
