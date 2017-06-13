@@ -195,7 +195,8 @@ Description: Qt 3D GL Transmission Format scene IO plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 3D's GLTF scene IO plugin.
+ This package contains Qt 3D's GLTF geometry loader, scene import and
+ export plugins, and a helper qgltf executable.
 
 Package: qt3d-assimpsceneimport-plugin
 Architecture: any
