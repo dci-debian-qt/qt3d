@@ -26,6 +26,7 @@ qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
   * Temporarily build without Assimp support. We cannot use the bundled
     library because of that ConvertUTF code, and we cannot use packaged
     Assimp because Qt 3D needs some changes which were added after v3.3.1.
+  * Override false positive Lintian license-problem-json-evil error.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
