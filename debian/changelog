@@ -19,6 +19,7 @@ qt3d-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Move qgltf executable to qt3d-gltfsceneio-plugin package.
+  * Migrate to automatic dbgsym packages.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 

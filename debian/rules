@@ -12,7 +12,7 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 %:
-	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qt3d5-dbg
+	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
@@ -49,3 +49,6 @@ override_dh_auto_test-arch:
 	dh_auto_test --max-parallel=1 -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
 
 override_dh_auto_test-indep:
+
+override_dh_strip:
+	dh_strip --dbgsym-migration='qt3d5-dbg (<< 5.9.0-1~)'
