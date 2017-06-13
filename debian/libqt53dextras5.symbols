@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161122 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -8,12 +8,16 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  Qt_5.5@Qt_5.5 5.7.1~20161122
  Qt_5.6@Qt_5.6 5.7.1~20161122
  Qt_5.7@Qt_5.7 5.7.1~20161122
+ Qt_5.8@Qt_5.8 5.9.0
+ Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh11qt_metacastEPKc@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras10QPlaneMesh11setMirroredEb@Qt_5 5.9.0
  _ZN10Qt3DExtras10QPlaneMesh12widthChangedEf@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh13heightChangedEf@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras10QPlaneMesh15mirroredChangedEb@Qt_5 5.9.0
  _ZN10Qt3DExtras10QPlaneMesh16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh17setMeshResolutionERK5QSize@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh21meshResolutionChangedERK5QSize@Qt_5 5.7.1~20161122
@@ -136,16 +140,34 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras13QSkyboxEntity11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntity11setBaseNameERK7QString@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntity12setExtensionERK7QString@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras13QSkyboxEntity15baseNameChangedERK7QString@Qt_5 5.9.0
  _ZN10Qt3DExtras13QSkyboxEntity16extensionChangedERK7QString@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntity16staticMetaObjectE@Qt_5 5.7.1~20161122
- _ZN10Qt3DExtras13QSkyboxEntity17setCameraPositionERK9QVector3D@Qt_5 5.7.1~20161122
- _ZN10Qt3DExtras13QSkyboxEntity21cameraPositionChangedERK9QVector3D@Qt_5 5.7.1~20161122
- _ZN10Qt3DExtras13QSkyboxEntity22sourceDirectoryChangedERK7QString@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras13QSkyboxEntity22setGammaCorrectEnabledEb@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QSkyboxEntity26gammaCorrectEnabledChangedEb@Qt_5 5.9.0
  _ZN10Qt3DExtras13QSkyboxEntityC1EPN8Qt3DCore5QNodeE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntityC2EPN8Qt3DCore5QNodeE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntityD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntityD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras13QSkyboxEntityD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras13QText2DEntity11fontChangedERK5QFont@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity11textChangedERK7QString@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity12colorChangedERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity12widthChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity13heightChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity7setFontERK5QFont@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity7setTextERK7QString@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity8setColorERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity8setWidthEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntity9setHeightEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntityC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntityC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntityD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntityD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras13QText2DEntityD2Ev@Qt_5 5.9.0
  _ZN10Qt3DExtras14QGoochMaterial10setDiffuseERK6QColor@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QGoochMaterial11betaChangedEf@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QGoochMaterial11coolChangedERK6QColor@Qt_5 5.7.1~20161122
@@ -188,11 +210,13 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras14QPhongMaterialD2Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry11qt_metacastEPKc@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras14QPlaneGeometry11setMirroredEb@Qt_5 5.9.0
  _ZN10Qt3DExtras14QPlaneGeometry12widthChangedEf@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry13heightChangedEf@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry13setResolutionERK5QSize@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry13updateIndicesEv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry14updateVerticesEv@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras14QPlaneGeometry15mirroredChangedEb@Qt_5 5.9.0
  _ZN10Qt3DExtras14QPlaneGeometry16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry17resolutionChangedERK5QSize@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras14QPlaneGeometry8setWidthEf@Qt_5 5.7.1~20161122
@@ -271,6 +295,7 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras16QForwardRenderer10setSurfaceEP7QObject@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRenderer11qt_metacastEPKc@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras16QForwardRenderer12gammaChangedEf@Qt_5 5.9.0
  _ZN10Qt3DExtras16QForwardRenderer13cameraChangedEPN8Qt3DCore7QEntityE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRenderer13setClearColorERK6QColor@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRenderer14surfaceChangedEP7QObject@Qt_5 5.7.1~20161122
@@ -278,12 +303,29 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras16QForwardRenderer16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRenderer17clearColorChangedERK6QColor@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRenderer19viewportRectChangedERK6QRectF@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras16QForwardRenderer24setFrustumCullingEnabledEb@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QForwardRenderer27setExternalRenderTargetSizeERK5QSize@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QForwardRenderer28frustumCullingEnabledChangedEb@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QForwardRenderer31externalRenderTargetSizeChangedERK5QSize@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QForwardRenderer8setGammaEf@Qt_5 5.9.0
  _ZN10Qt3DExtras16QForwardRenderer9setCameraEPN8Qt3DCore7QEntityE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRendererC1EPN8Qt3DCore5QNodeE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRendererC2EPN8Qt3DCore5QNodeE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRendererD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRendererD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras16QForwardRendererD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras16QTextureMaterial10setTextureEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterial11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterial14textureChangedEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterial16setTextureOffsetE9QVector2D@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterial16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterial20textureOffsetChangedE9QVector2D@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterialC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterialC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterialD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterialD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras16QTextureMaterialD2Ev@Qt_5 5.9.0
  _ZN10Qt3DExtras17QCylinderGeometry11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras17QCylinderGeometry11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras17QCylinderGeometry12ringsChangedEi@Qt_5 5.7.1~20161122
@@ -304,6 +346,20 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras17QCylinderGeometryD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras17QCylinderGeometryD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras17QCylinderGeometryD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras17QExtrudedTextMesh11fontChangedERK5QFont@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh11textChangedERK7QString@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh12depthChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh7setFontERK5QFont@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh7setTextERK7QString@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMesh8setDepthEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMeshC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMeshC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMeshD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMeshD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras17QExtrudedTextMeshD2Ev@Qt_5 5.9.0
  _ZN10Qt3DExtras19QDiffuseMapMaterial10setAmbientERK6QColor@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QDiffuseMapMaterial10setDiffuseEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QDiffuseMapMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
@@ -322,6 +378,40 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras19QDiffuseMapMaterialD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QDiffuseMapMaterialD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QDiffuseMapMaterialD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras19QMetalRoughMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial12setBaseColorERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial12setMetalnessEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial12setRoughnessEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial16baseColorChangedERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial16metalnessChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial16roughnessChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterial16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialC1ERNS_26QMetalRoughMaterialPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialC2ERNS_26QMetalRoughMaterialPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMetalRoughMaterialD2Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial10setAmbientERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial10setDiffuseERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial11setSpecularERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial12setShininessEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial14ambientChangedERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial14diffuseChangedERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial15setInterpolatorEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial15specularChangedERK6QColor@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial16shininessChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterial19interpolatorChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterialC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterialC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterialD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterialD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras19QMorphPhongMaterialD2Ev@Qt_5 5.9.0
  _ZN10Qt3DExtras19QPhongAlphaMaterial10setAmbientERK6QColor@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QPhongAlphaMaterial10setDiffuseERK6QColor@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QPhongAlphaMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
@@ -350,6 +440,22 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras19QPhongAlphaMaterialD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QPhongAlphaMaterialD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras19QPhongAlphaMaterialD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras21QExtrudedTextGeometry11fontChangedERK5QFont@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry11textChangedERK7QString@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry12depthChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry7setFontERK5QFont@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry7setTextERK7QString@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometry8setDepthEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryC1ERNS_28QExtrudedTextGeometryPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryC2ERNS_28QExtrudedTextGeometryPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras21QExtrudedTextGeometryD2Ev@Qt_5 5.9.0
  _ZN10Qt3DExtras22QOrbitCameraController11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras22QOrbitCameraController11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras22QOrbitCameraController12setLookSpeedEf@Qt_5 5.7.1~20161122
@@ -414,14 +520,38 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZN10Qt3DExtras27QDiffuseSpecularMapMaterialD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras27QDiffuseSpecularMapMaterialD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras27QDiffuseSpecularMapMaterialD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial12setBaseColorEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial12setMetalnessEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial12setRoughnessEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial13normalChangedEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial16baseColorChangedEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial16metalnessChangedEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial16roughnessChangedEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial19setAmbientOcclusionEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial23ambientOcclusionChangedEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterial9setNormalEPN10Qt3DRender16QAbstractTextureE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialC1ERNS_34QTexturedMetalRoughMaterialPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialC2ERNS_34QTexturedMetalRoughMaterialPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DExtras27QTexturedMetalRoughMaterialD2Ev@Qt_5 5.9.0
  _ZN10Qt3DExtras28QFirstPersonCameraController11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraController11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraController12setLookSpeedEf@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraController13cameraChangedEv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraController14setLinearSpeedEf@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras28QFirstPersonCameraController15setAccelerationEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras28QFirstPersonCameraController15setDecelerationEf@Qt_5 5.9.0
  _ZN10Qt3DExtras28QFirstPersonCameraController16lookSpeedChangedEv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraController16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraController18linearSpeedChangedEv@Qt_5 5.7.1~20161122
+ _ZN10Qt3DExtras28QFirstPersonCameraController19accelerationChangedEf@Qt_5 5.9.0
+ _ZN10Qt3DExtras28QFirstPersonCameraController19decelerationChangedEf@Qt_5 5.9.0
  _ZN10Qt3DExtras28QFirstPersonCameraController9setCameraEPN10Qt3DRender7QCameraE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraControllerC1EPN8Qt3DCore5QNodeE@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras28QFirstPersonCameraControllerC2EPN8Qt3DCore5QNodeE@Qt_5 5.7.1~20161122
@@ -484,12 +614,14 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras10QPlaneMesh14meshResolutionEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10QPlaneMesh5widthEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10QPlaneMesh6heightEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras10QPlaneMesh8mirroredEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras10QTorusMesh10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10QTorusMesh11minorRadiusEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10QTorusMesh5ringsEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10QTorusMesh6radiusEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10QTorusMesh6slicesEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10Qt3DWindow10metaObjectEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras10Qt3DWindow14renderSettingsEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras10Qt3DWindow16activeFrameGraphEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10Qt3DWindow17defaultFrameGraphEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras10Qt3DWindow6cameraEv@Qt_5 5.7.1~20161122
@@ -523,9 +655,15 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras13QCylinderMesh6radiusEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras13QCylinderMesh6slicesEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras13QSkyboxEntity10metaObjectEv@Qt_5 5.7.1~20161122
- _ZNK10Qt3DExtras13QSkyboxEntity14cameraPositionEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras13QSkyboxEntity21isGammaCorrectEnabledEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras13QSkyboxEntity8baseNameEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras13QSkyboxEntity9extensionEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras13QText2DEntity10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras13QText2DEntity4fontEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras13QText2DEntity4textEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras13QText2DEntity5colorEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras13QText2DEntity5widthEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras13QText2DEntity6heightEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras14QGoochMaterial10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras14QGoochMaterial4betaEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras14QGoochMaterial4coolEv@Qt_5 5.7.1~20161122
@@ -548,6 +686,7 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras14QPlaneGeometry17texCoordAttributeEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras14QPlaneGeometry5widthEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras14QPlaneGeometry6heightEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras14QPlaneGeometry8mirroredEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras14QTorusGeometry10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras14QTorusGeometry11minorRadiusEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras14QTorusGeometry14indexAttributeEv@Qt_5 5.7.1~20161122
@@ -582,8 +721,14 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras16QForwardRenderer10clearColorEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras16QForwardRenderer10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras16QForwardRenderer12viewportRectEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras16QForwardRenderer23isFrustumCullingEnabledEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras16QForwardRenderer24externalRenderTargetSizeEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras16QForwardRenderer5gammaEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras16QForwardRenderer6cameraEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras16QForwardRenderer7surfaceEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras16QTextureMaterial10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras16QTextureMaterial13textureOffsetEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras16QTextureMaterial7textureEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras17QCylinderGeometry10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras17QCylinderGeometry14indexAttributeEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras17QCylinderGeometry15normalAttributeEv@Qt_5 5.7.1~20161122
@@ -593,12 +738,26 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras17QCylinderGeometry6lengthEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras17QCylinderGeometry6radiusEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras17QCylinderGeometry6slicesEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras17QExtrudedTextMesh10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras17QExtrudedTextMesh4fontEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras17QExtrudedTextMesh4textEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras17QExtrudedTextMesh5depthEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras19QDiffuseMapMaterial10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QDiffuseMapMaterial12textureScaleEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QDiffuseMapMaterial7ambientEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QDiffuseMapMaterial7diffuseEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QDiffuseMapMaterial8specularEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QDiffuseMapMaterial9shininessEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras19QMetalRoughMaterial10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMetalRoughMaterial9baseColorEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMetalRoughMaterial9metalnessEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMetalRoughMaterial9roughnessEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMorphPhongMaterial10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMorphPhongMaterial12interpolatorEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMorphPhongMaterial7ambientEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMorphPhongMaterial7diffuseEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMorphPhongMaterial8specularEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras19QMorphPhongMaterial9shininessEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras19QPhongAlphaMaterial10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QPhongAlphaMaterial12sourceRgbArgEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QPhongAlphaMaterial14sourceAlphaArgEv@Qt_5 5.7.1~20161122
@@ -610,6 +769,13 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras19QPhongAlphaMaterial7diffuseEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QPhongAlphaMaterial8specularEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras19QPhongAlphaMaterial9shininessEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry14indexAttributeEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry15extrusionLengthEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry15normalAttributeEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry17positionAttributeEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry4fontEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras21QExtrudedTextGeometry4textEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras22QOrbitCameraController10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras22QOrbitCameraController11linearSpeedEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras22QOrbitCameraController11zoomInLimitEv@Qt_5 5.7.1~20161122
@@ -629,8 +795,16 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZNK10Qt3DExtras27QDiffuseSpecularMapMaterial7diffuseEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras27QDiffuseSpecularMapMaterial8specularEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras27QDiffuseSpecularMapMaterial9shininessEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras27QTexturedMetalRoughMaterial10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras27QTexturedMetalRoughMaterial16ambientOcclusionEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras27QTexturedMetalRoughMaterial6normalEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras27QTexturedMetalRoughMaterial9baseColorEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras27QTexturedMetalRoughMaterial9metalnessEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras27QTexturedMetalRoughMaterial9roughnessEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras28QFirstPersonCameraController10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras28QFirstPersonCameraController11linearSpeedEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DExtras28QFirstPersonCameraController12accelerationEv@Qt_5 5.9.0
+ _ZNK10Qt3DExtras28QFirstPersonCameraController12decelerationEv@Qt_5 5.9.0
  _ZNK10Qt3DExtras28QFirstPersonCameraController6cameraEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras28QFirstPersonCameraController9lookSpeedEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DExtras30QNormalDiffuseMapAlphaMaterial10metaObjectEv@Qt_5 5.7.1~20161122
@@ -657,6 +831,7 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZTIN10Qt3DExtras13QConeGeometryE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras13QCylinderMeshE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras13QSkyboxEntityE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras13QText2DEntityE@Qt_5 5.9.0
  _ZTIN10Qt3DExtras14QGoochMaterialE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras14QPhongMaterialE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras14QPlaneGeometryE@Qt_5 5.7.1~20161122
@@ -664,18 +839,25 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZTIN10Qt3DExtras15QCuboidGeometryE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras15QSphereGeometryE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras16QForwardRendererE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras16QTextureMaterialE@Qt_5 5.9.0
  _ZTIN10Qt3DExtras17QCylinderGeometryE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras17QExtrudedTextMeshE@Qt_5 5.9.0
  _ZTIN10Qt3DExtras19QDiffuseMapMaterialE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras19QMetalRoughMaterialE@Qt_5 5.9.0
+ _ZTIN10Qt3DExtras19QMorphPhongMaterialE@Qt_5 5.9.0
  _ZTIN10Qt3DExtras19QPhongAlphaMaterialE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras21QExtrudedTextGeometryE@Qt_5 5.9.0
  _ZTIN10Qt3DExtras22QOrbitCameraControllerE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras23QPerVertexColorMaterialE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras25QNormalDiffuseMapMaterialE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras27QDiffuseSpecularMapMaterialE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DExtras27QTexturedMetalRoughMaterialE@Qt_5 5.9.0
  _ZTIN10Qt3DExtras28QFirstPersonCameraControllerE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras30QNormalDiffuseMapAlphaMaterialE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras33QNormalDiffuseSpecularMapMaterialE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DExtras9QConeMeshE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender20QBufferDataGeneratorE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender23QAbstractTexturePrivateE@Qt_5 5.9.0
  _ZTIN10Qt3DRender23QTechniqueFilterPrivateE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras10QPlaneMeshE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras10QTorusMeshE@Qt_5 5.7.1~20161122
@@ -685,6 +867,7 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZTSN10Qt3DExtras13QConeGeometryE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras13QCylinderMeshE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras13QSkyboxEntityE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras13QText2DEntityE@Qt_5 5.9.0
  _ZTSN10Qt3DExtras14QGoochMaterialE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras14QPhongMaterialE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras14QPlaneGeometryE@Qt_5 5.7.1~20161122
@@ -692,18 +875,25 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZTSN10Qt3DExtras15QCuboidGeometryE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras15QSphereGeometryE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras16QForwardRendererE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras16QTextureMaterialE@Qt_5 5.9.0
  _ZTSN10Qt3DExtras17QCylinderGeometryE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras17QExtrudedTextMeshE@Qt_5 5.9.0
  _ZTSN10Qt3DExtras19QDiffuseMapMaterialE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras19QMetalRoughMaterialE@Qt_5 5.9.0
+ _ZTSN10Qt3DExtras19QMorphPhongMaterialE@Qt_5 5.9.0
  _ZTSN10Qt3DExtras19QPhongAlphaMaterialE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras21QExtrudedTextGeometryE@Qt_5 5.9.0
  _ZTSN10Qt3DExtras22QOrbitCameraControllerE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras23QPerVertexColorMaterialE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras25QNormalDiffuseMapMaterialE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras27QDiffuseSpecularMapMaterialE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DExtras27QTexturedMetalRoughMaterialE@Qt_5 5.9.0
  _ZTSN10Qt3DExtras28QFirstPersonCameraControllerE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras30QNormalDiffuseMapAlphaMaterialE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras33QNormalDiffuseSpecularMapMaterialE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DExtras9QConeMeshE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender20QBufferDataGeneratorE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender23QAbstractTexturePrivateE@Qt_5 5.9.0
  _ZTSN10Qt3DRender23QTechniqueFilterPrivateE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras10QPlaneMeshE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras10QTorusMeshE@Qt_5 5.7.1~20161122
@@ -713,6 +903,7 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZTVN10Qt3DExtras13QConeGeometryE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras13QCylinderMeshE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras13QSkyboxEntityE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras13QText2DEntityE@Qt_5 5.9.0
  _ZTVN10Qt3DExtras14QGoochMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras14QPhongMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras14QPlaneGeometryE@Qt_5 5.7.1~20161122
@@ -720,17 +911,24 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  _ZTVN10Qt3DExtras15QCuboidGeometryE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras15QSphereGeometryE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras16QForwardRendererE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras16QTextureMaterialE@Qt_5 5.9.0
  _ZTVN10Qt3DExtras17QCylinderGeometryE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras17QExtrudedTextMeshE@Qt_5 5.9.0
  _ZTVN10Qt3DExtras19QDiffuseMapMaterialE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras19QMetalRoughMaterialE@Qt_5 5.9.0
+ _ZTVN10Qt3DExtras19QMorphPhongMaterialE@Qt_5 5.9.0
  _ZTVN10Qt3DExtras19QPhongAlphaMaterialE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras21QExtrudedTextGeometryE@Qt_5 5.9.0
  _ZTVN10Qt3DExtras22QOrbitCameraControllerE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras23QPerVertexColorMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras25QNormalDiffuseMapMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras27QDiffuseSpecularMapMaterialE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DExtras27QTexturedMetalRoughMaterialE@Qt_5 5.9.0
  _ZTVN10Qt3DExtras28QFirstPersonCameraControllerE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras30QNormalDiffuseMapAlphaMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras33QNormalDiffuseSpecularMapMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DExtras9QConeMeshE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender20QBufferDataGeneratorE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender23QAbstractTexturePrivateE@Qt_5 5.9.0
  _ZTVN10Qt3DRender23QTechniqueFilterPrivateE@Qt_5 5.7.1~20161122
  (c++)"non-virtual thunk to Qt3DExtras::Qt3DWindow::~Qt3DWindow()@Qt_5" 5.7.1~20161122

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161122 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -8,6 +8,8 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  Qt_5.5@Qt_5.5 5.7.1~20161122
  Qt_5.6@Qt_5.6 5.7.1~20161122
  Qt_5.7@Qt_5.7 5.7.1~20161122
+ Qt_5.8@Qt_5.8 5.9.0
+ Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
  _ZN8Qt3DCore5Quick11Quick3DNode10appendDataEP16QQmlListPropertyI7QObjectEPS3_@Qt_5 5.7.1~20161122
@@ -37,6 +39,25 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN8Qt3DCore5Quick13Quick3DEntity18qmlComponentsCountEP16QQmlListPropertyINS_10QComponentEE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick13Quick3DEntityC1EP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick13Quick3DEntityC2EP7QObject@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore5Quick13Quick3DNodeV910appendDataEP16QQmlListPropertyI7QObjectEPS3_@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV910childCountEP16QQmlListPropertyINS_5QNodeEE@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV910childNodesEv@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV911appendChildEP16QQmlListPropertyINS_5QNodeEEPS3_@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV911qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV911qt_metacastEPKc@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV912childRemovedEiP7QObject@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV913childAppendedEiP7QObject@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV913clearChildrenEP16QQmlListPropertyINS_5QNodeEE@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV916staticMetaObjectE@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV928setPropertyTrackingOverridesERK8QJSValue@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV932propertyTrackingOverridesChangedERK8QJSValue@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV94dataEv@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV96dataAtEP16QQmlListPropertyI7QObjectEi@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV97childAtEP16QQmlListPropertyINS_5QNodeEEi@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV99clearDataEP16QQmlListPropertyI7QObjectE@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV99dataCountEP16QQmlListPropertyI7QObjectE@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV9C1EP7QObject@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick13Quick3DNodeV9C2EP7QObject@Qt_5 5.9.0
  _ZN8Qt3DCore5Quick16QQmlAspectEngine11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick16QQmlAspectEngine11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick16QQmlAspectEngine12sceneCreatedEP7QObject@Qt_5 5.7.1~20161122
@@ -54,10 +75,14 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN8Qt3DCore5Quick19Quick3DEntityLoader11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick19Quick3DEntityLoader13entityChangedEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick19Quick3DEntityLoader13sourceChangedEv@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore5Quick19Quick3DEntityLoader13statusChangedENS1_6StatusE@Qt_5 5.9.0
  _ZN8Qt3DCore5Quick19Quick3DEntityLoader16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick19Quick3DEntityLoader9setSourceERK4QUrl@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick19Quick3DEntityLoaderC1EPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick19Quick3DEntityLoaderC2EPNS_5QNodeE@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore5Quick19Quick3DEntityLoaderD0Ev@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick19Quick3DEntityLoaderD1Ev@Qt_5 5.9.0
+ _ZN8Qt3DCore5Quick19Quick3DEntityLoaderD2Ev@Qt_5 5.9.0
  _ZN8Qt3DCore5Quick20QQuaternionAnimation11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick20QQuaternionAnimation11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick20QQuaternionAnimation11typeChangedENS1_4TypeE@Qt_5 5.7.1~20161122
@@ -80,6 +105,7 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN8Qt3DCore5Quick20QQuaternionAnimationC1EP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick20QQuaternionAnimationC2EP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick20Quick3D_registerTypeEPKcS2_ii@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore5Quick20Quick3D_uninitializeEv@Qt_5 5.9.0
  _ZN8Qt3DCore5Quick21Quick3DColorValueType16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick21Quick3DColorValueType4setAEd@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick21Quick3DColorValueType4setBEd@Qt_5 5.7.1~20161122
@@ -126,6 +152,8 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN8Qt3DCore5Quick26Quick3DQuaternionValueType9setScalarEd@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick11Quick3DNode10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick13Quick3DEntity10metaObjectEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore5Quick13Quick3DNodeV910metaObjectEv@Qt_5 5.9.0
+ _ZNK8Qt3DCore5Quick13Quick3DNodeV925propertyTrackingOverridesEv@Qt_5 5.9.0
  _ZNK8Qt3DCore5Quick16QQmlAspectEngine10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick16QQmlAspectEngine12aspectEngineEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick16QQmlAspectEngine6statusEv@Qt_5 5.7.1~20161122
@@ -133,6 +161,7 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZNK8Qt3DCore5Quick19Quick3DEntityLoader10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick19Quick3DEntityLoader6entityEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick19Quick3DEntityLoader6sourceEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore5Quick19Quick3DEntityLoader6statusEv@Qt_5 5.9.0
  _ZNK8Qt3DCore5Quick20QQuaternionAnimation10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick20QQuaternionAnimation11toXRotationEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5Quick20QQuaternionAnimation11toYRotationEv@Qt_5 5.7.1~20161122
@@ -224,18 +253,21 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZNK8Qt3DCore5Quick26Quick3DQuaternionValueType8toStringEv@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore5Quick11Quick3DNodeE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore5Quick13Quick3DEntityE@Qt_5 5.7.1~20161122
+ _ZTIN8Qt3DCore5Quick13Quick3DNodeV9E@Qt_5 5.9.0
  _ZTIN8Qt3DCore5Quick16QQmlAspectEngineE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore5Quick19Quick3DEntityLoaderE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore5Quick20QQuaternionAnimationE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore5Quick23Quick3DNodeInstantiatorE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore5Quick11Quick3DNodeE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore5Quick13Quick3DEntityE@Qt_5 5.7.1~20161122
+ _ZTSN8Qt3DCore5Quick13Quick3DNodeV9E@Qt_5 5.9.0
  _ZTSN8Qt3DCore5Quick16QQmlAspectEngineE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore5Quick19Quick3DEntityLoaderE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore5Quick20QQuaternionAnimationE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore5Quick23Quick3DNodeInstantiatorE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore5Quick11Quick3DNodeE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore5Quick13Quick3DEntityE@Qt_5 5.7.1~20161122
+ _ZTVN8Qt3DCore5Quick13Quick3DNodeV9E@Qt_5 5.9.0
  _ZTVN8Qt3DCore5Quick16QQmlAspectEngineE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore5Quick19Quick3DEntityLoaderE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore5Quick20QQuaternionAnimationE@Qt_5 5.7.1~20161122
