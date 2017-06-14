@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161122 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt53DQuickInput.so.5 libqt53dquickinput5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -8,6 +8,8 @@ libQt53DQuickInput.so.5 libqt53dquickinput5 #MINVER#
  Qt_5.5@Qt_5.5 5.7.1~20161122
  Qt_5.6@Qt_5.6 5.7.1~20161122
  Qt_5.7@Qt_5.7 5.7.1~20161122
+ Qt_5.8@Qt_5.8 5.9.0
+ Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
  _ZN9Qt3DInput5Input5Quick11Quick3DAxis11axisInputAtEP16QQmlListPropertyINS_18QAbstractAxisInputEEi@Qt_5 5.7.1~20161122
