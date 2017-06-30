@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 hurd-i386 kfreebsd-amd64 mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -8,6 +8,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  Qt_5.5@Qt_5.5 5.7.1~20161122
  Qt_5.6@Qt_5.6 5.7.1~20161122
  Qt_5.7@Qt_5.7 5.7.1~20161122
+ Qt_5.8@Qt_5.8 5.9.0
+ Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
  _ZN8Qt3DCore10QAspectJob13addDependencyE12QWeakPointerIS0_E@Qt_5 5.7.1~20161122
@@ -22,8 +24,10 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore10QComponent11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore10QComponent11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore10QComponent12setShareableEb@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore10QComponent13addedToEntityEPNS_7QEntityE@Qt_5 5.9.0
  _ZN8Qt3DCore10QComponent16shareableChangedEb@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore10QComponent16staticMetaObjectE@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore10QComponent17removedFromEntityEPNS_7QEntityE@Qt_5 5.9.0
  _ZN8Qt3DCore10QComponentC1EPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore10QComponentC1ERNS_17QComponentPrivateEPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore10QComponentC2EPNS_5QNodeE@Qt_5 5.7.1~20161122
@@ -89,11 +93,12 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore12QNodePrivate20findStaticMetaObjectEPK11QMetaObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate20notifyCreationChangeEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate20notifyPropertyChangeEPKcRK8QVariant@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore12QNodePrivate22_q_postConstructorInitEv@Qt_5 5.9.0
+ _ZN8Qt3DCore12QNodePrivate23updatePropertyTrackModeEv@Qt_5 5.9.0
  _ZN8Qt3DCore12QNodePrivate25addEntityComponentToSceneEPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate26registerNotifiedPropertiesEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate27notifyDynamicPropertyChangeERK10QByteArrayRK8QVariant@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate28unregisterNotifiedPropertiesEv@Qt_5 5.7.1~20161122
- _ZN8Qt3DCore12QNodePrivate32_q_notifyCreationAndChildChangesEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate3getEPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate42notifyDestructionChangesAndRemoveFromSceneEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore12QNodePrivate4initEPNS_5QNodeE@Qt_5 5.7.1~20161122
@@ -224,6 +229,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore15QAbstractAspect16onEngineShutdownEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QAbstractAspect16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QAbstractAspect19registerBackendTypeERK11QMetaObjectRK14QSharedPointerINS_18QBackendNodeMapperEE@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore15QAbstractAspect21unregisterBackendTypeERK11QMetaObject@Qt_5 5.9.0
  _ZN8Qt3DCore15QAbstractAspectC1EP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QAbstractAspectC1ERNS_22QAbstractAspectPrivateEP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QAbstractAspectC2EP7QObject@Qt_5 5.7.1~20161122
@@ -239,6 +245,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore15QFrameAllocatorC2Ejjj@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QFrameAllocatorD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QFrameAllocatorD2Ev@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore15QPostmanPrivate3getEPNS_8QPostmanE@Qt_5_PRIVATE_API 5.9.0
  _ZN8Qt3DCore15QServiceLocator17openGLInformationEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QServiceLocator17systemInformationEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore15QServiceLocator18eventFilterServiceEv@Qt_5 5.7.1~20161122
@@ -289,6 +296,9 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore19QBackendNodePrivateC1ENS_12QBackendNode4ModeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore19QBackendNodePrivateC2ENS_12QBackendNode4ModeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore19QEventFilterService10initializeEP7QObject@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore19QEventFilterService11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN8Qt3DCore19QEventFilterService11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN8Qt3DCore19QEventFilterService16staticMetaObjectE@Qt_5 5.9.0
  _ZN8Qt3DCore19QEventFilterService19registerEventFilterEP7QObjecti@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore19QEventFilterService21unregisterEventFilterEP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore19QEventFilterService8shutdownEP7QObject@Qt_5 5.7.1~20161122
@@ -368,10 +378,13 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore23QSceneObserverInterfaceD0Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore23QSceneObserverInterfaceD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore23QSceneObserverInterfaceD2Ev@Qt_5 5.7.1~20161122
- _ZN8Qt3DCore24QAbstractServiceProviderC1ERNS_31QAbstractServiceProviderPrivateE@Qt_5 5.7.1~20161122
- _ZN8Qt3DCore24QAbstractServiceProviderC1EiRK7QString@Qt_5 5.7.1~20161122
- _ZN8Qt3DCore24QAbstractServiceProviderC2ERNS_31QAbstractServiceProviderPrivateE@Qt_5 5.7.1~20161122
- _ZN8Qt3DCore24QAbstractServiceProviderC2EiRK7QString@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore24QAbstractServiceProvider11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN8Qt3DCore24QAbstractServiceProvider11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN8Qt3DCore24QAbstractServiceProvider16staticMetaObjectE@Qt_5 5.9.0
+ _ZN8Qt3DCore24QAbstractServiceProviderC1ERNS_31QAbstractServiceProviderPrivateEP7QObject@Qt_5 5.9.0
+ _ZN8Qt3DCore24QAbstractServiceProviderC1EiRK7QStringP7QObject@Qt_5 5.9.0
+ _ZN8Qt3DCore24QAbstractServiceProviderC2ERNS_31QAbstractServiceProviderPrivateEP7QObject@Qt_5 5.9.0
+ _ZN8Qt3DCore24QAbstractServiceProviderC2EiRK7QStringP7QObject@Qt_5 5.9.0
  _ZN8Qt3DCore24QAbstractServiceProviderD0Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore24QAbstractServiceProviderD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore24QAbstractServiceProviderD2Ev@Qt_5 5.7.1~20161122
@@ -392,6 +405,9 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore25QAbstractAspectJobManager16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QAbstractAspectJobManagerC1EP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QAbstractAspectJobManagerC2EP7QObject@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore25QOpenGLInformationService11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN8Qt3DCore25QOpenGLInformationService11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN8Qt3DCore25QOpenGLInformationService16staticMetaObjectE@Qt_5 5.9.0
  _ZN8Qt3DCore25QOpenGLInformationServiceC1ERK7QString@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QOpenGLInformationServiceC1ERNS_32QOpenGLInformationServicePrivateE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QOpenGLInformationServiceC2ERK7QString@Qt_5 5.7.1~20161122
@@ -402,6 +418,9 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore25QPropertyValueAddedChangeD0Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QPropertyValueAddedChangeD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QPropertyValueAddedChangeD2Ev@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore25QSystemInformationService11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN8Qt3DCore25QSystemInformationService11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN8Qt3DCore25QSystemInformationService16staticMetaObjectE@Qt_5 5.9.0
  _ZN8Qt3DCore25QSystemInformationServiceC1ERK7QString@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QSystemInformationServiceC1ERNS_32QSystemInformationServicePrivateE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore25QSystemInformationServiceC2ERK7QString@Qt_5 5.7.1~20161122
@@ -429,6 +448,9 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore27QPropertyValueRemovedChangeD0Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore27QPropertyValueRemovedChangeD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore27QPropertyValueRemovedChangeD2Ev@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore28QAbstractFrameAdvanceService11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN8Qt3DCore28QAbstractFrameAdvanceService11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN8Qt3DCore28QAbstractFrameAdvanceService16staticMetaObjectE@Qt_5 5.9.0
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC1ERK7QString@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC1ERNS_35QAbstractFrameAdvanceServicePrivateE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore28QAbstractFrameAdvanceServiceC2ERK7QString@Qt_5 5.7.1~20161122
@@ -472,6 +494,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseD0Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore32QStaticPropertyUpdatedChangeBaseD2Ev@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivate3getEPNS_26QPropertyUpdatedChangeBaseE@Qt_5 5.9.0
  _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateC1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateC2Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore33QPropertyUpdatedChangeBasePrivateD0Ev@Qt_5 5.7.1~20161122
@@ -506,6 +529,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore37QStaticPropertyValueRemovedChangeBaseD2Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore37qt3d_QAspectFactory_addDefaultFactoryERK13QLatin1StringPK11QMetaObjectPFPNS_15QAbstractAspectEP7QObjectE@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore37qt3d_QAspectFactory_addDefaultFactoryERK7QStringPK11QMetaObjectPFPNS_15QAbstractAspectEP7QObjectE@Qt_5 5.9.0
  _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateC1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateC2Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore38QPropertyValueRemovedChangeBasePrivateD0Ev@Qt_5 5.7.1~20161122
@@ -533,6 +557,11 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore5QNode16sceneChangeEventERK14QSharedPointerINS_12QSceneChangeEE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5QNode16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5QNode18blockNotificationsEb@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore5QNode19setPropertyTrackingERK7QStringNS0_20PropertyTrackingModeE@Qt_5 5.9.0
+ _ZN8Qt3DCore5QNode21clearPropertyTrackingERK7QString@Qt_5 5.9.0
+ _ZN8Qt3DCore5QNode22clearPropertyTrackingsEv@Qt_5 5.9.0
+ _ZN8Qt3DCore5QNode30setDefaultPropertyTrackingModeENS0_20PropertyTrackingModeE@Qt_5 5.9.0
+ _ZN8Qt3DCore5QNode34defaultPropertyTrackingModeChangedENS0_20PropertyTrackingModeE@Qt_5 5.9.0
  _ZN8Qt3DCore5QNode9setParentEPS0_@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5QNodeC1EPS0_@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5QNodeC1ERNS_12QNodePrivateEPS0_@Qt_5 5.7.1~20161122
@@ -542,6 +571,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore5QNodeD1Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5QNodeD2Ev@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QScene10setArbiterEPNS_26QLockableObserverInterfaceE@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore6QScene11setRootNodeEPNS_5QNodeE@Qt_5 5.9.0
  _ZN8Qt3DCore6QScene13addObservableEPNS_20QObservableInterfaceENS_7QNodeIdE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QScene13addObservableEPNS_5QNodeE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QScene16removeObservableEPNS_20QObservableInterfaceENS_7QNodeIdE@Qt_5 5.7.1~20161122
@@ -549,6 +579,8 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZN8Qt3DCore6QScene21addEntityForComponentENS_7QNodeIdES1_@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QScene21hasEntityForComponentENS_7QNodeIdES1_@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QScene24removeEntityForComponentENS_7QNodeIdES1_@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore6QScene27setPropertyTrackDataForNodeENS_7QNodeIdERKNS0_21NodePropertyTrackDataE@Qt_5 5.9.0
+ _ZN8Qt3DCore6QScene30removePropertyTrackDataForNodeENS_7QNodeIdE@Qt_5 5.9.0
  _ZN8Qt3DCore6QSceneC1EPNS_13QAspectEngineE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QSceneC2EPNS_13QAspectEngineE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore6QSceneD1Ev@Qt_5 5.7.1~20161122
@@ -618,6 +650,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK8Qt3DCore15QFrameAllocator7isEmptyEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore15QServiceLocator12serviceCountEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore17QAspectJobManager10metaObjectEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore19QEventFilterService10metaObjectEv@Qt_5 5.9.0
  _ZNK8Qt3DCore20QNodeDestroyedChange18subtreeIdsAndTypesEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore21QComponentAddedChange11componentIdEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore21QComponentAddedChange19componentMetaObjectEv@Qt_5 5.7.1~20161122
@@ -633,16 +666,20 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK8Qt3DCore23QComponentRemovedChange11componentIdEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore23QComponentRemovedChange19componentMetaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore23QComponentRemovedChange8entityIdEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore24QAbstractServiceProvider10metaObjectEv@Qt_5 5.9.0
  _ZNK8Qt3DCore24QAbstractServiceProvider11descriptionEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore24QAbstractServiceProvider4typeEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore24QPropertyNodeAddedChange10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore24QPropertyNodeAddedChange11addedNodeIdEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore25PropertyChangeHandlerBase10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore25QAbstractAspectJobManager10metaObjectEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore25QOpenGLInformationService10metaObjectEv@Qt_5 5.9.0
  _ZNK8Qt3DCore25QPropertyValueAddedChange10addedValueEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore25QSystemInformationService10metaObjectEv@Qt_5 5.9.0
  _ZNK8Qt3DCore26QPropertyNodeRemovedChange10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore26QPropertyNodeRemovedChange13removedNodeIdEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore27QPropertyValueRemovedChange12removedValueEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore28QAbstractFrameAdvanceService10metaObjectEv@Qt_5 5.9.0
  _ZNK8Qt3DCore29QDynamicPropertyUpdatedChange12propertyNameEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore29QDynamicPropertyUpdatedChange5valueEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore32QStaticPropertyUpdatedChangeBase12propertyNameEv@Qt_5 5.7.1~20161122
@@ -652,8 +689,10 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK8Qt3DCore5QNode10childNodesEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5QNode10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5QNode10parentNodeEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore5QNode16propertyTrackingERK7QString@Qt_5 5.9.0
  _ZNK8Qt3DCore5QNode20notificationsBlockedEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5QNode24createNodeCreationChangeEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore5QNode27defaultPropertyTrackingModeEv@Qt_5 5.9.0
  _ZNK8Qt3DCore5QNode2idEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore5QNode9isEnabledEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore6QScene10lookupNodeENS_7QNodeIdE@Qt_5 5.7.1~20161122
@@ -661,8 +700,10 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZNK8Qt3DCore6QScene17lookupObservablesENS_7QNodeIdE@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore6QScene20entitiesForComponentENS_7QNodeIdE@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore6QScene20nodeIdFromObservableEPNS_20QObservableInterfaceE@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore6QScene27lookupNodePropertyTrackDataENS_7QNodeIdE@Qt_5 5.9.0
  _ZNK8Qt3DCore6QScene6engineEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore6QScene7arbiterEv@Qt_5 5.7.1~20161122
+ _ZNK8Qt3DCore6QScene8rootNodeEv@Qt_5 5.9.0
  _ZNK8Qt3DCore7QEntity10componentsEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore7QEntity10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK8Qt3DCore7QEntity12parentEntityEv@Qt_5 5.7.1~20161122
@@ -680,6 +721,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTIN8Qt3DCore14QChangeArbiterE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore14QEntityPrivateE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore15QAbstractAspectE@Qt_5 5.7.1~20161122
+ _ZTIN8Qt3DCore15QPostmanPrivateE@Qt_5 5.9.0
  _ZTIN8Qt3DCore16QAbstractArbiterE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore16QAbstractPostmanE@Qt_5 5.7.1~20161122
  _ZTIN8Qt3DCore17QAspectJobManagerE@Qt_5 5.7.1~20161122
@@ -745,6 +787,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTSN8Qt3DCore14QChangeArbiterE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore14QEntityPrivateE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore15QAbstractAspectE@Qt_5 5.7.1~20161122
+ _ZTSN8Qt3DCore15QPostmanPrivateE@Qt_5 5.9.0
  _ZTSN8Qt3DCore16QAbstractArbiterE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore16QAbstractPostmanE@Qt_5 5.7.1~20161122
  _ZTSN8Qt3DCore17QAspectJobManagerE@Qt_5 5.7.1~20161122
@@ -810,6 +853,7 @@ libQt53DCore.so.5 libqt53dcore5 #MINVER#
  _ZTVN8Qt3DCore14QChangeArbiterE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore14QEntityPrivateE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore15QAbstractAspectE@Qt_5 5.7.1~20161122
+ _ZTVN8Qt3DCore15QPostmanPrivateE@Qt_5 5.9.0
  _ZTVN8Qt3DCore16QAbstractArbiterE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore16QAbstractPostmanE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore17QAspectJobManagerE@Qt_5 5.7.1~20161122

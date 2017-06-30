@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161122 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -8,6 +8,8 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  Qt_5.5@Qt_5.5 5.7.1~20161122
  Qt_5.6@Qt_5.6 5.7.1~20161122
  Qt_5.7@Qt_5.7 5.7.1~20161122
+ Qt_5.8@Qt_5.8 5.9.0
+ Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
  _ZN10Qt3DRender5Quick24Quick3DRender_initializeEv@Qt_5 5.7.1~20161122
@@ -17,15 +19,17 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  _ZN10Qt3DRender6Render5Quick12Quick3DScene16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick12Quick3DSceneC1EP7QObject@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick12Quick3DSceneC2EP7QObject@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender6Render5Quick13Quick3DBuffer10updateDataEiRK8QVariant@Qt_5 5.9.0
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer11initEnginesEv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer13setBufferDataERK8QVariant@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender6Render5Quick13Quick3DBuffer14readBinaryFileERK4QUrl@Qt_5 5.9.0
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer16convertToRawDataERK8QJSValue@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DBuffer17bufferDataChangedEv@Qt_5 5.7.1~20161122
- _ZN10Qt3DRender6Render5Quick13Quick3DBufferC1EP7QObject@Qt_5 5.7.1~20161122
- _ZN10Qt3DRender6Render5Quick13Quick3DBufferC2EP7QObject@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender6Render5Quick13Quick3DBufferC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick13Quick3DBufferC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
  _ZN10Qt3DRender6Render5Quick13Quick3DEffect11parameterAtEP16QQmlListPropertyINS_10QParameterEEi@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DEffect11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick13Quick3DEffect11qt_metacastEPKc@Qt_5 5.7.1~20161122
@@ -141,6 +145,15 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  _ZN10Qt3DRender6Render5Quick18Quick3DLayerFilter9qmlLayersEv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick18Quick3DLayerFilterC1EP7QObject@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick18Quick3DLayerFilterC2EP7QObject@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrier10setWaitForEi@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrier11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrier11qt_metacastEPKc@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrier16staticMetaObjectE@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierC1EP7QObject@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierC2EP7QObject@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierD0Ev@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierD1Ev@Qt_5 5.9.0
+ _ZN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierD2Ev@Qt_5 5.9.0
  _ZN10Qt3DRender6Render5Quick22Quick3DShaderDataArray10valueCountEP16QQmlListPropertyINS_11QShaderDataEE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick22Quick3DShaderDataArray10valuesListEv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender6Render5Quick22Quick3DShaderDataArray11appendValueEP16QQmlListPropertyINS_11QShaderDataEEPS4_@Qt_5 5.7.1~20161122
@@ -224,6 +237,8 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  _ZNK10Qt3DRender6Render5Quick17Quick3DRenderPass10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DRender6Render5Quick17Quick3DShaderData10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DRender6Render5Quick18Quick3DLayerFilter10metaObjectEv@Qt_5 5.7.1~20161122
+ _ZNK10Qt3DRender6Render5Quick20Quick3DMemoryBarrier10metaObjectEv@Qt_5 5.9.0
+ _ZNK10Qt3DRender6Render5Quick20Quick3DMemoryBarrier7waitForEv@Qt_5 5.9.0
  _ZNK10Qt3DRender6Render5Quick22Quick3DShaderDataArray10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DRender6Render5Quick22Quick3DShaderDataArray6valuesEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DRender6Render5Quick22Quick3DTechniqueFilter10metaObjectEv@Qt_5 5.7.1~20161122
@@ -244,6 +259,7 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  _ZTIN10Qt3DRender6Render5Quick17Quick3DRenderPassE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender6Render5Quick17Quick3DShaderDataE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender6Render5Quick18Quick3DLayerFilterE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierE@Qt_5 5.9.0
  _ZTIN10Qt3DRender6Render5Quick22Quick3DShaderDataArrayE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender6Render5Quick22Quick3DTechniqueFilterE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender6Render5Quick23Quick3DRenderPassFilterE@Qt_5 5.7.1~20161122
@@ -262,6 +278,7 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  _ZTSN10Qt3DRender6Render5Quick17Quick3DRenderPassE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender6Render5Quick17Quick3DShaderDataE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender6Render5Quick18Quick3DLayerFilterE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierE@Qt_5 5.9.0
  _ZTSN10Qt3DRender6Render5Quick22Quick3DShaderDataArrayE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender6Render5Quick22Quick3DTechniqueFilterE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender6Render5Quick23Quick3DRenderPassFilterE@Qt_5 5.7.1~20161122
@@ -280,6 +297,7 @@ libQt53DQuickRender.so.5 libqt53dquickrender5 #MINVER#
  _ZTVN10Qt3DRender6Render5Quick17Quick3DRenderPassE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender6Render5Quick17Quick3DShaderDataE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender6Render5Quick18Quick3DLayerFilterE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender6Render5Quick20Quick3DMemoryBarrierE@Qt_5 5.9.0
  _ZTVN10Qt3DRender6Render5Quick22Quick3DShaderDataArrayE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender6Render5Quick22Quick3DTechniqueFilterE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender6Render5Quick23Quick3DRenderPassFilterE@Qt_5 5.7.1~20161122
