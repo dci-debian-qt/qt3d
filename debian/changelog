@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.1+dfsg-0neon) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
