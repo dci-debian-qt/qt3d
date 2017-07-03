@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -27,7 +27,7 @@ qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
     Assimp because Qt 3D needs some changes which were added after v3.3.1.
   * Override false positive Lintian license-problem-json-evil error.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
+ -- Jonathan Riddell <jr@jriddell.org>  Mon, 03 Jul 2017 12:34:35 +0100
 
 qt3d-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 
