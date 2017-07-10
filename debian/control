@@ -196,6 +196,19 @@ Description: Qt 3D GL Transmission Format scene IO plugin
  This package contains Qt 3D's GLTF geometry loader, scene import and
  export plugins.
 
+Package: qt3d-assimpsceneimport-plugin
+Architecture: any
+Multi-Arch: same
+Section: oldlibs
+Depends: libqt53dcore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 3D GL Assimp scene import plugin - Transitional
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package is an empty dummy transitional.
+
 Package: qt3d-defaultgeometryloader-plugin
 Architecture: any
 Multi-Arch: same
@@ -266,7 +279,6 @@ Depends: libqt53dcore5 (= ${binary:Version}),
          libqt53dquickinput5 (= ${binary:Version}),
          libqt53dquickrender5 (= ${binary:Version}),
          libqt53drender5 (= ${binary:Version}),
-         qt3d-assimpsceneimport-plugin,
          qt3d-gltfsceneio-plugin,
          qt3d-scene2d-plugin,
          qtbase5-dev,
