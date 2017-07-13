@@ -15,7 +15,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	qmake QT_BUILD_PARTS+=tests QMAKE_EXTRA_ARGS="-disable-assimp"
+	qmake QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
