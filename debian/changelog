@@ -21,7 +21,8 @@ qt3d-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
   * Migrate to automatic dbgsym packages.
   * Update debian/copyright.
   * Update symbols files from the current amd64 build log.
-  * Remove non-free ConvertUTF code from the tarballs.
+  * Update the license for ConvertUTF code in debian/copyright according
+    to upstream relicensing. Override the Lintian error about it.
   * Temporarily build without Assimp support. We cannot use the bundled
     library because of that ConvertUTF code, and we cannot use packaged
     Assimp because Qt 3D needs some changes which were added after v3.3.1.
