@@ -28,6 +28,7 @@ qt3d-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
     Assimp because Qt 3D needs some changes which were added after v3.3.1.
   * Override false positive Lintian license-problem-json-evil error.
   * Bump Qt build-dependencies to 5.9.1.
+  * Remove some non-free example assets from the tarball.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
