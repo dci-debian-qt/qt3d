@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 amd64
+# SymbolsHelper-Confirmed: 5.9.1 amd64
 libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -122,6 +122,7 @@ libQt53DQuick.so.5 libqt53dquick5 #MINVER#
  _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator13objectChangedEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator13objectRemovedEiP7QObject@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator15delegateChangedEv@Qt_5 5.7.1~20161122
+ _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator15onParentChangedEP7QObject@Qt_5 5.9.1
  _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator17componentCompleteEv@Qt_5 5.7.1~20161122
  _ZN8Qt3DCore5Quick23Quick3DNodeInstantiator19asynchronousChangedEv@Qt_5 5.7.1~20161122

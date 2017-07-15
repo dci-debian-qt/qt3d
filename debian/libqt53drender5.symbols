@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 amd64
+# SymbolsHelper-Confirmed: 5.9.1 amd64
 libQt53DRender.so.5 libqt53drender5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -397,6 +397,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender12QLayerFilterD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender12QLayerFilterD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender12QLayerFilterD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender12QMeshPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender12QMeshPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender12QNoDepthMask11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender12QNoDepthMask11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender12QNoDepthMask16staticMetaObjectE@Qt_5 5.7.1~20161122
@@ -504,6 +506,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender13QClearBuffersD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender13QClearBuffersD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender13QClearBuffersD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender13QLayerPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender13QLayerPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender13QObjectPicker11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender13QObjectPicker11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender13QObjectPicker14pressedChangedEb@Qt_5 5.7.1~20161122
@@ -576,8 +580,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender14QAbstractLight16intensityChangedEf@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender14QAbstractLight16staticMetaObjectE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender14QAbstractLight8setColorERK6QColor@Qt_5 5.7.1~20161122
- _ZN10Qt3DRender14QAbstractLightC1ERNS_21QAbstractLightPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.7.1~20161122
- _ZN10Qt3DRender14QAbstractLightC2ERNS_21QAbstractLightPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.7.1~20161122
+ _ZN10Qt3DRender14QAbstractLightC1ERNS_21QAbstractLightPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.1
+ _ZN10Qt3DRender14QAbstractLightC2ERNS_21QAbstractLightPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.1
  _ZN10Qt3DRender14QAbstractLightD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender14QAbstractLightD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender14QAbstractLightD2Ev@Qt_5 5.7.1~20161122
@@ -609,6 +613,10 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender14QBufferCaptureD2Ev@Qt_5 5.9.0
  _ZN10Qt3DRender14QBufferPrivateC1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender14QBufferPrivateC2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender14QCameraPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender14QCameraPrivateC2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender14QEffectPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender14QEffectPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender14QLevelOfDetail11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
  _ZN10Qt3DRender14QLevelOfDetail11qt_metacastEPKc@Qt_5 5.9.0
  _ZN10Qt3DRender14QLevelOfDetail13cameraChangedEPNS_7QCameraE@Qt_5 5.9.0
@@ -993,12 +1001,14 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender17QEnvironmentLight16staticMetaObjectE@Qt_5 5.9.0
  _ZN10Qt3DRender17QEnvironmentLight17irradianceChangedEPNS_16QAbstractTextureE@Qt_5 5.9.0
  _ZN10Qt3DRender17QEnvironmentLightC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
- _ZN10Qt3DRender17QEnvironmentLightC1ERNS_24QEnvironmentLightPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.9.0
+ _ZN10Qt3DRender17QEnvironmentLightC1ERNS_24QEnvironmentLightPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.1
  _ZN10Qt3DRender17QEnvironmentLightC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
- _ZN10Qt3DRender17QEnvironmentLightC2ERNS_24QEnvironmentLightPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.9.0
+ _ZN10Qt3DRender17QEnvironmentLightC2ERNS_24QEnvironmentLightPrivateEPN8Qt3DCore5QNodeE@Qt_5 5.9.1
  _ZN10Qt3DRender17QEnvironmentLightD0Ev@Qt_5 5.9.0
  _ZN10Qt3DRender17QEnvironmentLightD1Ev@Qt_5 5.9.0
  _ZN10Qt3DRender17QEnvironmentLightD2Ev@Qt_5 5.9.0
+ _ZN10Qt3DRender17QFilterKeyPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender17QFilterKeyPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender17QGeometryRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QGeometryRenderer11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QGeometryRenderer11setGeometryEPNS_9QGeometryE@Qt_5 5.7.1~20161122
@@ -1049,6 +1059,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender17QRenderPassFilterD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QRenderPassFilterD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QRenderPassFilterD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender17QSpotLightPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender17QSpotLightPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender17QStencilOperation11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QStencilOperation11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QStencilOperation16staticMetaObjectE@Qt_5 5.7.1~20161122
@@ -1088,6 +1100,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender17QTextureRectangleD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QTextureRectangleD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender17QTextureRectangleD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender18QCameraLensPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender18QCameraLensPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender18QGraphicsApiFilter10apiChangedENS0_3ApiE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender18QGraphicsApiFilter10setProfileENS0_13OpenGLProfileE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender18QGraphicsApiFilter11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
@@ -1121,6 +1135,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender18QPickTriangleEventD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender18QPickTriangleEventD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender18QPickTriangleEventD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender18QPointLightPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender18QPointLightPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender18QSceneExportPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
  _ZN10Qt3DRender18QSceneExportPlugin11qt_metacastEPKc@Qt_5 5.9.0
  _ZN10Qt3DRender18QSceneExportPlugin16staticMetaObjectE@Qt_5 5.9.0
@@ -1196,6 +1212,13 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender20QLevelOfDetailSwitchD0Ev@Qt_5 5.9.0
  _ZN10Qt3DRender20QLevelOfDetailSwitchD1Ev@Qt_5 5.9.0
  _ZN10Qt3DRender20QLevelOfDetailSwitchD2Ev@Qt_5 5.9.0
+ _ZN10Qt3DRender20QObjectPickerPrivate10movedEventEPNS_10QPickEventE@Qt_5 5.9.1
+ _ZN10Qt3DRender20QObjectPickerPrivate10setPressedEb@Qt_5 5.9.1
+ _ZN10Qt3DRender20QObjectPickerPrivate12clickedEventEPNS_10QPickEventE@Qt_5 5.9.1
+ _ZN10Qt3DRender20QObjectPickerPrivate12pressedEventEPNS_10QPickEventE@Qt_5 5.9.1
+ _ZN10Qt3DRender20QObjectPickerPrivate13releasedEventEPNS_10QPickEventE@Qt_5 5.9.1
+ _ZN10Qt3DRender20QObjectPickerPrivate14propagateEventEPNS_10QPickEventENS0_9EventTypeE@Qt_5 5.9.1
+ _ZN10Qt3DRender20QObjectPickerPrivate16setContainsMouseEb@Qt_5 5.9.1
  _ZN10Qt3DRender20QPaintedTextureImage11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
  _ZN10Qt3DRender20QPaintedTextureImage11qt_metacastEPKc@Qt_5 5.9.0
  _ZN10Qt3DRender20QPaintedTextureImage11sizeChangedE5QSize@Qt_5 5.9.0
@@ -1229,6 +1252,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender20QRenderAspectPrivateD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender20QRenderAspectPrivateD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender20QRenderAspectPrivateD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender20QRenderTargetPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender20QRenderTargetPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender20QTextureCubeMapArray11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender20QTextureCubeMapArray11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender20QTextureCubeMapArray16staticMetaObjectE@Qt_5 5.7.1~20161122
@@ -1237,6 +1262,11 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender20QTextureCubeMapArrayD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender20QTextureCubeMapArrayD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender20QTextureCubeMapArrayD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender21QAbstractLightPrivateC1ENS_14QAbstractLight4TypeE@Qt_5 5.9.1
+ _ZN10Qt3DRender21QAbstractLightPrivateC2ENS_14QAbstractLight4TypeE@Qt_5 5.9.1
+ _ZN10Qt3DRender21QAbstractLightPrivateD0Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender21QAbstractLightPrivateD1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender21QAbstractLightPrivateD2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender21QAbstractTextureImage11faceChangedENS_16QAbstractTexture11CubeMapFaceE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QAbstractTextureImage11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QAbstractTextureImage11qt_metacastEPKc@Qt_5 5.7.1~20161122
@@ -1254,6 +1284,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender21QAbstractTextureImageD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QAbstractTextureImageD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QAbstractTextureImageD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender21QLevelOfDetailPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender21QLevelOfDetailPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender21QRenderTargetSelector10setOutputsERK7QVectorINS_19QRenderTargetOutput15AttachmentPointEE@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QRenderTargetSelector11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QRenderTargetSelector11qt_metacastEPKc@Qt_5 5.7.1~20161122
@@ -1290,6 +1322,11 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender21QTexture2DMultisampleD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QTexture2DMultisampleD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender21QTexture2DMultisampleD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender21QTextureLoaderPrivate15updateGeneratorEv@Qt_5 5.9.1
+ _ZN10Qt3DRender21QTextureLoaderPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender21QTextureLoaderPrivateC2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender22QComputeCommandPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender22QComputeCommandPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender22QGeometryLoaderFactory11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
  _ZN10Qt3DRender22QGeometryLoaderFactory11qt_metacastEPKc@Qt_5 5.9.0
  _ZN10Qt3DRender22QGeometryLoaderFactory16staticMetaObjectE@Qt_5 5.9.0
@@ -1298,6 +1335,12 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender22QGeometryLoaderFactoryD0Ev@Qt_5 5.9.0
  _ZN10Qt3DRender22QGeometryLoaderFactoryD1Ev@Qt_5 5.9.0
  _ZN10Qt3DRender22QGeometryLoaderFactoryD2Ev@Qt_5 5.9.0
+ _ZN10Qt3DRender22QRenderSettingsPrivate25_q_onPickingMethodChangedENS_16QPickingSettings10PickMethodE@Qt_5 5.9.1
+ _ZN10Qt3DRender22QRenderSettingsPrivate26_q_onPickResultModeChangedENS_16QPickingSettings14PickResultModeE@Qt_5 5.9.1
+ _ZN10Qt3DRender22QRenderSettingsPrivate38_q_onFaceOrientationPickingModeChangedENS_16QPickingSettings26FaceOrientationPickingModeE@Qt_5 5.9.1
+ _ZN10Qt3DRender22QRenderSettingsPrivate4initEv@Qt_5 5.9.1
+ _ZN10Qt3DRender22QRenderSettingsPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender22QRenderSettingsPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender22QRenderSurfaceSelector10setSurfaceEP7QObject@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender22QRenderSurfaceSelector11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender22QRenderSurfaceSelector11qt_metacastEPKc@Qt_5 5.7.1~20161122
@@ -1345,8 +1388,22 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender23QBlendEquationArgumentsD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender23QBlendEquationArgumentsD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender23QBlendEquationArgumentsD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender23QPickingSettingsPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender23QPickingSettingsPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender23QTechniqueFilterPrivateC1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender23QTechniqueFilterPrivateC2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender24QDirectionalLightPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QDirectionalLightPrivateC2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QEnvironmentLightPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QEnvironmentLightPrivateC2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QEnvironmentLightPrivateD0Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QEnvironmentLightPrivateD1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QEnvironmentLightPrivateD2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QGeometryRendererPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QGeometryRendererPrivateC2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QGeometryRendererPrivateD0Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QGeometryRendererPrivateD1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender24QGeometryRendererPrivateD2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender24QMultiSampleAntiAliasing11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender24QMultiSampleAntiAliasing11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender24QMultiSampleAntiAliasing16staticMetaObjectE@Qt_5 5.7.1~20161122
@@ -1355,6 +1412,9 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender24QMultiSampleAntiAliasingD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender24QMultiSampleAntiAliasingD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender24QMultiSampleAntiAliasingD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender25QGraphicsApiFilterPrivate3getEPNS_18QGraphicsApiFilterE@Qt_5 5.9.1
+ _ZN10Qt3DRender26QRenderTargetOutputPrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender26QRenderTargetOutputPrivateC2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender26QStencilOperationArguments11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender26QStencilOperationArguments11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender26QStencilOperationArguments15faceModeChangedENS0_8FaceModeE@Qt_5 5.7.1~20161122
@@ -1378,6 +1438,12 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender26QTexture2DMultisampleArrayD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender26QTexture2DMultisampleArrayD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender26QTexture2DMultisampleArrayD2Ev@Qt_5 5.7.1~20161122
+ _ZN10Qt3DRender27QPaintedTextureImagePrivate7repaintEv@Qt_5 5.9.1
+ _ZN10Qt3DRender27QPaintedTextureImagePrivateC1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender27QPaintedTextureImagePrivateC2Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender27QPaintedTextureImagePrivateD0Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender27QPaintedTextureImagePrivateD1Ev@Qt_5 5.9.1
+ _ZN10Qt3DRender27QPaintedTextureImagePrivateD2Ev@Qt_5 5.9.1
  _ZN10Qt3DRender28QAbstractTextureImagePrivateC1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender28QAbstractTextureImagePrivateC2Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender28QAbstractTextureImagePrivateD0Ev@Qt_5 5.7.1~20161122
@@ -2325,6 +2391,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTIN10Qt3DRender11QShaderDataE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender11QSortPolicyE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender12QLayerFilterE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender12QMeshPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender12QNoDepthMaskE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender12QRenderStateE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender12QSceneLoaderE@Qt_5 5.7.1~20161122
@@ -2332,6 +2399,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTIN10Qt3DRender12QStencilMaskE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender12QStencilTestE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender13QClearBuffersE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender13QLayerPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender13QObjectPickerE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender13QRenderAspectE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender13QRenderTargetE@Qt_5 5.7.1~20161122
@@ -2341,6 +2409,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTIN10Qt3DRender14QBlendEquationE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender14QBufferCaptureE@Qt_5 5.9.0
  _ZTIN10Qt3DRender14QBufferPrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender14QCameraPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender14QEffectPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender14QLevelOfDetailE@Qt_5 5.9.0
  _ZTIN10Qt3DRender14QMemoryBarrierE@Qt_5 5.9.0
  _ZTIN10Qt3DRender14QPolygonOffsetE@Qt_5 5.7.1~20161122
@@ -2361,6 +2431,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTIN10Qt3DRender15QTextureCubeMapE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender16QAbstractFunctorE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender16QAbstractTextureE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender16QCullFacePrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender16QDispatchComputeE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender16QGeometryFactoryE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender16QGeometryPrivateE@Qt_5 5.7.1~20161122
@@ -2371,17 +2442,26 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTIN10Qt3DRender16QTechniqueFilterE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender16QTextureWrapModeE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender17QAttributePrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender17QClipPlanePrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender17QColorMaskPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender17QDepthTestPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender17QDirectionalLightE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender17QEnvironmentLightE@Qt_5 5.9.0
+ _ZTIN10Qt3DRender17QFilterKeyPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender17QFrontFacePrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender17QGeometryRendererE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender17QParameterPrivateE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender17QPickEventPrivateE@Qt_5 5.9.0
+ _ZTIN10Qt3DRender17QPointSizePrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender17QRenderPassFilterE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender17QSpotLightPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender17QStencilOperationE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender17QTextureGeneratorE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender17QTextureRectangleE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender18QCameraLensPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender18QGraphicsApiFilterE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender18QPickTriangleEventE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender18QPointLightPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender18QSceneExportPluginE@Qt_5 5.9.0
  _ZTIN10Qt3DRender18QSceneImportPluginE@Qt_5 5.9.0
  _ZTIN10Qt3DRender18QShaderDataPrivateE@Qt_5 5.7.1~20161122
@@ -2389,27 +2469,51 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTIN10Qt3DRender19QRenderStatePrivateE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender19QRenderTargetOutputE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender19QSceneLoaderPrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender19QScissorTestPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender19QStencilMaskPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender19QStencilTestPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender20QLevelOfDetailSwitchE@Qt_5 5.9.0
+ _ZTIN10Qt3DRender20QObjectPickerPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender20QPaintedTextureImageE@Qt_5 5.9.0
  _ZTIN10Qt3DRender20QRenderAspectPrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender20QRenderTargetPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender20QTextureCubeMapArrayE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender20QTextureImagePrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender21QAbstractLightPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender21QAbstractTextureImageE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender21QBlendEquationPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender21QLevelOfDetailPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender21QPolygonOffsetPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender21QRenderTargetSelectorE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender21QStencilTestArgumentsE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender21QTexture2DMultisampleE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender21QTextureLoaderPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender22QComputeCommandPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender22QGeometryLoaderFactoryE@Qt_5 5.9.0
+ _ZTIN10Qt3DRender22QRenderSettingsPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender22QRenderSurfaceSelectorE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender23PropertyReaderInterfaceE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender23QAbstractTexturePrivateE@Qt_5 5.9.0
  _ZTIN10Qt3DRender23QBlendEquationArgumentsE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender23QPickingSettingsPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender23QTechniqueFilterPrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender24QDirectionalLightPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender24QEnvironmentLightPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender24QGeometryRendererPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender24QMultiSampleAntiAliasingE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender24QStencilOperationPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender25QGraphicsApiFilterPrivateE@Qt_5 5.9.1
+ _ZTIN10Qt3DRender26QRenderTargetOutputPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender26QStencilOperationArgumentsE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender26QTexture2DMultisampleArrayE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender26QTextureImageDataGeneratorE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender27QPaintedTextureImagePrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender28QAbstractTextureImagePrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender28QStencilTestArgumentsPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender29QRenderSurfaceSelectorPrivateE@Qt_5 5.7.1~20161122
+ _ZTIN10Qt3DRender30QBlendEquationArgumentsPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender32QFrameGraphNodeCreatedChangeBaseE@Qt_5 5.9.0
+ _ZTIN10Qt3DRender33QStencilOperationArgumentsPrivateE@Qt_5 5.9.1
  _ZTIN10Qt3DRender5QMeshE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender6QLayerE@Qt_5 5.7.1~20161122
  _ZTIN10Qt3DRender6Render11BackendNodeE@Qt_5 5.9.0
@@ -2469,6 +2573,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTSN10Qt3DRender11QShaderDataE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender11QSortPolicyE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender12QLayerFilterE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender12QMeshPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender12QNoDepthMaskE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender12QRenderStateE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender12QSceneLoaderE@Qt_5 5.7.1~20161122
@@ -2476,6 +2581,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTSN10Qt3DRender12QStencilMaskE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender12QStencilTestE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender13QClearBuffersE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender13QLayerPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender13QObjectPickerE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender13QRenderAspectE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender13QRenderTargetE@Qt_5 5.7.1~20161122
@@ -2485,6 +2591,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTSN10Qt3DRender14QBlendEquationE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender14QBufferCaptureE@Qt_5 5.9.0
  _ZTSN10Qt3DRender14QBufferPrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender14QCameraPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender14QEffectPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender14QLevelOfDetailE@Qt_5 5.9.0
  _ZTSN10Qt3DRender14QMemoryBarrierE@Qt_5 5.9.0
  _ZTSN10Qt3DRender14QPolygonOffsetE@Qt_5 5.7.1~20161122
@@ -2505,6 +2613,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTSN10Qt3DRender15QTextureCubeMapE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender16QAbstractFunctorE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender16QAbstractTextureE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender16QCullFacePrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender16QDispatchComputeE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender16QGeometryFactoryE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender16QGeometryPrivateE@Qt_5 5.7.1~20161122
@@ -2515,17 +2624,26 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTSN10Qt3DRender16QTechniqueFilterE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender16QTextureWrapModeE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender17QAttributePrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender17QClipPlanePrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender17QColorMaskPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender17QDepthTestPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender17QDirectionalLightE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender17QEnvironmentLightE@Qt_5 5.9.0
+ _ZTSN10Qt3DRender17QFilterKeyPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender17QFrontFacePrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender17QGeometryRendererE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender17QParameterPrivateE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender17QPickEventPrivateE@Qt_5 5.9.0
+ _ZTSN10Qt3DRender17QPointSizePrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender17QRenderPassFilterE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender17QSpotLightPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender17QStencilOperationE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender17QTextureGeneratorE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender17QTextureRectangleE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender18QCameraLensPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender18QGraphicsApiFilterE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender18QPickTriangleEventE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender18QPointLightPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender18QSceneExportPluginE@Qt_5 5.9.0
  _ZTSN10Qt3DRender18QSceneImportPluginE@Qt_5 5.9.0
  _ZTSN10Qt3DRender18QShaderDataPrivateE@Qt_5 5.7.1~20161122
@@ -2533,27 +2651,51 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTSN10Qt3DRender19QRenderStatePrivateE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender19QRenderTargetOutputE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender19QSceneLoaderPrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender19QScissorTestPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender19QStencilMaskPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender19QStencilTestPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender20QLevelOfDetailSwitchE@Qt_5 5.9.0
+ _ZTSN10Qt3DRender20QObjectPickerPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender20QPaintedTextureImageE@Qt_5 5.9.0
  _ZTSN10Qt3DRender20QRenderAspectPrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender20QRenderTargetPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender20QTextureCubeMapArrayE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender20QTextureImagePrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender21QAbstractLightPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender21QAbstractTextureImageE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender21QBlendEquationPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender21QLevelOfDetailPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender21QPolygonOffsetPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender21QRenderTargetSelectorE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender21QStencilTestArgumentsE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender21QTexture2DMultisampleE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender21QTextureLoaderPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender22QComputeCommandPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender22QGeometryLoaderFactoryE@Qt_5 5.9.0
+ _ZTSN10Qt3DRender22QRenderSettingsPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender22QRenderSurfaceSelectorE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender23PropertyReaderInterfaceE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender23QAbstractTexturePrivateE@Qt_5 5.9.0
  _ZTSN10Qt3DRender23QBlendEquationArgumentsE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender23QPickingSettingsPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender23QTechniqueFilterPrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender24QDirectionalLightPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender24QEnvironmentLightPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender24QGeometryRendererPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender24QMultiSampleAntiAliasingE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender24QStencilOperationPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender25QGraphicsApiFilterPrivateE@Qt_5 5.9.1
+ _ZTSN10Qt3DRender26QRenderTargetOutputPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender26QStencilOperationArgumentsE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender26QTexture2DMultisampleArrayE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender26QTextureImageDataGeneratorE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender27QPaintedTextureImagePrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender28QAbstractTextureImagePrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender28QStencilTestArgumentsPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender29QRenderSurfaceSelectorPrivateE@Qt_5 5.7.1~20161122
+ _ZTSN10Qt3DRender30QBlendEquationArgumentsPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender32QFrameGraphNodeCreatedChangeBaseE@Qt_5 5.9.0
+ _ZTSN10Qt3DRender33QStencilOperationArgumentsPrivateE@Qt_5 5.9.1
  _ZTSN10Qt3DRender5QMeshE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender6QLayerE@Qt_5 5.7.1~20161122
  _ZTSN10Qt3DRender6Render11BackendNodeE@Qt_5 5.9.0
@@ -2613,6 +2755,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender11QShaderDataE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender11QSortPolicyE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender12QLayerFilterE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender12QMeshPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender12QNoDepthMaskE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender12QRenderStateE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender12QSceneLoaderE@Qt_5 5.7.1~20161122
@@ -2620,6 +2763,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender12QStencilMaskE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender12QStencilTestE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender13QClearBuffersE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender13QLayerPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender13QObjectPickerE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender13QRenderAspectE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender13QRenderTargetE@Qt_5 5.7.1~20161122
@@ -2629,6 +2773,8 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender14QBlendEquationE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender14QBufferCaptureE@Qt_5 5.9.0
  _ZTVN10Qt3DRender14QBufferPrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender14QCameraPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender14QEffectPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender14QLevelOfDetailE@Qt_5 5.9.0
  _ZTVN10Qt3DRender14QMemoryBarrierE@Qt_5 5.9.0
  _ZTVN10Qt3DRender14QPolygonOffsetE@Qt_5 5.7.1~20161122
@@ -2649,6 +2795,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender15QTextureCubeMapE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender16QAbstractFunctorE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender16QAbstractTextureE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender16QCullFacePrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender16QDispatchComputeE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender16QGeometryFactoryE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender16QGeometryPrivateE@Qt_5 5.7.1~20161122
@@ -2659,17 +2806,26 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender16QTechniqueFilterE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender16QTextureWrapModeE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender17QAttributePrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender17QClipPlanePrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender17QColorMaskPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender17QDepthTestPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender17QDirectionalLightE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender17QEnvironmentLightE@Qt_5 5.9.0
+ _ZTVN10Qt3DRender17QFilterKeyPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender17QFrontFacePrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender17QGeometryRendererE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender17QParameterPrivateE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender17QPickEventPrivateE@Qt_5 5.9.0
+ _ZTVN10Qt3DRender17QPointSizePrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender17QRenderPassFilterE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender17QSpotLightPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender17QStencilOperationE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender17QTextureGeneratorE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender17QTextureRectangleE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender18QCameraLensPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender18QGraphicsApiFilterE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender18QPickTriangleEventE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender18QPointLightPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender18QSceneExportPluginE@Qt_5 5.9.0
  _ZTVN10Qt3DRender18QSceneImportPluginE@Qt_5 5.9.0
  _ZTVN10Qt3DRender18QShaderDataPrivateE@Qt_5 5.7.1~20161122
@@ -2677,27 +2833,51 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender19QRenderStatePrivateE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender19QRenderTargetOutputE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender19QSceneLoaderPrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender19QScissorTestPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender19QStencilMaskPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender19QStencilTestPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender20QLevelOfDetailSwitchE@Qt_5 5.9.0
+ _ZTVN10Qt3DRender20QObjectPickerPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender20QPaintedTextureImageE@Qt_5 5.9.0
  _ZTVN10Qt3DRender20QRenderAspectPrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender20QRenderTargetPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender20QTextureCubeMapArrayE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender20QTextureImagePrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender21QAbstractLightPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender21QAbstractTextureImageE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender21QBlendEquationPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender21QLevelOfDetailPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender21QPolygonOffsetPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender21QRenderTargetSelectorE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender21QStencilTestArgumentsE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender21QTexture2DMultisampleE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender21QTextureLoaderPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender22QComputeCommandPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender22QGeometryLoaderFactoryE@Qt_5 5.9.0
+ _ZTVN10Qt3DRender22QRenderSettingsPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender22QRenderSurfaceSelectorE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender23PropertyReaderInterfaceE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender23QAbstractTexturePrivateE@Qt_5 5.9.0
  _ZTVN10Qt3DRender23QBlendEquationArgumentsE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender23QPickingSettingsPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender23QTechniqueFilterPrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender24QDirectionalLightPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender24QEnvironmentLightPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender24QGeometryRendererPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender24QMultiSampleAntiAliasingE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender24QStencilOperationPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender25QGraphicsApiFilterPrivateE@Qt_5 5.9.1
+ _ZTVN10Qt3DRender26QRenderTargetOutputPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender26QStencilOperationArgumentsE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender26QTexture2DMultisampleArrayE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender26QTextureImageDataGeneratorE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender27QPaintedTextureImagePrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender28QAbstractTextureImagePrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender28QStencilTestArgumentsPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender29QRenderSurfaceSelectorPrivateE@Qt_5 5.7.1~20161122
+ _ZTVN10Qt3DRender30QBlendEquationArgumentsPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender32QFrameGraphNodeCreatedChangeBaseE@Qt_5 5.9.0
+ _ZTVN10Qt3DRender33QStencilOperationArgumentsPrivateE@Qt_5 5.9.1
  _ZTVN10Qt3DRender5QMeshE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender6QLayerE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender6Render11BackendNodeE@Qt_5 5.9.0
@@ -2729,10 +2909,14 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZTVN10Qt3DRender9QMaterialE@Qt_5 5.7.1~20161122
  _ZTVN10Qt3DRender9QViewportE@Qt_5 5.7.1~20161122
  _ZTVN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.7.1~20161122
+ (c++)"non-virtual thunk to Qt3DRender::QAbstractLightPrivate::~QAbstractLightPrivate()@Qt_5" 5.9.1
  (c++)"non-virtual thunk to Qt3DRender::QAbstractTextureImagePrivate::~QAbstractTextureImagePrivate()@Qt_5" 5.7.1~20161122
+ (c++)"non-virtual thunk to Qt3DRender::QEnvironmentLightPrivate::~QEnvironmentLightPrivate()@Qt_5" 5.9.1
  (c++)"non-virtual thunk to Qt3DRender::QGeometryLoaderFactory::~QGeometryLoaderFactory()@Qt_5" 5.9.0
  (c++)"non-virtual thunk to Qt3DRender::QGeometryPrivate::~QGeometryPrivate()@Qt_5" 5.7.1~20161122
+ (c++)"non-virtual thunk to Qt3DRender::QGeometryRendererPrivate::~QGeometryRendererPrivate()@Qt_5" 5.9.1
  (c++)"non-virtual thunk to Qt3DRender::QMaterialPrivate::~QMaterialPrivate()@Qt_5" 5.7.1~20161122
+ (c++)"non-virtual thunk to Qt3DRender::QPaintedTextureImagePrivate::~QPaintedTextureImagePrivate()@Qt_5" 5.9.1
  (c++)"non-virtual thunk to Qt3DRender::QRenderAspectPrivate::~QRenderAspectPrivate()@Qt_5" 5.7.1~20161122
  (c++)"non-virtual thunk to Qt3DRender::QRenderStatePrivate::~QRenderStatePrivate()@Qt_5" 5.7.1~20161122
  (c++)"non-virtual thunk to Qt3DRender::QRenderSurfaceSelectorPrivate::~QRenderSurfaceSelectorPrivate()@Qt_5" 5.7.1~20161122
