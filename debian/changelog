@@ -31,6 +31,7 @@ qt3d-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Remove some non-free example assets from the tarball.
     - Disable code which was using them (nonfree_resources.diff).
   * Drop Build-Conflicts on qtmultimedia5-dev, not needed with this patch.
+  * Bump Standards-Version to 4.0.0, no changes needed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
