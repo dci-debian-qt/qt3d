@@ -1,4 +1,4 @@
-qt3d-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -36,7 +36,7 @@ qt3d-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
     (assimp_big_endian.diff).
   * Make qt3d5-examples depend on qml-module-qt3d (closes: #850470).
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 16 Jul 2017 21:09:59 +0300
 
 qt3d-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 
