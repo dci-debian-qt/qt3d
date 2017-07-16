@@ -294,7 +294,10 @@ Package: qt3d5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Depends: qml-module-qtquick-scene3d, ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qt3d,
+         qml-module-qtquick-scene3d,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt 5 3d examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

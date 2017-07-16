@@ -34,6 +34,7 @@ qt3d-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.0.0, no changes needed.
   * Backport a patch to fix Assimp build on big endian architectures
     (assimp_big_endian.diff).
+  * Make qt3d5-examples depend on qml-module-qt3d (closes: #850470).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
