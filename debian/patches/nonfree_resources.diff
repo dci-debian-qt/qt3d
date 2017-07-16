@@ -1,7 +1,7 @@
 Description: disable code which is using resources not in DFSG tarball
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-needed
-Last-Update: 2017-07-15
+Last-Update: 2017-07-16
 
 --- a/examples/qt3d/exampleresources/obj.qrc
 +++ b/examples/qt3d/exampleresources/obj.qrc
@@ -32,6 +32,15 @@ Last-Update: 2017-07-15
      compute-particles \
      3d-text \
      qardboard \
+@@ -22,8 +19,6 @@
+     simplecustommaterial \
+     scene2d
+ 
+-qtHaveModule(multimedia): SUBDIRS += audio-visualizer-qml
+-
+ # qmake seems to break in some CI configurations, disable this for now
+ #SUBDIRS += qgltf
+ 
 --- a/tests/tests.pro
 +++ b/tests/tests.pro
 @@ -1,8 +1,7 @@

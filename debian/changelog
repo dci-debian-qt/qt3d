@@ -30,6 +30,7 @@ qt3d-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.1.
   * Remove some non-free example assets from the tarball.
     - Disable code which was using them (nonfree_resources.diff).
+  * Drop Build-Conflicts on qtmultimedia5-dev, not needed with this patch.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:52:28 -0500
 
