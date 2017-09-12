@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.1 amd64 armel armhf powerpc
+# SymbolsHelper-Confirmed: 5.9.1 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x sh4 sparc64 x32
 libQt53DRender.so.5 libqt53drender5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1~20161122
  Qt_5.1@Qt_5.1 5.7.1~20161122
@@ -12,7 +12,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
- (optional=inline|arch=powerpc)_ZN10QByteArray7reserveEi@Qt_5 5.9.1
+ (optional=inline)_ZN10QByteArray7reserveEi@Qt_5 5.9.1
  _ZN10Qt3DRender10QAlphaTest11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender10QAlphaTest11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender10QAlphaTest16setAlphaFunctionENS0_13AlphaFunctionE@Qt_5 5.7.1~20161122
@@ -1834,7 +1834,7 @@ libQt53DRender.so.5 libqt53drender5 #MINVER#
  _ZN10Qt3DRender9QViewportD0Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender9QViewportD1Ev@Qt_5 5.7.1~20161122
  _ZN10Qt3DRender9QViewportD2Ev@Qt_5 5.7.1~20161122
- (optional=templinst|arch=!amd64)_ZN9QtPrivate15ResultStoreBase5clearIN10Qt3DRender10RayCasting21QCollisionQueryResultEEEvv@Qt_5 5.9.1
+ (optional=templinst)_ZN9QtPrivate15ResultStoreBase5clearIN10Qt3DRender10RayCasting21QCollisionQueryResultEEEvv@Qt_5 5.9.1
  _ZNK10Qt3DRender10QAlphaTest10metaObjectEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DRender10QAlphaTest13alphaFunctionEv@Qt_5 5.7.1~20161122
  _ZNK10Qt3DRender10QAlphaTest14referenceValueEv@Qt_5 5.7.1~20161122
