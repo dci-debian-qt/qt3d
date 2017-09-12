@@ -1,10 +1,9 @@
-qt3d-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add missing dependencies to qt3d5-dev package (closes: #874786).
   * Update symbols files from buildds’ logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Sep 2017 14:47:07 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 15:04:41 +0300
 
 qt3d-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
