@@ -270,14 +270,17 @@ Package: qt3d5-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libqt53dcore5 (= ${binary:Version}),
+Depends: libqt53danimation5 (= ${binary:Version}),
+         libqt53dcore5 (= ${binary:Version}),
          libqt53dextras5 (= ${binary:Version}),
          libqt53dinput5 (= ${binary:Version}),
          libqt53dlogic5 (= ${binary:Version}),
          libqt53dquick5 (= ${binary:Version}),
+         libqt53dquickanimation5 (= ${binary:Version}),
          libqt53dquickextras5 (= ${binary:Version}),
          libqt53dquickinput5 (= ${binary:Version}),
          libqt53dquickrender5 (= ${binary:Version}),
+         libqt53dquickscene2d5 (= ${binary:Version}),
          libqt53drender5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends},
