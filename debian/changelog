@@ -1,3 +1,9 @@
+qt3d-opensource-src (5.10.0~alpha+dfsg-0neon) UNRELEASED; urgency=medium
+
+  * 5.10
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:30 +0100
+
 qt3d-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
 
   * Add missing dependencies to qt3d5-dev package (closes: #874786).
