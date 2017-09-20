@@ -3,8 +3,10 @@ Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-needed
 Last-Update: 2017-07-16
 
---- a/examples/qt3d/exampleresources/obj.qrc
-+++ b/examples/qt3d/exampleresources/obj.qrc
+Index: qt3d-everywhere-src-5.10.0-alpha/examples/qt3d/exampleresources/obj.qrc
+===================================================================
+--- qt3d-everywhere-src-5.10.0-alpha.orig/examples/qt3d/exampleresources/obj.qrc
++++ qt3d-everywhere-src-5.10.0-alpha/examples/qt3d/exampleresources/obj.qrc
 @@ -1,8 +1,5 @@
  <RCC>
      <qresource prefix="/">
@@ -14,9 +16,11 @@ Last-Update: 2017-07-16
          <file>assets/obj/trefoil.obj</file>
          <file>assets/obj/toyplane.obj</file>
          <file>assets/obj/ball.obj</file>
---- a/examples/qt3d/qt3d.pro
-+++ b/examples/qt3d/qt3d.pro
-@@ -6,15 +6,12 @@
+Index: qt3d-everywhere-src-5.10.0-alpha/examples/qt3d/qt3d.pro
+===================================================================
+--- qt3d-everywhere-src-5.10.0-alpha.orig/examples/qt3d/qt3d.pro
++++ qt3d-everywhere-src-5.10.0-alpha/examples/qt3d/qt3d.pro
+@@ -6,15 +6,12 @@ SUBDIRS += \
      multiviewport \
      wireframe \
      shadow-map-qml \
@@ -32,7 +36,7 @@ Last-Update: 2017-07-16
      compute-particles \
      3d-text \
      qardboard \
-@@ -22,8 +19,6 @@
+@@ -22,8 +19,6 @@ SUBDIRS += \
      simplecustommaterial \
      scene2d
  
@@ -41,15 +45,15 @@ Last-Update: 2017-07-16
  # qmake seems to break in some CI configurations, disable this for now
  #SUBDIRS += qgltf
  
---- a/tests/tests.pro
-+++ b/tests/tests.pro
-@@ -1,8 +1,7 @@
- TEMPLATE = subdirs
+Index: qt3d-everywhere-src-5.10.0-alpha/tests/tests.pro
+===================================================================
+--- qt3d-everywhere-src-5.10.0-alpha.orig/tests/tests.pro
++++ qt3d-everywhere-src-5.10.0-alpha/tests/tests.pro
+@@ -4,7 +4,6 @@ QT_FOR_CONFIG += 3dcore
  
- !package: SUBDIRS += \
--                auto \
--                manual
-+                auto
+ !package {
+     SUBDIRS += auto
+-    qtConfig(qt3d-extras): SUBDIRS += manual
+ }
  
  # Benchmarks make sense in release mode only.
- # Disable them for code coverage.
