@@ -1,3 +1,10 @@
+qt3d-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 17:41:21 +0300
+
 qt3d-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
 
   * Add missing dependencies to qt3d5-dev package (closes: #874786).
