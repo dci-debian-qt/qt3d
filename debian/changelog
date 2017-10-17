@@ -3,6 +3,8 @@ qt3d-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
+  * Split qgltf executable into a new package, qt3d5-dev-tools.
+    Make that package Multi-Arch: foreign.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 17:41:21 +0300
 
