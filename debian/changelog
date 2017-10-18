@@ -6,6 +6,7 @@ qt3d-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   * Split qgltf executable into a new package, qt3d5-dev-tools.
     Make that package Multi-Arch: foreign.
   * Update symbols files for the new release.
+  * Update debhelper compatibility level to 10.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 17:41:21 +0300
 
