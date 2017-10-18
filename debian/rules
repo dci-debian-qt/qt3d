@@ -44,7 +44,7 @@ override_dh_auto_install-indep:
 	$(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_auto_test-arch:
-	# See 5.7.1+dfsg-1 changelog.
+	# Hangs on ppc*, hppa: https://bugreports.qt.io/browse/QTBUG-63864
 	-xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
 	dh_auto_test --max-parallel=1 -- QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
 
