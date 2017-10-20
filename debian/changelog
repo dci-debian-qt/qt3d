@@ -1,5 +1,8 @@
 qt3d-opensource-src (5.9.2+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
+    - Install qgltf to the new location, provide a compatibility symlink.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Oct 2017 16:18:30 +0300
 
