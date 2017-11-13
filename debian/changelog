@@ -1,4 +1,39 @@
-qt3d-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.2+dfsg-2) unstable; urgency=medium
+
+  * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
+    - Install qgltf to the new location, provide a compatibility symlink.
+    - Bump qtbase5-private-dev and qttools5-dev-tools build-dependencies.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 26 Oct 2017 16:45:02 +0300
+
+qt3d-opensource-src (5.9.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Split qgltf executable into a new package, qt3d5-dev-tools.
+    Make that package Multi-Arch: foreign.
+  * Update symbols files for the new release.
+  * Update debhelper compatibility level to 10.
+  * Bump Standards-Version to 4.1.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 19 Oct 2017 10:36:07 +0300
+
+qt3d-opensource-src (5.9.1+dfsg-3) unstable; urgency=medium
+
+  * Add missing dependencies to qt3d5-dev package (closes: #874786).
+  * Update symbols files from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 12 Sep 2017 15:04:41 +0300
+
+qt3d-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
+
+  * Release to unstable.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 11:30:22 -0300
+
+qt3d-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -18,19 +53,25 @@ qt3d-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
     - qt3d-scene2d-plugin
 
   [ Dmitry Shachnev ]
+  * Move qgltf executable to qt3d-gltfsceneio-plugin package.
   * Migrate to automatic dbgsym packages.
   * Update debian/copyright.
   * Update symbols files from the current amd64 build log.
-  * Remove non-free ConvertUTF code from the tarballs.
-  * Temporarily build without Assimp support. We cannot use the bundled
-    library because of that ConvertUTF code, and we cannot use packaged
+  * Update the license for ConvertUTF code in debian/copyright according
+    to upstream relicensing. Override the Lintian error about it.
+  * Temporarily build with bundled Assimp. We cannot use the packaged
     Assimp because Qt 3D needs some changes which were added after v3.3.1.
   * Override false positive Lintian license-problem-json-evil error.
+  * Bump Qt build-dependencies to 5.9.1.
+  * Remove some non-free example assets from the tarball.
+    - Disable code which was using them (nonfree_resources.diff).
+  * Drop Build-Conflicts on qtmultimedia5-dev, not needed with this patch.
+  * Bump Standards-Version to 4.0.0, no changes needed.
+  * Backport a patch to fix Assimp build on big endian architectures
+    (assimp_big_endian.diff).
+  * Make qt3d5-examples depend on qml-module-qt3d (closes: #850470).
 
-  [ Jonathan Riddell ]
-  * New release
-
- -- Jonathan Riddell <jr@jriddell.org>  Fri, 10 Nov 2017 11:41:39 +0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 16 Jul 2017 21:09:59 +0300
 
 qt3d-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 

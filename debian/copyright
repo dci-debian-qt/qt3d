@@ -2,9 +2,13 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qt3d-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 Files-Excluded: examples/qt3d/audio-visualizer-qml
-                src/3rdparty/assimp/contrib/ConvertUTF
+                examples/qt3d/exampleresources/assets/chest
+                examples/qt3d/exampleresources/assets/houseplants
+                examples/qt3d/exampleresources/assets/metalbarrel
+                examples/qt3d/exampleresources/assets/textures/pattern_09
 # audio-visualizer-qml: MP3 file under CC BY-ND 2.0
-# ConvertUTF: Unicode license that does not allow modification
+# assets/{chest,houseplants,metalbarrel}: Unknown copyright, see QTBUG-61415
+# assets/textures/pattern_09: Not freely redistributable, see QTBUG-61415
 
 Files: *
 Copyright: 2013 Research In Motion
@@ -38,6 +42,16 @@ License: BSD-3-clause
 Files: src/3rdparty/assimp/contrib/clipper/*
 Copyright: 2010-2012 Angus Johnson
 License: Boost-1.0
+
+Files: src/3rdparty/assimp/contrib/ConvertUTF/*
+Copyright: 2001-2004 Unicode, Inc.
+License: unicode
+Note:
+ Unicode relicensed the code from a non-DFSG free to the current BSDish license.
+ Since then, the code has vanished from the unicode website (making the new
+ license somewhat hard to find).
+ See https://bugs.chromium.org/p/google-breakpad/issues/detail?id=270 for
+ details on why applying the (new, free) license is justified.
 
 Files: src/3rdparty/assimp/contrib/irrXML/*
 Copyright: 2002-2005 Nikolaus Gebhardt
@@ -121,6 +135,11 @@ Copyright:
   2016-2017 The Qt Company Ltd.
   2015 Paul Lemire <paul.lemire350@gmail.com>
 License: BSD-3-clause
+
+Files: examples/qt3d/exampleresources/assets/cubemaps/miramar/*
+Copyright: 2005 Jockum Skoglund <hipshot@zfight.com>
+License: miramar
+ Modify however you like, just cred me for my work, maybe link to my page.
 
 Files: examples/qt3d/exampleresources/assets/gltf/*
 Copyright: 2012 Motorola Mobility, Inc.
@@ -680,3 +699,36 @@ License: Zlib
     misrepresented as being the original software.
  .
  3. This notice may not be removed or altered from any source distribution.
+
+License: unicode
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of the Unicode data files and any associated documentation
+ (the "Data Files") or Unicode software and any associated documentation
+ (the "Software") to deal in the Data Files or Software
+ without restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, and/or sell copies of
+ the Data Files or Software, and to permit persons to whom the Data Files
+ or Software are furnished to do so, provided that
+ (a) this copyright and permission notice appear with all copies
+ of the Data Files or Software,
+ (b) this copyright and permission notice appear in associated
+ documentation, and
+ (c) there is clear notice in each modified Data File or in the Software
+ as well as in the documentation associated with the Data File(s) or
+ Software that the data or software has been modified.
+ .
+ THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+ ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+ IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS
+ NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL
+ DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+ DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ PERFORMANCE OF THE DATA FILES OR SOFTWARE.
+ .
+ Except as contained in this notice, the name of a copyright holder
+ shall not be used in advertising or otherwise to promote the sale,
+ use or other dealings in these Data Files or Software without prior
+ written authorization of the copyright holder.
