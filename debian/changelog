@@ -1,10 +1,9 @@
-qt3d-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
+qt3d-opensource-src (5.9.2+dfsg-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Move qt3d-assimpsceneio-plugin Breaks/Replaces to the right package
     (closes: #879952).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Nov 2017 22:33:47 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 18 Nov 2017 22:43:29 +0300
 
 qt3d-opensource-src (5.9.2+dfsg-2) unstable; urgency=medium
 
